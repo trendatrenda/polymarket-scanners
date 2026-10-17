@@ -57,6 +57,7 @@ MAX_CREDIT_S = 3600
 MIN_DAYS_LEFT = 2
 C = 3.0
 CYCLE_FIELDS = ["time", "active", "holding", "rewards_total", "pnl_total", "net_total",
+                "pnl_if_sold_now", "net_if_sold_now",
                 "market_days", "fills_total", "rewards_half_net"]
 FILL_FIELDS = ["time", "market_id", "question", "side", "price", "shares", "mid_now"]
 
@@ -80,6 +81,15 @@ def save_state(s):
 
 
 def append(path, fields, rows):
+    if path.exists():                              # older file with fewer columns -> upgrade it
+        with path.open(newline="") as f:
+            rd = csv.DictReader(f)
+            if rd.fieldnames and rd.fieldnames != fields:
+                old = list(rd)
+                with path.open("w", newline="") as g:
+                    w = csv.DictWriter(g, fieldnames=fields, extrasaction="ignore")
+                    w.writeheader()
+                    w.writerows(old)
     first = not path.exists()
     with path.open("a", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
@@ -249,20 +259,27 @@ def cycle():
         others = e["others"][1]
         mk.update({"yes_bid": yb if ys else None, "no_bid": nb if ns else None,
                    "yes_left": ys, "no_left": ns, "last_ts": t, "mid": mid,
+                   "bid_yes": e["yes_bid"], "bid_no": 1 - e["yes_ask"],
                    "rate": c["pot"] * ours / (ours + others) if ours + others > 0 else 0.0})
     for k, mk in s["markets"].items():                  # mark held-but-inactive markets
         if k not in marks and mk.get("resolved") is None and k in by_id:
-            mk["mid"] = by_id[k]["e"]["mid"]
+            e_ = by_id[k]["e"]
+            mk["mid"], mk["bid_yes"], mk["bid_no"] = e_["mid"], e_["yes_bid"], 1 - e_["yes_ask"]
     for mk, side, px, f in new_fills:
         mk["fills"] = mk.get("fills", 0) + 1
 
     # 3) value everything
-    pnl = s["realized"]
+    pnl = pnl_sold = s["realized"]
     for mk in s["markets"].values():
         if mk.get("resolved") is None:
             m = mk.get("mid")
             if m is not None:
                 pnl += mk["yes_sh"] * m + mk["no_sh"] * (1 - m) - mk["cost"]
+                # cash-out value: a Yes+No pair is always worth $1; the rest sells at the BID
+                pairs = min(mk["yes_sh"], mk["no_sh"])
+                by, bn = mk.get("bid_yes", m), mk.get("bid_no", 1 - m)
+                pnl_sold += (pairs + (mk["yes_sh"] - pairs) * by + (mk["no_sh"] - pairs) * bn
+                             - mk["cost"])
     net = s["rewards"] + pnl
     s["last_cycle"] = t
     save_state(s)
@@ -276,6 +293,7 @@ def cycle():
         "holding": sum(1 for mk in s["markets"].values()
                        if mk.get("resolved") is None and (mk["yes_sh"] or mk["no_sh"])),
         "rewards_total": round(s["rewards"], 2), "pnl_total": round(pnl, 2),
+        "pnl_if_sold_now": round(pnl_sold, 2), "net_if_sold_now": round(s["rewards"] + pnl_sold, 2),
         "net_total": round(net, 2), "market_days": round(s["market_days"], 3),
         "fills_total": s["fills"], "rewards_half_net": round(s["rewards"] / 2 + pnl, 2)}])
 
@@ -288,6 +306,8 @@ def cycle():
           f"new fills this cycle: {len(new_fills)}")
     print(f" Rewards earned:  ${s['rewards']:>8.2f}")
     print(f" Trading P/L:     ${pnl:>8.2f}   (what we hold, valued now, minus what it cost)")
+    print(f"   if sold NOW at the best bids: ${pnl_sold:>8.2f}   -> net ${s['rewards'] + pnl_sold:.2f}"
+          f" (the honest cash-out value)")
     print(f" NET:             ${net:>8.2f}   = ${net / s['market_days']:.2f} per $100 per day"
           if s["market_days"] > 0 else f" NET:             ${net:>8.2f}")
     print(f" Saved: {CYCLES_CSV.name}, {FILLS_CSV.name}.  Results: python pm_mm_paper.py --summary")
@@ -318,6 +338,9 @@ def summary():
           f"{last['fills_total']} fills")
     print(f" Rewards ${float(last['rewards_total']):.2f}   trading P/L ${float(last['pnl_total']):.2f}"
           f"   NET ${net:.2f}  (= ${net / md:.2f} per $100 per day)")
+    if last.get("net_if_sold_now"):
+        print(f" If everything held were sold NOW at the best bids: NET ${float(last['net_if_sold_now']):.2f}"
+              f"  (trading P/L ${float(last['pnl_if_sold_now']):.2f})")
     rows = []
     for k, mk in s["markets"].items():
         if mk.get("resolved") is not None:

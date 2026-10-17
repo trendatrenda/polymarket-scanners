@@ -223,7 +223,8 @@ def evaluate(m, pot, yes_book, no_book):
         ours = score(d_c, v) * shares                        # two-sided -> min of sides
         res[name] = (shares, [pot * ours / (ours + o) if ours + o > 0 else 0 for o in others])
     return {"mid": mid, "v": v, "min_size": min_size, "others": others,
-            "spread_c": (best_ask - best_bid) * 100, **res}
+            "spread_c": (best_ask - best_bid) * 100,
+            "yes_bid": max(p for p, _ in yb), "yes_ask": min(p for p, _ in ya), **res}
 
 
 def scan():
