@@ -1,0 +1,44 @@
+name: scanners
+
+on:
+  schedule:
+    - cron: "7 * * * *"         # rewards scanner + paper market maker, every hour (UTC)
+    - cron: "17 9,21 * * *"     # the paper bot, twice a day (11:17 and 23:17 Macedonia time)
+  workflow_dispatch:            # lets you press "Run workflow" by hand
+
+permissions:
+  contents: write               # allowed to save the results back into the repository
+
+concurrency:
+  group: scanners               # never two runs at once (they would fight over the files)
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: "Scanners (rewards, paper market maker)"
+        if: github.event.schedule != '17 9,21 * * *'
+        run: |
+          python pm_rewards_scanner.py || echo "rewards scanner failed this time"
+          python pm_mm_paper.py        || echo "market maker failed this time"
+
+      - name: "Paper bot (22, 26, 32, 35b)"
+        if: github.event.schedule == '17 9,21 * * *' || github.event_name == 'workflow_dispatch'
+        run: python pm_paper_bot.py || echo "paper bot failed this time"
+
+      - name: "Save results into the repository"
+        run: |
+          git config user.name  "scanner-bot"
+          git config user.email "scanner-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "results $(date -u '+%Y-%m-%d %H:%M') UTC" || echo "nothing new to save"
+          git pull --rebase --autostash || true
+          git push
