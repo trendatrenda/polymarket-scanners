@@ -25,7 +25,7 @@ EACH RUN
   3. Records TWO paper bets of $10 each per candidate:
        TAKER  buy "No" right now at the real best ASK, plus Polymarket's taker fee.
        MAKER  a limit order 1 cent above the best BID (fee-free); later runs check
-              whether the price ever came down to it (= would it have filled?).
+              whether a REAL trade went THROUGH that price (= it would have filled).
   4. Prints the scoreboard for each strategy and each way of buying, plus the
      REAL cost compared with the market's mid price.
 
@@ -172,27 +172,12 @@ def market_result(mid):
 
 
 def maker_filled(row):
-    """Did the 'No' price ever come down to our limit price after we placed it?
-    (Uses Polymarket's hourly price history -- a slightly optimistic check.)"""
+    """Was our 'No' buy order filled? Only if a REAL trade went THROUGH our price after we
+    placed it (same strict rule as everywhere else). The old hourly price-history check
+    counted mere touches of a mid/last price, which was too optimistic."""
     start = int(datetime.strptime(row["placed"], "%Y-%m-%dT%H:%M:%SZ")
                 .replace(tzinfo=timezone.utc).timestamp())
-    end = int(now().timestamp())
-    limit = float(row["price"])
-    any_points = False
-    a = start
-    while a < end:
-        b = min(a + 6 * 86400, end)
-        d = get_json(f"{CLOB}/prices-history", {"market": row["no_token"], "startTs": a,
-                                                "endTs": b, "fidelity": 60})
-        for p in (d or {}).get("history", []) if isinstance(d, dict) else []:
-            any_points = True
-            if float(p["p"]) <= limit:
-                return datetime.fromtimestamp(int(p["t"]), timezone.utc)
-        a = b
-        time.sleep(PAUSE)
-    if not any_points:                 # history is often empty for short/closed markets
-        return filled_by_trades(row["market_id"], start, limit)
-    return None
+    return filled_by_trades(row["market_id"], start, float(row["price"]))
 
 
 def filled_by_trades(market_id, start, limit):

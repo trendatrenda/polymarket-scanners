@@ -156,6 +156,30 @@ def resolution(mkt_id):
     return 1 if y >= 0.99 else 0 if y <= 0.01 else None
 
 
+def refresh_held(s, by_id):
+    """Fresh prices for markets we still HOLD but no longer quote (they dropped out of the
+    top 20) -- otherwise their value would be frozen at the last price we saw."""
+    held = [(k, mk) for k, mk in s["markets"].items()
+            if mk.get("resolved") is None and k not in by_id and (mk["yes_sh"] or mk["no_sh"])]
+    if not held:
+        return
+    for k, mk in held:
+        if not mk.get("ty"):
+            g = rs.get_json(GAMMA_ONE.format(k))
+            toks = rs.as_list((g or {}).get("clobTokenIds")) if isinstance(g, dict) else []
+            if len(toks) == 2:
+                mk["ty"], mk["tn"] = str(toks[0]), str(toks[1])
+            time.sleep(rs.PAUSE)
+    books = rs.books_for([mk["ty"] for _, mk in held if mk.get("ty")])
+    for k, mk in held:
+        b = books.get(mk.get("ty"))
+        bids = [p for p, _ in rs.levels(b, "bids")]
+        asks = [p for p, _ in rs.levels(b, "asks")]
+        if bids and asks:
+            mk["mid"] = (max(bids) + min(asks)) / 2
+            mk["bid_yes"], mk["bid_no"] = max(bids), 1 - min(asks)
+
+
 def candidates():
     """Eligible rewarded markets with step-1 estimates, best first."""
     t0 = datetime.now(timezone.utc)
@@ -236,7 +260,8 @@ def cycle():
         if len(active) >= N_MARKETS:
             break
         if c["id"] not in s["markets"]:
-            s["markets"][c["id"]] = {"cid": c["cid"], "q": c["q"], "yes_sh": 0.0, "no_sh": 0.0,
+            s["markets"][c["id"]] = {"cid": c["cid"], "q": c["q"], "ty": c["ty"], "tn": c["tn"],
+                                     "yes_sh": 0.0, "no_sh": 0.0,
                                      "cost": 0.0, "rewards": 0.0, "resolved": None,
                                      "joined": t, "fills": 0}
         if not s["markets"][c["id"]].get("active") and s["markets"][c["id"]]["resolved"] is None:
@@ -265,6 +290,7 @@ def cycle():
         if k not in marks and mk.get("resolved") is None and k in by_id:
             e_ = by_id[k]["e"]
             mk["mid"], mk["bid_yes"], mk["bid_no"] = e_["mid"], e_["yes_bid"], 1 - e_["yes_ask"]
+    refresh_held(s, by_id)
     for mk, side, px, f in new_fills:
         mk["fills"] = mk.get("fills", 0) + 1
 
