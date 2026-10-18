@@ -37,6 +37,7 @@ THE LOCKED RULES (agreed before the first run)
 import argparse
 import csv
 import json
+import math
 import time
 import urllib.error
 import urllib.parse
@@ -62,12 +63,13 @@ LOG = HERE / "pm_rewards_errors.txt"
 CAPITAL = 100.0
 PAUSE = 0.15
 BATCH = 100
+EST_VERSION = "2"        # 2 = quotes rounded to whole cents like the real order (18 Oct 2026)
 MIN_DAYS_LEFT = 2        # markets ending sooner: insiders/live data pick off makers
 FIELDS = ["time", "market_id", "question", "daily_pot", "max_spread_c", "min_size", "mid",
           "days_left", "book_spread_c", "competitors",
           "volume_24h", "others_low", "others_mid", "others_high",
           "tight_shares", "tight_usd_day", "relaxed_shares", "relaxed_usd_day",
-          "relaxed_usd_day_low", "relaxed_usd_day_high", "too_small_for_100"]
+          "relaxed_usd_day_low", "relaxed_usd_day_high", "too_small_for_100", "est_version"]
 
 
 def log(msg):
@@ -75,14 +77,36 @@ def log(msg):
         f.write(datetime.now().strftime("%Y-%m-%d %H:%M:%S ") + msg + "\n")
 
 
+STATS = {"calls": 0, "failed": 0}
+
+
+def failure_share():
+    return STATS["failed"] / STATS["calls"] if STATS["calls"] else 0.0
+
+
 def request_json(url, params=None, body=None):
+    STATS["calls"] += 1
+    out = _request_json(url, params, body)
+    if out is None:
+        STATS["failed"] += 1
+    return out
+
+
+HARD_DEADLINE = [None]       # a clock time; past it no request starts (the run must finish
+                             # before GitHub's time limit kills it)
+
+
+def _request_json(url, params=None, body=None):
     full = url + ("?" + urllib.parse.urlencode(params) if params else "")
     data = json.dumps(body).encode() if body is not None else None
     for attempt in range(4):
+        left = HARD_DEADLINE[0] - time.time() if HARD_DEADLINE[0] else 30
+        if left < 5:
+            return None                      # out of time: counts as a failed request
         try:
             req = urllib.request.Request(full, data=data, headers={
                 "User-Agent": "Mozilla/5.0 (research)", "Content-Type": "application/json"})
-            with urllib.request.urlopen(req, timeout=30) as r:
+            with urllib.request.urlopen(req, timeout=min(30, left)) as r:
                 return json.loads(r.read().decode())
         except urllib.error.HTTPError as e:
             if e.code == 429:
@@ -158,18 +182,28 @@ def rewarded_markets():
 
 def books_for(tokens):
     out = {}
+    singles = 0                               # one-by-one fallback calls, at most 20 in total
     for i in range(0, len(tokens), BATCH):
         chunk = tokens[i:i + BATCH]
         res = post_json(f"{CLOB}/books", [{"token_id": t} for t in chunk])
         for b in res if isinstance(res, list) else []:
             if isinstance(b, dict) and b.get("asset_id") is not None:
                 out[str(b["asset_id"])] = b
-        for t in chunk:
-            if t not in out:
-                b = get_json(f"{CLOB}/book", {"token_id": t})
-                if isinstance(b, dict):
-                    out[t] = b
-                time.sleep(PAUSE)
+        missing = [t for t in chunk if t not in out]
+        if missing:
+            STATS["calls"] += 1               # a partial batch reply counts as one failed
+            STATS["failed"] += 1              # request (alongside the batch call itself)
+        if len(missing) > 20 or singles + len(missing) > 20:
+            log(f"books: {len(missing)} tokens missing from a batch -- not fetching one by one")
+            continue                          # they stay missing (no orders there = no $)
+        singles += len(missing)
+        for t in missing:
+            b = get_json(f"{CLOB}/book", {"token_id": t})
+            if isinstance(b, dict) and not b.get("error") and (
+                    b.get("asset_id") is not None
+                    or (isinstance(b.get("bids"), list) and isinstance(b.get("asks"), list))):
+                out[t] = b                    # only a real order book, never an error reply
+            time.sleep(PAUSE)
         time.sleep(PAUSE)
     return out
 
@@ -183,6 +217,30 @@ def levels(book, side):
 
 def score(dist_c, v):
     return ((v - dist_c) / v) ** 2 if 0 <= dist_c < v else 0.0
+
+
+C_PENALTY = 3.0
+
+
+def two_sided_score(mid, v, min_size, yb, ys, nb, ns):
+    """Our Qmin with Polymarket's formula (a one-sided quote gets 1/3, only 10-90%)."""
+    q1 = score((mid - yb) * 100, v) * ys if yb and ys >= min_size else 0.0
+    q2 = score(((1 - mid) - nb) * 100, v) * ns if nb and ns >= min_size else 0.0
+    if 0.10 <= mid <= 0.90:
+        return max(min(q1, q2), max(q1 / C_PENALTY, q2 / C_PENALTY))
+    return min(q1, q2)
+
+
+def our_quote(mid, v, min_size, d_c, capital=CAPITAL):
+    """Bids d_c cents from the middle, rounded DOWN to a whole cent (as a real order must
+    be), same shares each side. Returns (yes_bid, no_bid, shares, our score)."""
+    d = d_c / 100
+    yb = math.floor((mid - d) * 100 + 1e-9) / 100
+    nb = math.floor(((1 - mid) - d) * 100 + 1e-9) / 100
+    if yb <= 0 or nb <= 0:
+        return yb, nb, 0.0, 0.0
+    shares = capital / (yb + nb)
+    return yb, nb, shares, two_sided_score(mid, v, min_size, yb, shares, nb, shares)
 
 
 def evaluate(m, pot, yes_book, no_book):
@@ -217,10 +275,8 @@ def evaluate(m, pot, yes_book, no_book):
 
     res = {}
     for name, d_c in (("tight", 1.0), ("relaxed", v / 2)):
-        d = d_c / 100
-        cost_per_pair = (mid - d) + (1 - mid - d)            # one Yes share + one No share
-        shares = CAPITAL / cost_per_pair if cost_per_pair > 0 else 0
-        ours = score(d_c, v) * shares                        # two-sided -> min of sides
+        # the SAME quote the paper market maker places: bids rounded DOWN to a whole cent
+        yb_, nb_, shares, ours = our_quote(mid, v, min_size, d_c)
         res[name] = (shares, [pot * ours / (ours + o) if ours + o > 0 else 0 for o in others])
     return {"mid": mid, "v": v, "min_size": min_size, "others": others,
             "spread_c": (best_ask - best_bid) * 100,
@@ -228,6 +284,7 @@ def evaluate(m, pot, yes_book, no_book):
 
 
 def scan():
+    """One snapshot. Returns (markets, books) so the market maker can reuse them."""
     t0 = datetime.now(timezone.utc)
     clock = time.time()
     print(f"\n  [{datetime.now():%H:%M}] Finding markets with a reward pot today...")
@@ -236,6 +293,10 @@ def scan():
     print(f"  {len(mkts)} rewarded markets ({sum(p for _, p in mkts):,.0f} $/day in pots). "
           f"Reading {len(toks):,} order books...")
     books = books_for(toks)
+    if not mkts:
+        log("scanner: NO rewarded markets found -- the listing probably failed")
+        print("  No rewarded markets found -- probably a connection problem (nothing saved).")
+        return mkts, books
     rows = []
     for m, pot in mkts:
         ty, tn = [str(t) for t in as_list(m.get("clobTokenIds"))]
@@ -244,8 +305,10 @@ def scan():
             continue
         try:
             end = datetime.fromisoformat(str(m.get("endDate")).replace("Z", "+00:00"))
+            if end.tzinfo is None:
+                end = end.replace(tzinfo=timezone.utc)
             days_left = round((end - t0).total_seconds() / 86400, 1)
-        except ValueError:
+        except (ValueError, TypeError):
             days_left = ""
         ts, tu = e["tight"]
         rs, ru = e["relaxed"]
@@ -260,23 +323,19 @@ def scan():
                      "tight_shares": round(ts, 1), "tight_usd_day": round(tu[1], 3),
                      "relaxed_shares": round(rs, 1), "relaxed_usd_day": round(ru[1], 3),
                      "relaxed_usd_day_low": round(ru[2], 3), "relaxed_usd_day_high": round(ru[0], 3),
-                     "too_small_for_100": "yes" if rs < e["min_size"] else "no"})
+                     "too_small_for_100": "yes" if rs < e["min_size"] else "no",
+                     "est_version": EST_VERSION})
     log_csv = day_log(t0)
-    if log_csv.exists():                          # older file with fewer columns -> upgrade it
+    old = []
+    if log_csv.exists() and log_csv.stat().st_size > 0:
         with log_csv.open(newline="") as f:
-            rd = csv.DictReader(f)
-            if rd.fieldnames != FIELDS:
-                old = list(rd)
-                with log_csv.open("w", newline="") as g:
-                    w = csv.DictWriter(g, fieldnames=FIELDS, extrasaction="ignore")
-                    w.writeheader()
-                    w.writerows(old)
-    first = not log_csv.exists()
-    with log_csv.open("a", newline="") as f:
+            old = list(csv.DictReader(f))
+    tmp = log_csv.with_suffix(".tmp")             # crash-safe: write whole, then swap in
+    with tmp.open("w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=FIELDS, extrasaction="ignore")
-        if first:
-            w.writeheader()
-        w.writerows(rows)
+        w.writeheader()
+        w.writerows(old + rows)
+    tmp.replace(log_csv)
     ok = [r for r in rows if realistic(r)]
     W = 78
     print("=" * W)
@@ -299,6 +358,7 @@ def scan():
     print(f"\n Markets paying >= $0.50/day for $100 right now: {big}   (step 1 needs 5+, most of the week)")
     print(f" Saved to {LOG_DIR.name}/{log_csv.name}.  NOT included yet: losses when filled before a price move.")
     print("=" * W)
+    return mkts, books
 
 
 def realistic(r):
@@ -317,22 +377,29 @@ def summary():
     rows = []
     for p in all_logs():
         with p.open(newline="") as f:
-            rows += [r for r in csv.DictReader(f) if r.get("competitors") and realistic(r)]
+            rows += [r for r in csv.DictReader(f) if r.get("competitors")]
+    if any(r.get("est_version") == EST_VERSION for r in rows):
+        rows = [r for r in rows if r.get("est_version") == EST_VERSION]
+        print("  (Only snapshots from 18 Oct 2026 on: older ones overstated rewards by 1.3-3x.)")
     snaps = sorted({r["time"] for r in rows})
+    # every snapshot a market appears in counts; a snapshot where it isn't realistic for
+    # us counts as $0. A market passes only if seen in 24+ snapshots and worth >= $0.50
+    # in at least half of them.
     per = {}
     for r in rows:
         g = per.setdefault(r["market_id"], {"q": r["question"], "seen": 0, "good": 0, "usd": []})
+        usd = float(r["relaxed_usd_day"]) if realistic(r) else 0.0
         g["seen"] += 1
-        g["usd"].append(float(r["relaxed_usd_day"]))
-        g["good"] += float(r["relaxed_usd_day"]) >= 0.5
-    passing = [g for g in per.values() if g["good"] >= max(1, g["seen"] / 2)]
+        g["usd"].append(usd)
+        g["good"] += usd >= 0.5
+    passing = [g for g in per.values() if g["seen"] >= 24 and g["good"] >= g["seen"] / 2]
     W = 78
     print("=" * W)
     print(" #34 LIQUIDITY REWARDS -- STEP 1 SUMMARY ($100, relaxed quote, mid estimate)")
     print("=" * W)
     print(f" Snapshots: {len(snaps)} ({snaps[0] if snaps else '-'} -> {snaps[-1] if snaps else '-'} UTC)"
           f"   markets seen: {len(per)}")
-    print(f" Markets paying >= $0.50/day in at least half their snapshots: {len(passing)}")
+    print(f" Markets paying >= $0.50/day in at least half of 24+ snapshots: {len(passing)}")
     for g in sorted(passing, key=lambda g: -np_median(g["usd"]))[:12]:
         print(f"   typical ${np_median(g['usd']):.2f}/day   seen {g['seen']:>3}x   {g['q'][:45]}")
     days = (datetime.strptime(snaps[-1], "%Y-%m-%d %H:%M") -
@@ -361,7 +428,9 @@ def main():
         summary()
         return
     if not a.every:
-        scan()
+        mkts, _ = scan()
+        if not mkts or failure_share() > 0.2:
+            raise SystemExit(1)                   # shows RED on GitHub
         return
     print(f"  Scanning every {a.every:g} minutes. Ctrl+C to stop.")
     try:
