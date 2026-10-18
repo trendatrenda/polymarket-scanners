@@ -2,9 +2,9 @@ name: scanners
 
 on:
   schedule:
-    - cron: "7 * * * *"         # rewards scanner + paper market maker, every hour (UTC)
-    - cron: "17 9,21 * * *"     # the paper bot, twice a day (11:17 and 23:17 Macedonia time)
-  workflow_dispatch:            # lets you press "Run workflow" by hand
+    - cron: "7 */2 * * *"       # every 2 hours (UTC). The paper bot decides by itself
+                                # whether it is due (at most once per 11 hours)
+  workflow_dispatch:            # "Run workflow" by hand: runs everything now
 
 permissions:
   contents: write               # allowed to save the results back into the repository
@@ -15,30 +15,52 @@ concurrency:
 
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest      # already has Python 3 -- no setup step needed (saves time)
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          ref: ${{ github.ref_name }}   # the LATEST files, even if this run waited in the queue
 
-      - name: "Scanners (rewards, paper market maker)"
-        if: github.event.schedule != '17 9,21 * * *'
+      - name: "Scanner + paper market maker (#34)"
         run: |
-          python pm_rewards_scanner.py || echo "rewards scanner failed this time"
-          python pm_mm_paper.py        || echo "market maker failed this time"
+          python3 --version
+          timeout 10m python3 pm_hourly.py || echo "scanner / market maker" >> /tmp/failed.txt
 
-      - name: "Paper bot (22, 26, 32, 35b)"
-        if: github.event.schedule == '17 9,21 * * *' || github.event_name == 'workflow_dispatch'
-        run: python pm_paper_bot.py || echo "paper bot failed this time"
+      - name: "Paper bot (#35b) -- runs only when due, or always when started by hand"
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then F="--force"; else F=""; fi
+          timeout 6m python3 pm_paper_bot.py $F || echo "paper bot" >> /tmp/failed.txt
 
       - name: "Save results into the repository"
+        id: save
         run: |
           git config user.name  "scanner-bot"
           git config user.email "scanner-bot@users.noreply.github.com"
           git add -A
-          git commit -m "results $(date -u '+%Y-%m-%d %H:%M') UTC" || echo "nothing new to save"
-          git pull --rebase --autostash || true
-          git push
+          if git diff --cached --quiet; then echo "nothing new to save"; exit 0; fi
+          git commit -m "results $(date -u '+%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3; do
+            if git pull --rebase --autostash && git push; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 15
+          done
+          echo "COULD NOT SAVE the results after 3 tries"; exit 1
+
+      - name: "Keep a copy of the results if saving failed"
+        if: failure() && steps.save.outcome == 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: unsaved-results
+          path: |
+            pm_*.csv
+            pm_*.json
+            pm_*.txt
+          retention-days: 14
+
+      - name: "Turn the run RED if anything crashed or was unhealthy"
+        if: always()
+        run: |
+          if [ -f /tmp/failed.txt ]; then
+            echo "These were unhealthy or crashed this run:"; cat /tmp/failed.txt; exit 1
+          fi
