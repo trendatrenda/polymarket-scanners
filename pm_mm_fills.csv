@@ -166,3 +166,5 @@ time,market_id,question,side,price,shares,mid_now
 2026-10-18 02:30,5713619,"Will ""Doing Life"" be the #2 US Netflix movie this week?",YES,0.32,20.16,0.345
 2026-10-18 02:30,3211313,Will Man I Need – Olivia Dean be the #2 song in the US for 2026?,NO,0.63,5.49,0.377
 2026-10-18 02:30,3211313,Will Man I Need – Olivia Dean be the #2 song in the US for 2026?,NO,0.63,25.0,0.377
+2026-10-18 03:30,5139753,"Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",YES,0.65,107.53,0.655
+2026-10-18 03:30,1919742,Will Miami Hurricanes win the 2027 CFP National Championship?,YES,0.15,106.38,0.152
