@@ -1,0 +1,197 @@
+time,market_id,question,side,price,shares,mid_now
+2026-10-16 14:59,5691696,"Will Tesla, Inc. (TSLA) hit (HIGH) $375 in October?",YES,0.75,106.38,0.72
+2026-10-16 14:59,4935826,"Will Tesla, Inc. (TSLA) hit (LOW) $345 in October?",NO,0.41,5.6,0.62
+2026-10-16 15:29,5742117,"Will Elon Musk post 40-64 tweets from October 17 to October 19, 2026?",YES,0.32,107.53,0.33
+2026-10-16 15:29,5475113,Will fewer than 170 ships transit the Bab el-Mandeb Strait between October 12-October 18?,NO,0.83,6.15,0.119
+2026-10-16 15:59,5742117,"Will Elon Musk post 40-64 tweets from October 17 to October 19, 2026?",NO,0.64,0.76,0.37
+2026-10-16 16:59,5763365,"Will Iran target an Arab country by October 22, 2026?",NO,0.81,21.73,0.19
+2026-10-16 17:30,4218310,"Next Astra Model (6.1+) released by October 31, 2026?",YES,0.27,50.0,0.27
+2026-10-16 17:30,5401795,Military action against Saudi Oil Pipeline (East-West) by October 31?,NO,0.61,2.56,0.39
+2026-10-16 17:30,5401795,Military action against Saudi Oil Pipeline (East-West) by October 31?,NO,0.61,7.62,0.39
+2026-10-16 17:30,5401795,Military action against Saudi Oil Pipeline (East-West) by October 31?,NO,0.61,97.34,0.39
+2026-10-16 17:59,2694335,Will Heather Jefts win the 2026 Williamson County Judge election?,NO,0.37,20.0,0.635
+2026-10-16 17:59,4951227,Will WTI Crude Oil (WTI) hit (HIGH) $105 in October?,YES,0.46,106.38,0.445
+2026-10-16 18:29,5401795,Military action against Saudi Oil Pipeline (East-West) by October 31?,YES,0.39,107.53,0.375
+2026-10-16 18:59,4951227,Will WTI Crude Oil (WTI) hit (HIGH) $105 in October?,NO,0.53,15.39,0.49
+2026-10-16 19:29,5645597,"Will gemini-4-argon-high be the best AI model on October 26, 2026?",YES,0.69,40.0,0.67
+2026-10-16 19:29,5645597,"Will gemini-4-argon-high be the best AI model on October 26, 2026?",YES,0.69,35.0,0.67
+2026-10-16 19:59,5660571,"Will Gold (XAUUSD) hit (HIGH) $4,200 in October?",NO,0.16,19.33,0.827
+2026-10-16 20:29,5763365,"Will Iran target an Arab country by October 22, 2026?",NO,0.67,14.29,0.295
+2026-10-16 20:29,5763365,"Will Iran target an Arab country by October 22, 2026?",NO,0.67,14.28,0.295
+2026-10-16 20:29,5401795,Military action against Saudi Oil Pipeline (East-West) by October 31?,NO,0.58,49.99,0.405
+2026-10-16 20:59,5180413,"Will NVIDIA be the largest company in the world by market cap on October 31, 2026?",NO,0.18,105.26,0.794
+2026-10-17 10:14,5765884,Collins flips Jackson for Maine Senate by November 2?,YES,0.4,108.7,0.4
+2026-10-17 10:14,5765914,Sullivan flips Peltola for Alaska Senate by November 2?,YES,0.07,5.0,0.105
+2026-10-17 10:14,5645597,"Will gemini-4-argon-high be the best AI model on October 26, 2026?",NO,0.3,1.41,0.66
+2026-10-17 10:14,4218310,"Next Astra Model (6.1+) released by October 31, 2026?",YES,0.26,107.53,0.27
+2026-10-17 10:14,5691696,"Will Tesla, Inc. (TSLA) hit (HIGH) $375 in October?",NO,0.45,40.0,0.562
+2026-10-17 10:14,5765878,Texas Senate favorite on November 2?,NO,0.2,12.35,0.855
+2026-10-17 10:14,5765878,Texas Senate favorite on November 2?,NO,0.2,96.35,0.855
+2026-10-17 10:14,5401795,Military action against Saudi Oil Pipeline (East-West) by October 31?,YES,0.37,4.77,0.32
+2026-10-17 10:14,5401795,Military action against Saudi Oil Pipeline (East-West) by October 31?,YES,0.37,50.0,0.32
+2026-10-17 10:14,5401795,Military action against Saudi Oil Pipeline (East-West) by October 31?,YES,0.37,7.82,0.32
+2026-10-17 10:14,4951227,Will WTI Crude Oil (WTI) hit (HIGH) $105 in October?,NO,0.52,106.38,0.45
+2026-10-17 10:14,4951227,Will WTI Crude Oil (WTI) hit (HIGH) $105 in October?,YES,0.42,106.38,0.45
+2026-10-17 10:14,5612213,Will WTI Crude Oil (WTI) hit (LOW) $90 in October?,YES,0.29,13.33,0.315
+2026-10-17 10:14,5612213,Will WTI Crude Oil (WTI) hit (LOW) $90 in October?,YES,0.29,91.93,0.315
+2026-10-17 10:14,5339986,Israel x Iran ceasefire continues through November 15?,NO,0.33,49.76,0.675
+2026-10-17 10:14,5339986,Israel x Iran ceasefire continues through November 15?,NO,0.33,14.71,0.675
+2026-10-17 10:14,5339986,Israel x Iran ceasefire continues through November 15?,NO,0.33,43.06,0.675
+2026-10-17 10:14,3721704,Will Anthropic's IPO valuation be between $1.50T and $1.75T?,NO,0.71,64.72,0.268
+2026-10-17 10:14,4178729,Will the 30-year Treasury yield hit 5.70% before 2027?,YES,0.59,5.52,0.625
+2026-10-17 10:14,4178729,Will the 30-year Treasury yield hit 5.70% before 2027?,YES,0.59,100.0,0.625
+2026-10-17 10:14,4178729,Will the 30-year Treasury yield hit 5.70% before 2027?,YES,0.59,2.01,0.625
+2026-10-17 10:14,5180413,"Will NVIDIA be the largest company in the world by market cap on October 31, 2026?",YES,0.77,47.14,0.816
+2026-10-17 10:14,5609932,"Ilhan Omar arrested by December 31, 2026?",NO,0.72,50.0,0.245
+2026-10-17 10:14,5609932,"Ilhan Omar arrested by December 31, 2026?",NO,0.72,57.53,0.245
+2026-10-17 10:14,3708350,Will Alexandria Ocasio-Cortez run for President in 2028?,YES,0.67,50.0,0.65
+2026-10-17 10:14,3708350,Will Alexandria Ocasio-Cortez run for President in 2028?,YES,0.67,20.14,0.65
+2026-10-17 10:14,3708350,Will Alexandria Ocasio-Cortez run for President in 2028?,YES,0.67,20.0,0.65
+2026-10-17 10:14,3708350,Will Alexandria Ocasio-Cortez run for President in 2028?,YES,0.67,15.12,0.65
+2026-10-17 10:44,5208369,Will October be Melbourne's wettest month of 2026?,YES,0.72,42.72,0.725
+2026-10-17 11:14,4951227,Will WTI Crude Oil (WTI) hit (HIGH) $105 in October?,NO,0.52,105.26,0.455
+2026-10-17 11:14,5180413,"Will NVIDIA be the largest company in the world by market cap on October 31, 2026?",YES,0.79,47.15,0.785
+2026-10-17 11:14,5329259,Will there be at least 6500 measles cases in the U.S. in 2026?,NO,0.37,107.53,0.595
+2026-10-17 11:44,5765886,Hamilton flips Marshall for Kansas Senate by November 2?,YES,0.27,12.14,0.305
+2026-10-17 11:44,5180413,"Will NVIDIA be the largest company in the world by market cap on October 31, 2026?",NO,0.19,100.42,0.801
+2026-10-17 11:44,5180413,"Will NVIDIA be the largest company in the world by market cap on October 31, 2026?",NO,0.19,4.84,0.801
+2026-10-17 11:44,5778596,Will Confluent (CFLT) beat quarterly earnings?,YES,0.14,20.0,0.115
+2026-10-17 11:44,5778596,Will Confluent (CFLT) beat quarterly earnings?,YES,0.14,20.0,0.115
+2026-10-17 11:44,3751877,Will there be 20 to 34 West Nile neuroinvasive disease cases among NYC residents in 2026?,NO,0.39,9.86,0.626
+2026-10-17 11:44,3751877,Will there be 20 to 34 West Nile neuroinvasive disease cases among NYC residents in 2026?,NO,0.39,8.01,0.626
+2026-10-17 12:14,4893303,Will the total domestic gross for Resident Evil be between 150m and 160m by October 31?,YES,0.78,0.01,0.805
+2026-10-17 12:14,4893303,Will the total domestic gross for Resident Evil be between 150m and 160m by October 31?,YES,0.78,13.79,0.805
+2026-10-17 12:14,5636435,Will MrBeast's next video get between 35 and 40 million views on day 1?,NO,0.82,53.83,0.175
+2026-10-17 12:14,5636435,Will MrBeast's next video get between 35 and 40 million views on day 1?,NO,0.82,6.0,0.175
+2026-10-17 12:44,5609932,"Ilhan Omar arrested by December 31, 2026?",YES,0.17,50.0,0.125
+2026-10-17 12:44,5609932,"Ilhan Omar arrested by December 31, 2026?",YES,0.17,24.49,0.125
+2026-10-17 12:44,5609932,"Ilhan Omar arrested by December 31, 2026?",YES,0.17,33.04,0.125
+2026-10-17 13:14,5208369,Will October be Melbourne's wettest month of 2026?,NO,0.26,50.0,0.745
+2026-10-17 14:14,3751877,Will there be 20 to 34 West Nile neuroinvasive disease cases among NYC residents in 2026?,YES,0.64,2.82,0.663
+2026-10-17 14:44,5636435,Will MrBeast's next video get between 35 and 40 million views on day 1?,NO,0.8,105.26,0.205
+2026-10-17 14:44,1280957,Will the Democratic Party win the CA-04 House seat?,YES,0.78,80.0,0.802
+2026-10-17 14:44,1280957,Will the Democratic Party win the CA-04 House seat?,YES,0.78,25.0,0.802
+2026-10-17 14:44,1280957,Will the Democratic Party win the CA-04 House seat?,NO,0.17,10.37,0.802
+2026-10-17 14:44,1280957,Will the Democratic Party win the CA-04 House seat?,NO,0.17,46.0,0.802
+2026-10-17 14:44,1280957,Will the Democratic Party win the CA-04 House seat?,NO,0.17,20.0,0.802
+2026-10-17 14:44,1280957,Will the Democratic Party win the CA-04 House seat?,NO,0.17,20.0,0.802
+2026-10-17 14:44,1280957,Will the Democratic Party win the CA-04 House seat?,NO,0.17,8.89,0.802
+2026-10-17 15:14,5742117,"Will Elon Musk post 40-64 tweets from October 17 to October 19, 2026?",NO,0.59,107.53,0.415
+2026-10-17 15:14,3751877,Will there be 20 to 34 West Nile neuroinvasive disease cases among NYC residents in 2026?,NO,0.4,5.0,0.638
+2026-10-17 15:14,3751877,Will there be 20 to 34 West Nile neuroinvasive disease cases among NYC residents in 2026?,NO,0.4,5.0,0.638
+2026-10-17 15:14,3751877,Will there be 20 to 34 West Nile neuroinvasive disease cases among NYC residents in 2026?,NO,0.4,5.0,0.638
+2026-10-17 15:14,3751877,Will there be 20 to 34 West Nile neuroinvasive disease cases among NYC residents in 2026?,NO,0.4,5.0,0.638
+2026-10-17 15:14,3751877,Will there be 20 to 34 West Nile neuroinvasive disease cases among NYC residents in 2026?,NO,0.4,5.0,0.638
+2026-10-17 15:14,3751877,Will there be 20 to 34 West Nile neuroinvasive disease cases among NYC residents in 2026?,NO,0.4,5.0,0.638
+2026-10-17 15:14,3751877,Will there be 20 to 34 West Nile neuroinvasive disease cases among NYC residents in 2026?,NO,0.4,5.0,0.638
+2026-10-17 15:14,4893303,Will the total domestic gross for Resident Evil be between 150m and 160m by October 31?,NO,0.19,105.26,0.821
+2026-10-17 15:14,5636435,Will MrBeast's next video get between 35 and 40 million views on day 1?,YES,0.18,20.34,0.205
+2026-10-17 15:14,5636435,Will MrBeast's next video get between 35 and 40 million views on day 1?,YES,0.18,10.25,0.205
+2026-10-17 15:14,5636435,Will MrBeast's next video get between 35 and 40 million views on day 1?,YES,0.18,8.0,0.205
+2026-10-17 15:44,3751877,Will there be 20 to 34 West Nile neuroinvasive disease cases among NYC residents in 2026?,NO,0.33,21.0,0.638
+2026-10-17 15:44,3751877,Will there be 20 to 34 West Nile neuroinvasive disease cases among NYC residents in 2026?,NO,0.33,85.38,0.638
+2026-10-17 16:14,5742117,"Will Elon Musk post 40-64 tweets from October 17 to October 19, 2026?",NO,0.57,22.73,0.395
+2026-10-17 16:14,5742117,"Will Elon Musk post 40-64 tweets from October 17 to October 19, 2026?",YES,0.36,19.0,0.395
+2026-10-17 16:14,5742117,"Will Elon Musk post 40-64 tweets from October 17 to October 19, 2026?",YES,0.36,5.0,0.395
+2026-10-17 16:14,5742117,"Will Elon Musk post 40-64 tweets from October 17 to October 19, 2026?",YES,0.36,5.0,0.395
+2026-10-17 16:14,5742117,"Will Elon Musk post 40-64 tweets from October 17 to October 19, 2026?",YES,0.36,7.0,0.395
+2026-10-17 16:14,5742117,"Will Elon Musk post 40-64 tweets from October 17 to October 19, 2026?",YES,0.36,5.0,0.395
+2026-10-17 16:14,5742117,"Will Elon Musk post 40-64 tweets from October 17 to October 19, 2026?",YES,0.36,5.0,0.395
+2026-10-17 16:14,5208369,Will October be Melbourne's wettest month of 2026?,NO,0.22,50.0,0.775
+2026-10-17 16:14,1280957,Will the Democratic Party win the CA-04 House seat?,YES,0.8,41.0,0.828
+2026-10-17 16:14,1280957,Will the Democratic Party win the CA-04 House seat?,YES,0.8,65.38,0.828
+2026-10-17 16:14,5742118,"Will Elon Musk post 65-89 tweets from October 17 to October 19, 2026?",NO,0.7,6.0,0.27
+2026-10-17 16:14,5742118,"Will Elon Musk post 65-89 tweets from October 17 to October 19, 2026?",NO,0.7,86.56,0.27
+2026-10-17 16:14,5742118,"Will Elon Musk post 65-89 tweets from October 17 to October 19, 2026?",NO,0.7,10.0,0.27
+2026-10-17 16:14,5742118,"Will Elon Musk post 65-89 tweets from October 17 to October 19, 2026?",NO,0.7,3.82,0.27
+2026-10-17 16:14,5742119,"Will Elon Musk post 90-114 tweets from October 17 to October 19, 2026?",NO,0.78,107.53,0.185
+2026-10-17 16:44,5636435,Will MrBeast's next video get between 35 and 40 million views on day 1?,YES,0.19,101.39,0.215
+2026-10-17 16:44,5636435,Will MrBeast's next video get between 35 and 40 million views on day 1?,YES,0.19,3.87,0.215
+2026-10-17 17:14,5208369,Will October be Melbourne's wettest month of 2026?,NO,0.19,50.0,0.84
+2026-10-17 17:14,5208369,Will October be Melbourne's wettest month of 2026?,NO,0.19,50.0,0.84
+2026-10-17 17:14,5787490,"Next White House Press Secretary announced by November 30, 2026?",YES,0.63,107.53,0.605
+2026-10-17 17:44,5733399,Will Champi peak as a Violent typhoon?,NO,0.28,105.26,0.72
+2026-10-17 17:44,4936103,Will WTI Crude Oil (WTI) hit (HIGH) $100 in October?,NO,0.16,5.88,0.855
+2026-10-17 17:44,4936103,Will WTI Crude Oil (WTI) hit (HIGH) $100 in October?,NO,0.16,50.0,0.855
+2026-10-17 18:15,4844538,Republican Senate odds dip to 30% by October 31?,YES,0.25,50.0,0.27
+2026-10-17 20:15,5167102,"Will the next Claude Haiku model (4.6+) debut at a score of at least 1420 by June 30, 2027",YES,0.81,9.41,0.795
+2026-10-17 20:45,4893303,Will the total domestic gross for Resident Evil be between 150m and 160m by October 31?,NO,0.12,57.55,0.887
+2026-10-17 20:45,5787490,"Next White House Press Secretary announced by November 30, 2026?",NO,0.39,20.0,0.615
+2026-10-17 20:45,5787490,"Next White House Press Secretary announced by November 30, 2026?",NO,0.39,18.0,0.615
+2026-10-17 20:45,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.39,40.0,0.415
+2026-10-17 20:45,5732710,"Will ""Grand Theft Auto VI Launch Trailer"" get between 60 and 80 million views on week 1?",NO,0.49,42.0,0.484
+2026-10-17 20:45,5732710,"Will ""Grand Theft Auto VI Launch Trailer"" get between 60 and 80 million views on week 1?",NO,0.49,63.26,0.484
+2026-10-17 21:15,2110753,Will Anthropic’s market cap be 1.8T or greater at market close on IPO day by December 31 2,NO,0.48,106.38,0.49
+2026-10-17 21:15,5790794,Will the Republicans win Sedgwick County in the Kansas Senate race in 2026?,NO,0.41,105.26,0.63
+2026-10-17 22:10,5180417,"Will Apple be the largest company in the world by market cap on October 31, 2026?",NO,0.72,106.38,0.277
+2026-10-17 22:27,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.45,106.38,0.465
+2026-10-17 23:24,5154295,Will GitHub's longest critical incident in October 2026 be between 3 and 6 hours?,YES,0.82,8.0,0.845
+2026-10-18 00:41,5139753,"Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",YES,0.67,5.0,0.685
+2026-10-18 00:41,5139753,"Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",YES,0.67,4.88,0.685
+2026-10-18 00:41,5139753,"Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",YES,0.67,0.69,0.685
+2026-10-18 01:33,5713619,"Will ""Doing Life"" be the #2 US Netflix movie this week?",YES,0.31,0.55,0.345
+2026-10-18 01:33,5713619,"Will ""Doing Life"" be the #2 US Netflix movie this week?",NO,0.64,9.22,0.345
+2026-10-18 01:33,5713619,"Will ""Doing Life"" be the #2 US Netflix movie this week?",NO,0.64,20.0,0.345
+2026-10-18 01:33,5713619,"Will ""Doing Life"" be the #2 US Netflix movie this week?",NO,0.64,20.0,0.345
+2026-10-18 01:33,5713619,"Will ""Doing Life"" be the #2 US Netflix movie this week?",NO,0.64,5.0,0.345
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 01:33,5778718,Will Ally (ALLY) beat quarterly earnings?,NO,0.55,2.17,0.415
+2026-10-18 02:30,5713619,"Will ""Doing Life"" be the #2 US Netflix movie this week?",YES,0.32,20.16,0.345
+2026-10-18 02:30,3211313,Will Man I Need – Olivia Dean be the #2 song in the US for 2026?,NO,0.63,5.49,0.377
+2026-10-18 02:30,3211313,Will Man I Need – Olivia Dean be the #2 song in the US for 2026?,NO,0.63,25.0,0.377
+2026-10-18 03:30,5139753,"Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",YES,0.65,107.53,0.655
+2026-10-18 03:30,1919742,Will Miami Hurricanes win the 2027 CFP National Championship?,YES,0.15,106.38,0.152
+2026-10-18 04:31,3572775,Will Meta be the #3 AI Lab at the end of October 2026 (Style Control On)?,YES,0.6,108.7,0.621
+2026-10-18 05:29,5208369,Will October be Melbourne's wettest month of 2026?,YES,0.82,105.26,0.835
+2026-10-18 05:29,5167103,"Will the next Claude Haiku model (4.6+) debut at a score of at least 1440 by June 30, 2027",NO,0.3,107.53,0.73
+2026-10-18 05:29,5790794,Will the Republicans win Sedgwick County in the Kansas Senate race in 2026?,YES,0.74,20.67,0.68
+2026-10-18 05:29,5790794,Will the Republicans win Sedgwick County in the Kansas Senate race in 2026?,YES,0.74,6.19,0.68
+2026-10-18 05:29,5790794,Will the Republicans win Sedgwick County in the Kansas Senate race in 2026?,YES,0.74,13.14,0.68
+2026-10-18 05:29,5790794,Will the Republicans win Sedgwick County in the Kansas Senate race in 2026?,YES,0.74,6.88,0.68
+2026-10-18 06:35,5457282,Intuitive Surgical (ISRG) Q3 da Vinci procedure growth 12.5% to 15%?,NO,0.52,105.26,0.455
+2026-10-18 06:35,5331367,Will Natalia Silva fight Alexa Grasso next?,NO,0.16,20.24,0.845
+2026-10-18 06:35,5331367,Will Natalia Silva fight Alexa Grasso next?,NO,0.16,0.61,0.845
+2026-10-18 06:35,5331367,Will Natalia Silva fight Alexa Grasso next?,NO,0.16,24.92,0.845
+2026-10-18 06:35,5331367,Will Natalia Silva fight Alexa Grasso next?,NO,0.16,7.31,0.845
+2026-10-18 07:33,5713619,"Will ""Doing Life"" be the #2 US Netflix movie this week?",YES,0.32,4.3,0.345
+2026-10-18 07:33,5636440,Will MrBeast's next video get at least 60 million views on day 1?,YES,0.7,22.08,0.683
+2026-10-18 08:30,5636440,Will MrBeast's next video get at least 60 million views on day 1?,NO,0.29,105.26,0.683
+2026-10-18 08:30,5636439,Will MrBeast's next video get between 55 and 60 million views on day 1?,YES,0.27,100.0,0.3
+2026-10-18 08:30,5636439,Will MrBeast's next video get between 55 and 60 million views on day 1?,YES,0.27,6.38,0.3
+2026-10-18 09:29,5219320,"Will the next Fable model (5.2+) be released on October 20, 2026?",NO,0.58,8.02,0.392
+2026-10-18 09:29,5713619,"Will ""Doing Life"" be the #2 US Netflix movie this week?",NO,0.63,17.82,0.355
+2026-10-18 09:29,5713619,"Will ""Doing Life"" be the #2 US Netflix movie this week?",NO,0.63,37.84,0.355
+2026-10-18 09:29,5713619,"Will ""Doing Life"" be the #2 US Netflix movie this week?",NO,0.63,21.0,0.355
+2026-10-18 09:29,5713619,"Will ""Doing Life"" be the #2 US Netflix movie this week?",NO,0.63,6.44,0.355
+2026-10-18 09:29,4882040,"Next Astra Model (6.1+) released by October 23, 2026?",YES,0.19,6.11,0.192
+2026-10-18 10:29,5733399,Will Champi peak as a Violent typhoon?,YES,0.46,106.38,0.45
+2026-10-18 10:29,5674697,"Will ""Obsession"" be nominated for Best Picture at the 99th Academy Awards?",NO,0.67,108.7,0.37
+2026-10-18 10:29,4595230,Will lukxo have the most first bloods at VALORANT Champions 2026?,YES,0.46,20.0,0.118
+2026-10-18 10:29,4595230,Will lukxo have the most first bloods at VALORANT Champions 2026?,YES,0.46,86.38,0.118
