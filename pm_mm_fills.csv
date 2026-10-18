@@ -182,3 +182,6 @@ time,market_id,question,side,price,shares,mid_now
 2026-10-18 06:35,5331367,Will Natalia Silva fight Alexa Grasso next?,NO,0.16,7.31,0.845
 2026-10-18 07:33,5713619,"Will ""Doing Life"" be the #2 US Netflix movie this week?",YES,0.32,4.3,0.345
 2026-10-18 07:33,5636440,Will MrBeast's next video get at least 60 million views on day 1?,YES,0.7,22.08,0.683
+2026-10-18 08:30,5636440,Will MrBeast's next video get at least 60 million views on day 1?,NO,0.29,105.26,0.683
+2026-10-18 08:30,5636439,Will MrBeast's next video get between 55 and 60 million views on day 1?,YES,0.27,100.0,0.3
+2026-10-18 08:30,5636439,Will MrBeast's next video get between 55 and 60 million views on day 1?,YES,0.27,6.38,0.3
