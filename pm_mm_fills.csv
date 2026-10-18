@@ -126,3 +126,6 @@ time,market_id,question,side,price,shares,mid_now
 2026-10-17 22:10,5180417,"Will Apple be the largest company in the world by market cap on October 31, 2026?",NO,0.72,106.38,0.277
 2026-10-17 22:27,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.45,106.38,0.465
 2026-10-17 23:24,5154295,Will GitHub's longest critical incident in October 2026 be between 3 and 6 hours?,YES,0.82,8.0,0.845
+2026-10-18 00:41,5139753,"Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",YES,0.67,5.0,0.685
+2026-10-18 00:41,5139753,"Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",YES,0.67,4.88,0.685
+2026-10-18 00:41,5139753,"Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",YES,0.67,0.69,0.685
