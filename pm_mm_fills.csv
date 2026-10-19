@@ -66,3 +66,25 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-18 22:26,touch,5167102,"Will the next Claude Haiku model (4.6+) debut at a score of at least 1420 by June 30, 2027",NO,0.19,2.7,2026-10-18 19:53
 2026-10-18 22:26,strict,701925,"Will UNI reach $11.00 by December 31, 2026?",YES,0.24,107.53,2026-10-18 20:26
 2026-10-18 22:26,touch,701925,"Will UNI reach $11.00 by December 31, 2026?",YES,0.24,107.53,2026-10-18 20:26
+2026-10-19 00:41,strict,5733399,Will Champi peak as a Violent typhoon?,YES,0.45,106.38,2026-10-18 22:26
+2026-10-19 00:41,touch,5733399,Will Champi peak as a Violent typhoon?,YES,0.45,100.0,2026-10-18 21:28
+2026-10-19 00:41,touch,5733399,Will Champi peak as a Violent typhoon?,YES,0.45,6.38,2026-10-18 22:26
+2026-10-19 00:41,strict,5733398,Will Champi peak as a Very strong typhoon?,NO,0.44,106.38,2026-10-18 22:26
+2026-10-19 00:41,touch,5733398,Will Champi peak as a Very strong typhoon?,NO,0.44,106.38,2026-10-18 22:26
+2026-10-19 00:41,strict,5687136,"Next Fable Model (5.2+) released by October 21, 2026?",NO,0.56,108.7,2026-10-18 22:18
+2026-10-19 00:41,touch,5687136,"Next Fable Model (5.2+) released by October 21, 2026?",NO,0.56,108.7,2026-10-18 22:18
+2026-10-19 00:41,strict,3721704,Will Anthropic's IPO valuation be between $1.50T and $1.75T?,YES,0.47,105.26,2026-10-18 20:26
+2026-10-19 00:41,touch,3721704,Will Anthropic's IPO valuation be between $1.50T and $1.75T?,YES,0.47,105.26,2026-10-18 20:26
+2026-10-19 00:41,touch,5824833,"Will Airbnb, Inc. (ABNB) hit (LOW) $172 in October?",YES,0.81,0.01,2026-10-18 22:02
+2026-10-19 00:41,strict,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",NO,0.44,106.38,2026-10-18 20:26
+2026-10-19 00:41,strict,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.5,0.14,2026-10-18 20:53
+2026-10-19 00:41,strict,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.5,8.0,2026-10-18 21:06
+2026-10-19 00:41,strict,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.5,5.0,2026-10-18 21:10
+2026-10-19 00:41,strict,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.5,5.0,2026-10-18 21:10
+2026-10-19 00:41,strict,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.5,32.3,2026-10-18 21:11
+2026-10-19 00:41,strict,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.5,9.26,2026-10-18 21:11
+2026-10-19 00:41,strict,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.5,46.68,2026-10-18 21:12
+2026-10-19 00:41,touch,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",NO,0.44,106.38,2026-10-18 20:26
+2026-10-19 00:41,touch,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.5,0.14,2026-10-18 20:53
+2026-10-19 00:41,touch,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.5,8.0,2026-10-18 21:06
+2026-10-19 00:41,touch,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.5,98.24,2026-10-18 21:07
