@@ -154,3 +154,37 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-19 10:35,touch,701925,"Will UNI reach $11.00 by December 31, 2026?",NO,0.74,108.7,2026-10-19 08:40
 2026-10-19 10:35,strict,5880184,"Curfew in a major French city by December 31, 2026?",YES,0.24,105.26,2026-10-19 07:33
 2026-10-19 10:35,touch,5880184,"Curfew in a major French city by December 31, 2026?",YES,0.24,105.26,2026-10-19 07:32
+2026-10-19 12:42,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",NO,0.43,24.0,2026-10-19 09:57
+2026-10-19 12:42,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",NO,0.43,0.3,2026-10-19 09:57
+2026-10-19 12:42,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",NO,0.43,80.96,2026-10-19 09:57
+2026-10-19 12:42,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",NO,0.43,24.0,2026-10-19 09:57
+2026-10-19 12:42,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",NO,0.43,0.3,2026-10-19 09:57
+2026-10-19 12:42,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",NO,0.43,80.96,2026-10-19 09:57
+2026-10-19 12:42,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.73,37.0,2026-10-19 09:44
+2026-10-19 12:42,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.73,10.0,2026-10-19 09:44
+2026-10-19 12:42,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.73,10.15,2026-10-19 09:44
+2026-10-19 12:42,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.73,22.0,2026-10-19 09:44
+2026-10-19 12:42,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.73,11.0,2026-10-19 09:44
+2026-10-19 12:42,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.73,5.0,2026-10-19 09:45
+2026-10-19 12:42,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.73,6.0,2026-10-19 09:45
+2026-10-19 12:42,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.73,7.55,2026-10-19 09:45
+2026-10-19 12:42,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.73,37.0,2026-10-19 09:44
+2026-10-19 12:42,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.73,71.7,2026-10-19 09:44
+2026-10-19 12:42,touch,5687136,"Next Fable Model (5.2+) released by October 21, 2026?",YES,0.38,44.0,2026-10-19 09:11
+2026-10-19 12:42,touch,5880184,"Curfew in a major French city by December 31, 2026?",NO,0.74,8.55,2026-10-19 09:36
+2026-10-19 12:42,strict,5726189,"Will ""Dune: Part Three"" be nominated for Best Film Editing at the 99th Academy Awards?",NO,0.54,5.02,2026-10-19 08:43
+2026-10-19 12:42,strict,5726189,"Will ""Dune: Part Three"" be nominated for Best Film Editing at the 99th Academy Awards?",NO,0.54,5.01,2026-10-19 09:07
+2026-10-19 12:42,strict,5726189,"Will ""Dune: Part Three"" be nominated for Best Film Editing at the 99th Academy Awards?",NO,0.54,5.03,2026-10-19 09:11
+2026-10-19 12:42,strict,5726189,"Will ""Dune: Part Three"" be nominated for Best Film Editing at the 99th Academy Awards?",NO,0.54,5.02,2026-10-19 09:13
+2026-10-19 12:42,strict,5726189,"Will ""Dune: Part Three"" be nominated for Best Film Editing at the 99th Academy Awards?",NO,0.54,88.62,2026-10-19 10:21
+2026-10-19 12:42,touch,5726189,"Will ""Dune: Part Three"" be nominated for Best Film Editing at the 99th Academy Awards?",NO,0.54,5.02,2026-10-19 08:43
+2026-10-19 12:42,touch,5726189,"Will ""Dune: Part Three"" be nominated for Best Film Editing at the 99th Academy Awards?",NO,0.54,5.01,2026-10-19 09:07
+2026-10-19 12:42,touch,5726189,"Will ""Dune: Part Three"" be nominated for Best Film Editing at the 99th Academy Awards?",NO,0.54,5.03,2026-10-19 09:11
+2026-10-19 12:42,touch,5726189,"Will ""Dune: Part Three"" be nominated for Best Film Editing at the 99th Academy Awards?",NO,0.54,5.02,2026-10-19 09:13
+2026-10-19 12:42,touch,5726189,"Will ""Dune: Part Three"" be nominated for Best Film Editing at the 99th Academy Awards?",NO,0.54,88.62,2026-10-19 10:21
+2026-10-19 12:42,strict,4845463,Will Morgan Wallen perform at the 2027 Big Game halftime show?,YES,0.16,108.7,2026-10-19 08:41
+2026-10-19 12:42,strict,4845463,Will Morgan Wallen perform at the 2027 Big Game halftime show?,NO,0.76,1.37,2026-10-19 08:59
+2026-10-19 12:42,strict,4845463,Will Morgan Wallen perform at the 2027 Big Game halftime show?,NO,0.76,5.0,2026-10-19 09:14
+2026-10-19 12:42,touch,4845463,Will Morgan Wallen perform at the 2027 Big Game halftime show?,YES,0.16,108.7,2026-10-19 08:41
+2026-10-19 12:42,touch,4845463,Will Morgan Wallen perform at the 2027 Big Game halftime show?,NO,0.76,1.37,2026-10-19 08:59
+2026-10-19 12:42,touch,4845463,Will Morgan Wallen perform at the 2027 Big Game halftime show?,NO,0.76,5.0,2026-10-19 09:14
