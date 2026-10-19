@@ -188,3 +188,30 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-19 12:42,touch,4845463,Will Morgan Wallen perform at the 2027 Big Game halftime show?,YES,0.16,108.7,2026-10-19 08:41
 2026-10-19 12:42,touch,4845463,Will Morgan Wallen perform at the 2027 Big Game halftime show?,NO,0.76,1.37,2026-10-19 08:59
 2026-10-19 12:42,touch,4845463,Will Morgan Wallen perform at the 2027 Big Game halftime show?,NO,0.76,5.0,2026-10-19 09:14
+2026-10-19 14:38,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,11.73,2026-10-19 11:37
+2026-10-19 14:38,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,20.0,2026-10-19 11:40
+2026-10-19 14:38,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,5.79,2026-10-19 11:40
+2026-10-19 14:38,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,12.16,2026-10-19 11:45
+2026-10-19 14:38,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,1.48,2026-10-19 11:45
+2026-10-19 14:38,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,6.15,2026-10-19 12:22
+2026-10-19 14:38,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,47.95,2026-10-19 12:42
+2026-10-19 14:38,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,10.19,2026-10-19 11:34
+2026-10-19 14:38,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,11.73,2026-10-19 11:37
+2026-10-19 14:38,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,20.0,2026-10-19 11:40
+2026-10-19 14:38,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,5.79,2026-10-19 11:40
+2026-10-19 14:38,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,12.16,2026-10-19 11:45
+2026-10-19 14:38,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,1.48,2026-10-19 11:45
+2026-10-19 14:38,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,6.15,2026-10-19 12:22
+2026-10-19 14:38,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.75,37.76,2026-10-19 12:42
+2026-10-19 14:38,strict,5880782,"France declares state of emergency by December 31, 2026?",NO,0.82,5.23,2026-10-19 12:18
+2026-10-19 14:38,touch,5880782,"France declares state of emergency by December 31, 2026?",NO,0.82,105.26,2026-10-19 11:45
+2026-10-19 14:38,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.68,107.53,2026-10-19 11:53
+2026-10-19 14:38,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.68,107.53,2026-10-19 11:53
+2026-10-19 14:38,strict,5880184,"Curfew in a major French city by December 31, 2026?",NO,0.72,50.0,2026-10-19 10:46
+2026-10-19 14:38,strict,5880184,"Curfew in a major French city by December 31, 2026?",NO,0.72,0.29,2026-10-19 10:47
+2026-10-19 14:38,strict,5880184,"Curfew in a major French city by December 31, 2026?",NO,0.72,54.97,2026-10-19 10:47
+2026-10-19 14:38,touch,5880184,"Curfew in a major French city by December 31, 2026?",NO,0.72,50.0,2026-10-19 10:46
+2026-10-19 14:38,touch,5880184,"Curfew in a major French city by December 31, 2026?",NO,0.72,55.26,2026-10-19 10:46
+2026-10-19 14:38,strict,5837094,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",YES,0.34,55.17,2026-10-19 11:17
+2026-10-19 14:38,touch,5837094,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",YES,0.34,55.17,2026-10-19 11:17
+2026-10-19 14:38,touch,5837094,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",YES,0.34,5.0,2026-10-19 11:17
