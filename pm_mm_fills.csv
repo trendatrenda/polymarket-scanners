@@ -88,3 +88,27 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-19 00:41,touch,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.5,0.14,2026-10-18 20:53
 2026-10-19 00:41,touch,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.5,8.0,2026-10-18 21:06
 2026-10-19 00:41,touch,5732709,"Will ""Grand Theft Auto VI Launch Trailer"" get between 40 and 60 million views on week 1?",YES,0.5,98.24,2026-10-18 21:07
+2026-10-19 02:32,strict,5219320,"Will the next Fable model (5.2+) be released on October 20, 2026?",NO,0.68,14.79,2026-10-19 00:22
+2026-10-19 02:32,strict,5219320,"Will the next Fable model (5.2+) be released on October 20, 2026?",NO,0.68,90.47,2026-10-19 00:41
+2026-10-19 02:32,touch,5219320,"Will the next Fable model (5.2+) be released on October 20, 2026?",NO,0.68,14.79,2026-10-19 00:22
+2026-10-19 02:32,touch,5219320,"Will the next Fable model (5.2+) be released on October 20, 2026?",NO,0.68,90.47,2026-10-19 00:41
+2026-10-19 02:32,strict,5687136,"Next Fable Model (5.2+) released by October 21, 2026?",NO,0.54,108.7,2026-10-18 23:11
+2026-10-19 02:32,touch,5687136,"Next Fable Model (5.2+) released by October 21, 2026?",NO,0.54,108.7,2026-10-18 23:11
+2026-10-19 02:32,strict,3721704,Will Anthropic's IPO valuation be between $1.50T and $1.75T?,YES,0.39,106.38,2026-10-19 00:41
+2026-10-19 02:32,touch,3721704,Will Anthropic's IPO valuation be between $1.50T and $1.75T?,YES,0.39,106.38,2026-10-19 00:41
+2026-10-19 02:32,strict,5880184,"Curfew in a major French city by December 31, 2026?",YES,0.25,50.0,2026-10-18 23:42
+2026-10-19 02:32,strict,5880184,"Curfew in a major French city by December 31, 2026?",YES,0.25,47.62,2026-10-18 23:47
+2026-10-19 02:32,strict,5880184,"Curfew in a major French city by December 31, 2026?",YES,0.25,4.76,2026-10-18 23:47
+2026-10-19 02:32,strict,5880184,"Curfew in a major French city by December 31, 2026?",YES,0.25,2.88,2026-10-19 00:41
+2026-10-19 02:32,touch,5880184,"Curfew in a major French city by December 31, 2026?",YES,0.25,105.26,2026-10-18 22:37
+2026-10-19 02:32,strict,4882040,"Next Astra Model (6.1+) released by October 23, 2026?",YES,0.22,107.53,2026-10-18 22:46
+2026-10-19 02:32,strict,4882040,"Next Astra Model (6.1+) released by October 23, 2026?",NO,0.71,107.53,2026-10-18 23:10
+2026-10-19 02:32,touch,4882040,"Next Astra Model (6.1+) released by October 23, 2026?",YES,0.22,107.53,2026-10-18 22:46
+2026-10-19 02:32,touch,4882040,"Next Astra Model (6.1+) released by October 23, 2026?",NO,0.71,107.53,2026-10-18 23:10
+2026-10-19 02:32,strict,5219322,"Will the next Fable model (5.2+) be released on October 22, 2026?",YES,0.21,0.6,2026-10-18 23:20
+2026-10-19 02:32,strict,5219322,"Will the next Fable model (5.2+) be released on October 22, 2026?",YES,0.21,8.5,2026-10-18 23:20
+2026-10-19 02:32,strict,5219322,"Will the next Fable model (5.2+) be released on October 22, 2026?",YES,0.21,96.16,2026-10-19 00:41
+2026-10-19 02:32,touch,5219322,"Will the next Fable model (5.2+) be released on October 22, 2026?",YES,0.21,0.6,2026-10-18 23:20
+2026-10-19 02:32,touch,5219322,"Will the next Fable model (5.2+) be released on October 22, 2026?",YES,0.21,8.5,2026-10-18 23:20
+2026-10-19 02:32,touch,5219322,"Will the next Fable model (5.2+) be released on October 22, 2026?",YES,0.21,7.0,2026-10-18 23:28
+2026-10-19 02:32,touch,5219322,"Will the next Fable model (5.2+) be released on October 22, 2026?",YES,0.21,89.16,2026-10-19 00:41
