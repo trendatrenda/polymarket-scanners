@@ -375,3 +375,16 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-20 04:32,touch,5939179,Will Gadi Eizenkot receive the first mandate to form a government after the 2026 Israeli e,YES,0.62,10.0,2026-10-20 01:22
 2026-10-20 04:32,touch,5939179,Will Gadi Eizenkot receive the first mandate to form a government after the 2026 Israeli e,YES,0.62,0.06,2026-10-20 01:22
 2026-10-20 04:32,touch,5939179,Will Gadi Eizenkot receive the first mandate to form a government after the 2026 Israeli e,YES,0.62,10.0,2026-10-20 01:22
+2026-10-20 06:38,strict,5139753,"Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",YES,0.67,107.53,2026-10-20 03:41
+2026-10-20 06:38,touch,5139753,"Will the next Fable model (5.2+) debut at a score of at least 1510 by June 30, 2027?",YES,0.67,107.53,2026-10-20 03:41
+2026-10-20 06:38,strict,4970921,Will Manchester City be relegated from the Premier League in 2026-27?,NO,0.51,30.0,2026-10-20 03:42
+2026-10-20 06:38,strict,4970921,Will Manchester City be relegated from the Premier League in 2026-27?,NO,0.51,78.7,2026-10-20 03:56
+2026-10-20 06:38,touch,4970921,Will Manchester City be relegated from the Premier League in 2026-27?,NO,0.51,30.0,2026-10-20 03:42
+2026-10-20 06:38,touch,4970921,Will Manchester City be relegated from the Premier League in 2026-27?,NO,0.51,78.7,2026-10-20 03:56
+2026-10-20 06:38,strict,2363001,"Will Papertrade launch a token by December 31, 2026?",YES,0.17,105.26,2026-10-20 03:32
+2026-10-20 06:38,strict,2363001,"Will Papertrade launch a token by December 31, 2026?",NO,0.78,52.49,2026-10-20 03:54
+2026-10-20 06:38,touch,2363001,"Will Papertrade launch a token by December 31, 2026?",YES,0.17,105.26,2026-10-20 03:32
+2026-10-20 06:38,touch,2363001,"Will Papertrade launch a token by December 31, 2026?",NO,0.78,52.49,2026-10-20 03:54
+2026-10-20 06:38,strict,5726170,"Will ""I Love Boosters"" be nominated for Best Costume Design at the 99th Academy Awards?",YES,0.29,94.42,2026-10-20 02:41
+2026-10-20 06:38,strict,5726170,"Will ""I Love Boosters"" be nominated for Best Costume Design at the 99th Academy Awards?",YES,0.29,13.11,2026-10-20 03:48
+2026-10-20 06:38,touch,5726170,"Will ""I Love Boosters"" be nominated for Best Costume Design at the 99th Academy Awards?",YES,0.29,107.53,2026-10-20 02:41
