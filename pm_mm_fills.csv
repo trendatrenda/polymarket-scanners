@@ -329,3 +329,10 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-19 22:31,strict,4844538,Republican Senate odds dip to 30% by October 31?,YES,0.22,108.7,2026-10-19 19:21
 2026-10-19 22:31,touch,4844538,Republican Senate odds dip to 30% by October 31?,YES,0.22,108.7,2026-10-19 19:21
 2026-10-19 22:31,touch,5375148,Iran-Oman Hormuz Agreement by December 31?,NO,0.61,50.0,2026-10-19 19:56
+2026-10-20 00:42,strict,5167103,"Will the next Claude Haiku model (4.6+) debut at a score of at least 1440 by June 30, 2027",NO,0.3,107.53,2026-10-19 22:30
+2026-10-20 00:42,touch,5167103,"Will the next Claude Haiku model (4.6+) debut at a score of at least 1440 by June 30, 2027",NO,0.3,107.53,2026-10-19 22:30
+2026-10-20 00:42,strict,5375148,Iran-Oman Hormuz Agreement by December 31?,YES,0.35,105.26,2026-10-19 20:40
+2026-10-20 00:42,touch,5375148,Iran-Oman Hormuz Agreement by December 31?,YES,0.35,105.26,2026-10-19 20:40
+2026-10-20 00:42,touch,4970921,Will Manchester City be relegated from the Premier League in 2026-27?,NO,0.52,31.25,2026-10-19 21:14
+2026-10-20 00:42,strict,2750319,Will no listed leader be out before 2027?,NO,0.55,107.53,2026-10-19 20:48
+2026-10-20 00:42,touch,2750319,Will no listed leader be out before 2027?,NO,0.55,107.53,2026-10-19 20:48
