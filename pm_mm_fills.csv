@@ -403,3 +403,29 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-20 08:36,touch,5788792,"Will Tesla, Inc. (TSLA) hit (HIGH) $375 Week of October 19 2026?",YES,0.69,20.0,2026-10-20 05:23
 2026-10-20 08:36,strict,5726170,"Will ""I Love Boosters"" be nominated for Best Costume Design at the 99th Academy Awards?",YES,0.26,107.53,2026-10-20 06:09
 2026-10-20 08:36,touch,5726170,"Will ""I Love Boosters"" be nominated for Best Costume Design at the 99th Academy Awards?",YES,0.26,107.53,2026-10-20 06:09
+2026-10-20 10:32,strict,5837094,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",YES,0.83,105.26,2026-10-20 08:35
+2026-10-20 10:32,touch,5837094,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",YES,0.83,105.26,2026-10-20 08:35
+2026-10-20 10:32,strict,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,YES,0.66,2.86,2026-10-20 06:43
+2026-10-20 10:32,strict,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,YES,0.66,5.0,2026-10-20 07:00
+2026-10-20 10:32,strict,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,YES,0.66,13.59,2026-10-20 07:59
+2026-10-20 10:32,strict,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,YES,0.66,34.84,2026-10-20 07:59
+2026-10-20 10:32,strict,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,YES,0.66,48.97,2026-10-20 08:02
+2026-10-20 10:32,touch,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,YES,0.66,2.86,2026-10-20 06:43
+2026-10-20 10:32,touch,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,YES,0.66,5.0,2026-10-20 07:00
+2026-10-20 10:32,touch,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,YES,0.66,13.59,2026-10-20 07:59
+2026-10-20 10:32,touch,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,YES,0.66,34.84,2026-10-20 07:59
+2026-10-20 10:32,touch,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,YES,0.66,48.97,2026-10-20 08:02
+2026-10-20 10:32,strict,5788792,"Will Tesla, Inc. (TSLA) hit (HIGH) $375 Week of October 19 2026?",NO,0.29,106.38,2026-10-20 08:35
+2026-10-20 10:32,touch,5788792,"Will Tesla, Inc. (TSLA) hit (HIGH) $375 Week of October 19 2026?",NO,0.29,106.38,2026-10-20 08:35
+2026-10-20 10:32,strict,5788791,"Will Tesla, Inc. (TSLA) hit (HIGH) $382.50 Week of October 19 2026?",NO,0.5,20.0,2026-10-20 07:46
+2026-10-20 10:32,strict,5788791,"Will Tesla, Inc. (TSLA) hit (HIGH) $382.50 Week of October 19 2026?",NO,0.5,20.0,2026-10-20 08:03
+2026-10-20 10:32,strict,5788791,"Will Tesla, Inc. (TSLA) hit (HIGH) $382.50 Week of October 19 2026?",NO,0.5,66.38,2026-10-20 08:35
+2026-10-20 10:32,touch,5788791,"Will Tesla, Inc. (TSLA) hit (HIGH) $382.50 Week of October 19 2026?",NO,0.5,20.0,2026-10-20 07:46
+2026-10-20 10:32,touch,5788791,"Will Tesla, Inc. (TSLA) hit (HIGH) $382.50 Week of October 19 2026?",NO,0.5,75.0,2026-10-20 07:46
+2026-10-20 10:32,touch,5788791,"Will Tesla, Inc. (TSLA) hit (HIGH) $382.50 Week of October 19 2026?",NO,0.5,11.38,2026-10-20 08:03
+2026-10-20 10:32,strict,5939179,Will Gadi Eizenkot receive the first mandate to form a government after the 2026 Israeli e,NO,0.37,107.53,2026-10-20 07:43
+2026-10-20 10:32,touch,5939179,Will Gadi Eizenkot receive the first mandate to form a government after the 2026 Israeli e,NO,0.37,107.53,2026-10-20 07:43
+2026-10-20 10:32,strict,5887861,Will MrBeast's next video get less than 150 million views on week 1?,NO,0.19,25.95,2026-10-20 06:38
+2026-10-20 10:32,strict,5887861,Will MrBeast's next video get less than 150 million views on week 1?,NO,0.19,79.31,2026-10-20 07:13
+2026-10-20 10:32,touch,5887861,Will MrBeast's next video get less than 150 million views on week 1?,NO,0.19,25.95,2026-10-20 06:38
+2026-10-20 10:32,touch,5887861,Will MrBeast's next video get less than 150 million views on week 1?,NO,0.19,79.31,2026-10-20 07:13
