@@ -494,3 +494,19 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-20 14:34,touch,5775533,Will there be 0 earthquakes of 6.5 or above magnitude worldwide?,YES,0.45,28.52,2026-10-20 10:54
 2026-10-20 14:34,strict,5730354,Will DICK'S Sporting Goods Q3 Dick's business comparable sales growth be between 3% and 4%,NO,0.5,108.7,2026-10-20 12:39
 2026-10-20 14:34,touch,5730354,Will DICK'S Sporting Goods Q3 Dick's business comparable sales growth be between 3% and 4%,NO,0.5,108.7,2026-10-20 12:39
+2026-10-20 16:34,strict,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,NO,0.33,73.54,2026-10-20 13:33
+2026-10-20 16:34,strict,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,NO,0.33,31.72,2026-10-20 14:17
+2026-10-20 16:34,touch,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,NO,0.33,73.54,2026-10-20 13:33
+2026-10-20 16:34,touch,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,NO,0.33,31.72,2026-10-20 14:17
+2026-10-20 16:34,strict,5788788,"Will Tesla, Inc. (TSLA) hit (HIGH) $397.50 Week of October 19 2026?",NO,0.71,106.38,2026-10-20 14:34
+2026-10-20 16:34,touch,5788788,"Will Tesla, Inc. (TSLA) hit (HIGH) $397.50 Week of October 19 2026?",NO,0.71,106.38,2026-10-20 14:34
+2026-10-20 16:34,touch,5887862,Will MrBeast's next video get between 150 and 160 million views on week 1?,NO,0.87,20.9,2026-10-20 13:39
+2026-10-20 16:34,touch,5887861,Will MrBeast's next video get less than 150 million views on week 1?,YES,0.87,105.26,2026-10-20 13:24
+2026-10-20 16:34,strict,5788796,"Will Tesla, Inc. (TSLA) hit (LOW) $345 Week of October 19 2026?",NO,0.6,27.5,2026-10-20 13:41
+2026-10-20 16:34,strict,5788796,"Will Tesla, Inc. (TSLA) hit (LOW) $345 Week of October 19 2026?",YES,0.33,107.53,2026-10-20 14:34
+2026-10-20 16:34,touch,5788796,"Will Tesla, Inc. (TSLA) hit (LOW) $345 Week of October 19 2026?",NO,0.6,27.5,2026-10-20 13:41
+2026-10-20 16:34,touch,5788796,"Will Tesla, Inc. (TSLA) hit (LOW) $345 Week of October 19 2026?",YES,0.33,107.53,2026-10-20 14:34
+2026-10-20 16:34,strict,5777942,Will Lionel Messi attend the 2026 Ballon d'Or ceremony?,YES,0.44,107.53,2026-10-20 13:10
+2026-10-20 16:34,strict,5777942,Will Lionel Messi attend the 2026 Ballon d'Or ceremony?,NO,0.49,107.53,2026-10-20 13:10
+2026-10-20 16:34,touch,5777942,Will Lionel Messi attend the 2026 Ballon d'Or ceremony?,YES,0.44,107.53,2026-10-20 13:10
+2026-10-20 16:34,touch,5777942,Will Lionel Messi attend the 2026 Ballon d'Or ceremony?,NO,0.49,107.53,2026-10-20 13:10
