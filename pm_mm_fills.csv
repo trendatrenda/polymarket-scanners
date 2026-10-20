@@ -532,3 +532,20 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-20 18:36,strict,5074920,US-Iran Hormuz Agreement by October 31?,YES,0.13,107.53,2026-10-20 15:20
 2026-10-20 18:36,touch,5074920,US-Iran Hormuz Agreement by October 31?,YES,0.13,107.53,2026-10-20 15:20
 2026-10-20 18:36,touch,3580995,Will Su Chiao-hui win the next New Taipei Mayor election?,NO,0.42,2.5,2026-10-20 16:28
+2026-10-20 20:33,strict,5167103,"Will the next Claude Haiku model (4.6+) debut at a score of at least 1440 by June 30, 2027",YES,0.68,107.53,2026-10-20 18:36
+2026-10-20 20:33,touch,5167103,"Will the next Claude Haiku model (4.6+) debut at a score of at least 1440 by June 30, 2027",YES,0.68,0.16,2026-10-20 18:22
+2026-10-20 20:33,touch,5167103,"Will the next Claude Haiku model (4.6+) debut at a score of at least 1440 by June 30, 2027",YES,0.68,107.37,2026-10-20 18:36
+2026-10-20 20:33,strict,5780988,Will Zinedine Zidane attend the 2026 Ballon d'Or ceremony?,NO,0.52,50.0,2026-10-20 18:33
+2026-10-20 20:33,strict,5780988,Will Zinedine Zidane attend the 2026 Ballon d'Or ceremony?,NO,0.52,58.7,2026-10-20 18:36
+2026-10-20 20:33,touch,5780988,Will Zinedine Zidane attend the 2026 Ballon d'Or ceremony?,NO,0.52,50.0,2026-10-20 17:33
+2026-10-20 20:33,touch,5780988,Will Zinedine Zidane attend the 2026 Ballon d'Or ceremony?,NO,0.52,11.0,2026-10-20 17:42
+2026-10-20 20:33,touch,5780988,Will Zinedine Zidane attend the 2026 Ballon d'Or ceremony?,NO,0.52,47.7,2026-10-20 18:33
+2026-10-20 20:33,strict,5775533,Will there be 0 earthquakes of 6.5 or above magnitude worldwide?,YES,0.46,5.0,2026-10-20 16:37
+2026-10-20 20:33,touch,5775533,Will there be 0 earthquakes of 6.5 or above magnitude worldwide?,YES,0.46,32.72,2026-10-20 16:36
+2026-10-20 20:33,touch,5775533,Will there be 0 earthquakes of 6.5 or above magnitude worldwide?,YES,0.46,5.0,2026-10-20 16:37
+2026-10-20 20:33,strict,5074920,US-Iran Hormuz Agreement by October 31?,YES,0.09,107.53,2026-10-20 18:33
+2026-10-20 20:33,touch,5074920,US-Iran Hormuz Agreement by October 31?,YES,0.09,107.53,2026-10-20 18:33
+2026-10-20 20:33,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.78,100.0,2026-10-20 18:09
+2026-10-20 20:33,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.78,5.26,2026-10-20 18:09
+2026-10-20 20:33,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.78,100.0,2026-10-20 18:09
+2026-10-20 20:33,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.78,5.26,2026-10-20 18:09
