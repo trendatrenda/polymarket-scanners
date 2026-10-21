@@ -647,3 +647,14 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-21 02:32,touch,5837111,"Will ""Housewife - Tate McRae"" be the Billboard Hot 100 #2 song for the week of October 31?",YES,0.83,5.0,2026-10-20 23:20
 2026-10-21 02:32,touch,5837111,"Will ""Housewife - Tate McRae"" be the Billboard Hot 100 #2 song for the week of October 31?",YES,0.83,15.0,2026-10-20 23:25
 2026-10-21 02:32,touch,5837111,"Will ""Housewife - Tate McRae"" be the Billboard Hot 100 #2 song for the week of October 31?",YES,0.83,65.26,2026-10-20 23:37
+2026-10-21 04:34,strict,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,NO,0.29,19.0,2026-10-21 01:41
+2026-10-21 04:34,strict,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,NO,0.29,86.26,2026-10-21 01:41
+2026-10-21 04:34,touch,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,NO,0.29,50.95,2026-10-21 01:41
+2026-10-21 04:34,touch,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,NO,0.29,19.0,2026-10-21 01:41
+2026-10-21 04:34,touch,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,NO,0.29,35.31,2026-10-21 01:41
+2026-10-21 04:34,strict,5837111,"Will ""Housewife - Tate McRae"" be the Billboard Hot 100 #2 song for the week of October 31?",YES,0.78,20.0,2026-10-21 02:05
+2026-10-21 04:34,touch,5837111,"Will ""Housewife - Tate McRae"" be the Billboard Hot 100 #2 song for the week of October 31?",YES,0.78,20.0,2026-10-21 02:05
+2026-10-21 04:34,touch,5837111,"Will ""Housewife - Tate McRae"" be the Billboard Hot 100 #2 song for the week of October 31?",YES,0.78,40.0,2026-10-21 02:05
+2026-10-21 04:34,touch,5837111,"Will ""Housewife - Tate McRae"" be the Billboard Hot 100 #2 song for the week of October 31?",NO,0.17,7.0,2026-10-21 02:05
+2026-10-21 04:34,touch,5950630,"Will ""Klara and the Sun"" score at least 25 on the Rotten Tomatoes Tomatometer?",YES,0.74,50.0,2026-10-21 01:07
+2026-10-21 04:34,touch,5950630,"Will ""Klara and the Sun"" score at least 25 on the Rotten Tomatoes Tomatometer?",YES,0.74,1.0,2026-10-21 01:12
