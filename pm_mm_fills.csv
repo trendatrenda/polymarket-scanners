@@ -689,3 +689,18 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-21 08:37,touch,701925,"Will UNI reach $11.00 by December 31, 2026?",NO,0.64,15.92,2026-10-21 06:07
 2026-10-21 08:37,strict,5999258,Houthi x Saudi Arabia effective ceasefire by December 31?,YES,0.39,14.6,2026-10-21 06:07
 2026-10-21 08:37,touch,5999258,Houthi x Saudi Arabia effective ceasefire by December 31?,YES,0.39,14.6,2026-10-21 06:07
+2026-10-21 10:35,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.82,0.43,2026-10-21 07:59
+2026-10-21 10:35,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.82,0.14,2026-10-21 07:59
+2026-10-21 10:35,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.82,0.43,2026-10-21 07:59
+2026-10-21 10:35,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.82,55.05,2026-10-21 07:59
+2026-10-21 10:35,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.82,19.0,2026-10-21 07:59
+2026-10-21 10:35,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.82,0.14,2026-10-21 07:59
+2026-10-21 10:35,touch,5837111,"Will ""Housewife - Tate McRae"" be the Billboard Hot 100 #2 song for the week of October 31?",NO,0.21,29.97,2026-10-21 08:03
+2026-10-21 10:35,strict,2371823,Will Drake perform at the 2027 Big Game halftime show?,YES,0.12,25.0,2026-10-21 07:42
+2026-10-21 10:35,strict,2371823,Will Drake perform at the 2027 Big Game halftime show?,YES,0.12,60.0,2026-10-21 07:42
+2026-10-21 10:35,touch,2371823,Will Drake perform at the 2027 Big Game halftime show?,YES,0.12,25.0,2026-10-21 07:42
+2026-10-21 10:35,touch,2371823,Will Drake perform at the 2027 Big Game halftime show?,YES,0.12,60.0,2026-10-21 07:42
+2026-10-21 10:35,strict,4890265,Will Iliana Iotova win the 2026 Bulgarian presidential first round by 10%-20%?,NO,0.7,100.54,2026-10-21 07:15
+2026-10-21 10:35,strict,4890265,Will Iliana Iotova win the 2026 Bulgarian presidential first round by 10%-20%?,NO,0.7,0.54,2026-10-21 07:15
+2026-10-21 10:35,strict,4890265,Will Iliana Iotova win the 2026 Bulgarian presidential first round by 10%-20%?,NO,0.7,6.45,2026-10-21 07:15
+2026-10-21 10:35,touch,4890265,Will Iliana Iotova win the 2026 Bulgarian presidential first round by 10%-20%?,NO,0.7,107.53,2026-10-21 07:15
