@@ -32,6 +32,10 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then F="--force"; else F=""; fi
           timeout 6m python3 pm_paper_bot.py $F || echo "paper bot" >> /tmp/failed.txt
 
+      - name: "EuroLeague paper bot (#37) -- every run, looks at games tipping off in 1-3 h"
+        run: |
+          timeout 6m python3 pm_euro_paper.py || echo "euroleague paper bot" >> /tmp/failed.txt
+
       - name: "Save results into the repository"
         id: save
         run: |
@@ -56,6 +60,7 @@ jobs:
             pm_*.csv
             pm_*.json
             pm_*.txt
+            euro_*.csv
           retention-days: 14
 
       - name: "Turn the run RED if anything crashed or was unhealthy"
