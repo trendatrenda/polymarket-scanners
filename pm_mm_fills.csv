@@ -853,3 +853,44 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-21 20:32,touch,5998508,"Will ""Ali G: Who Iz I?"" Opening Weekend Box Office be less than $2M?",NO,0.1,20.0,2026-10-21 16:52
 2026-10-21 20:32,touch,5998508,"Will ""Ali G: Who Iz I?"" Opening Weekend Box Office be less than $2M?",NO,0.1,20.0,2026-10-21 16:52
 2026-10-21 20:32,touch,5998508,"Will ""Ali G: Who Iz I?"" Opening Weekend Box Office be less than $2M?",NO,0.1,45.26,2026-10-21 16:52
+2026-10-21 22:32,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.78,54.0,2026-10-21 19:01
+2026-10-21 22:32,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.78,9.01,2026-10-21 19:07
+2026-10-21 22:32,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.78,10.0,2026-10-21 19:10
+2026-10-21 22:32,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.78,35.69,2026-10-21 19:19
+2026-10-21 22:32,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.78,5.0,2026-10-21 18:57
+2026-10-21 22:32,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.78,32.0,2026-10-21 19:00
+2026-10-21 22:32,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.78,54.0,2026-10-21 19:01
+2026-10-21 22:32,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.78,8.66,2026-10-21 19:05
+2026-10-21 22:32,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.78,9.01,2026-10-21 19:07
+2026-10-21 22:32,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",NO,0.78,0.03,2026-10-21 19:10
+2026-10-21 22:32,touch,5780988,Will Zinedine Zidane attend the 2026 Ballon d'Or ceremony?,YES,0.61,50.0,2026-10-21 20:31
+2026-10-21 22:32,strict,4662016,"Will none of the listed platforms list tokenized stocks in the US by December 31, 2027?",NO,0.71,2.0,2026-10-21 19:12
+2026-10-21 22:32,touch,4662016,"Will none of the listed platforms list tokenized stocks in the US by December 31, 2027?",NO,0.71,2.0,2026-10-21 19:12
+2026-10-21 22:32,strict,676739,Will NVIDIA be the largest company in the world by market cap on December 31?,NO,0.26,10.0,2026-10-21 19:06
+2026-10-21 22:32,strict,676739,Will NVIDIA be the largest company in the world by market cap on December 31?,NO,0.26,95.26,2026-10-21 20:09
+2026-10-21 22:32,touch,676739,Will NVIDIA be the largest company in the world by market cap on December 31?,NO,0.26,10.0,2026-10-21 19:06
+2026-10-21 22:32,touch,676739,Will NVIDIA be the largest company in the world by market cap on December 31?,NO,0.26,95.26,2026-10-21 20:09
+2026-10-21 22:32,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.74,60.0,2026-10-21 18:43
+2026-10-21 22:32,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.74,6.0,2026-10-21 18:45
+2026-10-21 22:32,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.74,10.0,2026-10-21 18:45
+2026-10-21 22:32,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.74,10.0,2026-10-21 18:45
+2026-10-21 22:32,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.74,1.1,2026-10-21 18:45
+2026-10-21 22:32,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.74,5.0,2026-10-21 18:45
+2026-10-21 22:32,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.74,4.04,2026-10-21 18:45
+2026-10-21 22:32,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.74,5.0,2026-10-21 18:45
+2026-10-21 22:32,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.74,4.13,2026-10-21 18:45
+2026-10-21 22:32,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,NO,0.21,50.0,2026-10-21 19:38
+2026-10-21 22:32,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,NO,0.21,55.26,2026-10-21 19:38
+2026-10-21 22:32,touch,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.74,12.8,2026-10-21 18:43
+2026-10-21 22:32,touch,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.74,10.0,2026-10-21 18:43
+2026-10-21 22:32,touch,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.74,5.0,2026-10-21 18:43
+2026-10-21 22:32,touch,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.74,60.0,2026-10-21 18:43
+2026-10-21 22:32,touch,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.74,17.46,2026-10-21 18:43
+2026-10-21 22:32,touch,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,NO,0.21,50.0,2026-10-21 19:38
+2026-10-21 22:32,touch,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,NO,0.21,55.26,2026-10-21 19:38
+2026-10-21 22:32,strict,5916296,Will Google have the third highest OpenRouter market share the week of October 19?,YES,0.49,23.0,2026-10-21 18:43
+2026-10-21 22:32,strict,5916296,Will Google have the third highest OpenRouter market share the week of October 19?,YES,0.49,20.0,2026-10-21 18:43
+2026-10-21 22:32,strict,5916296,Will Google have the third highest OpenRouter market share the week of October 19?,YES,0.49,65.7,2026-10-21 18:48
+2026-10-21 22:32,touch,5916296,Will Google have the third highest OpenRouter market share the week of October 19?,YES,0.49,23.0,2026-10-21 18:43
+2026-10-21 22:32,touch,5916296,Will Google have the third highest OpenRouter market share the week of October 19?,YES,0.49,20.0,2026-10-21 18:43
+2026-10-21 22:32,touch,5916296,Will Google have the third highest OpenRouter market share the week of October 19?,YES,0.49,65.7,2026-10-21 18:48
