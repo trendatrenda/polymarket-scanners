@@ -682,3 +682,10 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-21 06:40,touch,5790793,Will the Democrats win Sedgwick County in the Kansas Senate race in 2026?,YES,0.58,20.0,2026-10-21 04:27
 2026-10-21 06:40,touch,5790793,Will the Democrats win Sedgwick County in the Kansas Senate race in 2026?,YES,0.58,20.0,2026-10-21 04:27
 2026-10-21 06:40,touch,5790793,Will the Democrats win Sedgwick County in the Kansas Senate race in 2026?,YES,0.58,56.66,2026-10-21 04:27
+2026-10-21 08:37,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.22,37.63,2026-10-21 05:19
+2026-10-21 08:37,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.22,71.06,2026-10-21 05:19
+2026-10-21 08:37,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.22,37.63,2026-10-21 05:19
+2026-10-21 08:37,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.22,71.06,2026-10-21 05:19
+2026-10-21 08:37,touch,701925,"Will UNI reach $11.00 by December 31, 2026?",NO,0.64,15.92,2026-10-21 06:07
+2026-10-21 08:37,strict,5999258,Houthi x Saudi Arabia effective ceasefire by December 31?,YES,0.39,14.6,2026-10-21 06:07
+2026-10-21 08:37,touch,5999258,Houthi x Saudi Arabia effective ceasefire by December 31?,YES,0.39,14.6,2026-10-21 06:07
