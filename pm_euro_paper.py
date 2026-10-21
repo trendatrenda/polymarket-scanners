@@ -32,7 +32,7 @@ import csv
 import json
 import math
 import time
-from concurrent.futures import ThreadPoolExecutor
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -50,8 +50,10 @@ BOOK = "https://clob.polymarket.com/book"
 SERIES = "10371"
 HL, LAMBDA, MIN_GAMES, MIN_CAL, EDGE, STAKE = 45.0, 10.0, 10, 80, 0.05, 20.0
 BLOCK = 6 * 3600
-MAX_BOX_PER_RUN = 250
-G_FIELDS = ["season", "gid", "code", "ko", "phase", "home", "away", "home_pts", "away_pts", "poss", "played"]
+BOX_SECONDS = 75          # time budget per run for box-score downloads (the rest waits)
+BOX_TRIES = 3             # after 3 failed runs a game's box score is given up (pace = average)
+G_FIELDS = ["season", "gid", "code", "ko", "phase", "home", "away", "home_pts", "away_pts", "poss", "played", "tries"]
+CACHE_DIR = HERE / "hoops_cache"         # on your Mac only: reused by --bootstrap
 B_FIELDS = ["placed", "ko", "game", "cid", "team", "token", "q", "avg_ask", "fee", "cost", "shares",
             "status", "settled", "payout", "pnl"]
 L_FIELDS = ["time", "ko", "game", "cid", "team_a", "q_a", "ask_a", "ask_b", "mid_a", "decision", "a_won"]
@@ -78,13 +80,40 @@ def write(path, fields, rows):
 
 
 # ---------------------------------------------------------------------------- 1. games + box scores
-def update_games():
+def quick(url, timeout=15):
+    """One quick try (the EuroLeague site limits speed; a slow answer waits for next run)."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (research)",
+                                                   "Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read().decode("utf-8", errors="replace")
+    except Exception:
+        return None
+
+
+def box_poss(txt, r):
+    try:
+        tot = {}
+        for t in json.loads(txt)["Stats"]:
+            x = t["totr"]
+            tot[int(float(x["Points"]))] = poss(float(x["FieldGoalsAttempted2"]) + float(x["FieldGoalsAttempted3"]),
+                                                float(x["OffensiveRebounds"]), float(x["Turnovers"]),
+                                                float(x["FreeThrowsAttempted"]))
+        a, b = tot.get(int(float(r["home_pts"]))), tot.get(int(float(r["away_pts"])))
+        return round((a + b) / 2, 2) if a and b else "x"
+    except Exception:
+        return None
+
+
+def update_games(bootstrap=False):
     old = {r["gid"]: r for r in read(GAMES)}
     rows = dict(old)
     for s in SEASONS:
         if s != CURRENT and any(r["season"] == s for r in old.values()):
             continue                                       # finished season: already stored
-        txt = fetch(EURO_GAMES.format(s=s))
+        cf = CACHE_DIR / f"euro_games_{s}.json"
+        txt = cf.read_text() if bootstrap and cf.exists() and s != CURRENT else (
+            fetch(EURO_GAMES.format(s=s)) if bootstrap else quick(EURO_GAMES.format(s=s), timeout=40))
         try:
             data = json.loads(txt)["data"]
         except Exception:
@@ -100,30 +129,35 @@ def update_games():
                          "phase": (g.get("phaseType") or {}).get("code"), "home": nm(loc), "away": nm(road),
                          "home_pts": loc.get("score") if g.get("played") else "",
                          "away_pts": road.get("score") if g.get("played") else "",
-                         "played": int(bool(g.get("played"))), "poss": prev.get("poss", "")}
-    need = [r for r in rows.values() if str(r["played"]) == "1" and not r.get("poss")][:MAX_BOX_PER_RUN]
-
-    def box(r):
-        txt = fetch(EURO_BOX.format(g=r["code"], s=r["season"]), pause=0.3)
-        try:
-            tot = {}
-            for t in json.loads(txt)["Stats"]:
-                x = t["totr"]
-                tot[int(float(x["Points"]))] = poss(float(x["FieldGoalsAttempted2"]) + float(x["FieldGoalsAttempted3"]),
-                                                    float(x["OffensiveRebounds"]), float(x["Turnovers"]),
-                                                    float(x["FreeThrowsAttempted"]))
-            a, b = tot.get(int(float(r["home_pts"]))), tot.get(int(float(r["away_pts"])))
-            return r["gid"], round((a + b) / 2, 2) if a and b else "x"
-        except Exception:
-            return r["gid"], ""                            # try again next run
-    with ThreadPoolExecutor(max_workers=2) as pool:
-        for gid, p in pool.map(box, need):
-            rows[gid]["poss"] = p
+                         "played": int(bool(g.get("played"))), "poss": prev.get("poss", ""),
+                         "tries": prev.get("tries", 0)}
     out = sorted(rows.values(), key=lambda r: (int(r["ko"] or 0), r["gid"]))
+    write(GAMES, G_FIELDS, out)                            # save first: a slow box score can't lose this
+    need = [r for r in out if str(r["played"]) == "1" and not r.get("poss")]
+    stop = time.time() + (10 ** 9 if bootstrap else BOX_SECONDS)
+    done = 0
+    for r in need:
+        if time.time() > stop:
+            break
+        cf = CACHE_DIR / f"eurobox_{r['gid']}.json"
+        txt = cf.read_text() if bootstrap and cf.exists() else (
+            fetch(EURO_BOX.format(g=r["code"], s=r["season"]), pause=0.3) if bootstrap
+            else quick(EURO_BOX.format(g=r["code"], s=r["season"])))
+        p = box_poss(txt, r) if txt else None
+        if p is None:
+            r["tries"] = int(r.get("tries") or 0) + 1
+            if r["tries"] >= BOX_TRIES:
+                p = "x"                                    # give up: this game uses average pace
+        if p is not None:
+            r["poss"] = p
+        done += 1
+        if done % 25 == 0:
+            write(GAMES, G_FIELDS, out)
     write(GAMES, G_FIELDS, out)
     played = [r for r in out if str(r["played"]) == "1"]
     print(f"  EuroLeague games: {len(played)} played ({sum(1 for r in played if r['poss'] not in ('', 'x'))}"
-          f" with possessions), {len(out) - len(played)} still to play; box scores read this run: {len(need)}")
+          f" with possessions), {len(out) - len(played)} still to play; box scores tried this run: {done}"
+          f" ({max(0, len(need) - done)} left for next runs)")
     return out
 
 
@@ -455,8 +489,15 @@ def summary(bets=None, log=None):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--summary", action="store_true")
-    if ap.parse_args().summary:
+    ap.add_argument("--bootstrap", action="store_true",
+                    help="ON YOUR MAC, once: build euro_games.csv (no betting), then upload it")
+    a = ap.parse_args()
+    if a.summary:
         summary()
+        return
+    if a.bootstrap:
+        update_games(bootstrap=True)
+        print("  Done. Upload euro_games.csv to the GitHub repo (main folder).")
         return
     run()
 
