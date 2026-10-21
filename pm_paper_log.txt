@@ -56,3 +56,15 @@
 2026-10-21 14:36:07 trades 0xedf6d3d78f64b10f14491d8dd81efb8527f6f267e657b1e5df6c9da7a9cc6e1b: empty first page -- unsure
 2026-10-21 14:36:08 trades 0x346a4769e9d5ecbcf023bb3bf0105f065764ceca45137c0d0e68c82c58585ad4: empty first page -- unsure
 2026-10-21 14:36:13 unhealthy run: 12 bet check(s) unsure (they wait)
+2026-10-21 14:47:50 trades 0xeb3a913233cd5c874f5b178b1534de27158445a09aeea85125dc2c0713ec2f37: empty first page -- unsure
+2026-10-21 14:47:54 trades 0x9293ed61866f060a55838f63169d182a8372510112e7b97d1ed0ab557fa06b0e: empty first page -- unsure
+2026-10-21 14:47:55 trades 0x9de735460b9a4458180880be67432b0ac9ac1566053dab1a22f6d80cdbd3e6c6: empty first page -- unsure
+2026-10-21 14:47:56 trades 0xd800f2bf0adc5e47ae1bf0bbe3d0b57170f79bdadca7f21fe8869f8696d6e972: empty first page -- unsure
+2026-10-21 14:47:57 trades 0x27870e58d034a40003801d5a8ec84fea701d06a69f84ede271335d5cfcf399b4: empty first page -- unsure
+2026-10-21 14:47:59 trades 0x1fdc9972188a618b74cb0b5141fb8dcd9a96306c3442d8d79117421ec38ec1ce: empty first page -- unsure
+2026-10-21 14:48:00 trades 0xf559003d66b6175ec1cb565bb571b75b6b5ec0f45d0d36ba63e634e2d88eecf4: empty first page -- unsure
+2026-10-21 14:48:02 trades 0x76d3ba6f28c889a6c22cf5605bdd464159f21e53fbb9892e48bc7c6f5f87bb49: empty first page -- unsure
+2026-10-21 14:48:03 trades 0x4d4c8e68c4226bbb72705526ed42283673267aa09cab6a6d0ec88e7360631cad: empty first page -- unsure
+2026-10-21 14:48:04 trades 0x92d3d6ba165ac22c773d2aaeae5f0922da52b6cada0a32bfa22a7de5aa827431: empty first page -- unsure
+2026-10-21 14:48:05 trades 0xedf6d3d78f64b10f14491d8dd81efb8527f6f267e657b1e5df6c9da7a9cc6e1b: empty first page -- unsure
+2026-10-21 14:48:07 trades 0x346a4769e9d5ecbcf023bb3bf0105f065764ceca45137c0d0e68c82c58585ad4: empty first page -- unsure
