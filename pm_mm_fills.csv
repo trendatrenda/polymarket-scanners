@@ -755,3 +755,21 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-21 14:18,touch,5686338,"Will ""One in a Million"" be nominated for Best Documentary Feature Film at the 99th Academy",YES,0.33,100.0,2026-10-21 10:50
 2026-10-21 14:18,touch,5686338,"Will ""One in a Million"" be nominated for Best Documentary Feature Film at the 99th Academy",YES,0.33,5.0,2026-10-21 10:54
 2026-10-21 14:18,touch,5686338,"Will ""One in a Million"" be nominated for Best Documentary Feature Film at the 99th Academy",YES,0.33,3.7,2026-10-21 12:41
+2026-10-21 14:35,touch,5167103,"Will the next Claude Haiku model (4.6+) debut at a score of at least 1440 by June 30, 2027",YES,0.57,46.97,2026-10-21 13:08
+2026-10-21 14:35,touch,5837111,"Will ""Housewife - Tate McRae"" be the Billboard Hot 100 #2 song for the week of October 31?",NO,0.19,17.0,2026-10-21 13:48
+2026-10-21 14:35,strict,5951550,Paris curfew effectively lifted by October 31?,YES,0.63,107.53,2026-10-21 14:18
+2026-10-21 14:35,touch,5951550,Paris curfew effectively lifted by October 31?,YES,0.63,107.53,2026-10-21 14:18
+2026-10-21 14:35,strict,4178748,Will the 5-year Treasury yield hit 5.10% before 2027?,YES,0.66,2.9,2026-10-21 13:47
+2026-10-21 14:35,touch,4178748,Will the 5-year Treasury yield hit 5.10% before 2027?,YES,0.66,2.9,2026-10-21 13:47
+2026-10-21 14:35,strict,5951549,Paris curfew effectively lifted by October 24?,YES,0.16,51.16,2026-10-21 13:32
+2026-10-21 14:35,strict,5951549,Paris curfew effectively lifted by October 24?,YES,0.16,57.54,2026-10-21 13:32
+2026-10-21 14:35,touch,5951549,Paris curfew effectively lifted by October 24?,YES,0.16,95.18,2026-10-21 13:31
+2026-10-21 14:35,touch,5951549,Paris curfew effectively lifted by October 24?,YES,0.16,8.49,2026-10-21 13:32
+2026-10-21 14:35,touch,5951549,Paris curfew effectively lifted by October 24?,YES,0.16,5.02,2026-10-21 13:32
+2026-10-21 14:35,strict,5951556,Lyon curfew effectively lifted by October 24?,NO,0.84,50.0,2026-10-21 13:48
+2026-10-21 14:35,strict,5951556,Lyon curfew effectively lifted by October 24?,NO,0.84,57.53,2026-10-21 13:49
+2026-10-21 14:35,touch,5951556,Lyon curfew effectively lifted by October 24?,NO,0.84,50.0,2026-10-21 13:48
+2026-10-21 14:35,touch,5951556,Lyon curfew effectively lifted by October 24?,NO,0.84,52.0,2026-10-21 13:48
+2026-10-21 14:35,touch,5951556,Lyon curfew effectively lifted by October 24?,NO,0.84,5.53,2026-10-21 13:49
+2026-10-21 14:35,strict,5972006,Will the Republicans win Greenville County in the South Carolina Senate race in 2026?,YES,0.73,106.38,2026-10-21 13:39
+2026-10-21 14:35,touch,5972006,Will the Republicans win Greenville County in the South Carolina Senate race in 2026?,YES,0.73,106.38,2026-10-21 13:39
