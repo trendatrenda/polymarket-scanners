@@ -243,11 +243,11 @@ def market_info(mid):
     if not isinstance(m, dict):
         return "error", None, None
     toks = as_list(m.get("clobTokenIds"))
-    try:                                    # missing volume = NOT zero (an empty reply then
-        v = m.get("volumeNum", m.get("volume"))  # stays "unsure" instead of "no trades")
-        vol = 1.0 if v in (None, "") else float(v)
+    try:                                    # missing volume = UNKNOWN (None), not zero: an empty
+        v = m.get("volumeNum", m.get("volume"))  # reply then needs a second, independent
+        vol = None if v in (None, "") else float(v)   # check (see confirmed_no_trades)
     except (TypeError, ValueError):
-        vol = 1.0
+        vol = None
     cid = (m.get("conditionId"), tuple(str(t) for t in toks) if len(toks) == 2 else None, vol)
     if not m.get("closed"):
         return "open", None, cid
@@ -267,6 +267,18 @@ def market_info(mid):
     return "open", None, cid
 
 
+def confirmed_no_trades(cid):
+    """True only if TWO independent trade feeds both say, explicitly, that this market has
+    never traded (v1 feed: empty list; v2 feed, takers only: empty AND 'no more pages').
+    Any error or doubt -> False, and the bet stays 'unsure' as before."""
+    v1 = get_json("https://data-api.polymarket.com/trades", {"market": cid, "limit": 5})
+    v2 = get_json(ta.TRADES, {"condition": cid, "limit": 5, "taker_only": "true"})
+    ok1 = isinstance(v1, list) and len(v1) == 0
+    ok2 = (isinstance(v2, dict) and v2.get("data") == []
+           and (v2.get("pagination") or {}).get("has_more") is False)
+    return ok1 and ok2
+
+
 def check_maker(r, ids, seen, fresh):
     """Add new real fills to a maker order. True if checked, False if it couldn't be.
     Only up to where the WHOLE trade feed has caught up (`fresh`), so a feed running late
@@ -280,6 +292,8 @@ def check_maker(r, ids, seen, fresh):
     cid, tokens, vol = ids
     got = ta.trades_between(get_json, cid, start, upto, log=log, pause=PAUSE, tokens=tokens,
                             allow_empty=vol == 0, deadline=CLOCK[0] + BUDGET_S + 60)
+    if got is None and vol is None and confirmed_no_trades(cid):
+        got = ([], [])                         # nobody has EVER traded here: nothing filled
     if got is None:
         return False
     got, bad = got
