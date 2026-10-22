@@ -935,3 +935,34 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-22 00:42,touch,6017072,France accuses foreign country of provoking unrest by November 30?,YES,0.19,10.0,2026-10-21 21:40
 2026-10-22 00:42,touch,6017072,France accuses foreign country of provoking unrest by November 30?,YES,0.19,10.0,2026-10-21 21:41
 2026-10-22 00:42,touch,6017072,France accuses foreign country of provoking unrest by November 30?,YES,0.19,73.7,2026-10-21 21:41
+2026-10-22 02:33,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.15,50.58,2026-10-21 23:08
+2026-10-22 02:33,strict,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.15,56.95,2026-10-21 23:08
+2026-10-22 02:33,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.15,50.58,2026-10-21 23:08
+2026-10-22 02:33,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.15,56.95,2026-10-21 23:08
+2026-10-22 02:33,strict,2695737,Carles Puigdemont back in Spain in 2026?,NO,0.17,50.0,2026-10-21 23:10
+2026-10-22 02:33,strict,2695737,Carles Puigdemont back in Spain in 2026?,NO,0.17,58.7,2026-10-22 00:42
+2026-10-22 02:33,touch,2695737,Carles Puigdemont back in Spain in 2026?,NO,0.17,90.04,2026-10-21 23:01
+2026-10-22 02:33,touch,2695737,Carles Puigdemont back in Spain in 2026?,NO,0.17,18.66,2026-10-21 23:10
+2026-10-22 02:33,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.82,106.0,2026-10-21 22:32
+2026-10-22 02:33,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.82,0.38,2026-10-21 22:32
+2026-10-22 02:33,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,NO,0.12,10.0,2026-10-21 23:37
+2026-10-22 02:33,touch,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,YES,0.82,106.38,2026-10-21 22:32
+2026-10-22 02:33,touch,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,NO,0.12,13.38,2026-10-21 23:37
+2026-10-22 02:33,touch,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,NO,0.12,10.0,2026-10-21 23:37
+2026-10-22 02:33,touch,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,NO,0.12,10.0,2026-10-22 00:04
+2026-10-22 02:33,touch,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,NO,0.12,9.99,2026-10-22 00:04
+2026-10-22 02:33,strict,6017072,France accuses foreign country of provoking unrest by November 30?,YES,0.11,43.6,2026-10-21 23:23
+2026-10-22 02:33,strict,6017072,France accuses foreign country of provoking unrest by November 30?,YES,0.11,6.07,2026-10-22 00:27
+2026-10-22 02:33,strict,6017072,France accuses foreign country of provoking unrest by November 30?,YES,0.11,45.98,2026-10-22 00:28
+2026-10-22 02:33,strict,6017072,France accuses foreign country of provoking unrest by November 30?,YES,0.11,13.05,2026-10-22 00:28
+2026-10-22 02:33,touch,6017072,France accuses foreign country of provoking unrest by November 30?,YES,0.11,108.7,2026-10-21 22:40
+2026-10-22 02:33,strict,5972004,Will the Democrats win Greenville County in the South Carolina Senate race in 2026?,YES,0.12,106.38,2026-10-22 00:42
+2026-10-22 02:33,touch,5972004,Will the Democrats win Greenville County in the South Carolina Senate race in 2026?,YES,0.12,106.38,2026-10-22 00:42
+2026-10-22 02:33,strict,5916241,Will OpenAI have the second highest OpenRouter market share the week of October 19?,YES,0.43,3.0,2026-10-21 23:37
+2026-10-22 02:33,strict,5916241,Will OpenAI have the second highest OpenRouter market share the week of October 19?,YES,0.43,5.45,2026-10-21 23:41
+2026-10-22 02:33,strict,5916241,Will OpenAI have the second highest OpenRouter market share the week of October 19?,YES,0.43,20.0,2026-10-21 23:56
+2026-10-22 02:33,touch,5916241,Will OpenAI have the second highest OpenRouter market share the week of October 19?,YES,0.43,3.0,2026-10-21 23:37
+2026-10-22 02:33,touch,5916241,Will OpenAI have the second highest OpenRouter market share the week of October 19?,YES,0.43,5.45,2026-10-21 23:41
+2026-10-22 02:33,touch,5916241,Will OpenAI have the second highest OpenRouter market share the week of October 19?,YES,0.43,20.0,2026-10-21 23:56
+2026-10-22 02:33,touch,5916241,Will OpenAI have the second highest OpenRouter market share the week of October 19?,YES,0.43,20.0,2026-10-21 23:56
+2026-10-22 02:33,touch,5916241,Will OpenAI have the second highest OpenRouter market share the week of October 19?,YES,0.43,60.25,2026-10-21 23:58
