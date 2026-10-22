@@ -992,3 +992,28 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-22 04:34,touch,5951056,"Will ""Clayface"" Opening Weekend Box Office be less than 22m?",NO,0.37,20.0,2026-10-22 00:45
 2026-10-22 04:34,touch,5951056,"Will ""Clayface"" Opening Weekend Box Office be less than 22m?",NO,0.37,20.0,2026-10-22 00:45
 2026-10-22 04:34,touch,5951056,"Will ""Clayface"" Opening Weekend Box Office be less than 22m?",NO,0.37,3.26,2026-10-22 02:13
+2026-10-22 06:41,strict,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,YES,0.81,47.0,2026-10-22 04:31
+2026-10-22 06:41,touch,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,YES,0.81,47.0,2026-10-22 04:31
+2026-10-22 06:41,strict,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,NO,0.58,80.0,2026-10-22 03:01
+2026-10-22 06:41,strict,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,NO,0.58,27.53,2026-10-22 03:01
+2026-10-22 06:41,touch,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,NO,0.58,80.0,2026-10-22 03:01
+2026-10-22 06:41,touch,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,NO,0.58,5.0,2026-10-22 03:01
+2026-10-22 06:41,touch,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,NO,0.58,22.53,2026-10-22 03:01
+2026-10-22 06:41,strict,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,NO,0.16,105.26,2026-10-22 04:05
+2026-10-22 06:41,touch,3081959,Will the Bank of Russia make no change to the key rate after the October Meeting?,NO,0.16,105.26,2026-10-22 04:05
+2026-10-22 06:41,strict,6017072,France accuses foreign country of provoking unrest by November 30?,NO,0.84,0.51,2026-10-22 03:05
+2026-10-22 06:41,touch,6017072,France accuses foreign country of provoking unrest by November 30?,NO,0.84,0.51,2026-10-22 03:05
+2026-10-22 06:41,touch,6017072,France accuses foreign country of provoking unrest by November 30?,NO,0.84,20.0,2026-10-22 03:05
+2026-10-22 06:41,strict,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,YES,0.48,20.0,2026-10-22 02:46
+2026-10-22 06:41,strict,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,YES,0.48,40.0,2026-10-22 02:46
+2026-10-22 06:41,strict,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,YES,0.48,10.0,2026-10-22 02:49
+2026-10-22 06:41,strict,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,YES,0.48,36.38,2026-10-22 02:49
+2026-10-22 06:41,strict,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,NO,0.46,53.67,2026-10-22 03:00
+2026-10-22 06:41,strict,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,NO,0.46,39.39,2026-10-22 03:05
+2026-10-22 06:41,touch,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,YES,0.48,20.0,2026-10-22 02:44
+2026-10-22 06:41,touch,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,YES,0.48,20.0,2026-10-22 02:46
+2026-10-22 06:41,touch,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,YES,0.48,40.0,2026-10-22 02:46
+2026-10-22 06:41,touch,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,YES,0.48,10.0,2026-10-22 02:49
+2026-10-22 06:41,touch,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,YES,0.48,16.38,2026-10-22 02:49
+2026-10-22 06:41,touch,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,NO,0.46,53.67,2026-10-22 03:00
+2026-10-22 06:41,touch,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,NO,0.46,39.39,2026-10-22 03:05
