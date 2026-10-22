@@ -1017,3 +1017,12 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-22 06:41,touch,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,YES,0.48,16.38,2026-10-22 02:49
 2026-10-22 06:41,touch,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,NO,0.46,53.67,2026-10-22 03:00
 2026-10-22 06:41,touch,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,NO,0.46,39.39,2026-10-22 03:05
+2026-10-22 08:40,strict,4844538,Republican Senate odds dip to 30% by October 31?,YES,0.6,9.3,2026-10-22 06:12
+2026-10-22 08:40,touch,4844538,Republican Senate odds dip to 30% by October 31?,YES,0.6,9.3,2026-10-22 06:12
+2026-10-22 08:40,strict,676739,Will NVIDIA be the largest company in the world by market cap on December 31?,YES,0.73,106.38,2026-10-22 05:48
+2026-10-22 08:40,touch,676739,Will NVIDIA be the largest company in the world by market cap on December 31?,YES,0.73,10.0,2026-10-22 05:48
+2026-10-22 08:40,touch,676739,Will NVIDIA be the largest company in the world by market cap on December 31?,YES,0.73,96.38,2026-10-22 05:48
+2026-10-22 08:40,strict,5972004,Will the Democrats win Greenville County in the South Carolina Senate race in 2026?,NO,0.87,20.0,2026-10-22 06:24
+2026-10-22 08:40,touch,5972004,Will the Democrats win Greenville County in the South Carolina Senate race in 2026?,NO,0.87,20.0,2026-10-22 06:24
+2026-10-22 08:40,strict,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,NO,0.46,3.51,2026-10-22 06:29
+2026-10-22 08:40,touch,3392760,Will Alphabet be the third-largest company in the world by market cap on December 31?,NO,0.46,3.51,2026-10-22 06:29
