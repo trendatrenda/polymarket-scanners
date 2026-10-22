@@ -1050,3 +1050,20 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-22 10:34,strict,5998502,"Will ""Klara and the Sun"" Opening Weekend Box Office be less than $2M?",NO,0.33,15.38,2026-10-22 06:59
 2026-10-22 10:34,touch,5998502,"Will ""Klara and the Sun"" Opening Weekend Box Office be less than $2M?",NO,0.33,102.0,2026-10-22 06:59
 2026-10-22 10:34,touch,5998502,"Will ""Klara and the Sun"" Opening Weekend Box Office be less than $2M?",NO,0.33,4.38,2026-10-22 06:59
+2026-10-22 12:42,touch,5205159,"Next Fable Model (5.2+) released by October 24, 2026?",YES,0.13,22.99,2026-10-22 09:21
+2026-10-22 12:42,touch,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,NO,0.16,100.0,2026-10-22 09:45
+2026-10-22 12:42,strict,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,YES,0.53,35.31,2026-10-22 08:47
+2026-10-22 12:42,strict,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,YES,0.53,5.0,2026-10-22 08:55
+2026-10-22 12:42,strict,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,YES,0.53,40.0,2026-10-22 09:06
+2026-10-22 12:42,touch,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,YES,0.53,35.31,2026-10-22 08:47
+2026-10-22 12:42,touch,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,YES,0.53,5.0,2026-10-22 08:47
+2026-10-22 12:42,touch,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,YES,0.53,5.0,2026-10-22 08:55
+2026-10-22 12:42,touch,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,YES,0.53,5.0,2026-10-22 08:55
+2026-10-22 12:42,touch,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,YES,0.53,5.0,2026-10-22 08:55
+2026-10-22 12:42,touch,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,YES,0.53,5.0,2026-10-22 08:55
+2026-10-22 12:42,touch,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,YES,0.53,40.0,2026-10-22 09:06
+2026-10-22 12:42,touch,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,YES,0.53,8.38,2026-10-22 10:14
+2026-10-22 12:42,strict,5951056,"Will ""Clayface"" Opening Weekend Box Office be less than 22m?",YES,0.59,10.0,2026-10-22 09:10
+2026-10-22 12:42,strict,5951056,"Will ""Clayface"" Opening Weekend Box Office be less than 22m?",YES,0.59,95.26,2026-10-22 09:10
+2026-10-22 12:42,touch,5951056,"Will ""Clayface"" Opening Weekend Box Office be less than 22m?",YES,0.59,10.0,2026-10-22 09:10
+2026-10-22 12:42,touch,5951056,"Will ""Clayface"" Opening Weekend Box Office be less than 22m?",YES,0.59,95.26,2026-10-22 09:10
