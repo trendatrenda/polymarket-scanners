@@ -1201,3 +1201,31 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-22 20:32,strict,4178758,Will the 5-year Treasury yield dip below 4.50% before 2027?,NO,0.66,58.7,2026-10-22 18:35
 2026-10-22 20:32,touch,4178758,Will the 5-year Treasury yield dip below 4.50% before 2027?,NO,0.66,50.0,2026-10-22 17:13
 2026-10-22 20:32,touch,4178758,Will the 5-year Treasury yield dip below 4.50% before 2027?,NO,0.66,58.7,2026-10-22 18:35
+2026-10-22 22:31,strict,676739,Will NVIDIA be the largest company in the world by market cap on December 31?,YES,0.6,105.26,2026-10-22 19:46
+2026-10-22 22:31,touch,676739,Will NVIDIA be the largest company in the world by market cap on December 31?,YES,0.6,98.67,2026-10-22 19:40
+2026-10-22 22:31,touch,676739,Will NVIDIA be the largest company in the world by market cap on December 31?,YES,0.6,6.59,2026-10-22 19:46
+2026-10-22 22:31,touch,5916241,Will OpenAI have the second highest OpenRouter market share the week of October 19?,NO,0.56,40.0,2026-10-22 18:45
+2026-10-22 22:31,strict,5998474,"Next Fable Model (5.2+) released by October 27, 2026?",YES,0.35,50.0,2026-10-22 18:47
+2026-10-22 22:31,strict,5998474,"Next Fable Model (5.2+) released by October 27, 2026?",YES,0.35,50.0,2026-10-22 18:47
+2026-10-22 22:31,strict,5998474,"Next Fable Model (5.2+) released by October 27, 2026?",YES,0.35,7.53,2026-10-22 18:54
+2026-10-22 22:31,touch,5998474,"Next Fable Model (5.2+) released by October 27, 2026?",YES,0.35,50.0,2026-10-22 18:47
+2026-10-22 22:31,touch,5998474,"Next Fable Model (5.2+) released by October 27, 2026?",YES,0.35,50.0,2026-10-22 18:47
+2026-10-22 22:31,touch,5998474,"Next Fable Model (5.2+) released by October 27, 2026?",YES,0.35,7.53,2026-10-22 18:54
+2026-10-22 22:31,touch,5998510,"Will ""Street Fighter"" 2nd Weekend Box Office be between $8M and $11M?",NO,0.23,50.0,2026-10-22 18:59
+2026-10-22 22:31,touch,5998510,"Will ""Street Fighter"" 2nd Weekend Box Office be between $8M and $11M?",NO,0.23,14.64,2026-10-22 18:59
+2026-10-22 22:31,strict,5105110,"Will the next Russia x Ukraine peace talks take place in the UAE by December 31, 2027?",YES,0.65,59.99,2026-10-22 20:00
+2026-10-22 22:31,strict,5105110,"Will the next Russia x Ukraine peace talks take place in the UAE by December 31, 2027?",YES,0.65,49.9,2026-10-22 20:31
+2026-10-22 22:31,touch,5105110,"Will the next Russia x Ukraine peace talks take place in the UAE by December 31, 2027?",YES,0.65,50.0,2026-10-22 20:00
+2026-10-22 22:31,touch,5105110,"Will the next Russia x Ukraine peace talks take place in the UAE by December 31, 2027?",YES,0.65,59.89,2026-10-22 20:00
+2026-10-22 22:31,strict,4178758,Will the 5-year Treasury yield dip below 4.50% before 2027?,NO,0.6,21.0,2026-10-22 20:14
+2026-10-22 22:31,strict,4178758,Will the 5-year Treasury yield dip below 4.50% before 2027?,NO,0.6,87.7,2026-10-22 20:31
+2026-10-22 22:31,touch,4178758,Will the 5-year Treasury yield dip below 4.50% before 2027?,NO,0.6,21.0,2026-10-22 20:14
+2026-10-22 22:31,touch,4178758,Will the 5-year Treasury yield dip below 4.50% before 2027?,NO,0.6,87.7,2026-10-22 20:31
+2026-10-22 22:31,strict,2293863,Jack Lowden announced as next James Bond?,YES,0.52,45.0,2026-10-22 19:00
+2026-10-22 22:31,strict,2293863,Jack Lowden announced as next James Bond?,YES,0.52,9.0,2026-10-22 19:00
+2026-10-22 22:31,strict,2293863,Jack Lowden announced as next James Bond?,YES,0.52,51.0,2026-10-22 19:00
+2026-10-22 22:31,strict,2293863,Jack Lowden announced as next James Bond?,YES,0.52,1.38,2026-10-22 19:00
+2026-10-22 22:31,touch,2293863,Jack Lowden announced as next James Bond?,YES,0.52,20.0,2026-10-22 18:37
+2026-10-22 22:31,touch,2293863,Jack Lowden announced as next James Bond?,YES,0.52,45.0,2026-10-22 19:00
+2026-10-22 22:31,touch,2293863,Jack Lowden announced as next James Bond?,YES,0.52,9.0,2026-10-22 19:00
+2026-10-22 22:31,touch,2293863,Jack Lowden announced as next James Bond?,YES,0.52,32.38,2026-10-22 19:00
