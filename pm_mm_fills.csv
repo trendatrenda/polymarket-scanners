@@ -1106,3 +1106,41 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-22 14:36,touch,5998474,"Next Fable Model (5.2+) released by October 27, 2026?",YES,0.41,2.5,2026-10-22 12:36
 2026-10-22 14:36,touch,5998474,"Next Fable Model (5.2+) released by October 27, 2026?",YES,0.41,50.0,2026-10-22 12:37
 2026-10-22 14:36,touch,5998474,"Next Fable Model (5.2+) released by October 27, 2026?",YES,0.41,23.89,2026-10-22 12:39
+2026-10-22 16:36,strict,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,NO,0.48,5.0,2026-10-22 13:29
+2026-10-22 16:36,touch,5916277,Will OpenAI have the third highest OpenRouter market share the week of October 19?,NO,0.48,5.0,2026-10-22 13:29
+2026-10-22 16:36,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.48,18.18,2026-10-22 13:29
+2026-10-22 16:36,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.48,88.2,2026-10-22 13:34
+2026-10-22 16:36,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.48,18.18,2026-10-22 13:29
+2026-10-22 16:36,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.48,88.2,2026-10-22 13:34
+2026-10-22 16:36,touch,676739,Will NVIDIA be the largest company in the world by market cap on December 31?,YES,0.65,105.26,2026-10-22 13:36
+2026-10-22 16:36,strict,5951056,"Will ""Clayface"" Opening Weekend Box Office be less than 22m?",NO,0.57,20.0,2026-10-22 12:42
+2026-10-22 16:36,strict,5951056,"Will ""Clayface"" Opening Weekend Box Office be less than 22m?",NO,0.57,40.0,2026-10-22 14:30
+2026-10-22 16:36,strict,5951056,"Will ""Clayface"" Opening Weekend Box Office be less than 22m?",NO,0.57,12.24,2026-10-22 14:34
+2026-10-22 16:36,touch,5951056,"Will ""Clayface"" Opening Weekend Box Office be less than 22m?",NO,0.57,20.0,2026-10-22 12:42
+2026-10-22 16:36,touch,5951056,"Will ""Clayface"" Opening Weekend Box Office be less than 22m?",NO,0.57,40.0,2026-10-22 14:30
+2026-10-22 16:36,touch,5951056,"Will ""Clayface"" Opening Weekend Box Office be less than 22m?",NO,0.57,20.0,2026-10-22 14:30
+2026-10-22 16:36,touch,5951056,"Will ""Clayface"" Opening Weekend Box Office be less than 22m?",NO,0.57,12.24,2026-10-22 14:34
+2026-10-22 16:36,strict,942841,Will the Republican Party win the MT-01 House seat?,YES,0.5,10.0,2026-10-22 13:40
+2026-10-22 16:36,touch,942841,Will the Republican Party win the MT-01 House seat?,YES,0.5,5.0,2026-10-22 13:40
+2026-10-22 16:36,touch,942841,Will the Republican Party win the MT-01 House seat?,YES,0.5,10.0,2026-10-22 13:40
+2026-10-22 16:36,touch,942841,Will the Republican Party win the MT-01 House seat?,YES,0.5,30.0,2026-10-22 13:40
+2026-10-22 16:36,touch,942841,Will the Republican Party win the MT-01 House seat?,YES,0.5,10.0,2026-10-22 13:56
+2026-10-22 16:36,touch,942841,Will the Republican Party win the MT-01 House seat?,YES,0.5,10.0,2026-10-22 13:58
+2026-10-22 16:36,touch,942841,Will the Republican Party win the MT-01 House seat?,YES,0.5,10.0,2026-10-22 13:59
+2026-10-22 16:36,touch,942841,Will the Republican Party win the MT-01 House seat?,YES,0.5,10.0,2026-10-22 14:00
+2026-10-22 16:36,touch,942841,Will the Republican Party win the MT-01 House seat?,YES,0.5,10.0,2026-10-22 14:03
+2026-10-22 16:36,touch,942841,Will the Republican Party win the MT-01 House seat?,YES,0.5,10.0,2026-10-22 14:05
+2026-10-22 16:36,touch,942841,Will the Republican Party win the MT-01 House seat?,YES,0.5,2.53,2026-10-22 14:08
+2026-10-22 16:36,strict,5166967,Will Microsoft be the third-largest company in the world by market cap on October 31?,NO,0.5,9.0,2026-10-22 13:29
+2026-10-22 16:36,strict,5166967,Will Microsoft be the third-largest company in the world by market cap on October 31?,NO,0.5,31.0,2026-10-22 13:29
+2026-10-22 16:36,strict,5166967,Will Microsoft be the third-largest company in the world by market cap on October 31?,NO,0.5,20.0,2026-10-22 13:29
+2026-10-22 16:36,strict,5166967,Will Microsoft be the third-largest company in the world by market cap on October 31?,NO,0.5,46.38,2026-10-22 13:32
+2026-10-22 16:36,touch,5166967,Will Microsoft be the third-largest company in the world by market cap on October 31?,NO,0.5,9.0,2026-10-22 13:29
+2026-10-22 16:36,touch,5166967,Will Microsoft be the third-largest company in the world by market cap on October 31?,NO,0.5,31.0,2026-10-22 13:29
+2026-10-22 16:36,touch,5166967,Will Microsoft be the third-largest company in the world by market cap on October 31?,NO,0.5,53.94,2026-10-22 13:29
+2026-10-22 16:36,touch,5166967,Will Microsoft be the third-largest company in the world by market cap on October 31?,NO,0.5,12.44,2026-10-22 13:29
+2026-10-22 16:36,strict,4178740,Will the 30-year Treasury yield dip below 5.20% before 2027?,YES,0.55,33.0,2026-10-22 14:08
+2026-10-22 16:36,strict,4178740,Will the 30-year Treasury yield dip below 5.20% before 2027?,YES,0.55,75.7,2026-10-22 14:36
+2026-10-22 16:36,touch,4178740,Will the 30-year Treasury yield dip below 5.20% before 2027?,YES,0.55,14.0,2026-10-22 12:55
+2026-10-22 16:36,touch,4178740,Will the 30-year Treasury yield dip below 5.20% before 2027?,YES,0.55,33.0,2026-10-22 14:08
+2026-10-22 16:36,touch,4178740,Will the 30-year Treasury yield dip below 5.20% before 2027?,YES,0.55,61.7,2026-10-22 14:36
