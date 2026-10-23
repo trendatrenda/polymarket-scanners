@@ -1257,3 +1257,19 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-23 00:43,touch,5951057,"Will ""Clayface"" Opening Weekend Box Office be between 22m and 25m?",YES,0.41,8.0,2026-10-22 22:15
 2026-10-23 00:43,touch,5951057,"Will ""Clayface"" Opening Weekend Box Office be between 22m and 25m?",YES,0.41,97.26,2026-10-22 22:30
 2026-10-23 00:43,touch,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.27,40.83,2026-10-22 21:04
+2026-10-23 02:33,strict,5837111,"Will ""Housewife - Tate McRae"" be the Billboard Hot 100 #2 song for the week of October 31?",YES,0.42,106.38,2026-10-23 00:43
+2026-10-23 02:33,touch,5837111,"Will ""Housewife - Tate McRae"" be the Billboard Hot 100 #2 song for the week of October 31?",YES,0.42,40.0,2026-10-22 23:58
+2026-10-23 02:33,touch,5837111,"Will ""Housewife - Tate McRae"" be the Billboard Hot 100 #2 song for the week of October 31?",YES,0.42,66.38,2026-10-23 00:43
+2026-10-23 02:33,strict,676739,Will NVIDIA be the largest company in the world by market cap on December 31?,NO,0.39,2.53,2026-10-22 23:23
+2026-10-23 02:33,touch,676739,Will NVIDIA be the largest company in the world by market cap on December 31?,NO,0.39,106.38,2026-10-22 22:58
+2026-10-23 02:33,strict,6031327,Will Tatyana Ali be eliminated in week 7 of Dancing With The Stars: Season 35?,YES,0.38,0.99,2026-10-22 23:00
+2026-10-23 02:33,strict,6031327,Will Tatyana Ali be eliminated in week 7 of Dancing With The Stars: Season 35?,YES,0.38,106.54,2026-10-23 00:43
+2026-10-23 02:33,touch,6031327,Will Tatyana Ali be eliminated in week 7 of Dancing With The Stars: Season 35?,YES,0.38,72.0,2026-10-22 22:33
+2026-10-23 02:33,touch,6031327,Will Tatyana Ali be eliminated in week 7 of Dancing With The Stars: Season 35?,YES,0.38,30.0,2026-10-22 22:33
+2026-10-23 02:33,touch,6031327,Will Tatyana Ali be eliminated in week 7 of Dancing With The Stars: Season 35?,YES,0.38,5.53,2026-10-22 22:36
+2026-10-23 02:33,strict,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",YES,0.13,20.0,2026-10-22 22:37
+2026-10-23 02:33,strict,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",YES,0.13,20.0,2026-10-22 22:42
+2026-10-23 02:33,strict,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",YES,0.13,67.53,2026-10-22 22:42
+2026-10-23 02:33,touch,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",YES,0.13,20.0,2026-10-22 22:37
+2026-10-23 02:33,touch,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",YES,0.13,20.0,2026-10-22 22:42
+2026-10-23 02:33,touch,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",YES,0.13,67.53,2026-10-22 22:42
