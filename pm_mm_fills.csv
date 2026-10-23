@@ -1321,3 +1321,22 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-23 06:40,touch,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",NO,0.6,50.0,2026-10-23 03:45
 2026-10-23 06:40,touch,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",NO,0.6,50.0,2026-10-23 03:46
 2026-10-23 06:40,touch,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",NO,0.6,5.26,2026-10-23 03:46
+2026-10-23 08:36,touch,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.19,8.65,2026-10-23 05:17
+2026-10-23 08:36,strict,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.17,28.0,2026-10-23 05:25
+2026-10-23 08:36,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.17,28.0,2026-10-23 05:25
+2026-10-23 08:36,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.17,28.77,2026-10-23 05:25
+2026-10-23 08:36,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.17,28.77,2026-10-23 05:25
+2026-10-23 08:36,strict,6066030,Will the next Claude Opus model (5.6+) debut with an HLE-Diamond score of 60% or higher?,YES,0.44,108.7,2026-10-23 06:39
+2026-10-23 08:36,touch,6066030,Will the next Claude Opus model (5.6+) debut with an HLE-Diamond score of 60% or higher?,YES,0.44,2.0,2026-10-23 05:39
+2026-10-23 08:36,touch,6066030,Will the next Claude Opus model (5.6+) debut with an HLE-Diamond score of 60% or higher?,YES,0.44,50.0,2026-10-23 05:39
+2026-10-23 08:36,touch,6066030,Will the next Claude Opus model (5.6+) debut with an HLE-Diamond score of 60% or higher?,YES,0.44,56.7,2026-10-23 06:39
+2026-10-23 08:36,strict,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",YES,0.4,16.39,2026-10-23 05:52
+2026-10-23 08:36,strict,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",YES,0.4,2.56,2026-10-23 05:52
+2026-10-23 08:36,strict,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",YES,0.4,50.0,2026-10-23 05:52
+2026-10-23 08:36,strict,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",YES,0.4,37.43,2026-10-23 05:52
+2026-10-23 08:36,touch,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",YES,0.4,16.39,2026-10-23 05:52
+2026-10-23 08:36,touch,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",YES,0.4,2.56,2026-10-23 05:52
+2026-10-23 08:36,touch,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",YES,0.4,50.0,2026-10-23 05:52
+2026-10-23 08:36,touch,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",YES,0.4,37.43,2026-10-23 05:52
+2026-10-23 08:36,strict,5730337,Walmart (WMT) Q3 US comp sales (ex-fuel) growth 4% to 5.5%?,NO,0.53,107.53,2026-10-23 06:39
+2026-10-23 08:36,touch,5730337,Walmart (WMT) Q3 US comp sales (ex-fuel) growth 4% to 5.5%?,NO,0.53,107.53,2026-10-23 06:39
