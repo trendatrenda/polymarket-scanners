@@ -1354,3 +1354,27 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-23 10:34,touch,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",NO,0.84,55.73,2026-10-23 06:54
 2026-10-23 10:34,strict,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",YES,0.37,106.38,2026-10-23 08:18
 2026-10-23 10:34,touch,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",YES,0.37,106.38,2026-10-23 08:18
+2026-10-23 12:37,strict,701925,"Will UNI reach $11.00 by December 31, 2026?",YES,0.33,40.0,2026-10-23 09:28
+2026-10-23 12:37,strict,701925,"Will UNI reach $11.00 by December 31, 2026?",YES,0.33,67.53,2026-10-23 10:33
+2026-10-23 12:37,touch,701925,"Will UNI reach $11.00 by December 31, 2026?",YES,0.33,40.0,2026-10-23 09:28
+2026-10-23 12:37,touch,701925,"Will UNI reach $11.00 by December 31, 2026?",YES,0.33,18.88,2026-10-23 09:28
+2026-10-23 12:37,touch,701925,"Will UNI reach $11.00 by December 31, 2026?",YES,0.33,48.65,2026-10-23 10:33
+2026-10-23 12:37,strict,2293863,Jack Lowden announced as next James Bond?,NO,0.61,21.18,2026-10-23 08:45
+2026-10-23 12:37,strict,2293863,Jack Lowden announced as next James Bond?,NO,0.61,28.82,2026-10-23 08:45
+2026-10-23 12:37,strict,2293863,Jack Lowden announced as next James Bond?,NO,0.61,51.0,2026-10-23 09:16
+2026-10-23 12:37,strict,2293863,Jack Lowden announced as next James Bond?,NO,0.61,5.39,2026-10-23 10:04
+2026-10-23 12:37,touch,2293863,Jack Lowden announced as next James Bond?,NO,0.61,21.18,2026-10-23 08:45
+2026-10-23 12:37,touch,2293863,Jack Lowden announced as next James Bond?,NO,0.61,28.82,2026-10-23 08:45
+2026-10-23 12:37,touch,2293863,Jack Lowden announced as next James Bond?,NO,0.61,51.0,2026-10-23 09:16
+2026-10-23 12:37,touch,2293863,Jack Lowden announced as next James Bond?,NO,0.61,5.39,2026-10-23 10:04
+2026-10-23 12:37,strict,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",NO,0.76,6.0,2026-10-23 09:10
+2026-10-23 12:37,strict,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",NO,0.76,20.0,2026-10-23 09:11
+2026-10-23 12:37,strict,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",NO,0.76,18.99,2026-10-23 09:11
+2026-10-23 12:37,strict,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",NO,0.76,11.01,2026-10-23 09:11
+2026-10-23 12:37,touch,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",NO,0.76,6.0,2026-10-23 09:10
+2026-10-23 12:37,touch,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",NO,0.76,20.0,2026-10-23 09:11
+2026-10-23 12:37,touch,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",NO,0.76,18.99,2026-10-23 09:11
+2026-10-23 12:37,touch,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",NO,0.76,11.01,2026-10-23 09:11
+2026-10-23 12:37,touch,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",NO,0.76,15.0,2026-10-23 09:43
+2026-10-23 12:37,strict,5777948,Will Vinícius Júnior attend the 2026 Ballon d'Or ceremony?,YES,0.66,0.53,2026-10-23 09:14
+2026-10-23 12:37,touch,5777948,Will Vinícius Júnior attend the 2026 Ballon d'Or ceremony?,YES,0.66,0.53,2026-10-23 09:14
