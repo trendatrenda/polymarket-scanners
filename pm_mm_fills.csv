@@ -1340,3 +1340,17 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-23 08:36,touch,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",YES,0.4,37.43,2026-10-23 05:52
 2026-10-23 08:36,strict,5730337,Walmart (WMT) Q3 US comp sales (ex-fuel) growth 4% to 5.5%?,NO,0.53,107.53,2026-10-23 06:39
 2026-10-23 08:36,touch,5730337,Walmart (WMT) Q3 US comp sales (ex-fuel) growth 4% to 5.5%?,NO,0.53,107.53,2026-10-23 06:39
+2026-10-23 10:34,strict,4890265,Will Iliana Iotova win the 2026 Bulgarian presidential first round by 10%-20%?,NO,0.39,50.0,2026-10-23 07:44
+2026-10-23 10:34,strict,4890265,Will Iliana Iotova win the 2026 Bulgarian presidential first round by 10%-20%?,NO,0.39,57.53,2026-10-23 07:44
+2026-10-23 10:34,touch,4890265,Will Iliana Iotova win the 2026 Bulgarian presidential first round by 10%-20%?,NO,0.39,107.53,2026-10-23 07:19
+2026-10-23 10:34,strict,4890264,Will Iliana Iotova win the 2026 Bulgarian presidential first round by 20%-30%?,NO,0.83,108.7,2026-10-23 08:07
+2026-10-23 10:34,touch,4890264,Will Iliana Iotova win the 2026 Bulgarian presidential first round by 20%-30%?,NO,0.83,108.7,2026-10-23 08:07
+2026-10-23 10:34,strict,4178758,Will the 5-year Treasury yield dip below 4.50% before 2027?,YES,0.41,51.64,2026-10-23 07:03
+2026-10-23 10:34,strict,4178758,Will the 5-year Treasury yield dip below 4.50% before 2027?,YES,0.41,57.06,2026-10-23 08:36
+2026-10-23 10:34,touch,4178758,Will the 5-year Treasury yield dip below 4.50% before 2027?,YES,0.41,51.64,2026-10-23 07:03
+2026-10-23 10:34,touch,4178758,Will the 5-year Treasury yield dip below 4.50% before 2027?,YES,0.41,57.06,2026-10-23 08:36
+2026-10-23 10:34,strict,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",NO,0.84,108.7,2026-10-23 06:54
+2026-10-23 10:34,touch,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",NO,0.84,52.97,2026-10-23 06:53
+2026-10-23 10:34,touch,6044488,"Next OpenAI GPT Terra (5.7+) released by October 26, 2026?",NO,0.84,55.73,2026-10-23 06:54
+2026-10-23 10:34,strict,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",YES,0.37,106.38,2026-10-23 08:18
+2026-10-23 10:34,touch,5713521,"Will ""Wildwood"" Opening Weekend Box Office be between 14m and 16m?",YES,0.37,106.38,2026-10-23 08:18
