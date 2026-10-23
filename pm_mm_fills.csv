@@ -1404,3 +1404,24 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-23 14:39,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,NO,0.78,50.0,2026-10-23 11:20
 2026-10-23 14:39,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,NO,0.78,2.49,2026-10-23 11:20
 2026-10-23 14:39,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,NO,0.78,11.21,2026-10-23 11:25
+2026-10-23 16:37,touch,2941849,Will the Bank of Canada increase the target for the overnight rate by 25 bps at the Octobe,YES,0.79,5.5,2026-10-23 13:12
+2026-10-23 16:37,strict,5777942,Will Lionel Messi attend the 2026 Ballon d'Or ceremony?,NO,0.75,108.7,2026-10-23 12:55
+2026-10-23 16:37,touch,5777942,Will Lionel Messi attend the 2026 Ballon d'Or ceremony?,NO,0.75,108.7,2026-10-23 12:55
+2026-10-23 16:37,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.73,105.26,2026-10-23 13:21
+2026-10-23 16:37,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.73,105.26,2026-10-23 13:21
+2026-10-23 16:37,strict,4890264,Will Iliana Iotova win the 2026 Bulgarian presidential first round by 20%-30%?,YES,0.18,9.83,2026-10-23 14:12
+2026-10-23 16:37,touch,4890264,Will Iliana Iotova win the 2026 Bulgarian presidential first round by 20%-30%?,YES,0.18,21.52,2026-10-23 14:11
+2026-10-23 16:37,touch,4890264,Will Iliana Iotova win the 2026 Bulgarian presidential first round by 20%-30%?,YES,0.18,9.83,2026-10-23 14:12
+2026-10-23 16:37,strict,2293863,Jack Lowden announced as next James Bond?,NO,0.62,44.31,2026-10-23 14:38
+2026-10-23 16:37,touch,2293863,Jack Lowden announced as next James Bond?,NO,0.62,44.31,2026-10-23 14:38
+2026-10-23 16:37,strict,5777948,Will Vinícius Júnior attend the 2026 Ballon d'Or ceremony?,NO,0.27,0.15,2026-10-23 13:55
+2026-10-23 16:37,strict,5777948,Will Vinícius Júnior attend the 2026 Ballon d'Or ceremony?,NO,0.27,108.55,2026-10-23 14:38
+2026-10-23 16:37,touch,5777948,Will Vinícius Júnior attend the 2026 Ballon d'Or ceremony?,NO,0.27,50.0,2026-10-23 12:43
+2026-10-23 16:37,touch,5777948,Will Vinícius Júnior attend the 2026 Ballon d'Or ceremony?,NO,0.27,50.15,2026-10-23 12:43
+2026-10-23 16:37,touch,5777948,Will Vinícius Júnior attend the 2026 Ballon d'Or ceremony?,NO,0.27,8.54,2026-10-23 12:43
+2026-10-23 16:37,strict,5194678,Will Core PCE MoM be 0.4% in September?,NO,0.82,10.28,2026-10-23 13:40
+2026-10-23 16:37,strict,5194678,Will Core PCE MoM be 0.4% in September?,NO,0.82,14.74,2026-10-23 13:40
+2026-10-23 16:37,strict,5194678,Will Core PCE MoM be 0.4% in September?,NO,0.82,25.0,2026-10-23 14:12
+2026-10-23 16:37,touch,5194678,Will Core PCE MoM be 0.4% in September?,NO,0.82,10.28,2026-10-23 13:40
+2026-10-23 16:37,touch,5194678,Will Core PCE MoM be 0.4% in September?,NO,0.82,14.74,2026-10-23 13:40
+2026-10-23 16:37,touch,5194678,Will Core PCE MoM be 0.4% in September?,NO,0.82,25.0,2026-10-23 14:12
