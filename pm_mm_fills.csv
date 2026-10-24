@@ -1781,3 +1781,29 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-24 20:27,touch,6104435,"Will Kimi K3.1 Pro debut at a score of at least 1510 by June 30, 2027?",YES,0.1,50.0,2026-10-24 17:32
 2026-10-24 20:27,touch,6104435,"Will Kimi K3.1 Pro debut at a score of at least 1510 by June 30, 2027?",YES,0.1,1.0,2026-10-24 17:32
 2026-10-24 20:27,touch,6104435,"Will Kimi K3.1 Pro debut at a score of at least 1510 by June 30, 2027?",YES,0.1,8.7,2026-10-24 17:43
+2026-10-24 22:27,strict,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.1,20.54,2026-10-24 19:40
+2026-10-24 22:27,strict,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.1,22.11,2026-10-24 19:43
+2026-10-24 22:27,strict,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.1,64.88,2026-10-24 20:26
+2026-10-24 22:27,touch,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.1,38.98,2026-10-24 19:39
+2026-10-24 22:27,touch,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.1,11.02,2026-10-24 19:39
+2026-10-24 22:27,touch,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.1,20.54,2026-10-24 19:40
+2026-10-24 22:27,touch,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.1,22.11,2026-10-24 19:43
+2026-10-24 22:27,touch,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.1,14.88,2026-10-24 20:26
+2026-10-24 22:27,strict,4470027,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,YES,0.52,0.9,2026-10-24 19:33
+2026-10-24 22:27,strict,4470027,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.43,0.11,2026-10-24 19:33
+2026-10-24 22:27,strict,4470027,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,YES,0.52,0.02,2026-10-24 19:33
+2026-10-24 22:27,strict,4470027,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.43,0.11,2026-10-24 19:34
+2026-10-24 22:27,touch,4470027,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,YES,0.52,0.9,2026-10-24 19:33
+2026-10-24 22:27,touch,4470027,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.43,0.11,2026-10-24 19:33
+2026-10-24 22:27,touch,4470027,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,YES,0.52,0.02,2026-10-24 19:33
+2026-10-24 22:27,touch,4470027,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.43,0.11,2026-10-24 19:34
+2026-10-24 22:27,strict,2317000,Will OpenAI's IPO valuation be between $1.25T and $1.5T?,NO,0.83,24.39,2026-10-24 20:09
+2026-10-24 22:27,strict,2317000,Will OpenAI's IPO valuation be between $1.25T and $1.5T?,NO,0.83,10.0,2026-10-24 20:11
+2026-10-24 22:27,strict,2317000,Will OpenAI's IPO valuation be between $1.25T and $1.5T?,NO,0.83,21.06,2026-10-24 20:12
+2026-10-24 22:27,strict,2317000,Will OpenAI's IPO valuation be between $1.25T and $1.5T?,NO,0.83,49.81,2026-10-24 20:25
+2026-10-24 22:27,touch,2317000,Will OpenAI's IPO valuation be between $1.25T and $1.5T?,NO,0.83,24.39,2026-10-24 20:09
+2026-10-24 22:27,touch,2317000,Will OpenAI's IPO valuation be between $1.25T and $1.5T?,NO,0.83,10.0,2026-10-24 20:11
+2026-10-24 22:27,touch,2317000,Will OpenAI's IPO valuation be between $1.25T and $1.5T?,NO,0.83,21.06,2026-10-24 20:12
+2026-10-24 22:27,touch,2317000,Will OpenAI's IPO valuation be between $1.25T and $1.5T?,NO,0.83,49.81,2026-10-24 20:25
+2026-10-24 22:27,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.72,105.26,2026-10-24 18:35
+2026-10-24 22:27,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.72,105.26,2026-10-24 18:35
