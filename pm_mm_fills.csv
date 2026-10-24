@@ -1575,3 +1575,19 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-24 00:47,touch,6082702,"Viktor Orbán arrested by June 30, 2027?",NO,0.45,20.0,2026-10-23 21:23
 2026-10-24 00:47,touch,6082702,"Viktor Orbán arrested by June 30, 2027?",NO,0.45,0.01,2026-10-23 21:23
 2026-10-24 00:47,touch,6082702,"Viktor Orbán arrested by June 30, 2027?",NO,0.45,6.63,2026-10-23 21:26
+2026-10-24 02:32,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.75,105.26,2026-10-23 23:03
+2026-10-24 02:32,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.75,105.26,2026-10-23 23:03
+2026-10-24 02:32,touch,4890265,Will Iliana Iotova win the 2026 Bulgarian presidential first round by 10%-20%?,NO,0.36,8.23,2026-10-24 00:11
+2026-10-24 02:32,strict,3187537,Will María Corina Machado enter Venezuela by December 31?,NO,0.64,108.7,2026-10-23 22:47
+2026-10-24 02:32,touch,3187537,Will María Corina Machado enter Venezuela by December 31?,NO,0.64,108.7,2026-10-23 22:47
+2026-10-24 02:32,strict,4470027,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.39,16.0,2026-10-24 00:41
+2026-10-24 02:32,strict,4470027,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.39,30.0,2026-10-24 00:41
+2026-10-24 02:32,strict,4470027,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.39,60.38,2026-10-24 00:46
+2026-10-24 02:32,touch,4470027,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.39,16.0,2026-10-24 00:41
+2026-10-24 02:32,touch,4470027,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.39,30.0,2026-10-24 00:41
+2026-10-24 02:32,touch,4470027,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.39,60.38,2026-10-24 00:46
+2026-10-24 02:32,strict,6044487,"Next OpenAI GPT Terra (5.7+) released by October 30, 2026?",YES,0.46,50.0,2026-10-24 00:34
+2026-10-24 02:32,strict,6044487,"Next OpenAI GPT Terra (5.7+) released by October 30, 2026?",YES,0.46,5.0,2026-10-24 00:39
+2026-10-24 02:32,touch,6044487,"Next OpenAI GPT Terra (5.7+) released by October 30, 2026?",YES,0.46,50.0,2026-10-24 00:34
+2026-10-24 02:32,touch,6044487,"Next OpenAI GPT Terra (5.7+) released by October 30, 2026?",YES,0.46,20.0,2026-10-24 00:37
+2026-10-24 02:32,touch,6044487,"Next OpenAI GPT Terra (5.7+) released by October 30, 2026?",YES,0.46,5.0,2026-10-24 00:39
