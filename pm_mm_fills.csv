@@ -1693,3 +1693,38 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-24 14:29,touch,5726177,"Will ""The Further Mis-Adventures of Cliff Booth"" be nominated for Best Production Design a",YES,0.32,6.3,2026-10-24 11:15
 2026-10-24 14:29,touch,5726177,"Will ""The Further Mis-Adventures of Cliff Booth"" be nominated for Best Production Design a",YES,0.32,50.0,2026-10-24 11:15
 2026-10-24 14:29,touch,5726177,"Will ""The Further Mis-Adventures of Cliff Booth"" be nominated for Best Production Design a",YES,0.32,51.23,2026-10-24 11:21
+2026-10-24 16:30,strict,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,NO,0.6,98.76,2026-10-24 13:00
+2026-10-24 16:30,strict,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,NO,0.6,8.77,2026-10-24 13:00
+2026-10-24 16:30,strict,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.33,17.46,2026-10-24 13:56
+2026-10-24 16:30,strict,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.33,14.0,2026-10-24 13:56
+2026-10-24 16:30,strict,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.33,3.75,2026-10-24 14:13
+2026-10-24 16:30,strict,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.33,72.31,2026-10-24 14:13
+2026-10-24 16:30,touch,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,NO,0.6,98.76,2026-10-24 13:00
+2026-10-24 16:30,touch,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,NO,0.6,8.77,2026-10-24 13:00
+2026-10-24 16:30,touch,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.33,105.0,2026-10-24 13:31
+2026-10-24 16:30,touch,6016014,Will Vivek Ramaswamy pull the Amy Acton mother ad?,YES,0.33,2.53,2026-10-24 13:56
+2026-10-24 16:30,strict,5998478,"Next Fable Model (5.2+) released by October 29, 2026?",NO,0.75,21.08,2026-10-24 13:54
+2026-10-24 16:30,touch,5998478,"Next Fable Model (5.2+) released by October 29, 2026?",NO,0.75,21.08,2026-10-24 13:54
+2026-10-24 16:30,touch,5998478,"Next Fable Model (5.2+) released by October 29, 2026?",NO,0.75,26.0,2026-10-24 13:54
+2026-10-24 16:30,strict,3554472,Will Moonshot have the best Chinese AI model at the end of October 2026?,NO,0.73,50.18,2026-10-24 13:09
+2026-10-24 16:30,strict,3554472,Will Moonshot have the best Chinese AI model at the end of October 2026?,NO,0.73,15.32,2026-10-24 13:09
+2026-10-24 16:30,strict,3554472,Will Moonshot have the best Chinese AI model at the end of October 2026?,NO,0.73,42.03,2026-10-24 13:09
+2026-10-24 16:30,strict,3554472,Will Moonshot have the best Chinese AI model at the end of October 2026?,YES,0.2,107.53,2026-10-24 13:12
+2026-10-24 16:30,touch,3554472,Will Moonshot have the best Chinese AI model at the end of October 2026?,NO,0.73,50.18,2026-10-24 13:09
+2026-10-24 16:30,touch,3554472,Will Moonshot have the best Chinese AI model at the end of October 2026?,NO,0.73,50.0,2026-10-24 13:09
+2026-10-24 16:30,touch,3554472,Will Moonshot have the best Chinese AI model at the end of October 2026?,NO,0.73,7.35,2026-10-24 13:09
+2026-10-24 16:30,touch,3554472,Will Moonshot have the best Chinese AI model at the end of October 2026?,YES,0.2,107.53,2026-10-24 13:12
+2026-10-24 16:30,strict,5726177,"Will ""The Further Mis-Adventures of Cliff Booth"" be nominated for Best Production Design a",NO,0.73,0.51,2026-10-24 14:18
+2026-10-24 16:30,strict,5726177,"Will ""The Further Mis-Adventures of Cliff Booth"" be nominated for Best Production Design a",NO,0.73,107.02,2026-10-24 14:28
+2026-10-24 16:30,touch,5726177,"Will ""The Further Mis-Adventures of Cliff Booth"" be nominated for Best Production Design a",NO,0.73,0.51,2026-10-24 14:18
+2026-10-24 16:30,touch,5726177,"Will ""The Further Mis-Adventures of Cliff Booth"" be nominated for Best Production Design a",NO,0.73,107.02,2026-10-24 14:28
+2026-10-24 16:30,strict,6066698,"Will Anthropic IPO by November 20, 2026?",NO,0.74,108.7,2026-10-24 14:11
+2026-10-24 16:30,touch,6066698,"Will Anthropic IPO by November 20, 2026?",NO,0.74,108.7,2026-10-24 14:11
+2026-10-24 16:30,strict,4031052,"Skin cancer vaccine BLA submitted by March 31, 2027?",NO,0.49,50.0,2026-10-24 12:56
+2026-10-24 16:30,strict,4031052,"Skin cancer vaccine BLA submitted by March 31, 2027?",NO,0.49,7.94,2026-10-24 12:56
+2026-10-24 16:30,strict,4031052,"Skin cancer vaccine BLA submitted by March 31, 2027?",NO,0.49,9.27,2026-10-24 12:56
+2026-10-24 16:30,strict,4031052,"Skin cancer vaccine BLA submitted by March 31, 2027?",NO,0.49,0.03,2026-10-24 13:46
+2026-10-24 16:30,strict,4031052,"Skin cancer vaccine BLA submitted by March 31, 2027?",NO,0.49,40.28,2026-10-24 14:28
+2026-10-24 16:30,touch,4031052,"Skin cancer vaccine BLA submitted by March 31, 2027?",NO,0.49,50.0,2026-10-24 12:56
+2026-10-24 16:30,touch,4031052,"Skin cancer vaccine BLA submitted by March 31, 2027?",NO,0.49,50.0,2026-10-24 12:56
+2026-10-24 16:30,touch,4031052,"Skin cancer vaccine BLA submitted by March 31, 2027?",NO,0.49,7.53,2026-10-24 12:56
