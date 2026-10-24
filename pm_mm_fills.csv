@@ -1671,3 +1671,5 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-24 10:30,touch,6031480,"Will ""Love Is Blind: Boston"" be the top US Netflix show this week?",NO,0.18,20.0,2026-10-24 07:47
 2026-10-24 10:30,strict,5686343,"Will ""Sometimes, I Imagine Them All at a Party"" be nominated for Best Documentary Feature ",NO,0.75,7.75,2026-10-24 07:22
 2026-10-24 10:30,touch,5686343,"Will ""Sometimes, I Imagine Them All at a Party"" be nominated for Best Documentary Feature ",NO,0.75,7.75,2026-10-24 07:22
+2026-10-24 12:35,strict,5686343,"Will ""Sometimes, I Imagine Them All at a Party"" be nominated for Best Documentary Feature ",YES,0.19,108.7,2026-10-24 10:29
+2026-10-24 12:35,touch,5686343,"Will ""Sometimes, I Imagine Them All at a Party"" be nominated for Best Documentary Feature ",YES,0.19,108.7,2026-10-24 10:29
