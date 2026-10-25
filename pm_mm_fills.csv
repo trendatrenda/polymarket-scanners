@@ -1887,3 +1887,25 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-25 12:35,touch,6031478,"Will ""Nobody Wants This: Season 3"" be the top US Netflix show this week?",NO,0.2,20.0,2026-10-25 09:02
 2026-10-25 12:35,strict,3861993,Will Alphabet’s market capitalization be between $3.50T and $4.00T at the end of October 2,NO,0.55,107.53,2026-10-25 08:49
 2026-10-25 12:35,touch,3861993,Will Alphabet’s market capitalization be between $3.50T and $4.00T at the end of October 2,NO,0.55,107.53,2026-10-25 08:49
+2026-10-25 14:29,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.85,5.0,2026-10-25 10:30
+2026-10-25 14:29,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.85,20.0,2026-10-25 10:30
+2026-10-25 14:29,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.85,30.42,2026-10-25 10:30
+2026-10-25 14:29,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.85,34.32,2026-10-25 10:30
+2026-10-25 14:29,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.85,2.77,2026-10-25 10:30
+2026-10-25 14:29,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.85,10.0,2026-10-25 10:34
+2026-10-25 14:29,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.85,2.75,2026-10-25 10:34
+2026-10-25 14:29,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.85,5.0,2026-10-25 10:30
+2026-10-25 14:29,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.85,42.68,2026-10-25 10:30
+2026-10-25 14:29,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.85,5.0,2026-10-25 10:30
+2026-10-25 14:29,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.85,20.0,2026-10-25 10:30
+2026-10-25 14:29,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.85,30.42,2026-10-25 10:30
+2026-10-25 14:29,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.85,2.16,2026-10-25 10:30
+2026-10-25 14:29,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.43,107.53,2026-10-25 11:13
+2026-10-25 14:29,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.43,107.53,2026-10-25 11:13
+2026-10-25 14:29,strict,6031478,"Will ""Nobody Wants This: Season 3"" be the top US Netflix show this week?",NO,0.2,106.38,2026-10-25 11:54
+2026-10-25 14:29,touch,6031478,"Will ""Nobody Wants This: Season 3"" be the top US Netflix show this week?",NO,0.2,106.38,2026-10-25 11:54
+2026-10-25 14:29,strict,5778649,Will Royal Caribbean (RCL) beat quarterly earnings?,NO,0.35,49.7,2026-10-25 10:53
+2026-10-25 14:29,touch,5778649,Will Royal Caribbean (RCL) beat quarterly earnings?,NO,0.35,49.7,2026-10-25 10:53
+2026-10-25 14:29,strict,6104431,"Will Kimi K3.1 Pro debut at a score of at least 1470 by June 30, 2027?",YES,0.72,11.67,2026-10-25 11:45
+2026-10-25 14:29,touch,6104431,"Will Kimi K3.1 Pro debut at a score of at least 1470 by June 30, 2027?",YES,0.72,6.25,2026-10-25 10:53
+2026-10-25 14:29,touch,6104431,"Will Kimi K3.1 Pro debut at a score of at least 1470 by June 30, 2027?",YES,0.72,11.67,2026-10-25 11:45
