@@ -1866,3 +1866,6 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-25 08:31,touch,6104454,"Will Kimi K3.1 Pro debut in the top 20 of the Text Arena leaderboard by June 30, 2027?",NO,0.28,40.0,2026-10-25 05:23
 2026-10-25 08:31,strict,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",NO,0.49,107.53,2026-10-25 06:36
 2026-10-25 08:31,touch,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",NO,0.49,107.53,2026-10-25 06:36
+2026-10-25 10:29,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",NO,0.19,106.38,2026-10-25 07:42
+2026-10-25 10:29,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",NO,0.19,106.38,2026-10-25 07:42
+2026-10-25 10:29,touch,6066698,"Will Anthropic IPO by November 20, 2026?",YES,0.22,0.45,2026-10-25 07:05
