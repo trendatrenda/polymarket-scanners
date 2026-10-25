@@ -1853,3 +1853,9 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-25 04:32,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,NO,0.64,56.5,2026-10-25 02:03
 2026-10-25 04:32,strict,6015290,Another critical PHP security flaw in 2026?,NO,0.47,108.7,2026-10-25 00:53
 2026-10-25 04:32,touch,6015290,Another critical PHP security flaw in 2026?,NO,0.47,108.7,2026-10-25 00:53
+2026-10-25 06:36,strict,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.43,100.0,2026-10-25 04:04
+2026-10-25 06:36,strict,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.43,7.53,2026-10-25 04:04
+2026-10-25 06:36,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.43,50.0,2026-10-25 03:23
+2026-10-25 06:36,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.43,57.53,2026-10-25 04:04
+2026-10-25 06:36,strict,6082702,"Viktor Orbán arrested by June 30, 2027?",YES,0.45,107.53,2026-10-25 04:31
+2026-10-25 06:36,touch,6082702,"Viktor Orbán arrested by June 30, 2027?",YES,0.45,107.53,2026-10-25 04:31
