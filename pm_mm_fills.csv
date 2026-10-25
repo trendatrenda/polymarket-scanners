@@ -1807,3 +1807,17 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-24 22:27,touch,2317000,Will OpenAI's IPO valuation be between $1.25T and $1.5T?,NO,0.83,49.81,2026-10-24 20:25
 2026-10-24 22:27,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.72,105.26,2026-10-24 18:35
 2026-10-24 22:27,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.72,105.26,2026-10-24 18:35
+2026-10-25 00:37,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.76,18.61,2026-10-24 21:30
+2026-10-25 00:37,strict,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.35,108.7,2026-10-24 22:26
+2026-10-25 00:37,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.35,55.0,2026-10-24 22:10
+2026-10-25 00:37,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.35,53.7,2026-10-24 22:26
+2026-10-25 00:37,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.52,13.16,2026-10-24 20:28
+2026-10-25 00:37,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.41,79.99,2026-10-24 22:02
+2026-10-25 00:37,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.41,27.54,2026-10-24 22:02
+2026-10-25 00:37,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.52,13.16,2026-10-24 20:28
+2026-10-25 00:37,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.41,0.33,2026-10-24 21:27
+2026-10-25 00:37,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.41,5.08,2026-10-24 21:27
+2026-10-25 00:37,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.41,79.99,2026-10-24 22:02
+2026-10-25 00:37,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.41,22.13,2026-10-24 22:02
+2026-10-25 00:37,strict,3554472,Will Moonshot have the best Chinese AI model at the end of October 2026?,YES,0.3,107.53,2026-10-24 22:26
+2026-10-25 00:37,touch,3554472,Will Moonshot have the best Chinese AI model at the end of October 2026?,YES,0.3,107.53,2026-10-24 20:45
