@@ -1934,3 +1934,29 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-25 16:30,strict,6031478,"Will ""Nobody Wants This: Season 3"" be the top US Netflix show this week?",NO,0.12,8.54,2026-10-25 12:35
 2026-10-25 16:30,touch,6031478,"Will ""Nobody Wants This: Season 3"" be the top US Netflix show this week?",NO,0.12,97.84,2026-10-25 12:35
 2026-10-25 16:30,touch,6031478,"Will ""Nobody Wants This: Season 3"" be the top US Netflix show this week?",NO,0.12,8.54,2026-10-25 12:35
+2026-10-25 18:31,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.3,8.5,2026-10-25 15:15
+2026-10-25 18:31,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.3,8.5,2026-10-25 15:15
+2026-10-25 18:31,touch,5151749,"Will no next Israeli Minister of Justice be appointed by February 28, 2027?",NO,0.54,15.9,2026-10-25 14:58
+2026-10-25 18:31,touch,5151749,"Will no next Israeli Minister of Justice be appointed by February 28, 2027?",YES,0.38,50.0,2026-10-25 15:52
+2026-10-25 18:31,touch,5151749,"Will no next Israeli Minister of Justice be appointed by February 28, 2027?",YES,0.38,50.0,2026-10-25 15:52
+2026-10-25 18:31,touch,5151749,"Will no next Israeli Minister of Justice be appointed by February 28, 2027?",YES,0.38,8.7,2026-10-25 15:57
+2026-10-25 18:31,strict,5998474,"Next Fable Model (5.2+) released by October 27, 2026?",YES,0.24,1.33,2026-10-25 15:30
+2026-10-25 18:31,strict,5998474,"Next Fable Model (5.2+) released by October 27, 2026?",YES,0.24,106.2,2026-10-25 16:29
+2026-10-25 18:31,touch,5998474,"Next Fable Model (5.2+) released by October 27, 2026?",YES,0.24,1.33,2026-10-25 15:30
+2026-10-25 18:31,touch,5998474,"Next Fable Model (5.2+) released by October 27, 2026?",YES,0.24,106.2,2026-10-25 16:29
+2026-10-25 18:31,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.4,50.0,2026-10-25 15:53
+2026-10-25 18:31,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.4,57.53,2026-10-25 15:53
+2026-10-25 18:31,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.4,50.0,2026-10-25 15:53
+2026-10-25 18:31,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.4,57.53,2026-10-25 15:53
+2026-10-25 18:31,touch,3554472,Will Moonshot have the best Chinese AI model at the end of October 2026?,YES,0.22,55.73,2026-10-25 15:43
+2026-10-25 18:31,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.67,106.38,2026-10-25 15:33
+2026-10-25 18:31,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.67,106.38,2026-10-25 15:33
+2026-10-25 18:31,strict,6015215,"US Gov confirms PHP2Shell exploited by October 31, 2026?",YES,0.49,108.7,2026-10-25 16:29
+2026-10-25 18:31,touch,6015215,"US Gov confirms PHP2Shell exploited by October 31, 2026?",YES,0.49,108.7,2026-10-25 16:29
+2026-10-25 18:31,touch,5726168,"Will ""Wild Horse Nine"" be nominated for Best Costume Design at the 99th Academy Awards?",YES,0.23,0.14,2026-10-25 16:04
+2026-10-25 18:31,strict,4664724,Will Meta be the third-best AI lab at the end of November 2026?,NO,0.36,20.0,2026-10-25 16:10
+2026-10-25 18:31,touch,4664724,Will Meta be the third-best AI lab at the end of November 2026?,NO,0.36,20.0,2026-10-25 16:10
+2026-10-25 18:31,strict,4397571,Will Gen.G Make the Worlds 2026 Grand Final?,NO,0.37,50.0,2026-10-25 16:14
+2026-10-25 18:31,strict,4397571,Will Gen.G Make the Worlds 2026 Grand Final?,NO,0.37,55.26,2026-10-25 16:14
+2026-10-25 18:31,touch,4397571,Will Gen.G Make the Worlds 2026 Grand Final?,NO,0.37,50.0,2026-10-25 16:14
+2026-10-25 18:31,touch,4397571,Will Gen.G Make the Worlds 2026 Grand Final?,NO,0.37,55.26,2026-10-25 16:14
