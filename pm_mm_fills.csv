@@ -1859,3 +1859,10 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-25 06:36,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.43,57.53,2026-10-25 04:04
 2026-10-25 06:36,strict,6082702,"Viktor Orbán arrested by June 30, 2027?",YES,0.45,107.53,2026-10-25 04:31
 2026-10-25 06:36,touch,6082702,"Viktor Orbán arrested by June 30, 2027?",YES,0.45,107.53,2026-10-25 04:31
+2026-10-25 08:31,strict,5777942,Will Lionel Messi attend the 2026 Ballon d'Or ceremony?,NO,0.74,50.0,2026-10-25 04:35
+2026-10-25 08:31,touch,5777942,Will Lionel Messi attend the 2026 Ballon d'Or ceremony?,NO,0.74,50.0,2026-10-25 04:35
+2026-10-25 08:31,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.59,50.0,2026-10-25 06:09
+2026-10-25 08:31,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.59,50.0,2026-10-25 06:09
+2026-10-25 08:31,touch,6104454,"Will Kimi K3.1 Pro debut in the top 20 of the Text Arena leaderboard by June 30, 2027?",NO,0.28,40.0,2026-10-25 05:23
+2026-10-25 08:31,strict,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",NO,0.49,107.53,2026-10-25 06:36
+2026-10-25 08:31,touch,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",NO,0.49,107.53,2026-10-25 06:36
