@@ -8,7 +8,8 @@ ANTHROPIC_API_KEY (a GitHub Secret -- never in a file, never printed).
 
 LOCKED RULES (set 26 Oct 2026, before any forecast was made)
   Markets   open Yes/No markets ending 7-30 days from now, most traded first, Yes price
-            between 5% and 95%; no sports games and no crypto/stock-price markets.
+            between 5% and 95%; no sports games and no crypto/stock-price markets; at most
+            2 markets from the same event EVER (so one topic can't dominate the test).
             Each market is forecast ONCE. At most 20 new forecasts per 24 hours.
   News      the latest headlines about the question from Google News (free public feed):
             title, site, date. Only what was published before the forecast.
@@ -52,8 +53,9 @@ API = "https://api.anthropic.com/v1/messages"
 MODEL = "claude-sonnet-5-5"
 PRICE_IN, PRICE_OUT = 2.0, 10.0          # $ per million tokens (Sonnet 5.5 list price)
 PER_DAY, EDGE, MONTH_CAP = 20, 0.08, 15.0
+PER_EVENT = 2                            # at most 2 markets from the same event (topic spread)
 RUN_SECONDS = 300
-F_FIELDS = ["time", "market_id", "cid", "question", "end", "q", "mid_yes", "ask_yes", "ask_no",
+F_FIELDS = ["time", "market_id", "event", "cid", "question", "end", "q", "mid_yes", "ask_yes", "ask_no",
             "decision", "headlines", "reason", "rules_warning", "result"]
 B_FIELDS = ["placed", "market_id", "cid", "question", "end", "side", "token", "q", "avg_ask", "fee",
             "cost", "shares", "status", "settled", "payout", "pnl"]
@@ -89,9 +91,17 @@ def write(p, fields, rows):
 
 
 # ---------------------------------------------------------------------------- markets
-def candidates(done_ids):
+def event_key(m):
+    ev = m.get("events")
+    if isinstance(ev, list) and ev and isinstance(ev[0], dict) and ev[0].get("id"):
+        return "e" + str(ev[0]["id"])
+    return "s" + re.sub(r"-[^-]*$", "", str(m.get("slug") or m.get("question") or ""))[:40]
+
+
+def candidates(done_ids, used=None):
     t = now()
     out = []
+    used = dict(used or {})
     for page in range(4):
         ms = rs.get_json(f"{GAMMA}/markets", {"active": "true", "closed": "false", "limit": 100,
                                               "offset": page * 100, "order": "volume24hr", "ascending": "false",
@@ -114,6 +124,11 @@ def candidates(done_ids):
                 continue
             if not (t + timedelta(days=7) <= end <= t + timedelta(days=30)):
                 continue
+            k = event_key(m)
+            if used.get(k, 0) >= PER_EVENT:
+                continue                                   # spread forecasts over topics
+            used[k] = used.get(k, 0) + 1
+            m["_event"] = k
             out.append(m)
         time.sleep(0.15)
     return out
@@ -179,7 +194,7 @@ RULES_WARNING: none"""
 
 
 def ask_ai(key, m, news):
-    body = {"model": MODEL, "max_tokens": 500, "temperature": 0,
+    body = {"model": MODEL, "max_tokens": 500,
             "messages": [{"role": "user", "content": PROMPT.format(
                 today=now().strftime("%Y-%m-%d %H:%M"), question=m.get("question"), end=m.get("endDate"),
                 rules=str(m.get("description") or "(no rules text)")[:3000],
@@ -190,7 +205,11 @@ def ask_ai(key, m, news):
         with urllib.request.urlopen(req, timeout=90) as r:
             j = json.loads(r.read().decode())
     except urllib.error.HTTPError as e:
-        return None, (f"API error {e.code}", ""), 0, 0
+        try:                                               # the API's own reason (never the key)
+            msg = json.loads(e.read().decode()).get("error", {}).get("message", "")
+        except Exception:
+            msg = ""
+        return None, (f"API error {e.code}: {msg[:160]}", ""), 0, 0
     except Exception as e:
         return None, (f"API error {type(e).__name__}", ""), 0, 0
     text = "".join(c.get("text", "") for c in j.get("content", []) if c.get("type") == "text")
@@ -258,7 +277,10 @@ def run():
         print("  nothing to do this run (daily limit reached or monthly cost cap)")
         summary(fc, bets)
         return
-    cands = candidates({r["market_id"] for r in fc})[:room]
+    used = {}
+    for r in fc:
+        used[r.get("event", "")] = used.get(r.get("event", ""), 0) + 1
+    cands = candidates({r["market_id"] for r in fc}, used)[:room]
     print(f"  new markets to forecast: {len(cands)}")
     stop = time.time() + RUN_SECONDS
     feed_fail = 0
@@ -294,7 +316,7 @@ def run():
             costs.append({"time": iso(now()), "market_id": m.get("id"), "in": tin, "out": tout, "usd": round(usd, 5)})
         if q is None:
             errors += reason.startswith("API error")
-            print(f"  {str(m.get('question'))[:60]}: no forecast ({reason[:40]})")
+            print(f"  {str(m.get('question'))[:60]}: no forecast ({reason[:200]})")
             continue
         toks = [str(t) for t in rs.as_list(m.get("clobTokenIds"))]
         fr = fee_rate_of(m)
@@ -311,7 +333,7 @@ def run():
                 pick = ("no", toks[1], 1 - q, an, fn, cn)
             if cy is None and cn is None:
                 dec = "book too thin"
-        row = {"time": iso(now()), "market_id": m.get("id"), "cid": m.get("conditionId"),
+        row = {"time": iso(now()), "market_id": m.get("id"), "event": m.get("_event", ""), "cid": m.get("conditionId"),
                "question": m.get("question"), "end": m.get("endDate"), "q": round(q, 4),
                "mid_yes": "" if mid == "" else round(mid, 4), "ask_yes": "" if ay is None else round(ay, 4),
                "ask_no": "" if an is None else round(an, 4), "headlines": len(news), "reason": reason,
