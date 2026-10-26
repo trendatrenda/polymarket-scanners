@@ -2087,3 +2087,14 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-26 06:45,touch,6104893,Will Elon Musk post 1000+ tweets in November 2026?,YES,0.55,37.86,2026-10-26 02:40
 2026-10-26 06:45,strict,6096371,"Will ""Choosin' Texas - Ella Langley"" be the Billboard Hot 100 #2 song for the week of Nove",YES,0.57,105.26,2026-10-26 02:50
 2026-10-26 06:45,touch,6096371,"Will ""Choosin' Texas - Ella Langley"" be the Billboard Hot 100 #2 song for the week of Nove",YES,0.57,105.26,2026-10-26 02:50
+2026-10-26 08:46,strict,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",NO,0.53,107.53,2026-10-26 06:32
+2026-10-26 08:46,touch,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",NO,0.53,107.53,2026-10-26 06:32
+2026-10-26 08:46,strict,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",NO,0.08,19.94,2026-10-26 05:19
+2026-10-26 08:46,strict,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",NO,0.08,1.12,2026-10-26 05:33
+2026-10-26 08:46,strict,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",YES,0.87,105.26,2026-10-26 05:36
+2026-10-26 08:46,touch,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",NO,0.08,20.0,2026-10-26 05:15
+2026-10-26 08:46,touch,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",NO,0.08,19.94,2026-10-26 05:15
+2026-10-26 08:46,touch,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",NO,0.08,19.94,2026-10-26 05:15
+2026-10-26 08:46,touch,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",NO,0.08,19.94,2026-10-26 05:19
+2026-10-26 08:46,touch,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",NO,0.08,1.12,2026-10-26 05:33
+2026-10-26 08:46,touch,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",YES,0.87,105.26,2026-10-26 05:36
