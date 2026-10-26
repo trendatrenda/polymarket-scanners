@@ -2185,3 +2185,12 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-26 13:13,touch,5154696,Will OpenAI’s valuation be at least $1.30T at the end of November 2026?,YES,0.61,87.11,2026-10-26 12:23
 2026-10-26 13:13,touch,5154696,Will OpenAI’s valuation be at least $1.30T at the end of November 2026?,YES,0.61,19.0,2026-10-26 12:23
 2026-10-26 13:13,touch,5154696,Will OpenAI’s valuation be at least $1.30T at the end of November 2026?,YES,0.61,1.42,2026-10-26 12:23
+2026-10-26 14:46,touch,5777942,Will Lionel Messi attend the 2026 Ballon d'Or ceremony?,YES,0.12,20.0,2026-10-26 13:09
+2026-10-26 14:46,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.56,10.0,2026-10-26 13:10
+2026-10-26 14:46,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.56,97.53,2026-10-26 13:10
+2026-10-26 14:46,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.56,10.0,2026-10-26 13:10
+2026-10-26 14:46,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.56,97.53,2026-10-26 13:10
+2026-10-26 14:46,touch,5154696,Will OpenAI’s valuation be at least $1.30T at the end of November 2026?,YES,0.52,0.99,2026-10-26 13:02
+2026-10-26 14:46,strict,4713379,Will the Bank of Brazil make no change to the target for the Selic rate at the December me,YES,0.59,20.0,2026-10-26 13:06
+2026-10-26 14:46,touch,4713379,Will the Bank of Brazil make no change to the target for the Selic rate at the December me,YES,0.59,44.37,2026-10-26 13:06
+2026-10-26 14:46,touch,4713379,Will the Bank of Brazil make no change to the target for the Selic rate at the December me,YES,0.59,20.0,2026-10-26 13:06
