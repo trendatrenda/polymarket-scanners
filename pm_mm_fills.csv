@@ -2043,3 +2043,21 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-26 00:52,touch,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",NO,0.7,20.0,2026-10-25 22:23
 2026-10-26 00:52,touch,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",NO,0.7,20.0,2026-10-25 22:23
 2026-10-26 00:52,touch,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",NO,0.7,5.26,2026-10-25 22:23
+2026-10-26 02:36,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.56,50.0,2026-10-25 23:59
+2026-10-26 02:36,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.37,20.77,2026-10-25 23:40
+2026-10-26 02:36,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.56,50.0,2026-10-25 23:59
+2026-10-26 02:36,strict,5151782,"Will no next Israeli Minister of National Security be appointed by February 28, 2027?",YES,0.39,51.0,2026-10-26 00:00
+2026-10-26 02:36,strict,5151782,"Will no next Israeli Minister of National Security be appointed by February 28, 2027?",YES,0.39,15.91,2026-10-26 00:00
+2026-10-26 02:36,strict,5151782,"Will no next Israeli Minister of National Security be appointed by February 28, 2027?",YES,0.39,34.09,2026-10-26 00:00
+2026-10-26 02:36,strict,5151782,"Will no next Israeli Minister of National Security be appointed by February 28, 2027?",YES,0.39,6.53,2026-10-26 00:51
+2026-10-26 02:36,touch,5151782,"Will no next Israeli Minister of National Security be appointed by February 28, 2027?",YES,0.39,51.0,2026-10-26 00:00
+2026-10-26 02:36,touch,5151782,"Will no next Israeli Minister of National Security be appointed by February 28, 2027?",YES,0.39,15.91,2026-10-26 00:00
+2026-10-26 02:36,touch,5151782,"Will no next Israeli Minister of National Security be appointed by February 28, 2027?",YES,0.39,34.09,2026-10-26 00:00
+2026-10-26 02:36,touch,5151782,"Will no next Israeli Minister of National Security be appointed by February 28, 2027?",YES,0.39,6.53,2026-10-26 00:51
+2026-10-26 02:36,touch,5151671,"Will no next Israeli Minister of Finance be appointed by February 28, 2027?",YES,0.4,6.3,2026-10-25 23:59
+2026-10-26 02:36,strict,6104893,Will Elon Musk post 1000+ tweets in November 2026?,NO,0.28,5.0,2026-10-26 00:15
+2026-10-26 02:36,strict,6104893,Will Elon Musk post 1000+ tweets in November 2026?,NO,0.28,45.0,2026-10-26 00:16
+2026-10-26 02:36,strict,6104893,Will Elon Musk post 1000+ tweets in November 2026?,NO,0.28,56.38,2026-10-26 00:51
+2026-10-26 02:36,touch,6104893,Will Elon Musk post 1000+ tweets in November 2026?,NO,0.28,5.0,2026-10-26 00:15
+2026-10-26 02:36,touch,6104893,Will Elon Musk post 1000+ tweets in November 2026?,NO,0.28,45.0,2026-10-26 00:16
+2026-10-26 02:36,touch,6104893,Will Elon Musk post 1000+ tweets in November 2026?,NO,0.28,56.38,2026-10-26 00:51
