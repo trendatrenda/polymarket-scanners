@@ -9,7 +9,10 @@ ANTHROPIC_API_KEY (a GitHub Secret -- never in a file, never printed).
 LOCKED RULES (set 26 Oct 2026, before any forecast was made)
   Markets   open Yes/No markets ending 7-30 days from now, most traded first, Yes price
             between 5% and 95%; no sports games and no crypto/stock-price markets; at most
-            2 markets from the same event EVER (so one topic can't dominate the test).
+            ONE market per event, ever ("R wins X" and "D wins X" are one question).
+            (Changed from 2 on 26 Oct after the first run: 3 pairs of the first 20 were
+            the same question twice. Those first-run rows are kept, marked, and scored
+            once per event.)
             Each market is forecast ONCE. At most 20 new forecasts per 24 hours.
   News      the latest headlines about the question from Google News (free public feed):
             title, site, date. Only what was published before the forecast.
@@ -53,7 +56,8 @@ API = "https://api.anthropic.com/v1/messages"
 MODEL = "claude-sonnet-5-5"
 PRICE_IN, PRICE_OUT = 2.0, 10.0          # $ per million tokens (Sonnet 5.5 list price)
 PER_DAY, EDGE, MONTH_CAP = 20, 0.08, 15.0
-PER_EVENT = 2                            # at most 2 markets from the same event (topic spread)
+PER_EVENT = 1                            # ONE market per event: "R wins" and "D wins" are the
+                                         # same question -- two bets would double one opinion
 RUN_SECONDS = 300
 F_FIELDS = ["time", "market_id", "event", "cid", "question", "end", "q", "mid_yes", "ask_yes", "ask_no",
             "decision", "headlines", "reason", "rules_warning", "result"]
@@ -364,6 +368,12 @@ def run():
 def summary(fc=None, bets=None):
     fc = read(FC) if fc is None else fc
     bets = read(BETS) if bets is None else bets
+    first = {}
+    for r in fc:                                           # first forecast of each event counts
+        first.setdefault(r.get("event") or r["market_id"], r["market_id"])
+    keep = set(first.values())
+    fc = [r for r in fc if r["market_id"] in keep]
+    bets = [b for b in bets if b["market_id"] in keep]
     done = [b for b in bets if b["status"] in ("won", "lost")]
     pnl = sum(float(b["pnl"]) for b in done)
     print(f"\n  #38 AI FORECASTER: {len(fc)} forecasts, {len(bets)} paper bets ({len(done)} settled,"
