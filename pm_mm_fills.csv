@@ -2138,3 +2138,50 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-26 13:02,touch,5407574,"Will Predict.fun launch a token by October 31, 2026?",YES,0.31,7.15,2026-10-26 09:35
 2026-10-26 13:02,touch,5407574,"Will Predict.fun launch a token by October 31, 2026?",YES,0.31,66.8,2026-10-26 09:43
 2026-10-26 13:02,touch,5407574,"Will Predict.fun launch a token by October 31, 2026?",YES,0.31,32.43,2026-10-26 09:46
+2026-10-26 13:13,strict,5777942,Will Lionel Messi attend the 2026 Ballon d'Or ceremony?,YES,0.24,107.53,2026-10-26 10:45
+2026-10-26 13:13,touch,5777942,Will Lionel Messi attend the 2026 Ballon d'Or ceremony?,YES,0.24,107.53,2026-10-26 10:45
+2026-10-26 13:13,touch,5777942,Will Lionel Messi attend the 2026 Ballon d'Or ceremony?,NO,0.69,40.61,2026-10-26 11:13
+2026-10-26 13:13,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.71,0.05,2026-10-26 11:27
+2026-10-26 13:13,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.71,45.07,2026-10-26 11:27
+2026-10-26 13:13,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.71,60.14,2026-10-26 11:27
+2026-10-26 13:13,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.71,0.05,2026-10-26 11:27
+2026-10-26 13:13,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.71,45.07,2026-10-26 11:27
+2026-10-26 13:13,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.71,60.14,2026-10-26 11:27
+2026-10-26 13:13,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.53,5.0,2026-10-26 12:02
+2026-10-26 13:13,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.53,50.0,2026-10-26 12:08
+2026-10-26 13:13,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.53,35.0,2026-10-26 12:08
+2026-10-26 13:13,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.53,18.7,2026-10-26 12:18
+2026-10-26 13:13,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.53,7.42,2026-10-26 12:02
+2026-10-26 13:13,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.53,5.0,2026-10-26 12:02
+2026-10-26 13:13,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.53,50.0,2026-10-26 12:08
+2026-10-26 13:13,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.53,35.0,2026-10-26 12:08
+2026-10-26 13:13,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",NO,0.53,11.28,2026-10-26 12:18
+2026-10-26 13:13,strict,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",YES,0.48,5.06,2026-10-26 12:57
+2026-10-26 13:13,touch,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",YES,0.48,5.06,2026-10-26 12:57
+2026-10-26 13:13,strict,3408860,Will the Democratic Party candidate win the 2026 GA-02 House election by 20%-25%?,NO,0.72,10.0,2026-10-26 12:44
+2026-10-26 13:13,touch,3408860,Will the Democratic Party candidate win the 2026 GA-02 House election by 20%-25%?,NO,0.72,55.75,2026-10-26 12:44
+2026-10-26 13:13,touch,3408860,Will the Democratic Party candidate win the 2026 GA-02 House election by 20%-25%?,NO,0.72,10.0,2026-10-26 12:44
+2026-10-26 13:13,strict,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,NO,0.35,50.0,2026-10-26 10:45
+2026-10-26 13:13,strict,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,NO,0.35,55.26,2026-10-26 10:45
+2026-10-26 13:13,strict,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,YES,0.6,50.0,2026-10-26 11:48
+2026-10-26 13:13,touch,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,NO,0.35,50.0,2026-10-26 10:45
+2026-10-26 13:13,touch,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,NO,0.35,55.26,2026-10-26 10:45
+2026-10-26 13:13,touch,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,YES,0.6,50.0,2026-10-26 11:48
+2026-10-26 13:13,touch,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,YES,0.6,50.0,2026-10-26 11:48
+2026-10-26 13:13,touch,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,YES,0.6,5.26,2026-10-26 11:48
+2026-10-26 13:13,strict,6096371,"Will ""Choosin' Texas - Ella Langley"" be the Billboard Hot 100 #2 song for the week of Nove",YES,0.57,4.0,2026-10-26 12:25
+2026-10-26 13:13,strict,6096371,"Will ""Choosin' Texas - Ella Langley"" be the Billboard Hot 100 #2 song for the week of Nove",YES,0.57,14.66,2026-10-26 12:30
+2026-10-26 13:13,touch,6096371,"Will ""Choosin' Texas - Ella Langley"" be the Billboard Hot 100 #2 song for the week of Nove",YES,0.57,10.0,2026-10-26 12:21
+2026-10-26 13:13,touch,6096371,"Will ""Choosin' Texas - Ella Langley"" be the Billboard Hot 100 #2 song for the week of Nove",YES,0.57,4.0,2026-10-26 12:25
+2026-10-26 13:13,touch,6096371,"Will ""Choosin' Texas - Ella Langley"" be the Billboard Hot 100 #2 song for the week of Nove",YES,0.57,14.66,2026-10-26 12:30
+2026-10-26 13:13,strict,5407574,"Will Predict.fun launch a token by October 31, 2026?",YES,0.23,105.26,2026-10-26 12:14
+2026-10-26 13:13,touch,5407574,"Will Predict.fun launch a token by October 31, 2026?",YES,0.23,99.81,2026-10-26 12:14
+2026-10-26 13:13,touch,5407574,"Will Predict.fun launch a token by October 31, 2026?",YES,0.23,5.45,2026-10-26 12:14
+2026-10-26 13:13,strict,5154696,Will OpenAI’s valuation be at least $1.30T at the end of November 2026?,YES,0.61,19.0,2026-10-26 12:23
+2026-10-26 13:13,strict,5154696,Will OpenAI’s valuation be at least $1.30T at the end of November 2026?,YES,0.61,20.0,2026-10-26 12:23
+2026-10-26 13:13,strict,5154696,Will OpenAI’s valuation be at least $1.30T at the end of November 2026?,YES,0.61,29.55,2026-10-26 12:23
+2026-10-26 13:13,strict,5154696,Will OpenAI’s valuation be at least $1.30T at the end of November 2026?,YES,0.61,20.0,2026-10-26 12:42
+2026-10-26 13:13,strict,5154696,Will OpenAI’s valuation be at least $1.30T at the end of November 2026?,YES,0.61,18.98,2026-10-26 12:59
+2026-10-26 13:13,touch,5154696,Will OpenAI’s valuation be at least $1.30T at the end of November 2026?,YES,0.61,87.11,2026-10-26 12:23
+2026-10-26 13:13,touch,5154696,Will OpenAI’s valuation be at least $1.30T at the end of November 2026?,YES,0.61,19.0,2026-10-26 12:23
+2026-10-26 13:13,touch,5154696,Will OpenAI’s valuation be at least $1.30T at the end of November 2026?,YES,0.61,1.42,2026-10-26 12:23
