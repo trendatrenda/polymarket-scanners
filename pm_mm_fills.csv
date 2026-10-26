@@ -2253,3 +2253,60 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-26 18:47,touch,2110753,Will Anthropic’s market cap be 1.8T or greater at market close on IPO day by December 31 2,NO,0.3,25.0,2026-10-26 15:50
 2026-10-26 18:47,touch,2110753,Will Anthropic’s market cap be 1.8T or greater at market close on IPO day by December 31 2,NO,0.3,5.0,2026-10-26 15:56
 2026-10-26 18:47,touch,2110753,Will Anthropic’s market cap be 1.8T or greater at market close on IPO day by December 31 2,NO,0.3,55.98,2026-10-26 16:00
+2026-10-26 20:35,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.4,21.17,2026-10-26 16:56
+2026-10-26 20:35,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.4,7.0,2026-10-26 16:56
+2026-10-26 20:35,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.4,7.0,2026-10-26 17:01
+2026-10-26 20:35,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.4,5.95,2026-10-26 17:01
+2026-10-26 20:35,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.4,20.0,2026-10-26 17:57
+2026-10-26 20:35,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.4,7.0,2026-10-26 18:02
+2026-10-26 20:35,strict,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.4,37.14,2026-10-26 18:46
+2026-10-26 20:35,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.4,21.17,2026-10-26 16:56
+2026-10-26 20:35,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.4,27.1,2026-10-26 16:56
+2026-10-26 20:35,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.4,20.0,2026-10-26 16:56
+2026-10-26 20:35,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.4,27.17,2026-10-26 16:56
+2026-10-26 20:35,touch,4294627,"Will the Rhine River return to normal levels between October 1 and October 31, 2026?",YES,0.4,9.82,2026-10-26 16:56
+2026-10-26 20:35,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.69,15.0,2026-10-26 17:53
+2026-10-26 20:35,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.69,4.64,2026-10-26 17:53
+2026-10-26 20:35,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.69,85.62,2026-10-26 17:54
+2026-10-26 20:35,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.69,15.0,2026-10-26 17:53
+2026-10-26 20:35,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.69,4.64,2026-10-26 17:53
+2026-10-26 20:35,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.69,85.62,2026-10-26 17:54
+2026-10-26 20:35,strict,5951550,Paris curfew effectively lifted by October 31?,NO,0.28,8.66,2026-10-26 16:46
+2026-10-26 20:35,strict,5951550,Paris curfew effectively lifted by October 31?,NO,0.28,61.26,2026-10-26 16:48
+2026-10-26 20:35,touch,5951550,Paris curfew effectively lifted by October 31?,NO,0.28,8.66,2026-10-26 16:46
+2026-10-26 20:35,touch,5951550,Paris curfew effectively lifted by October 31?,NO,0.28,61.26,2026-10-26 16:48
+2026-10-26 20:35,touch,5151749,"Will no next Israeli Minister of Justice be appointed by February 28, 2027?",YES,0.43,14.96,2026-10-26 17:38
+2026-10-26 20:35,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.68,105.26,2026-10-26 18:45
+2026-10-26 20:35,strict,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",NO,0.41,2.9,2026-10-26 17:31
+2026-10-26 20:35,touch,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",NO,0.41,2.9,2026-10-26 17:31
+2026-10-26 20:35,strict,5951557,Lyon curfew effectively lifted by October 31?,NO,0.19,105.54,2026-10-26 18:09
+2026-10-26 20:35,touch,5951557,Lyon curfew effectively lifted by October 31?,NO,0.19,105.54,2026-10-26 18:09
+2026-10-26 20:35,touch,5407574,"Will Predict.fun launch a token by October 31, 2026?",NO,0.76,106.38,2026-10-26 18:18
+2026-10-26 20:35,strict,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,YES,0.53,108.7,2026-10-26 17:05
+2026-10-26 20:35,touch,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,YES,0.53,108.7,2026-10-26 17:05
+2026-10-26 20:35,strict,5990515,Will Lionel Messi finish 5th in the 2026 Ballon d'Or?,YES,0.56,14.0,2026-10-26 16:46
+2026-10-26 20:35,strict,5990515,Will Lionel Messi finish 5th in the 2026 Ballon d'Or?,YES,0.56,40.0,2026-10-26 16:47
+2026-10-26 20:35,strict,5990515,Will Lionel Messi finish 5th in the 2026 Ballon d'Or?,YES,0.56,45.99,2026-10-26 16:48
+2026-10-26 20:35,strict,5990515,Will Lionel Messi finish 5th in the 2026 Ballon d'Or?,YES,0.56,5.27,2026-10-26 16:48
+2026-10-26 20:35,strict,5990515,Will Lionel Messi finish 5th in the 2026 Ballon d'Or?,NO,0.39,3.23,2026-10-26 17:01
+2026-10-26 20:35,strict,5990515,Will Lionel Messi finish 5th in the 2026 Ballon d'Or?,NO,0.39,102.04,2026-10-26 17:04
+2026-10-26 20:35,touch,5990515,Will Lionel Messi finish 5th in the 2026 Ballon d'Or?,YES,0.56,14.0,2026-10-26 16:46
+2026-10-26 20:35,touch,5990515,Will Lionel Messi finish 5th in the 2026 Ballon d'Or?,YES,0.56,40.0,2026-10-26 16:47
+2026-10-26 20:35,touch,5990515,Will Lionel Messi finish 5th in the 2026 Ballon d'Or?,YES,0.56,45.99,2026-10-26 16:48
+2026-10-26 20:35,touch,5990515,Will Lionel Messi finish 5th in the 2026 Ballon d'Or?,YES,0.56,5.27,2026-10-26 16:48
+2026-10-26 20:35,touch,5990515,Will Lionel Messi finish 5th in the 2026 Ballon d'Or?,NO,0.39,3.23,2026-10-26 17:01
+2026-10-26 20:35,touch,5990515,Will Lionel Messi finish 5th in the 2026 Ballon d'Or?,NO,0.39,102.04,2026-10-26 17:04
+2026-10-26 20:35,strict,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,YES,0.67,30.0,2026-10-26 17:46
+2026-10-26 20:35,strict,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,YES,0.67,30.0,2026-10-26 17:46
+2026-10-26 20:35,strict,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,YES,0.67,20.0,2026-10-26 17:46
+2026-10-26 20:35,touch,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,YES,0.67,30.0,2026-10-26 17:40
+2026-10-26 20:35,touch,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,YES,0.67,30.0,2026-10-26 17:46
+2026-10-26 20:35,touch,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,YES,0.67,30.0,2026-10-26 17:46
+2026-10-26 20:35,touch,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,YES,0.67,18.7,2026-10-26 17:46
+2026-10-26 20:35,strict,6096357,"Will ""Choosin' Texas - Ella Langley"" be the Billboard Hot 100 #1 song for the week of Nove",YES,0.54,0.35,2026-10-26 17:10
+2026-10-26 20:35,strict,6096357,"Will ""Choosin' Texas - Ella Langley"" be the Billboard Hot 100 #1 song for the week of Nove",NO,0.41,105.26,2026-10-26 17:48
+2026-10-26 20:35,touch,6096357,"Will ""Choosin' Texas - Ella Langley"" be the Billboard Hot 100 #1 song for the week of Nove",NO,0.41,100.0,2026-10-26 16:50
+2026-10-26 20:35,touch,6096357,"Will ""Choosin' Texas - Ella Langley"" be the Billboard Hot 100 #1 song for the week of Nove",YES,0.54,0.35,2026-10-26 17:10
+2026-10-26 20:35,touch,6096357,"Will ""Choosin' Texas - Ella Langley"" be the Billboard Hot 100 #1 song for the week of Nove",YES,0.54,76.0,2026-10-26 17:45
+2026-10-26 20:35,touch,6096357,"Will ""Choosin' Texas - Ella Langley"" be the Billboard Hot 100 #1 song for the week of Nove",YES,0.54,25.0,2026-10-26 17:48
+2026-10-26 20:35,touch,6096357,"Will ""Choosin' Texas - Ella Langley"" be the Billboard Hot 100 #1 song for the week of Nove",NO,0.41,5.26,2026-10-26 17:48
