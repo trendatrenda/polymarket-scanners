@@ -2194,3 +2194,38 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-26 14:46,strict,4713379,Will the Bank of Brazil make no change to the target for the Selic rate at the December me,YES,0.59,20.0,2026-10-26 13:06
 2026-10-26 14:46,touch,4713379,Will the Bank of Brazil make no change to the target for the Selic rate at the December me,YES,0.59,44.37,2026-10-26 13:06
 2026-10-26 14:46,touch,4713379,Will the Bank of Brazil make no change to the target for the Selic rate at the December me,YES,0.59,20.0,2026-10-26 13:06
+2026-10-26 16:46,strict,3721707,Will Anthropic's IPO valuation be between $1.75T and $2.00T?,NO,0.7,105.26,2026-10-26 13:16
+2026-10-26 16:46,touch,3721707,Will Anthropic's IPO valuation be between $1.75T and $2.00T?,NO,0.7,105.26,2026-10-26 13:16
+2026-10-26 16:46,strict,5777942,Will Lionel Messi attend the 2026 Ballon d'Or ceremony?,YES,0.14,108.7,2026-10-26 13:12
+2026-10-26 16:46,touch,5777942,Will Lionel Messi attend the 2026 Ballon d'Or ceremony?,YES,0.14,108.7,2026-10-26 13:12
+2026-10-26 16:46,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.38,106.38,2026-10-26 14:04
+2026-10-26 16:46,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.38,106.38,2026-10-26 14:04
+2026-10-26 16:46,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.26,25.5,2026-10-26 13:52
+2026-10-26 16:46,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.26,20.03,2026-10-26 13:52
+2026-10-26 16:46,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.26,38.0,2026-10-26 13:50
+2026-10-26 16:46,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.26,67.26,2026-10-26 13:50
+2026-10-26 16:46,strict,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",YES,0.51,108.7,2026-10-26 14:45
+2026-10-26 16:46,touch,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",YES,0.51,108.7,2026-10-26 14:45
+2026-10-26 16:46,strict,5151782,"Will no next Israeli Minister of National Security be appointed by February 28, 2027?",NO,0.55,90.0,2026-10-26 14:20
+2026-10-26 16:46,strict,5151782,"Will no next Israeli Minister of National Security be appointed by February 28, 2027?",NO,0.55,17.53,2026-10-26 14:33
+2026-10-26 16:46,touch,5151782,"Will no next Israeli Minister of National Security be appointed by February 28, 2027?",NO,0.55,12.6,2026-10-26 14:14
+2026-10-26 16:46,touch,5151782,"Will no next Israeli Minister of National Security be appointed by February 28, 2027?",NO,0.55,90.0,2026-10-26 14:20
+2026-10-26 16:46,touch,5151782,"Will no next Israeli Minister of National Security be appointed by February 28, 2027?",NO,0.55,4.93,2026-10-26 14:33
+2026-10-26 16:46,strict,6104893,Will Elon Musk post 1000+ tweets in November 2026?,YES,0.69,15.0,2026-10-26 14:01
+2026-10-26 16:46,strict,6104893,Will Elon Musk post 1000+ tweets in November 2026?,YES,0.69,91.38,2026-10-26 14:01
+2026-10-26 16:46,touch,6104893,Will Elon Musk post 1000+ tweets in November 2026?,YES,0.69,15.0,2026-10-26 14:01
+2026-10-26 16:46,touch,6104893,Will Elon Musk post 1000+ tweets in November 2026?,YES,0.69,91.38,2026-10-26 14:01
+2026-10-26 16:46,strict,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",YES,0.41,30.0,2026-10-26 13:29
+2026-10-26 16:46,strict,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",YES,0.41,16.28,2026-10-26 13:30
+2026-10-26 16:46,strict,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",YES,0.41,3.52,2026-10-26 13:31
+2026-10-26 16:46,strict,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",YES,0.41,5.0,2026-10-26 13:34
+2026-10-26 16:46,strict,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",YES,0.41,53.9,2026-10-26 14:31
+2026-10-26 16:46,touch,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",YES,0.41,30.0,2026-10-26 13:29
+2026-10-26 16:46,touch,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",YES,0.41,16.28,2026-10-26 13:30
+2026-10-26 16:46,touch,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",YES,0.41,3.52,2026-10-26 13:31
+2026-10-26 16:46,touch,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",YES,0.41,5.0,2026-10-26 13:34
+2026-10-26 16:46,touch,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",YES,0.41,53.9,2026-10-26 14:31
+2026-10-26 16:46,strict,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,YES,0.6,105.26,2026-10-26 13:30
+2026-10-26 16:46,touch,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,YES,0.6,105.26,2026-10-26 13:30
+2026-10-26 16:46,strict,5407574,"Will Predict.fun launch a token by October 31, 2026?",NO,0.8,105.26,2026-10-26 13:20
+2026-10-26 16:46,touch,5407574,"Will Predict.fun launch a token by October 31, 2026?",NO,0.8,105.26,2026-10-26 13:20
