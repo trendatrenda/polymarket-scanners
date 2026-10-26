@@ -20,6 +20,9 @@ LOCKED RULES (set 26 Oct 2026, before any forecast was made)
   Verdict   after 200+ settled forecasts: PASS only if the AI's chances were MORE accurate
             than the market's (Brier) AND the paper bets made a profit. Else retire.
   Cost cap  stops calling the AI if this month's estimated API cost reaches $15.
+  Rules     in the same AI call (no extra cost) the AI also writes a one-line warning when
+            a market's wording could surprise traders -- for YOU to read (column
+            rules_warning); it does not change any forecast or bet.
 Files: ai_forecasts.csv (every forecast), ai_bets.csv (paper bets), ai_cost.csv
 """
 import argparse
@@ -51,7 +54,7 @@ PRICE_IN, PRICE_OUT = 2.0, 10.0          # $ per million tokens (Sonnet 5.5 list
 PER_DAY, EDGE, MONTH_CAP = 20, 0.08, 15.0
 RUN_SECONDS = 300
 F_FIELDS = ["time", "market_id", "cid", "question", "end", "q", "mid_yes", "ask_yes", "ask_no",
-            "decision", "headlines", "reason", "result"]
+            "decision", "headlines", "reason", "rules_warning", "result"]
 B_FIELDS = ["placed", "market_id", "cid", "question", "end", "side", "token", "q", "avg_ask", "fee",
             "cost", "shares", "status", "settled", "payout", "pnl"]
 SKIP = re.compile(r"\bvs\.?\b|\bwin (the|on)\b.*(game|match)|\b(nba|nfl|nhl|mlb|ufc|epl|premier league|"
@@ -166,12 +169,17 @@ Think about the base rate, the time left, what must happen for YES, and what the
 actually shows. Avoid being overconfident: use values near 0 or 1 only when the outcome
 is nearly certain.
 
-Answer with at most 4 short sentences of reasoning, then a final line exactly like:
-PROBABILITY: 0.37"""
+Answer with at most 4 short sentences of reasoning, then a line exactly like:
+PROBABILITY: 0.37
+Then one last line about the RULES only (not your forecast): if the wording could surprise
+traders -- an unusual source, a strict definition (e.g. "announced" vs "released"), a time
+zone or deadline detail, what happens if something is delayed or cancelled -- say it in
+one sentence; otherwise write none. Exactly like:
+RULES_WARNING: none"""
 
 
 def ask_ai(key, m, news):
-    body = {"model": MODEL, "max_tokens": 400, "temperature": 0,
+    body = {"model": MODEL, "max_tokens": 500, "temperature": 0,
             "messages": [{"role": "user", "content": PROMPT.format(
                 today=now().strftime("%Y-%m-%d %H:%M"), question=m.get("question"), end=m.get("endDate"),
                 rules=str(m.get("description") or "(no rules text)")[:3000],
@@ -182,9 +190,9 @@ def ask_ai(key, m, news):
         with urllib.request.urlopen(req, timeout=90) as r:
             j = json.loads(r.read().decode())
     except urllib.error.HTTPError as e:
-        return None, f"API error {e.code}", 0, 0
+        return None, (f"API error {e.code}", ""), 0, 0
     except Exception as e:
-        return None, f"API error {type(e).__name__}", 0, 0
+        return None, (f"API error {type(e).__name__}", ""), 0, 0
     text = "".join(c.get("text", "") for c in j.get("content", []) if c.get("type") == "text")
     u = j.get("usage") or {}
     found = re.findall(r"PROBABILITY:\s*([01](?:\.\d+)?)", text)
@@ -192,7 +200,10 @@ def ask_ai(key, m, news):
     if q is not None and not 0 <= q <= 1:
         q = None
     reason = re.sub(r"\s+", " ", text.split("PROBABILITY")[0]).strip()[:300]
-    return q, reason, int(u.get("input_tokens") or 0), int(u.get("output_tokens") or 0)
+    w = re.findall(r"RULES_WARNING:\s*(.+)", text)
+    warn = w[-1].strip()[:250] if w else ""
+    warn = "" if warn.lower().rstrip(".") in ("none", "n/a", "no") else warn
+    return q, (reason, warn), int(u.get("input_tokens") or 0), int(u.get("output_tokens") or 0)
 
 
 def month_cost():
@@ -270,14 +281,14 @@ def run():
     def think(x):
         m, news = x
         if time.time() > stop or month_cost() >= MONTH_CAP:
-            return m, news, (None, "skipped (time/cost)", 0, 0)
+            return m, news, (None, ("skipped (time/cost)", ""), 0, 0)
         return m, news, ask_ai(key, m, news)
 
     costs = read(COST)
     with ThreadPoolExecutor(max_workers=4) as pool:
         out = list(pool.map(think, calls))
     errors = 0
-    for m, news, (q, reason, tin, tout) in out:
+    for m, news, (q, (reason, warn), tin, tout) in out:
         usd = tin / 1e6 * PRICE_IN + tout / 1e6 * PRICE_OUT
         if tin or tout:
             costs.append({"time": iso(now()), "market_id": m.get("id"), "in": tin, "out": tout, "usd": round(usd, 5)})
@@ -303,7 +314,8 @@ def run():
         row = {"time": iso(now()), "market_id": m.get("id"), "cid": m.get("conditionId"),
                "question": m.get("question"), "end": m.get("endDate"), "q": round(q, 4),
                "mid_yes": "" if mid == "" else round(mid, 4), "ask_yes": "" if ay is None else round(ay, 4),
-               "ask_no": "" if an is None else round(an, 4), "headlines": len(news), "reason": reason, "result": ""}
+               "ask_no": "" if an is None else round(an, 4), "headlines": len(news), "reason": reason,
+               "rules_warning": warn, "result": ""}
         if pick:
             side, tok, qq, av, fee, cost = pick
             bets.append({"placed": row["time"], "market_id": m.get("id"), "cid": m.get("conditionId"),
@@ -314,6 +326,8 @@ def run():
         row["decision"] = dec
         fc.append(row)
         print(f"  {str(m.get('question'))[:60]}: AI {q:.2f} vs market {row['mid_yes']} -> {dec}")
+        if warn:
+            print(f"      RULES WARNING: {warn}")
     write(FC, F_FIELDS, fc)
     write(BETS, B_FIELDS, bets)
     write(COST, ["time", "market_id", "in", "out", "usd"], costs)
