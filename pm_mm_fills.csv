@@ -2000,3 +2000,46 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-25 22:26,strict,6096307,"Will ""Nicole Kidman - ADÉLA"" be the #2 US song this week?",NO,0.12,105.26,2026-10-25 19:12
 2026-10-25 22:26,touch,6096307,"Will ""Nicole Kidman - ADÉLA"" be the #2 US song this week?",YES,0.83,0.34,2026-10-25 18:44
 2026-10-25 22:26,touch,6096307,"Will ""Nicole Kidman - ADÉLA"" be the #2 US song this week?",NO,0.12,105.26,2026-10-25 19:12
+2026-10-26 00:52,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.52,50.0,2026-10-25 21:50
+2026-10-26 00:52,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.52,4.29,2026-10-25 21:50
+2026-10-26 00:52,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.52,50.98,2026-10-25 21:50
+2026-10-26 00:52,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.43,105.26,2026-10-25 21:54
+2026-10-26 00:52,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.52,77.76,2026-10-25 21:01
+2026-10-26 00:52,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.52,27.5,2026-10-25 21:50
+2026-10-26 00:52,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.43,105.26,2026-10-25 21:54
+2026-10-26 00:52,strict,5151749,"Will no next Israeli Minister of Justice be appointed by February 28, 2027?",NO,0.55,0.84,2026-10-25 21:39
+2026-10-26 00:52,touch,5151749,"Will no next Israeli Minister of Justice be appointed by February 28, 2027?",NO,0.55,0.84,2026-10-25 21:39
+2026-10-26 00:52,strict,3592098,"Next OpenAI GPT Terra (5.7+) released by October 31, 2026?",YES,0.47,9.26,2026-10-25 22:11
+2026-10-26 00:52,touch,3592098,"Next OpenAI GPT Terra (5.7+) released by October 31, 2026?",YES,0.47,9.26,2026-10-25 22:11
+2026-10-26 00:52,strict,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.55,5.0,2026-10-25 20:37
+2026-10-26 00:52,strict,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.55,102.53,2026-10-25 20:50
+2026-10-26 00:52,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.55,5.0,2026-10-25 20:37
+2026-10-26 00:52,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.55,102.53,2026-10-25 20:50
+2026-10-26 00:52,strict,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.45,107.53,2026-10-25 21:36
+2026-10-26 00:52,touch,5151716,"Will no next Israeli Minister of Foreign Affairs be appointed by February 28, 2027?",YES,0.45,107.53,2026-10-25 21:36
+2026-10-26 00:52,strict,5151607,Will Naftali Bennett be the next Israeli Minister of Defense?,YES,0.14,8.0,2026-10-25 21:35
+2026-10-26 00:52,strict,5151607,Will Naftali Bennett be the next Israeli Minister of Defense?,YES,0.14,99.53,2026-10-25 21:39
+2026-10-26 00:52,touch,5151607,Will Naftali Bennett be the next Israeli Minister of Defense?,YES,0.14,8.0,2026-10-25 21:35
+2026-10-26 00:52,touch,5151607,Will Naftali Bennett be the next Israeli Minister of Defense?,YES,0.14,99.53,2026-10-25 21:39
+2026-10-26 00:52,strict,5336146,"Will Flávio Bolsonaro win Brazil, Gadi Eizenkot become Israeli PM, and Democrats win the U",NO,0.67,35.0,2026-10-25 20:26
+2026-10-26 00:52,strict,5336146,"Will Flávio Bolsonaro win Brazil, Gadi Eizenkot become Israeli PM, and Democrats win the U",NO,0.67,72.53,2026-10-25 20:35
+2026-10-26 00:52,strict,5336146,"Will Flávio Bolsonaro win Brazil, Gadi Eizenkot become Israeli PM, and Democrats win the U",YES,0.26,107.53,2026-10-25 21:25
+2026-10-26 00:52,touch,5336146,"Will Flávio Bolsonaro win Brazil, Gadi Eizenkot become Israeli PM, and Democrats win the U",NO,0.67,35.0,2026-10-25 20:26
+2026-10-26 00:52,touch,5336146,"Will Flávio Bolsonaro win Brazil, Gadi Eizenkot become Israeli PM, and Democrats win the U",NO,0.67,72.53,2026-10-25 20:35
+2026-10-26 00:52,touch,5336146,"Will Flávio Bolsonaro win Brazil, Gadi Eizenkot become Israeli PM, and Democrats win the U",YES,0.26,107.53,2026-10-25 21:25
+2026-10-26 00:52,strict,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",YES,0.25,0.01,2026-10-25 20:30
+2026-10-26 00:52,strict,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",YES,0.25,53.06,2026-10-25 21:36
+2026-10-26 00:52,strict,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",YES,0.25,52.19,2026-10-25 21:36
+2026-10-26 00:52,strict,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",NO,0.7,30.0,2026-10-25 22:23
+2026-10-26 00:52,strict,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",NO,0.7,30.0,2026-10-25 22:23
+2026-10-26 00:52,strict,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",NO,0.7,20.0,2026-10-25 22:23
+2026-10-26 00:52,strict,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",NO,0.7,20.0,2026-10-25 22:23
+2026-10-26 00:52,strict,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",NO,0.7,5.26,2026-10-25 22:23
+2026-10-26 00:52,touch,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",YES,0.25,0.01,2026-10-25 20:30
+2026-10-26 00:52,touch,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",YES,0.25,53.06,2026-10-25 21:36
+2026-10-26 00:52,touch,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",YES,0.25,52.19,2026-10-25 21:36
+2026-10-26 00:52,touch,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",NO,0.7,30.0,2026-10-25 22:23
+2026-10-26 00:52,touch,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",NO,0.7,30.0,2026-10-25 22:23
+2026-10-26 00:52,touch,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",NO,0.7,20.0,2026-10-25 22:23
+2026-10-26 00:52,touch,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",NO,0.7,20.0,2026-10-25 22:23
+2026-10-26 00:52,touch,5180403,"Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",NO,0.7,5.26,2026-10-25 22:23
