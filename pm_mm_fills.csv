@@ -2341,3 +2341,34 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-26 22:35,touch,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,NO,0.25,42.71,2026-10-26 20:06
 2026-10-26 22:35,strict,6025282,Will the next Google Gemini Pro model added to the Arena Leaderboard debut at a score of a,YES,0.27,8.97,2026-10-26 19:42
 2026-10-26 22:35,touch,6025282,Will the next Google Gemini Pro model added to the Arena Leaderboard debut at a score of a,YES,0.27,8.97,2026-10-26 19:42
+2026-10-27 00:42,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.42,5.0,2026-10-26 21:49
+2026-10-27 00:42,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.42,30.0,2026-10-26 22:18
+2026-10-27 00:42,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.42,70.26,2026-10-26 22:34
+2026-10-27 00:42,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.42,5.0,2026-10-26 21:49
+2026-10-27 00:42,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.42,30.0,2026-10-26 22:18
+2026-10-27 00:42,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.42,70.26,2026-10-26 22:34
+2026-10-27 00:42,strict,5951550,Paris curfew effectively lifted by October 31?,NO,0.26,107.53,2026-10-26 21:09
+2026-10-27 00:42,touch,5951550,Paris curfew effectively lifted by October 31?,NO,0.26,81.5,2026-10-26 20:41
+2026-10-27 00:42,touch,5951550,Paris curfew effectively lifted by October 31?,NO,0.26,26.03,2026-10-26 21:09
+2026-10-27 00:42,strict,6015215,"US Gov confirms PHP2Shell exploited by October 31, 2026?",NO,0.39,107.53,2026-10-26 22:24
+2026-10-27 00:42,touch,6015215,"US Gov confirms PHP2Shell exploited by October 31, 2026?",NO,0.39,107.53,2026-10-26 22:24
+2026-10-27 00:42,strict,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,YES,0.68,30.0,2026-10-26 21:58
+2026-10-27 00:42,strict,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,YES,0.68,37.0,2026-10-26 21:58
+2026-10-27 00:42,strict,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,YES,0.68,19.47,2026-10-26 21:59
+2026-10-27 00:42,strict,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,YES,0.68,3.03,2026-10-26 22:16
+2026-10-27 00:42,strict,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,YES,0.68,12.12,2026-10-26 22:25
+2026-10-27 00:42,strict,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,YES,0.68,3.64,2026-10-26 22:34
+2026-10-27 00:42,touch,5990496,Will Rodri finish 4th in the 2026 Ballon d'Or?,YES,0.68,105.26,2026-10-26 21:52
+2026-10-27 00:42,strict,2110753,Will Anthropic’s market cap be 1.8T or greater at market close on IPO day by December 31 2,YES,0.67,102.56,2026-10-26 21:18
+2026-10-27 00:42,strict,2110753,Will Anthropic’s market cap be 1.8T or greater at market close on IPO day by December 31 2,YES,0.67,2.71,2026-10-26 21:18
+2026-10-27 00:42,touch,2110753,Will Anthropic’s market cap be 1.8T or greater at market close on IPO day by December 31 2,YES,0.67,102.56,2026-10-26 21:18
+2026-10-27 00:42,touch,2110753,Will Anthropic’s market cap be 1.8T or greater at market close on IPO day by December 31 2,YES,0.67,2.71,2026-10-26 21:18
+2026-10-27 00:42,strict,5957193,"Will Donald Trump post 200+ Truth Social posts from October 23 to October 30, 2026?",NO,0.8,106.38,2026-10-26 20:44
+2026-10-27 00:42,touch,5957193,"Will Donald Trump post 200+ Truth Social posts from October 23 to October 30, 2026?",NO,0.8,106.38,2026-10-26 20:44
+2026-10-27 00:42,strict,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",NO,0.59,55.12,2026-10-26 21:40
+2026-10-27 00:42,strict,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",NO,0.59,52.41,2026-10-26 21:40
+2026-10-27 00:42,strict,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",YES,0.34,5.11,2026-10-26 21:40
+2026-10-27 00:42,touch,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",NO,0.59,55.12,2026-10-26 21:40
+2026-10-27 00:42,touch,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",NO,0.59,52.41,2026-10-26 21:40
+2026-10-27 00:42,touch,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",YES,0.34,13.34,2026-10-26 21:40
+2026-10-27 00:42,touch,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",YES,0.34,5.11,2026-10-26 21:40
