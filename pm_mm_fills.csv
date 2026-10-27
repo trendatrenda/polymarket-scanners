@@ -2511,3 +2511,30 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-27 10:39,touch,6018065,Houthis capture Taiz city by December 31?,NO,0.43,106.38,2026-10-27 08:42
 2026-10-27 10:39,strict,6052687,"Will the next GPT Terra model (5.7+) debut at a score of at least 1440 by June 30, 2027?",YES,0.66,107.53,2026-10-27 08:29
 2026-10-27 10:39,touch,6052687,"Will the next GPT Terra model (5.7+) debut at a score of at least 1440 by June 30, 2027?",YES,0.66,107.53,2026-10-27 08:29
+2026-10-27 12:44,strict,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,NO,0.61,25.0,2026-10-27 10:12
+2026-10-27 12:44,strict,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,NO,0.61,31.47,2026-10-27 10:30
+2026-10-27 12:44,strict,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,NO,0.61,51.06,2026-10-27 10:31
+2026-10-27 12:44,touch,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,NO,0.61,25.0,2026-10-27 10:12
+2026-10-27 12:44,touch,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,NO,0.61,31.47,2026-10-27 10:30
+2026-10-27 12:44,touch,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,NO,0.61,51.06,2026-10-27 10:31
+2026-10-27 12:44,strict,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",YES,0.34,4.57,2026-10-27 10:35
+2026-10-27 12:44,strict,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",YES,0.34,102.96,2026-10-27 10:38
+2026-10-27 12:44,touch,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",YES,0.34,4.57,2026-10-27 09:23
+2026-10-27 12:44,touch,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",YES,0.34,4.57,2026-10-27 10:35
+2026-10-27 12:44,touch,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",YES,0.34,98.39,2026-10-27 10:38
+2026-10-27 12:44,strict,6104772,"Will Donald Trump post 200+ Truth Social posts from October 27 to November 3, 2026?",NO,0.45,106.38,2026-10-27 09:21
+2026-10-27 12:44,touch,6104772,"Will Donald Trump post 200+ Truth Social posts from October 27 to November 3, 2026?",NO,0.45,106.38,2026-10-27 09:21
+2026-10-27 12:44,touch,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",NO,0.72,50.0,2026-10-27 09:32
+2026-10-27 12:44,touch,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",NO,0.72,0.67,2026-10-27 10:28
+2026-10-27 12:44,strict,6052687,"Will the next GPT Terra model (5.7+) debut at a score of at least 1440 by June 30, 2027?",YES,0.61,5.0,2026-10-27 08:49
+2026-10-27 12:44,strict,6052687,"Will the next GPT Terra model (5.7+) debut at a score of at least 1440 by June 30, 2027?",YES,0.61,8.56,2026-10-27 08:53
+2026-10-27 12:44,strict,6052687,"Will the next GPT Terra model (5.7+) debut at a score of at least 1440 by June 30, 2027?",YES,0.61,21.53,2026-10-27 09:08
+2026-10-27 12:44,strict,6052687,"Will the next GPT Terra model (5.7+) debut at a score of at least 1440 by June 30, 2027?",YES,0.61,51.44,2026-10-27 09:53
+2026-10-27 12:44,touch,6052687,"Will the next GPT Terra model (5.7+) debut at a score of at least 1440 by June 30, 2027?",YES,0.61,5.0,2026-10-27 08:49
+2026-10-27 12:44,touch,6052687,"Will the next GPT Terra model (5.7+) debut at a score of at least 1440 by June 30, 2027?",YES,0.61,8.56,2026-10-27 08:53
+2026-10-27 12:44,touch,6052687,"Will the next GPT Terra model (5.7+) debut at a score of at least 1440 by June 30, 2027?",YES,0.61,21.53,2026-10-27 09:08
+2026-10-27 12:44,touch,6052687,"Will the next GPT Terra model (5.7+) debut at a score of at least 1440 by June 30, 2027?",YES,0.61,51.44,2026-10-27 09:53
+2026-10-27 12:44,strict,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",YES,0.39,5.0,2026-10-27 09:06
+2026-10-27 12:44,strict,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",YES,0.39,102.53,2026-10-27 09:06
+2026-10-27 12:44,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",YES,0.39,5.0,2026-10-27 09:06
+2026-10-27 12:44,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",YES,0.39,102.53,2026-10-27 09:06
