@@ -2621,3 +2621,32 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-27 18:44,touch,5785091,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,YES,0.58,0.19,2026-10-27 15:40
 2026-10-27 18:44,touch,5785091,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.37,9.85,2026-10-27 15:40
 2026-10-27 18:44,touch,5785091,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.37,3.15,2026-10-27 15:43
+2026-10-27 20:38,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.34,7.15,2026-10-27 17:09
+2026-10-27 20:38,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.34,10.0,2026-10-27 17:09
+2026-10-27 20:38,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.34,65.0,2026-10-27 17:09
+2026-10-27 20:38,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.34,23.12,2026-10-27 17:15
+2026-10-27 20:38,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.34,7.15,2026-10-27 17:09
+2026-10-27 20:38,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.34,10.0,2026-10-27 17:09
+2026-10-27 20:38,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.34,65.0,2026-10-27 17:09
+2026-10-27 20:38,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",NO,0.34,23.12,2026-10-27 17:15
+2026-10-27 20:38,strict,5951550,Paris curfew effectively lifted by October 31?,NO,0.23,108.7,2026-10-27 16:57
+2026-10-27 20:38,strict,5951550,Paris curfew effectively lifted by October 31?,YES,0.69,31.93,2026-10-27 17:48
+2026-10-27 20:38,touch,5951550,Paris curfew effectively lifted by October 31?,NO,0.23,108.7,2026-10-27 16:57
+2026-10-27 20:38,touch,5951550,Paris curfew effectively lifted by October 31?,YES,0.69,31.93,2026-10-27 17:48
+2026-10-27 20:38,strict,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.29,15.21,2026-10-27 16:59
+2026-10-27 20:38,strict,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.29,8.0,2026-10-27 17:09
+2026-10-27 20:38,strict,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.29,10.0,2026-10-27 17:09
+2026-10-27 20:38,strict,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.29,34.78,2026-10-27 17:25
+2026-10-27 20:38,strict,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.29,0.22,2026-10-27 17:26
+2026-10-27 20:38,strict,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.29,27.68,2026-10-27 17:43
+2026-10-27 20:38,strict,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.29,12.81,2026-10-27 18:09
+2026-10-27 20:38,touch,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.29,15.21,2026-10-27 16:59
+2026-10-27 20:38,touch,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.29,24.05,2026-10-27 16:59
+2026-10-27 20:38,touch,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.29,35.0,2026-10-27 17:05
+2026-10-27 20:38,touch,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.29,8.0,2026-10-27 17:09
+2026-10-27 20:38,touch,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.29,10.0,2026-10-27 17:09
+2026-10-27 20:38,touch,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.29,16.44,2026-10-27 17:25
+2026-10-27 20:38,strict,2735522,Will Radomir Saičić win the next Serbia presidential election?,NO,0.39,60.0,2026-10-27 17:55
+2026-10-27 20:38,strict,2735522,Will Radomir Saičić win the next Serbia presidential election?,NO,0.39,47.53,2026-10-27 17:55
+2026-10-27 20:38,touch,2735522,Will Radomir Saičić win the next Serbia presidential election?,NO,0.39,60.0,2026-10-27 17:55
+2026-10-27 20:38,touch,2735522,Will Radomir Saičić win the next Serbia presidential election?,NO,0.39,47.53,2026-10-27 17:55
