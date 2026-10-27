@@ -2446,3 +2446,26 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-27 06:42,strict,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,YES,0.41,107.53,2026-10-27 04:34
 2026-10-27 06:42,touch,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,YES,0.41,107.53,2026-10-27 04:34
 2026-10-27 06:42,touch,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.28,10.0,2026-10-27 02:54
+2026-10-27 08:42,strict,5951550,Paris curfew effectively lifted by October 31?,YES,0.74,2.82,2026-10-27 06:01
+2026-10-27 08:42,strict,5951550,Paris curfew effectively lifted by October 31?,YES,0.74,1.41,2026-10-27 06:02
+2026-10-27 08:42,strict,5951550,Paris curfew effectively lifted by October 31?,YES,0.74,103.3,2026-10-27 06:41
+2026-10-27 08:42,touch,5951550,Paris curfew effectively lifted by October 31?,YES,0.74,2.82,2026-10-27 06:01
+2026-10-27 08:42,touch,5951550,Paris curfew effectively lifted by October 31?,YES,0.74,1.41,2026-10-27 06:02
+2026-10-27 08:42,touch,5951550,Paris curfew effectively lifted by October 31?,YES,0.74,103.3,2026-10-27 06:41
+2026-10-27 08:42,strict,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",YES,0.62,23.21,2026-10-27 05:10
+2026-10-27 08:42,strict,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",YES,0.62,85.49,2026-10-27 05:10
+2026-10-27 08:42,touch,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",YES,0.62,23.21,2026-10-27 05:10
+2026-10-27 08:42,touch,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",YES,0.62,85.49,2026-10-27 05:10
+2026-10-27 08:42,strict,6096679,Will UMich Consumer Sentiment be between 46.0 and 48.9 in November?,YES,0.41,9.59,2026-10-27 06:33
+2026-10-27 08:42,strict,6096679,Will UMich Consumer Sentiment be between 46.0 and 48.9 in November?,YES,0.41,95.67,2026-10-27 06:41
+2026-10-27 08:42,touch,6096679,Will UMich Consumer Sentiment be between 46.0 and 48.9 in November?,YES,0.41,80.0,2026-10-27 06:23
+2026-10-27 08:42,touch,6096679,Will UMich Consumer Sentiment be between 46.0 and 48.9 in November?,YES,0.41,9.59,2026-10-27 06:33
+2026-10-27 08:42,touch,6096679,Will UMich Consumer Sentiment be between 46.0 and 48.9 in November?,YES,0.41,15.67,2026-10-27 06:41
+2026-10-27 08:42,strict,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,NO,0.62,73.0,2026-10-27 06:39
+2026-10-27 08:42,strict,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,NO,0.62,35.7,2026-10-27 06:41
+2026-10-27 08:42,touch,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,NO,0.62,73.0,2026-10-27 06:39
+2026-10-27 08:42,touch,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,NO,0.62,35.7,2026-10-27 06:41
+2026-10-27 08:42,strict,6264676,Will GTA VI break the 24-hour sales record?,NO,0.16,20.0,2026-10-27 05:32
+2026-10-27 08:42,strict,6264676,Will GTA VI break the 24-hour sales record?,NO,0.16,87.53,2026-10-27 06:38
+2026-10-27 08:42,touch,6264676,Will GTA VI break the 24-hour sales record?,NO,0.16,20.0,2026-10-27 05:32
+2026-10-27 08:42,touch,6264676,Will GTA VI break the 24-hour sales record?,NO,0.16,87.53,2026-10-27 06:38
