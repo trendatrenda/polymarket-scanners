@@ -2581,3 +2581,43 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-27 16:48,touch,6052687,"Will the next GPT Terra model (5.7+) debut at a score of at least 1440 by June 30, 2027?",YES,0.57,29.99,2026-10-27 13:40
 2026-10-27 16:48,strict,6018064,Houthis capture Taiz city by November 30?,YES,0.25,105.26,2026-10-27 13:37
 2026-10-27 16:48,touch,6018064,Houthis capture Taiz city by November 30?,YES,0.25,105.26,2026-10-27 13:37
+2026-10-27 18:44,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.64,4.34,2026-10-27 16:37
+2026-10-27 18:44,strict,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.64,102.04,2026-10-27 16:37
+2026-10-27 18:44,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.64,4.34,2026-10-27 16:37
+2026-10-27 18:44,touch,5219332,"Will there be no next Fable model (5.2+) release by October 31, 2026?",YES,0.64,102.04,2026-10-27 16:37
+2026-10-27 18:44,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.68,3.43,2026-10-27 16:09
+2026-10-27 18:44,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.68,3.43,2026-10-27 16:09
+2026-10-27 18:44,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.68,45.08,2026-10-27 16:09
+2026-10-27 18:44,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.68,50.0,2026-10-27 16:09
+2026-10-27 18:44,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.68,3.33,2026-10-27 16:09
+2026-10-27 18:44,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.68,55.0,2026-10-27 16:09
+2026-10-27 18:44,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.68,50.0,2026-10-27 16:09
+2026-10-27 18:44,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.68,0.26,2026-10-27 16:09
+2026-10-27 18:44,strict,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",NO,0.38,108.7,2026-10-27 16:14
+2026-10-27 18:44,touch,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",NO,0.38,108.7,2026-10-27 16:14
+2026-10-27 18:44,strict,5957193,"Will Donald Trump post 200+ Truth Social posts from October 23 to October 30, 2026?",YES,0.42,55.0,2026-10-27 15:14
+2026-10-27 18:44,strict,5957193,"Will Donald Trump post 200+ Truth Social posts from October 23 to October 30, 2026?",YES,0.42,52.53,2026-10-27 16:01
+2026-10-27 18:44,touch,5957193,"Will Donald Trump post 200+ Truth Social posts from October 23 to October 30, 2026?",YES,0.42,55.0,2026-10-27 15:14
+2026-10-27 18:44,touch,5957193,"Will Donald Trump post 200+ Truth Social posts from October 23 to October 30, 2026?",YES,0.42,52.53,2026-10-27 16:01
+2026-10-27 18:44,strict,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",YES,0.36,108.7,2026-10-27 16:47
+2026-10-27 18:44,touch,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",YES,0.36,62.7,2026-10-27 16:01
+2026-10-27 18:44,touch,6104432,"Will Kimi K3.1 Pro debut at a score of at least 1480 by June 30, 2027?",YES,0.36,46.0,2026-10-27 16:47
+2026-10-27 18:44,strict,6018064,Houthis capture Taiz city by November 30?,NO,0.79,105.26,2026-10-27 16:47
+2026-10-27 18:44,touch,6018064,Houthis capture Taiz city by November 30?,NO,0.79,50.0,2026-10-27 16:44
+2026-10-27 18:44,touch,6018064,Houthis capture Taiz city by November 30?,NO,0.79,55.26,2026-10-27 16:47
+2026-10-27 18:44,strict,2735522,Will Radomir Saičić win the next Serbia presidential election?,NO,0.38,107.53,2026-10-27 15:30
+2026-10-27 18:44,strict,2735522,Will Radomir Saičić win the next Serbia presidential election?,YES,0.55,60.0,2026-10-27 16:21
+2026-10-27 18:44,strict,2735522,Will Radomir Saičić win the next Serbia presidential election?,YES,0.55,35.46,2026-10-27 16:21
+2026-10-27 18:44,strict,2735522,Will Radomir Saičić win the next Serbia presidential election?,YES,0.55,10.0,2026-10-27 16:21
+2026-10-27 18:44,strict,2735522,Will Radomir Saičić win the next Serbia presidential election?,YES,0.55,2.07,2026-10-27 16:21
+2026-10-27 18:44,touch,2735522,Will Radomir Saičić win the next Serbia presidential election?,NO,0.38,107.53,2026-10-27 15:30
+2026-10-27 18:44,touch,2735522,Will Radomir Saičić win the next Serbia presidential election?,YES,0.55,60.0,2026-10-27 16:21
+2026-10-27 18:44,touch,2735522,Will Radomir Saičić win the next Serbia presidential election?,YES,0.55,35.46,2026-10-27 16:21
+2026-10-27 18:44,touch,2735522,Will Radomir Saičić win the next Serbia presidential election?,YES,0.55,10.0,2026-10-27 16:21
+2026-10-27 18:44,touch,2735522,Will Radomir Saičić win the next Serbia presidential election?,YES,0.55,2.07,2026-10-27 16:21
+2026-10-27 18:44,strict,5785091,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.37,9.85,2026-10-27 15:40
+2026-10-27 18:44,strict,5785091,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.37,3.15,2026-10-27 15:43
+2026-10-27 18:44,touch,5785091,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,YES,0.58,25.0,2026-10-27 15:40
+2026-10-27 18:44,touch,5785091,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,YES,0.58,0.19,2026-10-27 15:40
+2026-10-27 18:44,touch,5785091,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.37,9.85,2026-10-27 15:40
+2026-10-27 18:44,touch,5785091,Will the Central Bank of Colombia make no change to the monetary policy interest rate at t,NO,0.37,3.15,2026-10-27 15:43
