@@ -24,6 +24,10 @@ LOCKED RULES (set 26 Oct 2026, before any forecast was made)
   Verdict   after 200+ settled forecasts: PASS only if the AI's chances were MORE accurate
             than the market's (Brier) AND the paper bets made a profit. Else retire.
   Cost cap  stops calling the AI if this month's estimated API cost reaches $15.
+  Added 27 Oct 2026 (new forecasts only, before any result was known): sports sub-markets
+            such as "Exact Score" are skipped; NO BET when no news was found; the AI also
+            rates its confidence (low/medium/high) and there is NO BET on low confidence.
+            Those forecasts are still recorded and scored.
   Rules     in the same AI call (no extra cost) the AI also writes a one-line warning when
             a market's wording could surprise traders -- for YOU to read (column
             rules_warning); it does not change any forecast or bet.
@@ -60,12 +64,13 @@ PER_EVENT = 1                            # ONE market per event: "R wins" and "D
                                          # same question -- two bets would double one opinion
 RUN_SECONDS = 300
 F_FIELDS = ["time", "market_id", "event", "cid", "question", "end", "q", "mid_yes", "ask_yes", "ask_no",
-            "decision", "headlines", "reason", "rules_warning", "result"]
+            "decision", "headlines", "reason", "rules_warning", "confidence", "result"]
 B_FIELDS = ["placed", "market_id", "cid", "question", "end", "side", "token", "q", "avg_ask", "fee",
             "cost", "shares", "status", "settled", "payout", "pnl"]
 SKIP = re.compile(r"\bvs\.?\b|\bwin (the|on)\b.*(game|match)|\b(nba|nfl|nhl|mlb|ufc|epl|premier league|"
                   r"champions league|la liga|serie a|bundesliga|ligue 1|grand prix|f1|tennis|golf|cricket|"
-                  r"o/u|spread|points|goals|touchdown)\b|\b(bitcoin|btc|ethereum|eth|solana|xrp|doge|crypto|"
+                  r"o/u|spread|points|goals|touchdown|exact score|any other score|both teams|halftime|half-time|"
+                  r"first half|corners|cards|goalscorer|to score|map \d|game \d|set \d)\b|\b(bitcoin|btc|ethereum|eth|solana|xrp|doge|crypto|"
                   r"price of|close (above|below)|above \$|below \$|between \$|s&p 500|nasdaq|dow jones|"
                   r"stock price|market cap)\b", re.I)
 
@@ -190,6 +195,9 @@ is nearly certain.
 
 Answer with at most 4 short sentences of reasoning, then a line exactly like:
 PROBABILITY: 0.37
+Then a line with how confident you are in that number, given what you actually know: low (you
+are mostly guessing or the news is unfamiliar), medium, or high. Exactly like:
+CONFIDENCE: medium
 Then one last line about the RULES only (not your forecast): if the wording could surprise
 traders -- an unusual source, a strict definition (e.g. "announced" vs "released"), a time
 zone or deadline detail, what happens if something is delayed or cancelled -- say it in
@@ -213,9 +221,9 @@ def ask_ai(key, m, news):
             msg = json.loads(e.read().decode()).get("error", {}).get("message", "")
         except Exception:
             msg = ""
-        return None, (f"API error {e.code}: {msg[:160]}", ""), 0, 0
+        return None, (f"API error {e.code}: {msg[:160]}", "", ""), 0, 0
     except Exception as e:
-        return None, (f"API error {type(e).__name__}", ""), 0, 0
+        return None, (f"API error {type(e).__name__}", "", ""), 0, 0
     text = "".join(c.get("text", "") for c in j.get("content", []) if c.get("type") == "text")
     u = j.get("usage") or {}
     found = re.findall(r"PROBABILITY:\s*([01](?:\.\d+)?)", text)
@@ -223,10 +231,12 @@ def ask_ai(key, m, news):
     if q is not None and not 0 <= q <= 1:
         q = None
     reason = re.sub(r"\s+", " ", text.split("PROBABILITY")[0]).strip()[:300]
+    c = re.findall(r"CONFIDENCE:\s*(low|medium|high)", text, re.I)
+    conf = c[-1].lower() if c else "unknown"
     w = re.findall(r"RULES_WARNING:\s*(.+)", text)
     warn = w[-1].strip()[:250] if w else ""
     warn = "" if warn.lower().rstrip(".") in ("none", "n/a", "no") else warn
-    return q, (reason, warn), int(u.get("input_tokens") or 0), int(u.get("output_tokens") or 0)
+    return q, (reason, warn, conf), int(u.get("input_tokens") or 0), int(u.get("output_tokens") or 0)
 
 
 def month_cost():
@@ -307,14 +317,14 @@ def run():
     def think(x):
         m, news = x
         if time.time() > stop or month_cost() >= MONTH_CAP:
-            return m, news, (None, ("skipped (time/cost)", ""), 0, 0)
+            return m, news, (None, ("skipped (time/cost)", "", ""), 0, 0)
         return m, news, ask_ai(key, m, news)
 
     costs = read(COST)
     with ThreadPoolExecutor(max_workers=4) as pool:
         out = list(pool.map(think, calls))
     errors = 0
-    for m, news, (q, (reason, warn), tin, tout) in out:
+    for m, news, (q, (reason, warn, conf), tin, tout) in out:
         usd = tin / 1e6 * PRICE_IN + tout / 1e6 * PRICE_OUT
         if tin or tout:
             costs.append({"time": iso(now()), "market_id": m.get("id"), "in": tin, "out": tout, "usd": round(usd, 5)})
@@ -330,6 +340,10 @@ def run():
         dec, pick = "no bet", None
         if mid != "" and not 0.05 <= mid <= 0.95:
             dec = "price outside 5-95%: forecast kept, no bet"
+        elif len(news) == 0:
+            dec = "no news found: forecast kept, no bet"
+        elif conf not in ("medium", "high"):
+            dec = f"confidence {conf}: forecast kept, no bet"
         else:
             if cy is not None and q - cy >= EDGE:
                 pick = ("yes", toks[0], q, ay, fy, cy)
@@ -341,7 +355,7 @@ def run():
                "question": m.get("question"), "end": m.get("endDate"), "q": round(q, 4),
                "mid_yes": "" if mid == "" else round(mid, 4), "ask_yes": "" if ay is None else round(ay, 4),
                "ask_no": "" if an is None else round(an, 4), "headlines": len(news), "reason": reason,
-               "rules_warning": warn, "result": ""}
+               "rules_warning": warn, "confidence": conf, "result": ""}
         if pick:
             side, tok, qq, av, fee, cost = pick
             bets.append({"placed": row["time"], "market_id": m.get("id"), "cid": m.get("conditionId"),
