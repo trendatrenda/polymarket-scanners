@@ -2435,3 +2435,14 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-27 04:35,touch,6052687,"Will the next GPT Terra model (5.7+) debut at a score of at least 1440 by June 30, 2027?",NO,0.37,10.77,2026-10-27 01:16
 2026-10-27 04:35,touch,6052687,"Will the next GPT Terra model (5.7+) debut at a score of at least 1440 by June 30, 2027?",NO,0.37,47.0,2026-10-27 01:37
 2026-10-27 04:35,touch,6052687,"Will the next GPT Terra model (5.7+) debut at a score of at least 1440 by June 30, 2027?",NO,0.37,0.93,2026-10-27 01:37
+2026-10-27 06:42,strict,4218310,"Next Astra Model (6.1+) released by October 31, 2026?",YES,0.14,41.53,2026-10-27 02:56
+2026-10-27 06:42,strict,4218310,"Next Astra Model (6.1+) released by October 31, 2026?",YES,0.14,66.0,2026-10-27 02:56
+2026-10-27 06:42,touch,4218310,"Next Astra Model (6.1+) released by October 31, 2026?",YES,0.14,41.53,2026-10-27 02:56
+2026-10-27 06:42,touch,4218310,"Next Astra Model (6.1+) released by October 31, 2026?",YES,0.14,66.0,2026-10-27 02:56
+2026-10-27 06:42,touch,6104893,Will Elon Musk post 1000+ tweets in November 2026?,YES,0.7,58.0,2026-10-27 04:01
+2026-10-27 06:42,touch,6104893,Will Elon Musk post 1000+ tweets in November 2026?,YES,0.7,48.38,2026-10-27 04:01
+2026-10-27 06:42,strict,6096679,Will UMich Consumer Sentiment be between 46.0 and 48.9 in November?,NO,0.55,105.26,2026-10-27 02:38
+2026-10-27 06:42,touch,6096679,Will UMich Consumer Sentiment be between 46.0 and 48.9 in November?,NO,0.55,105.26,2026-10-27 02:38
+2026-10-27 06:42,strict,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,YES,0.41,107.53,2026-10-27 04:34
+2026-10-27 06:42,touch,5778687,Will Eli Lilly (LLY) beat quarterly earnings?,YES,0.41,107.53,2026-10-27 04:34
+2026-10-27 06:42,touch,5998476,"Next Fable Model (5.2+) released by October 30, 2026?",YES,0.28,10.0,2026-10-27 02:54
