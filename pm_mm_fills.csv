@@ -3018,3 +3018,46 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-28 14:55,touch,4232163,Will Otzma win 6-7 seats in the 2026 Knesset elections?,NO,0.17,80.0,2026-10-28 10:54
 2026-10-28 14:55,touch,4232163,Will Otzma win 6-7 seats in the 2026 Knesset elections?,NO,0.17,27.53,2026-10-28 10:54
 2026-10-28 14:55,touch,4232163,Will Otzma win 6-7 seats in the 2026 Knesset elections?,YES,0.76,107.53,2026-10-28 11:21
+2026-10-28 16:51,strict,5151637,"Will no next Israeli Minister of Defense be appointed by February 28, 2027?",YES,0.51,4.5,2026-10-28 13:54
+2026-10-28 16:51,strict,5151637,"Will no next Israeli Minister of Defense be appointed by February 28, 2027?",YES,0.51,52.0,2026-10-28 13:54
+2026-10-28 16:51,strict,5151637,"Will no next Israeli Minister of Defense be appointed by February 28, 2027?",YES,0.51,52.2,2026-10-28 14:08
+2026-10-28 16:51,touch,5151637,"Will no next Israeli Minister of Defense be appointed by February 28, 2027?",YES,0.51,4.5,2026-10-28 13:54
+2026-10-28 16:51,touch,5151637,"Will no next Israeli Minister of Defense be appointed by February 28, 2027?",YES,0.51,52.0,2026-10-28 13:54
+2026-10-28 16:51,touch,5151637,"Will no next Israeli Minister of Defense be appointed by February 28, 2027?",YES,0.51,52.2,2026-10-28 14:08
+2026-10-28 16:51,strict,6104454,"Will Kimi K3.1 Pro debut in the top 20 of the Text Arena leaderboard by June 30, 2027?",NO,0.73,107.53,2026-10-28 14:54
+2026-10-28 16:51,touch,6104454,"Will Kimi K3.1 Pro debut in the top 20 of the Text Arena leaderboard by June 30, 2027?",NO,0.73,107.53,2026-10-28 14:54
+2026-10-28 16:51,touch,5957193,"Will Donald Trump post 200+ Truth Social posts from October 23 to October 30, 2026?",YES,0.44,4.69,2026-10-28 14:23
+2026-10-28 16:51,touch,5957193,"Will Donald Trump post 200+ Truth Social posts from October 23 to October 30, 2026?",YES,0.44,38.23,2026-10-28 14:31
+2026-10-28 16:51,strict,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",YES,0.4,50.0,2026-10-28 14:14
+2026-10-28 16:51,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",YES,0.4,50.0,2026-10-28 14:14
+2026-10-28 16:51,strict,6018064,Houthis capture Taiz city by November 30?,YES,0.31,105.26,2026-10-28 14:22
+2026-10-28 16:51,touch,6018064,Houthis capture Taiz city by November 30?,YES,0.31,0.17,2026-10-28 14:22
+2026-10-28 16:51,touch,6018064,Houthis capture Taiz city by November 30?,YES,0.31,105.09,2026-10-28 14:22
+2026-10-28 16:51,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.39,40.0,2026-10-28 13:10
+2026-10-28 16:51,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.39,20.0,2026-10-28 13:10
+2026-10-28 16:51,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.39,30.0,2026-10-28 13:10
+2026-10-28 16:51,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.39,12.0,2026-10-28 13:10
+2026-10-28 16:51,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.39,5.53,2026-10-28 13:11
+2026-10-28 16:51,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.39,40.0,2026-10-28 13:10
+2026-10-28 16:51,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.39,20.0,2026-10-28 13:10
+2026-10-28 16:51,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.39,30.0,2026-10-28 13:10
+2026-10-28 16:51,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.39,12.0,2026-10-28 13:10
+2026-10-28 16:51,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.39,5.53,2026-10-28 13:11
+2026-10-28 16:51,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.15,18.89,2026-10-28 13:34
+2026-10-28 16:51,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.15,0.11,2026-10-28 13:34
+2026-10-28 16:51,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.15,7.04,2026-10-28 13:42
+2026-10-28 16:51,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,YES,0.77,8.35,2026-10-28 13:42
+2026-10-28 16:51,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,YES,0.77,38.0,2026-10-28 14:26
+2026-10-28 16:51,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,YES,0.77,62.35,2026-10-28 14:27
+2026-10-28 16:51,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.15,18.89,2026-10-28 13:34
+2026-10-28 16:51,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.15,0.11,2026-10-28 13:34
+2026-10-28 16:51,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.15,7.04,2026-10-28 13:42
+2026-10-28 16:51,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,YES,0.77,8.35,2026-10-28 13:42
+2026-10-28 16:51,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,YES,0.77,38.0,2026-10-28 14:26
+2026-10-28 16:51,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,YES,0.77,62.35,2026-10-28 14:27
+2026-10-28 16:51,strict,6257190,Will voter turnout in the second round of the 2026 Bulgaria presidential election be 24% o,NO,0.38,74.63,2026-10-28 13:01
+2026-10-28 16:51,strict,6257190,Will voter turnout in the second round of the 2026 Bulgaria presidential election be 24% o,NO,0.38,34.07,2026-10-28 13:01
+2026-10-28 16:51,touch,6257190,Will voter turnout in the second round of the 2026 Bulgaria presidential election be 24% o,NO,0.38,9.0,2026-10-28 13:01
+2026-10-28 16:51,touch,6257190,Will voter turnout in the second round of the 2026 Bulgaria presidential election be 24% o,NO,0.38,74.63,2026-10-28 13:01
+2026-10-28 16:51,touch,6257190,Will voter turnout in the second round of the 2026 Bulgaria presidential election be 24% o,NO,0.38,20.0,2026-10-28 13:01
+2026-10-28 16:51,touch,6257190,Will voter turnout in the second round of the 2026 Bulgaria presidential election be 24% o,NO,0.38,5.07,2026-10-28 13:01
