@@ -3002,3 +3002,19 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-28 12:51,touch,6299698,"Next Israeli government formed by November 30, 2026?",NO,0.77,95.07,2026-10-28 10:32
 2026-10-28 12:51,touch,6299698,"Next Israeli government formed by November 30, 2026?",NO,0.77,13.16,2026-10-28 10:38
 2026-10-28 12:51,touch,6299698,"Next Israeli government formed by November 30, 2026?",NO,0.77,0.47,2026-10-28 10:43
+2026-10-28 14:55,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.42,20.33,2026-10-28 11:51
+2026-10-28 14:55,strict,6299698,"Next Israeli government formed by November 30, 2026?",YES,0.22,20.0,2026-10-28 11:31
+2026-10-28 14:55,strict,6299698,"Next Israeli government formed by November 30, 2026?",YES,0.22,25.0,2026-10-28 11:31
+2026-10-28 14:55,strict,6299698,"Next Israeli government formed by November 30, 2026?",YES,0.22,48.57,2026-10-28 11:33
+2026-10-28 14:55,strict,6299698,"Next Israeli government formed by November 30, 2026?",YES,0.22,5.0,2026-10-28 11:35
+2026-10-28 14:55,strict,6299698,"Next Israeli government formed by November 30, 2026?",YES,0.22,10.12,2026-10-28 12:06
+2026-10-28 14:55,touch,6299698,"Next Israeli government formed by November 30, 2026?",YES,0.22,20.0,2026-10-28 11:31
+2026-10-28 14:55,touch,6299698,"Next Israeli government formed by November 30, 2026?",YES,0.22,20.0,2026-10-28 11:31
+2026-10-28 14:55,touch,6299698,"Next Israeli government formed by November 30, 2026?",YES,0.22,25.0,2026-10-28 11:31
+2026-10-28 14:55,touch,6299698,"Next Israeli government formed by November 30, 2026?",YES,0.22,43.7,2026-10-28 11:33
+2026-10-28 14:55,strict,4232163,Will Otzma win 6-7 seats in the 2026 Knesset elections?,NO,0.17,80.0,2026-10-28 10:54
+2026-10-28 14:55,strict,4232163,Will Otzma win 6-7 seats in the 2026 Knesset elections?,NO,0.17,27.53,2026-10-28 10:54
+2026-10-28 14:55,strict,4232163,Will Otzma win 6-7 seats in the 2026 Knesset elections?,YES,0.76,107.53,2026-10-28 11:21
+2026-10-28 14:55,touch,4232163,Will Otzma win 6-7 seats in the 2026 Knesset elections?,NO,0.17,80.0,2026-10-28 10:54
+2026-10-28 14:55,touch,4232163,Will Otzma win 6-7 seats in the 2026 Knesset elections?,NO,0.17,27.53,2026-10-28 10:54
+2026-10-28 14:55,touch,4232163,Will Otzma win 6-7 seats in the 2026 Knesset elections?,YES,0.76,107.53,2026-10-28 11:21
