@@ -2920,3 +2920,44 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-28 08:52,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,NO,0.29,8.7,2026-10-28 05:35
 2026-10-28 08:52,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.63,5.0,2026-10-28 06:16
 2026-10-28 08:52,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.63,87.7,2026-10-28 06:16
+2026-10-28 10:46,strict,5151637,"Will no next Israeli Minister of Defense be appointed by February 28, 2027?",NO,0.47,105.26,2026-10-28 08:51
+2026-10-28 10:46,touch,5151637,"Will no next Israeli Minister of Defense be appointed by February 28, 2027?",NO,0.47,105.26,2026-10-28 08:51
+2026-10-28 10:46,strict,6104454,"Will Kimi K3.1 Pro debut in the top 20 of the Text Arena leaderboard by June 30, 2027?",YES,0.25,50.0,2026-10-28 08:40
+2026-10-28 10:46,strict,6104454,"Will Kimi K3.1 Pro debut in the top 20 of the Text Arena leaderboard by June 30, 2027?",YES,0.25,58.7,2026-10-28 08:40
+2026-10-28 10:46,touch,6104454,"Will Kimi K3.1 Pro debut in the top 20 of the Text Arena leaderboard by June 30, 2027?",YES,0.25,108.7,2026-10-28 08:25
+2026-10-28 10:46,strict,5957193,"Will Donald Trump post 200+ Truth Social posts from October 23 to October 30, 2026?",YES,0.51,7.14,2026-10-28 07:17
+2026-10-28 10:46,strict,5957193,"Will Donald Trump post 200+ Truth Social posts from October 23 to October 30, 2026?",YES,0.51,6.1,2026-10-28 07:17
+2026-10-28 10:46,touch,5957193,"Will Donald Trump post 200+ Truth Social posts from October 23 to October 30, 2026?",YES,0.51,7.14,2026-10-28 07:17
+2026-10-28 10:46,touch,5957193,"Will Donald Trump post 200+ Truth Social posts from October 23 to October 30, 2026?",YES,0.51,6.1,2026-10-28 07:17
+2026-10-28 10:46,strict,6104772,"Will Donald Trump post 200+ Truth Social posts from October 27 to November 3, 2026?",YES,0.64,24.12,2026-10-28 08:16
+2026-10-28 10:46,strict,6104772,"Will Donald Trump post 200+ Truth Social posts from October 27 to November 3, 2026?",YES,0.64,24.59,2026-10-28 08:16
+2026-10-28 10:46,strict,6104772,"Will Donald Trump post 200+ Truth Social posts from October 27 to November 3, 2026?",YES,0.64,0.46,2026-10-28 08:16
+2026-10-28 10:46,strict,6104772,"Will Donald Trump post 200+ Truth Social posts from October 27 to November 3, 2026?",YES,0.64,58.36,2026-10-28 08:51
+2026-10-28 10:46,touch,6104772,"Will Donald Trump post 200+ Truth Social posts from October 27 to November 3, 2026?",YES,0.64,24.12,2026-10-28 08:16
+2026-10-28 10:46,touch,6104772,"Will Donald Trump post 200+ Truth Social posts from October 27 to November 3, 2026?",YES,0.64,24.59,2026-10-28 08:16
+2026-10-28 10:46,touch,6104772,"Will Donald Trump post 200+ Truth Social posts from October 27 to November 3, 2026?",YES,0.64,0.46,2026-10-28 08:16
+2026-10-28 10:46,touch,6104772,"Will Donald Trump post 200+ Truth Social posts from October 27 to November 3, 2026?",YES,0.64,58.36,2026-10-28 08:51
+2026-10-28 10:46,strict,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.65,17.46,2026-10-28 07:07
+2026-10-28 10:46,strict,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.65,5.0,2026-10-28 07:08
+2026-10-28 10:46,strict,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.65,5.0,2026-10-28 07:08
+2026-10-28 10:46,strict,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.65,17.46,2026-10-28 07:22
+2026-10-28 10:46,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.65,17.46,2026-10-28 07:07
+2026-10-28 10:46,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.65,91.24,2026-10-28 07:08
+2026-10-28 10:46,strict,2735522,Will Radomir Saičić win the next Serbia presidential election?,NO,0.37,107.53,2026-10-28 07:54
+2026-10-28 10:46,touch,2735522,Will Radomir Saičić win the next Serbia presidential election?,NO,0.37,107.53,2026-10-28 07:54
+2026-10-28 10:46,strict,6257128,"Gemini Carbon released by November 30, 2026?",NO,0.38,50.0,2026-10-28 07:23
+2026-10-28 10:46,strict,6257128,"Gemini Carbon released by November 30, 2026?",NO,0.38,22.38,2026-10-28 07:23
+2026-10-28 10:46,strict,6257128,"Gemini Carbon released by November 30, 2026?",NO,0.38,35.15,2026-10-28 07:23
+2026-10-28 10:46,touch,6257128,"Gemini Carbon released by November 30, 2026?",NO,0.38,50.0,2026-10-28 07:23
+2026-10-28 10:46,touch,6257128,"Gemini Carbon released by November 30, 2026?",NO,0.38,22.38,2026-10-28 07:23
+2026-10-28 10:46,touch,6257128,"Gemini Carbon released by November 30, 2026?",NO,0.38,35.15,2026-10-28 07:23
+2026-10-28 10:46,strict,4824661,Will Likud be in the next Israeli government?,NO,0.54,25.0,2026-10-28 07:45
+2026-10-28 10:46,strict,4824661,Will Likud be in the next Israeli government?,NO,0.54,10.24,2026-10-28 07:45
+2026-10-28 10:46,strict,4824661,Will Likud be in the next Israeli government?,NO,0.54,40.0,2026-10-28 07:46
+2026-10-28 10:46,strict,4824661,Will Likud be in the next Israeli government?,NO,0.54,20.0,2026-10-28 07:46
+2026-10-28 10:46,strict,4824661,Will Likud be in the next Israeli government?,NO,0.54,13.46,2026-10-28 07:46
+2026-10-28 10:46,touch,4824661,Will Likud be in the next Israeli government?,NO,0.54,25.0,2026-10-28 07:45
+2026-10-28 10:46,touch,4824661,Will Likud be in the next Israeli government?,NO,0.54,10.24,2026-10-28 07:45
+2026-10-28 10:46,touch,4824661,Will Likud be in the next Israeli government?,NO,0.54,40.0,2026-10-28 07:46
+2026-10-28 10:46,touch,4824661,Will Likud be in the next Israeli government?,NO,0.54,20.0,2026-10-28 07:46
+2026-10-28 10:46,touch,4824661,Will Likud be in the next Israeli government?,NO,0.54,13.46,2026-10-28 07:46
