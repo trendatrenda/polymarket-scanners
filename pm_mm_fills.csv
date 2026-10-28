@@ -3128,3 +3128,43 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-28 20:43,touch,4824661,Will Likud be in the next Israeli government?,YES,0.38,20.0,2026-10-28 18:42
 2026-10-28 20:43,touch,4824661,Will Likud be in the next Israeli government?,YES,0.38,38.7,2026-10-28 18:46
 2026-10-28 20:43,touch,6317343,Will Trump meet with Flávio Bolsonaro in 2026?,NO,0.58,20.0,2026-10-28 17:59
+2026-10-28 22:40,strict,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.55,50.0,2026-10-28 19:53
+2026-10-28 22:40,strict,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.55,57.53,2026-10-28 19:53
+2026-10-28 22:40,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.55,50.0,2026-10-28 19:53
+2026-10-28 22:40,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.55,57.53,2026-10-28 19:53
+2026-10-28 22:40,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.42,44.25,2026-10-28 18:48
+2026-10-28 22:40,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.42,0.01,2026-10-28 18:48
+2026-10-28 22:40,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.41,108.7,2026-10-28 19:06
+2026-10-28 22:40,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.41,108.7,2026-10-28 19:06
+2026-10-28 22:40,strict,6317343,Will Trump meet with Flávio Bolsonaro in 2026?,NO,0.59,8.0,2026-10-28 19:35
+2026-10-28 22:40,strict,6317343,Will Trump meet with Flávio Bolsonaro in 2026?,NO,0.59,2.38,2026-10-28 19:41
+2026-10-28 22:40,strict,6317343,Will Trump meet with Flávio Bolsonaro in 2026?,NO,0.59,11.9,2026-10-28 20:00
+2026-10-28 22:40,strict,6317343,Will Trump meet with Flávio Bolsonaro in 2026?,NO,0.59,11.86,2026-10-28 20:35
+2026-10-28 22:40,strict,6317343,Will Trump meet with Flávio Bolsonaro in 2026?,NO,0.59,11.9,2026-10-28 20:35
+2026-10-28 22:40,strict,6317343,Will Trump meet with Flávio Bolsonaro in 2026?,NO,0.59,59.21,2026-10-28 20:42
+2026-10-28 22:40,touch,6317343,Will Trump meet with Flávio Bolsonaro in 2026?,NO,0.59,8.0,2026-10-28 19:35
+2026-10-28 22:40,touch,6317343,Will Trump meet with Flávio Bolsonaro in 2026?,NO,0.59,2.38,2026-10-28 19:41
+2026-10-28 22:40,touch,6317343,Will Trump meet with Flávio Bolsonaro in 2026?,NO,0.59,11.9,2026-10-28 20:00
+2026-10-28 22:40,touch,6317343,Will Trump meet with Flávio Bolsonaro in 2026?,NO,0.59,11.86,2026-10-28 20:35
+2026-10-28 22:40,touch,6317343,Will Trump meet with Flávio Bolsonaro in 2026?,NO,0.59,11.9,2026-10-28 20:35
+2026-10-28 22:40,touch,6317343,Will Trump meet with Flávio Bolsonaro in 2026?,NO,0.59,59.21,2026-10-28 20:42
+2026-10-28 22:40,strict,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,YES,0.5,37.58,2026-10-28 20:29
+2026-10-28 22:40,strict,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,YES,0.5,30.0,2026-10-28 20:29
+2026-10-28 22:40,strict,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,YES,0.5,37.69,2026-10-28 20:42
+2026-10-28 22:40,touch,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,YES,0.5,20.0,2026-10-28 19:09
+2026-10-28 22:40,touch,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,YES,0.5,37.58,2026-10-28 20:29
+2026-10-28 22:40,touch,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,YES,0.5,30.0,2026-10-28 20:29
+2026-10-28 22:40,touch,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,YES,0.5,17.69,2026-10-28 20:40
+2026-10-28 22:40,strict,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.47,26.97,2026-10-28 20:36
+2026-10-28 22:40,strict,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.47,80.56,2026-10-28 20:36
+2026-10-28 22:40,touch,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.47,26.97,2026-10-28 20:36
+2026-10-28 22:40,touch,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.47,80.56,2026-10-28 20:36
+2026-10-28 22:40,touch,6328751,"Next Fable Model (5.2+) released by November 12, 2026?",YES,0.56,28.41,2026-10-28 19:36
+2026-10-28 22:40,touch,6328751,"Next Fable Model (5.2+) released by November 12, 2026?",YES,0.56,36.24,2026-10-28 19:36
+2026-10-28 22:40,strict,4824662,Will Shas be in the next Israeli government?,YES,0.36,37.39,2026-10-28 20:39
+2026-10-28 22:40,strict,4824662,Will Shas be in the next Israeli government?,YES,0.36,35.0,2026-10-28 20:39
+2026-10-28 22:40,strict,4824662,Will Shas be in the next Israeli government?,YES,0.36,35.14,2026-10-28 20:39
+2026-10-28 22:40,touch,4824662,Will Shas be in the next Israeli government?,YES,0.36,37.39,2026-10-28 20:39
+2026-10-28 22:40,touch,4824662,Will Shas be in the next Israeli government?,YES,0.36,9.23,2026-10-28 20:39
+2026-10-28 22:40,touch,4824662,Will Shas be in the next Israeli government?,YES,0.36,35.0,2026-10-28 20:39
+2026-10-28 22:40,touch,4824662,Will Shas be in the next Israeli government?,YES,0.36,25.91,2026-10-28 20:39
