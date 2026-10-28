@@ -2858,3 +2858,41 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-28 04:44,strict,6257128,"Gemini Carbon released by November 30, 2026?",YES,0.58,55.0,2026-10-28 02:29
 2026-10-28 04:44,touch,6257128,"Gemini Carbon released by November 30, 2026?",YES,0.58,50.0,2026-10-28 02:27
 2026-10-28 04:44,touch,6257128,"Gemini Carbon released by November 30, 2026?",YES,0.58,55.0,2026-10-28 02:29
+2026-10-28 06:50,strict,2872613,Will Clavicular wear a Yarmulke in 2026?,YES,0.45,50.0,2026-10-28 04:24
+2026-10-28 06:50,strict,2872613,Will Clavicular wear a Yarmulke in 2026?,YES,0.45,57.53,2026-10-28 04:44
+2026-10-28 06:50,touch,2872613,Will Clavicular wear a Yarmulke in 2026?,YES,0.45,50.0,2026-10-28 04:24
+2026-10-28 06:50,touch,2872613,Will Clavicular wear a Yarmulke in 2026?,YES,0.45,57.53,2026-10-28 04:44
+2026-10-28 06:50,strict,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.5,107.53,2026-10-28 02:48
+2026-10-28 06:50,strict,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,NO,0.43,50.0,2026-10-28 03:36
+2026-10-28 06:50,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,YES,0.5,107.53,2026-10-28 02:48
+2026-10-28 06:50,touch,6066052,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 65% or higher?,NO,0.43,50.0,2026-10-28 03:36
+2026-10-28 06:50,touch,6104454,"Will Kimi K3.1 Pro debut in the top 20 of the Text Arena leaderboard by June 30, 2027?",NO,0.69,50.0,2026-10-28 03:02
+2026-10-28 06:50,touch,6104454,"Will Kimi K3.1 Pro debut in the top 20 of the Text Arena leaderboard by June 30, 2027?",NO,0.69,50.0,2026-10-28 03:02
+2026-10-28 06:50,strict,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",YES,0.64,3.04,2026-10-28 03:21
+2026-10-28 06:50,strict,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",YES,0.64,48.2,2026-10-28 04:24
+2026-10-28 06:50,strict,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",YES,0.64,57.46,2026-10-28 04:44
+2026-10-28 06:50,touch,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",YES,0.64,3.04,2026-10-28 03:21
+2026-10-28 06:50,touch,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",YES,0.64,48.2,2026-10-28 04:24
+2026-10-28 06:50,touch,6017629,"Will GPT Astra 6.1+ debut at a score of at least 1440 by June 30, 2027?",YES,0.64,57.46,2026-10-28 04:44
+2026-10-28 06:50,strict,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",NO,0.48,50.0,2026-10-28 03:27
+2026-10-28 06:50,strict,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",NO,0.48,6.37,2026-10-28 03:27
+2026-10-28 06:50,touch,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",NO,0.48,50.0,2026-10-28 03:27
+2026-10-28 06:50,touch,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",NO,0.48,6.37,2026-10-28 03:27
+2026-10-28 06:50,touch,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",NO,0.48,10.0,2026-10-28 03:27
+2026-10-28 06:50,touch,6017630,"Will GPT Astra 6.1+ debut at a score of at least 1450 by June 30, 2027?",NO,0.48,5.01,2026-10-28 03:28
+2026-10-28 06:50,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.7,10.36,2026-10-28 02:49
+2026-10-28 06:50,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.7,5.0,2026-10-28 04:01
+2026-10-28 06:50,strict,6257128,"Gemini Carbon released by November 30, 2026?",YES,0.6,36.69,2026-10-28 03:26
+2026-10-28 06:50,strict,6257128,"Gemini Carbon released by November 30, 2026?",YES,0.6,72.01,2026-10-28 04:44
+2026-10-28 06:50,touch,6257128,"Gemini Carbon released by November 30, 2026?",YES,0.6,50.0,2026-10-28 03:25
+2026-10-28 06:50,touch,6257128,"Gemini Carbon released by November 30, 2026?",YES,0.6,36.69,2026-10-28 03:26
+2026-10-28 06:50,touch,6257128,"Gemini Carbon released by November 30, 2026?",YES,0.6,22.01,2026-10-28 04:44
+2026-10-28 06:50,strict,6254930,"Netanyahu out by June 30, 2027?",YES,0.33,107.53,2026-10-28 03:45
+2026-10-28 06:50,touch,6254930,"Netanyahu out by June 30, 2027?",YES,0.33,20.0,2026-10-28 03:31
+2026-10-28 06:50,touch,6254930,"Netanyahu out by June 30, 2027?",YES,0.33,87.53,2026-10-28 03:45
+2026-10-28 06:50,strict,6066053,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 70% or higher?,YES,0.14,27.35,2026-10-28 03:30
+2026-10-28 06:50,strict,6066053,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 70% or higher?,YES,0.14,50.0,2026-10-28 04:38
+2026-10-28 06:50,strict,6066053,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 70% or higher?,YES,0.14,30.18,2026-10-28 04:44
+2026-10-28 06:50,touch,6066053,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 70% or higher?,YES,0.14,27.35,2026-10-28 03:30
+2026-10-28 06:50,touch,6066053,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 70% or higher?,YES,0.14,50.0,2026-10-28 04:38
+2026-10-28 06:50,touch,6066053,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 70% or higher?,YES,0.14,30.18,2026-10-28 04:44
