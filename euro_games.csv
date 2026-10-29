@@ -494,7 +494,7 @@ E2026,E2026_89,89,1793388600,RS,Virtus Bologna,Besiktas Istanbul,,,,0,0
 E2026,E2026_91,91,1793821500,RS,Real Madrid,Panathinaikos AKTOR Athens,,,,0,0
 E2026,E2026_95,95,1793898900,RS,Anadolu Efes Istanbul,Paris Basketball,,,,0,0
 E2026,E2026_92,92,1793901600,RS,Fenerbahce Tarfin Istanbul,Kosner Baskonia Vitoria-Gasteiz,,,,0,0
-E2026,E2026_93,93,1793901600,RS,Hapoel IBI Tel Aviv,FC Barcelona,,,,0,0
+E2026,E2026_93,93,1793904300,RS,Hapoel IBI Tel Aviv,FC Barcelona,,,,0,0
 E2026,E2026_94,94,1793905200,RS,LDLC ASVEL Villeurbanne,FC Bayern Munich,,,,0,0
 E2026,E2026_96,96,1793907000,RS,Armani Olimpia Milan,Valencia Basket,,,,0,0
 E2026,E2026_97,97,1793984400,RS,Besiktas Istanbul,Zalgiris Kaunas,,,,0,0
@@ -543,14 +543,14 @@ E2026,E2026_138,138,1795635000,RS,Kosner Baskonia Vitoria-Gasteiz,Anadolu Efes I
 E2026,E2026_139,139,1795635900,RS,Real Madrid,Zalgiris Kaunas,,,,0,0
 E2026,E2026_142,142,1796319000,RS,Anadolu Efes Istanbul,Valencia Basket,,,,0,0
 E2026,E2026_144,144,1796319900,RS,Fenerbahce Tarfin Istanbul,Crvena Zvezda Meridianbet Belgrade,,,,0,0
-E2026,E2026_141,141,1796320800,RS,Hapoel IBI Tel Aviv,Armani Olimpia Milan,,,,0,0
+E2026,E2026_141,141,1796323500,RS,Hapoel IBI Tel Aviv,Armani Olimpia Milan,,,,0,0
 E2026,E2026_143,143,1796324400,RS,FC Bayern Munich,Paris Basketball,,,,0,0
 E2026,E2026_145,145,1796327100,RS,Real Madrid,FC Barcelona,,,,0,0
+E2026,E2026_149,149,1796328000,RS,Virtus Bologna,Partizan Mozzart Bet Belgrade,,,,0,0
 E2026,E2026_146,146,1796403600,RS,Besiktas Istanbul,Panathinaikos AKTOR Athens,,,,0,0
 E2026,E2026_147,147,1796407200,RS,Zalgiris Kaunas,Dubai Basketball,,,,0,0
 E2026,E2026_150,150,1796411700,RS,Olympiacos Piraeus,LDLC ASVEL Villeurbanne,,,,0,0
 E2026,E2026_148,148,1796412600,RS,Kosner Baskonia Vitoria-Gasteiz,Maccabi Rapyd Tel Aviv,,,,0,0
-E2026,E2026_149,149,1796412600,RS,Virtus Bologna,Partizan Mozzart Bet Belgrade,,,,0,0
 E2026,E2026_155,155,1796924700,RS,Fenerbahce Tarfin Istanbul,Anadolu Efes Istanbul,,,,0,0
 E2026,E2026_151,151,1796925600,RS,Hapoel IBI Tel Aviv,LDLC ASVEL Villeurbanne,,,,0,0
 E2026,E2026_152,152,1796925600,RS,Zalgiris Kaunas,Kosner Baskonia Vitoria-Gasteiz,,,,0,0
@@ -582,7 +582,7 @@ E2026,E2026_175,175,1797622200,RS,Crvena Zvezda Meridianbet Belgrade,Besiktas Is
 E2026,E2026_177,177,1797622200,RS,Kosner Baskonia Vitoria-Gasteiz,Paris Basketball,,,,0,0
 E2026,E2026_178,178,1797623100,RS,FC Barcelona,Virtus Bologna,,,,0,0
 E2026,E2026_181,181,1797958800,RS,Besiktas Istanbul,Fenerbahce Tarfin Istanbul,,,,0,0
-E2026,E2026_182,182,1797962400,RS,Hapoel IBI Tel Aviv,Partizan Mozzart Bet Belgrade,,,,0,0
+E2026,E2026_182,182,1797965100,RS,Hapoel IBI Tel Aviv,Partizan Mozzart Bet Belgrade,,,,0,0
 E2026,E2026_183,183,1797966000,RS,LDLC ASVEL Villeurbanne,FC Barcelona,,,,0,0
 E2026,E2026_184,184,1797966000,RS,FC Bayern Munich,Olympiacos Piraeus,,,,0,0
 E2026,E2026_185,185,1797967800,RS,Virtus Bologna,Real Madrid,,,,0,0
@@ -621,8 +621,8 @@ E2026,E2026_215,215,1799782200,RS,FC Barcelona,Armani Olimpia Milan,,,,0,0
 E2026,E2026_216,216,1799782200,RS,Virtus Bologna,Anadolu Efes Istanbul,,,,0,0
 E2026,E2026_219,219,1799859600,RS,Besiktas Istanbul,Partizan Mozzart Bet Belgrade,,,,0,0
 E2026,E2026_220,220,1799867700,RS,Olympiacos Piraeus,Kosner Baskonia Vitoria-Gasteiz,,,,0,0
-E2026,E2026_221,221,1799949600,RS,Hapoel IBI Tel Aviv,Valencia Basket,,,,0,0
 E2026,E2026_222,222,1799949600,RS,Zalgiris Kaunas,Crvena Zvezda Meridianbet Belgrade,,,,0,0
+E2026,E2026_221,221,1799952300,RS,Hapoel IBI Tel Aviv,Valencia Basket,,,,0,0
 E2026,E2026_225,225,1799954100,RS,Panathinaikos AKTOR Athens,FC Bayern Munich,,,,0,0
 E2026,E2026_223,223,1799955000,RS,Armani Olimpia Milan,LDLC ASVEL Villeurbanne,,,,0,0
 E2026,E2026_224,224,1799955900,RS,Real Madrid,Anadolu Efes Istanbul,,,,0,0
@@ -671,7 +671,7 @@ E2026,E2026_266,266,1801855800,RS,Kosner Baskonia Vitoria-Gasteiz,Crvena Zvezda 
 E2026,E2026_267,267,1801855800,RS,Armani Olimpia Milan,Panathinaikos AKTOR Athens,,,,0,0
 E2026,E2026_268,268,1801856700,RS,Valencia Basket,FC Barcelona,,,,0,0
 E2026,E2026_269,269,1801856700,RS,Partizan Mozzart Bet Belgrade,Hapoel IBI Tel Aviv,,,,0,0
-E2026,E2026_271,271,1802282400,RS,Hapoel IBI Tel Aviv,Kosner Baskonia Vitoria-Gasteiz,,,,0,0
+E2026,E2026_271,271,1802285100,RS,Hapoel IBI Tel Aviv,Kosner Baskonia Vitoria-Gasteiz,,,,0,0
 E2026,E2026_272,272,1802286000,RS,LDLC ASVEL Villeurbanne,Anadolu Efes Istanbul,,,,0,0
 E2026,E2026_273,273,1802365200,RS,Besiktas Istanbul,Dubai Basketball,,,,0,0
 E2026,E2026_274,274,1802372400,RS,Crvena Zvezda Meridianbet Belgrade,Partizan Mozzart Bet Belgrade,,,,0,0

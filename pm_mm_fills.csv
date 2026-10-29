@@ -3418,3 +3418,52 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-29 16:53,touch,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.36,25.26,2026-10-29 13:52
 2026-10-29 16:53,touch,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,NO,0.59,50.0,2026-10-29 14:25
 2026-10-29 16:53,touch,6353938,Will the Fed increase interest rates by 25 bps after the April 2027 meeting?,YES,0.26,106.38,2026-10-29 14:50
+2026-10-29 18:49,strict,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",NO,0.71,8.71,2026-10-29 15:00
+2026-10-29 18:49,strict,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",NO,0.71,40.0,2026-10-29 15:17
+2026-10-29 18:49,touch,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",NO,0.71,8.71,2026-10-29 15:00
+2026-10-29 18:49,touch,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",YES,0.23,20.0,2026-10-29 15:08
+2026-10-29 18:49,touch,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",NO,0.71,30.0,2026-10-29 15:14
+2026-10-29 18:49,touch,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",NO,0.71,40.0,2026-10-29 15:17
+2026-10-29 18:49,touch,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",NO,0.71,12.36,2026-10-29 15:55
+2026-10-29 18:49,strict,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.74,8.0,2026-10-29 15:09
+2026-10-29 18:49,strict,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.74,99.53,2026-10-29 15:30
+2026-10-29 18:49,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.74,8.0,2026-10-29 15:09
+2026-10-29 18:49,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.74,99.53,2026-10-29 15:30
+2026-10-29 18:49,strict,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,NO,0.5,105.26,2026-10-29 16:14
+2026-10-29 18:49,touch,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,NO,0.5,13.0,2026-10-29 16:14
+2026-10-29 18:49,touch,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,NO,0.5,92.26,2026-10-29 16:14
+2026-10-29 18:49,strict,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,NO,0.26,94.58,2026-10-29 14:56
+2026-10-29 18:49,strict,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,NO,0.26,12.95,2026-10-29 14:57
+2026-10-29 18:49,touch,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,NO,0.26,94.58,2026-10-29 14:56
+2026-10-29 18:49,touch,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,NO,0.26,12.95,2026-10-29 14:57
+2026-10-29 18:49,strict,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,YES,0.62,5.0,2026-10-29 15:28
+2026-10-29 18:49,strict,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,YES,0.62,5.0,2026-10-29 15:28
+2026-10-29 18:49,strict,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,YES,0.62,97.53,2026-10-29 16:52
+2026-10-29 18:49,touch,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,YES,0.62,5.0,2026-10-29 15:28
+2026-10-29 18:49,touch,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,YES,0.62,5.0,2026-10-29 15:28
+2026-10-29 18:49,touch,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,YES,0.62,40.0,2026-10-29 15:31
+2026-10-29 18:49,touch,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,YES,0.62,57.53,2026-10-29 16:52
+2026-10-29 18:49,strict,5176985,Will Anthropic be the second-best AI lab at the end of December 2026?,YES,0.43,20.0,2026-10-29 14:59
+2026-10-29 18:49,strict,5176985,Will Anthropic be the second-best AI lab at the end of December 2026?,YES,0.43,20.0,2026-10-29 15:23
+2026-10-29 18:49,strict,5176985,Will Anthropic be the second-best AI lab at the end of December 2026?,YES,0.43,20.0,2026-10-29 15:23
+2026-10-29 18:49,strict,5176985,Will Anthropic be the second-best AI lab at the end of December 2026?,YES,0.43,47.53,2026-10-29 15:36
+2026-10-29 18:49,touch,5176985,Will Anthropic be the second-best AI lab at the end of December 2026?,YES,0.43,20.0,2026-10-29 14:59
+2026-10-29 18:49,touch,5176985,Will Anthropic be the second-best AI lab at the end of December 2026?,YES,0.43,87.53,2026-10-29 15:23
+2026-10-29 18:49,strict,4424532,Will Reservists – New Economic Party win 2.75-3.25% of the vote in the 2026 Knesset electi,YES,0.18,15.0,2026-10-29 15:03
+2026-10-29 18:49,strict,4424532,Will Reservists – New Economic Party win 2.75-3.25% of the vote in the 2026 Knesset electi,YES,0.18,10.0,2026-10-29 15:03
+2026-10-29 18:49,strict,4424532,Will Reservists – New Economic Party win 2.75-3.25% of the vote in the 2026 Knesset electi,YES,0.18,30.0,2026-10-29 15:03
+2026-10-29 18:49,strict,4424532,Will Reservists – New Economic Party win 2.75-3.25% of the vote in the 2026 Knesset electi,YES,0.18,5.06,2026-10-29 15:03
+2026-10-29 18:49,strict,4424532,Will Reservists – New Economic Party win 2.75-3.25% of the vote in the 2026 Knesset electi,YES,0.18,20.0,2026-10-29 15:03
+2026-10-29 18:49,strict,4424532,Will Reservists – New Economic Party win 2.75-3.25% of the vote in the 2026 Knesset electi,YES,0.18,5.0,2026-10-29 15:03
+2026-10-29 18:49,strict,4424532,Will Reservists – New Economic Party win 2.75-3.25% of the vote in the 2026 Knesset electi,YES,0.18,22.47,2026-10-29 15:03
+2026-10-29 18:49,touch,4424532,Will Reservists – New Economic Party win 2.75-3.25% of the vote in the 2026 Knesset electi,YES,0.18,15.0,2026-10-29 15:03
+2026-10-29 18:49,touch,4424532,Will Reservists – New Economic Party win 2.75-3.25% of the vote in the 2026 Knesset electi,YES,0.18,10.0,2026-10-29 15:03
+2026-10-29 18:49,touch,4424532,Will Reservists – New Economic Party win 2.75-3.25% of the vote in the 2026 Knesset electi,YES,0.18,30.0,2026-10-29 15:03
+2026-10-29 18:49,touch,4424532,Will Reservists – New Economic Party win 2.75-3.25% of the vote in the 2026 Knesset electi,YES,0.18,5.06,2026-10-29 15:03
+2026-10-29 18:49,touch,4424532,Will Reservists – New Economic Party win 2.75-3.25% of the vote in the 2026 Knesset electi,YES,0.18,20.0,2026-10-29 15:03
+2026-10-29 18:49,touch,4424532,Will Reservists – New Economic Party win 2.75-3.25% of the vote in the 2026 Knesset electi,YES,0.18,5.0,2026-10-29 15:03
+2026-10-29 18:49,touch,4424532,Will Reservists – New Economic Party win 2.75-3.25% of the vote in the 2026 Knesset electi,YES,0.18,22.47,2026-10-29 15:03
+2026-10-29 18:49,strict,1393326,Predict.fun FDV above $2B one day after launch?,YES,0.16,15.0,2026-10-29 14:58
+2026-10-29 18:49,strict,1393326,Predict.fun FDV above $2B one day after launch?,YES,0.16,90.26,2026-10-29 16:12
+2026-10-29 18:49,touch,1393326,Predict.fun FDV above $2B one day after launch?,YES,0.16,15.0,2026-10-29 14:58
+2026-10-29 18:49,touch,1393326,Predict.fun FDV above $2B one day after launch?,YES,0.16,90.26,2026-10-29 16:12
