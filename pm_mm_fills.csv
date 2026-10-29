@@ -3384,3 +3384,37 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-29 14:56,strict,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,NO,0.53,5.26,2026-10-29 12:10
 2026-10-29 14:56,touch,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,NO,0.53,50.0,2026-10-29 12:07
 2026-10-29 14:56,touch,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,NO,0.53,55.26,2026-10-29 12:07
+2026-10-29 16:53,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.7,105.26,2026-10-29 13:54
+2026-10-29 16:53,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.7,105.26,2026-10-29 13:54
+2026-10-29 16:53,strict,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,YES,0.79,50.0,2026-10-29 13:37
+2026-10-29 16:53,strict,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,YES,0.79,57.53,2026-10-29 14:55
+2026-10-29 16:53,touch,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,YES,0.79,17.0,2026-10-29 13:37
+2026-10-29 16:53,touch,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,YES,0.79,50.0,2026-10-29 13:37
+2026-10-29 16:53,touch,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,YES,0.79,40.53,2026-10-29 14:55
+2026-10-29 16:53,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.72,2.93,2026-10-29 13:02
+2026-10-29 16:53,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.72,46.0,2026-10-29 13:02
+2026-10-29 16:53,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",NO,0.72,8.0,2026-10-29 13:39
+2026-10-29 16:53,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.32,20.0,2026-10-29 13:14
+2026-10-29 16:53,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.32,20.0,2026-10-29 13:14
+2026-10-29 16:53,strict,6364437,Government shutdown by December 31?,NO,0.54,20.0,2026-10-29 13:06
+2026-10-29 16:53,strict,6364437,Government shutdown by December 31?,NO,0.54,50.0,2026-10-29 13:22
+2026-10-29 16:53,strict,6364437,Government shutdown by December 31?,NO,0.54,37.53,2026-10-29 13:47
+2026-10-29 16:53,touch,6364437,Government shutdown by December 31?,NO,0.54,20.0,2026-10-29 13:06
+2026-10-29 16:53,touch,6364437,Government shutdown by December 31?,NO,0.54,50.0,2026-10-29 13:22
+2026-10-29 16:53,touch,6364437,Government shutdown by December 31?,NO,0.54,37.53,2026-10-29 13:47
+2026-10-29 16:53,strict,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,NO,0.44,50.0,2026-10-29 14:54
+2026-10-29 16:53,strict,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,NO,0.44,50.0,2026-10-29 14:55
+2026-10-29 16:53,strict,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,NO,0.44,7.53,2026-10-29 14:55
+2026-10-29 16:53,touch,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,NO,0.44,100.0,2026-10-29 14:54
+2026-10-29 16:53,touch,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,NO,0.44,7.53,2026-10-29 14:54
+2026-10-29 16:53,strict,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.36,37.0,2026-10-29 13:52
+2026-10-29 16:53,strict,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.36,6.84,2026-10-29 13:52
+2026-10-29 16:53,strict,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.36,11.76,2026-10-29 13:52
+2026-10-29 16:53,strict,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.36,18.39,2026-10-29 13:52
+2026-10-29 16:53,strict,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.36,2.97,2026-10-29 13:52
+2026-10-29 16:53,strict,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.36,8.33,2026-10-29 13:53
+2026-10-29 16:53,strict,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.36,19.97,2026-10-29 13:54
+2026-10-29 16:53,touch,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.36,80.0,2026-10-29 13:52
+2026-10-29 16:53,touch,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.36,25.26,2026-10-29 13:52
+2026-10-29 16:53,touch,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,NO,0.59,50.0,2026-10-29 14:25
+2026-10-29 16:53,touch,6353938,Will the Fed increase interest rates by 25 bps after the April 2027 meeting?,YES,0.26,106.38,2026-10-29 14:50
