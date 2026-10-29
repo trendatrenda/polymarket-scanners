@@ -3168,3 +3168,45 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-28 22:40,touch,4824662,Will Shas be in the next Israeli government?,YES,0.36,9.23,2026-10-28 20:39
 2026-10-28 22:40,touch,4824662,Will Shas be in the next Israeli government?,YES,0.36,35.0,2026-10-28 20:39
 2026-10-28 22:40,touch,4824662,Will Shas be in the next Israeli government?,YES,0.36,25.91,2026-10-28 20:39
+2026-10-29 00:52,strict,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",YES,0.42,108.7,2026-10-28 22:39
+2026-10-29 00:52,touch,5997211,"Next Astra Model (6.1+) released by November 15, 2026?",YES,0.42,108.7,2026-10-28 22:39
+2026-10-29 00:52,strict,6066053,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 70% or higher?,NO,0.79,50.02,2026-10-28 22:23
+2026-10-29 00:52,touch,6066053,Will GPT Astra 6.1+ debut with an HLE-Diamond score of 70% or higher?,NO,0.79,50.02,2026-10-28 22:23
+2026-10-29 00:52,strict,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.42,84.0,2026-10-28 21:24
+2026-10-29 00:52,strict,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.42,24.7,2026-10-28 21:25
+2026-10-29 00:52,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.42,84.0,2026-10-28 21:24
+2026-10-29 00:52,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.42,24.7,2026-10-28 21:25
+2026-10-29 00:52,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.3,18.0,2026-10-28 22:01
+2026-10-29 00:52,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.3,89.53,2026-10-28 22:01
+2026-10-29 00:52,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.3,18.0,2026-10-28 22:01
+2026-10-29 00:52,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.3,89.53,2026-10-28 22:01
+2026-10-29 00:52,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.38,0.51,2026-10-28 21:45
+2026-10-29 00:52,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.38,82.0,2026-10-28 22:17
+2026-10-29 00:52,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.38,0.51,2026-10-28 21:45
+2026-10-29 00:52,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.38,82.0,2026-10-28 22:17
+2026-10-29 00:52,strict,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.38,1.87,2026-10-28 21:43
+2026-10-29 00:52,strict,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.38,20.0,2026-10-28 22:01
+2026-10-29 00:52,strict,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.38,0.95,2026-10-28 22:01
+2026-10-29 00:52,strict,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.38,20.0,2026-10-28 22:01
+2026-10-29 00:52,strict,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.38,65.88,2026-10-28 22:01
+2026-10-29 00:52,touch,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.38,0.3,2026-10-28 21:06
+2026-10-29 00:52,touch,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.38,1.87,2026-10-28 21:43
+2026-10-29 00:52,touch,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.38,20.0,2026-10-28 22:01
+2026-10-29 00:52,touch,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.38,0.95,2026-10-28 22:01
+2026-10-29 00:52,touch,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.38,20.0,2026-10-28 22:01
+2026-10-29 00:52,touch,6299701,"Next Israeli government formed by June 30, 2027?",NO,0.38,65.58,2026-10-28 22:01
+2026-10-29 00:52,strict,6328751,"Next Fable Model (5.2+) released by November 12, 2026?",NO,0.37,30.0,2026-10-28 21:20
+2026-10-29 00:52,strict,6328751,"Next Fable Model (5.2+) released by November 12, 2026?",NO,0.37,30.0,2026-10-28 21:20
+2026-10-29 00:52,strict,6328751,"Next Fable Model (5.2+) released by November 12, 2026?",NO,0.37,12.0,2026-10-28 21:30
+2026-10-29 00:52,strict,6328751,"Next Fable Model (5.2+) released by November 12, 2026?",NO,0.37,21.0,2026-10-28 21:48
+2026-10-29 00:52,strict,6328751,"Next Fable Model (5.2+) released by November 12, 2026?",NO,0.37,14.53,2026-10-28 22:39
+2026-10-29 00:52,touch,6328751,"Next Fable Model (5.2+) released by November 12, 2026?",NO,0.37,30.0,2026-10-28 21:20
+2026-10-29 00:52,touch,6328751,"Next Fable Model (5.2+) released by November 12, 2026?",NO,0.37,30.0,2026-10-28 21:20
+2026-10-29 00:52,touch,6328751,"Next Fable Model (5.2+) released by November 12, 2026?",NO,0.37,12.0,2026-10-28 21:30
+2026-10-29 00:52,touch,6328751,"Next Fable Model (5.2+) released by November 12, 2026?",NO,0.37,21.0,2026-10-28 21:48
+2026-10-29 00:52,touch,6328751,"Next Fable Model (5.2+) released by November 12, 2026?",NO,0.37,5.0,2026-10-28 21:48
+2026-10-29 00:52,touch,6328751,"Next Fable Model (5.2+) released by November 12, 2026?",NO,0.37,5.0,2026-10-28 21:49
+2026-10-29 00:52,touch,6328751,"Next Fable Model (5.2+) released by November 12, 2026?",NO,0.37,4.53,2026-10-28 21:54
+2026-10-29 00:52,touch,6328753,"Next Fable Model (5.2+) released by November 5, 2026?",YES,0.25,18.96,2026-10-28 21:36
+2026-10-29 00:52,touch,6328753,"Next Fable Model (5.2+) released by November 5, 2026?",YES,0.25,19.0,2026-10-28 21:51
+2026-10-29 00:52,touch,6328753,"Next Fable Model (5.2+) released by November 5, 2026?",YES,0.25,69.57,2026-10-28 21:57
