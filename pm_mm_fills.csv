@@ -3478,3 +3478,25 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-29 20:44,strict,6301107,US imports Russian diesel by November 15?,YES,0.4,53.33,2026-10-29 17:21
 2026-10-29 20:44,touch,6301107,US imports Russian diesel by November 15?,YES,0.4,54.2,2026-10-29 17:11
 2026-10-29 20:44,touch,6301107,US imports Russian diesel by November 15?,YES,0.4,53.33,2026-10-29 17:21
+2026-10-29 22:42,strict,6018065,Houthis capture Taiz city by December 31?,NO,0.76,90.0,2026-10-29 19:36
+2026-10-29 22:42,strict,6018065,Houthis capture Taiz city by December 31?,NO,0.76,15.26,2026-10-29 19:39
+2026-10-29 22:42,touch,6018065,Houthis capture Taiz city by December 31?,NO,0.76,2.15,2026-10-29 19:00
+2026-10-29 22:42,touch,6018065,Houthis capture Taiz city by December 31?,NO,0.76,90.0,2026-10-29 19:36
+2026-10-29 22:42,touch,6018065,Houthis capture Taiz city by December 31?,NO,0.76,13.11,2026-10-29 19:39
+2026-10-29 22:42,touch,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,NO,0.63,29.0,2026-10-29 20:34
+2026-10-29 22:42,strict,648383,Billionaire one-time wealth tax passes in California election 2026?,YES,0.28,105.26,2026-10-29 19:00
+2026-10-29 22:42,touch,648383,Billionaire one-time wealth tax passes in California election 2026?,YES,0.28,105.26,2026-10-29 19:00
+2026-10-29 22:42,touch,6367374,Israel x Iran ceasefire continues through November 4?,YES,0.82,44.33,2026-10-29 19:13
+2026-10-29 22:42,strict,3399468,Israel x Iran ceasefire continues through December 31?,NO,0.65,5.43,2026-10-29 19:06
+2026-10-29 22:42,strict,3399468,Israel x Iran ceasefire continues through December 31?,NO,0.65,10.0,2026-10-29 19:08
+2026-10-29 22:42,strict,3399468,Israel x Iran ceasefire continues through December 31?,NO,0.65,92.1,2026-10-29 19:18
+2026-10-29 22:42,touch,3399468,Israel x Iran ceasefire continues through December 31?,NO,0.65,6.42,2026-10-29 19:05
+2026-10-29 22:42,touch,3399468,Israel x Iran ceasefire continues through December 31?,NO,0.65,5.43,2026-10-29 19:06
+2026-10-29 22:42,touch,3399468,Israel x Iran ceasefire continues through December 31?,NO,0.65,10.0,2026-10-29 19:08
+2026-10-29 22:42,touch,3399468,Israel x Iran ceasefire continues through December 31?,NO,0.65,85.68,2026-10-29 19:18
+2026-10-29 22:42,strict,6367375,Israel x Iran ceasefire continues through November 6?,YES,0.81,0.47,2026-10-29 20:14
+2026-10-29 22:42,strict,6367375,Israel x Iran ceasefire continues through November 6?,YES,0.81,50.0,2026-10-29 20:14
+2026-10-29 22:42,strict,6367375,Israel x Iran ceasefire continues through November 6?,YES,0.81,54.79,2026-10-29 20:14
+2026-10-29 22:42,touch,6367375,Israel x Iran ceasefire continues through November 6?,YES,0.81,0.47,2026-10-29 20:14
+2026-10-29 22:42,touch,6367375,Israel x Iran ceasefire continues through November 6?,YES,0.81,50.0,2026-10-29 20:14
+2026-10-29 22:42,touch,6367375,Israel x Iran ceasefire continues through November 6?,YES,0.81,54.79,2026-10-29 20:14
