@@ -3467,3 +3467,14 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-29 18:49,strict,1393326,Predict.fun FDV above $2B one day after launch?,YES,0.16,90.26,2026-10-29 16:12
 2026-10-29 18:49,touch,1393326,Predict.fun FDV above $2B one day after launch?,YES,0.16,15.0,2026-10-29 14:58
 2026-10-29 18:49,touch,1393326,Predict.fun FDV above $2B one day after launch?,YES,0.16,90.26,2026-10-29 16:12
+2026-10-29 20:44,strict,4824662,Will Shas be in the next Israeli government?,NO,0.74,108.7,2026-10-29 17:48
+2026-10-29 20:44,touch,4824662,Will Shas be in the next Israeli government?,NO,0.74,108.7,2026-10-29 17:48
+2026-10-29 20:44,touch,5176985,Will Anthropic be the second-best AI lab at the end of December 2026?,YES,0.4,18.66,2026-10-29 16:55
+2026-10-29 20:44,strict,1393326,Predict.fun FDV above $2B one day after launch?,YES,0.12,39.0,2026-10-29 17:04
+2026-10-29 20:44,strict,1393326,Predict.fun FDV above $2B one day after launch?,YES,0.12,67.38,2026-10-29 17:04
+2026-10-29 20:44,touch,1393326,Predict.fun FDV above $2B one day after launch?,YES,0.12,39.0,2026-10-29 17:04
+2026-10-29 20:44,touch,1393326,Predict.fun FDV above $2B one day after launch?,YES,0.12,67.38,2026-10-29 17:04
+2026-10-29 20:44,strict,6301107,US imports Russian diesel by November 15?,YES,0.4,54.2,2026-10-29 17:11
+2026-10-29 20:44,strict,6301107,US imports Russian diesel by November 15?,YES,0.4,53.33,2026-10-29 17:21
+2026-10-29 20:44,touch,6301107,US imports Russian diesel by November 15?,YES,0.4,54.2,2026-10-29 17:11
+2026-10-29 20:44,touch,6301107,US imports Russian diesel by November 15?,YES,0.4,53.33,2026-10-29 17:21
