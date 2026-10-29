@@ -3305,3 +3305,35 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-29 08:54,touch,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,YES,0.62,8.0,2026-10-29 06:05
 2026-10-29 08:54,touch,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,YES,0.62,63.5,2026-10-29 06:11
 2026-10-29 08:54,touch,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,YES,0.62,17.2,2026-10-29 06:15
+2026-10-29 10:48,strict,4232145,Will Ra'am win exactly 7 seats in the 2026 Knesset elections?,YES,0.81,15.34,2026-10-29 06:55
+2026-10-29 10:48,strict,4232145,Will Ra'am win exactly 7 seats in the 2026 Knesset elections?,YES,0.81,92.18,2026-10-29 07:10
+2026-10-29 10:48,strict,4232145,Will Ra'am win exactly 7 seats in the 2026 Knesset elections?,NO,0.12,48.01,2026-10-29 07:11
+2026-10-29 10:48,touch,4232145,Will Ra'am win exactly 7 seats in the 2026 Knesset elections?,YES,0.81,15.34,2026-10-29 06:55
+2026-10-29 10:48,touch,4232145,Will Ra'am win exactly 7 seats in the 2026 Knesset elections?,YES,0.81,92.18,2026-10-29 07:10
+2026-10-29 10:48,touch,4232145,Will Ra'am win exactly 7 seats in the 2026 Knesset elections?,NO,0.12,48.01,2026-10-29 07:11
+2026-10-29 10:48,strict,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,NO,0.79,98.03,2026-10-29 07:17
+2026-10-29 10:48,strict,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,NO,0.79,9.5,2026-10-29 07:19
+2026-10-29 10:48,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,NO,0.79,98.03,2026-10-29 07:17
+2026-10-29 10:48,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,NO,0.79,9.5,2026-10-29 07:19
+2026-10-29 10:48,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.19,50.5,2026-10-29 06:54
+2026-10-29 10:48,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.19,57.03,2026-10-29 06:54
+2026-10-29 10:48,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,YES,0.74,107.53,2026-10-29 08:12
+2026-10-29 10:48,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.19,50.5,2026-10-29 06:54
+2026-10-29 10:48,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.19,57.03,2026-10-29 06:54
+2026-10-29 10:48,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,YES,0.74,107.53,2026-10-29 08:12
+2026-10-29 10:48,strict,6364437,Government shutdown by December 31?,YES,0.43,5.0,2026-10-29 07:56
+2026-10-29 10:48,strict,6364437,Government shutdown by December 31?,YES,0.43,15.0,2026-10-29 07:56
+2026-10-29 10:48,strict,6364437,Government shutdown by December 31?,YES,0.43,5.0,2026-10-29 07:56
+2026-10-29 10:48,strict,6364437,Government shutdown by December 31?,YES,0.43,20.0,2026-10-29 07:56
+2026-10-29 10:48,strict,6364437,Government shutdown by December 31?,YES,0.43,25.0,2026-10-29 07:56
+2026-10-29 10:48,strict,6364437,Government shutdown by December 31?,YES,0.43,2.12,2026-10-29 08:23
+2026-10-29 10:48,strict,6364437,Government shutdown by December 31?,YES,0.43,20.0,2026-10-29 08:45
+2026-10-29 10:48,strict,6364437,Government shutdown by December 31?,YES,0.43,15.41,2026-10-29 08:53
+2026-10-29 10:48,touch,6364437,Government shutdown by December 31?,YES,0.43,20.0,2026-10-29 07:05
+2026-10-29 10:48,touch,6364437,Government shutdown by December 31?,YES,0.43,5.0,2026-10-29 07:56
+2026-10-29 10:48,touch,6364437,Government shutdown by December 31?,YES,0.43,15.0,2026-10-29 07:56
+2026-10-29 10:48,touch,6364437,Government shutdown by December 31?,YES,0.43,5.0,2026-10-29 07:56
+2026-10-29 10:48,touch,6364437,Government shutdown by December 31?,YES,0.43,20.0,2026-10-29 07:56
+2026-10-29 10:48,touch,6364437,Government shutdown by December 31?,YES,0.43,25.0,2026-10-29 07:56
+2026-10-29 10:48,touch,6364437,Government shutdown by December 31?,YES,0.43,2.12,2026-10-29 08:23
+2026-10-29 10:48,touch,6364437,Government shutdown by December 31?,YES,0.43,15.41,2026-10-29 08:45
