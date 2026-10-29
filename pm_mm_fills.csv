@@ -3275,3 +3275,33 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-29 06:52,touch,4824664,Will RZP-Zehut be in the next Israeli government?,NO,0.66,10.0,2026-10-29 04:03
 2026-10-29 06:52,touch,4824664,Will RZP-Zehut be in the next Israeli government?,NO,0.66,97.53,2026-10-29 04:03
 2026-10-29 06:52,touch,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,NO,0.3,50.0,2026-10-29 03:07
+2026-10-29 08:54,strict,5151749,"Will no next Israeli Minister of Justice be appointed by February 28, 2027?",NO,0.5,51.0,2026-10-29 05:57
+2026-10-29 08:54,strict,5151749,"Will no next Israeli Minister of Justice be appointed by February 28, 2027?",NO,0.5,56.53,2026-10-29 06:09
+2026-10-29 08:54,touch,5151749,"Will no next Israeli Minister of Justice be appointed by February 28, 2027?",NO,0.5,51.0,2026-10-29 05:57
+2026-10-29 08:54,touch,5151749,"Will no next Israeli Minister of Justice be appointed by February 28, 2027?",NO,0.5,56.53,2026-10-29 06:09
+2026-10-29 08:54,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.31,20.0,2026-10-29 04:46
+2026-10-29 08:54,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.31,25.08,2026-10-29 04:46
+2026-10-29 08:54,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.31,35.0,2026-10-29 04:46
+2026-10-29 08:54,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.31,20.0,2026-10-29 04:46
+2026-10-29 08:54,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.31,7.44,2026-10-29 04:50
+2026-10-29 08:54,strict,4824664,Will RZP-Zehut be in the next Israeli government?,NO,0.62,107.53,2026-10-29 06:25
+2026-10-29 08:54,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.31,20.0,2026-10-29 04:46
+2026-10-29 08:54,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.31,25.08,2026-10-29 04:46
+2026-10-29 08:54,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.31,35.0,2026-10-29 04:46
+2026-10-29 08:54,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.31,20.0,2026-10-29 04:46
+2026-10-29 08:54,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.31,7.44,2026-10-29 04:50
+2026-10-29 08:54,touch,4824664,Will RZP-Zehut be in the next Israeli government?,NO,0.62,107.53,2026-10-29 06:25
+2026-10-29 08:54,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.42,24.19,2026-10-29 06:01
+2026-10-29 08:54,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.42,25.0,2026-10-29 06:05
+2026-10-29 08:54,strict,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.42,58.33,2026-10-29 06:15
+2026-10-29 08:54,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.42,24.19,2026-10-29 06:01
+2026-10-29 08:54,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.42,25.0,2026-10-29 06:05
+2026-10-29 08:54,touch,4385334,Will Together win 9-11% of the vote in the 2026 Knesset elections?,NO,0.42,58.33,2026-10-29 06:15
+2026-10-29 08:54,strict,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,YES,0.62,20.0,2026-10-29 06:05
+2026-10-29 08:54,strict,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,YES,0.62,8.0,2026-10-29 06:05
+2026-10-29 08:54,strict,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,YES,0.62,63.5,2026-10-29 06:11
+2026-10-29 08:54,strict,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,YES,0.62,17.2,2026-10-29 06:15
+2026-10-29 08:54,touch,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,YES,0.62,20.0,2026-10-29 06:05
+2026-10-29 08:54,touch,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,YES,0.62,8.0,2026-10-29 06:05
+2026-10-29 08:54,touch,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,YES,0.62,63.5,2026-10-29 06:11
+2026-10-29 08:54,touch,4424531,Will Reservists – New Economic Party win less than 2.75% of the vote in the 2026 Knesset e,YES,0.62,17.2,2026-10-29 06:15
