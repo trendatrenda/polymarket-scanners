@@ -3337,3 +3337,33 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-29 10:48,touch,6364437,Government shutdown by December 31?,YES,0.43,25.0,2026-10-29 07:56
 2026-10-29 10:48,touch,6364437,Government shutdown by December 31?,YES,0.43,2.12,2026-10-29 08:23
 2026-10-29 10:48,touch,6364437,Government shutdown by December 31?,YES,0.43,15.41,2026-10-29 08:45
+2026-10-29 12:52,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.3,5.48,2026-10-29 09:50
+2026-10-29 12:52,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.3,99.78,2026-10-29 09:50
+2026-10-29 12:52,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.3,5.48,2026-10-29 09:50
+2026-10-29 12:52,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.3,99.78,2026-10-29 09:50
+2026-10-29 12:52,strict,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,NO,0.19,10.3,2026-10-29 09:02
+2026-10-29 12:52,strict,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,NO,0.19,57.0,2026-10-29 09:02
+2026-10-29 12:52,strict,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,NO,0.19,41.4,2026-10-29 09:04
+2026-10-29 12:52,touch,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,NO,0.19,10.3,2026-10-29 09:02
+2026-10-29 12:52,touch,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,NO,0.19,57.0,2026-10-29 09:02
+2026-10-29 12:52,touch,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,NO,0.19,12.3,2026-10-29 09:02
+2026-10-29 12:52,touch,6071561,Will the 5-year Treasury yield hit 4.90% before 2027?,NO,0.19,29.1,2026-10-29 09:04
+2026-10-29 12:52,strict,4232145,Will Ra'am win exactly 7 seats in the 2026 Knesset elections?,NO,0.37,108.7,2026-10-29 08:57
+2026-10-29 12:52,strict,4232145,Will Ra'am win exactly 7 seats in the 2026 Knesset elections?,YES,0.55,54.05,2026-10-29 09:08
+2026-10-29 12:52,touch,4232145,Will Ra'am win exactly 7 seats in the 2026 Knesset elections?,NO,0.37,108.7,2026-10-29 08:57
+2026-10-29 12:52,touch,4232145,Will Ra'am win exactly 7 seats in the 2026 Knesset elections?,YES,0.55,54.05,2026-10-29 09:08
+2026-10-29 12:52,strict,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,NO,0.75,81.01,2026-10-29 08:53
+2026-10-29 12:52,strict,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,NO,0.75,10.0,2026-10-29 09:00
+2026-10-29 12:52,strict,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,NO,0.75,16.52,2026-10-29 09:00
+2026-10-29 12:52,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,NO,0.75,81.01,2026-10-29 08:53
+2026-10-29 12:52,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,NO,0.75,10.0,2026-10-29 09:00
+2026-10-29 12:52,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,NO,0.75,16.52,2026-10-29 09:00
+2026-10-29 12:52,strict,6364437,Government shutdown by December 31?,YES,0.43,67.24,2026-10-29 09:26
+2026-10-29 12:52,strict,6364437,Government shutdown by December 31?,YES,0.43,12.76,2026-10-29 10:20
+2026-10-29 12:52,strict,6364437,Government shutdown by December 31?,YES,0.43,5.0,2026-10-29 10:20
+2026-10-29 12:52,strict,6364437,Government shutdown by December 31?,YES,0.43,22.53,2026-10-29 10:47
+2026-10-29 12:52,touch,6364437,Government shutdown by December 31?,YES,0.43,67.24,2026-10-29 09:26
+2026-10-29 12:52,touch,6364437,Government shutdown by December 31?,YES,0.43,12.76,2026-10-29 10:20
+2026-10-29 12:52,touch,6364437,Government shutdown by December 31?,YES,0.43,5.0,2026-10-29 10:20
+2026-10-29 12:52,touch,6364437,Government shutdown by December 31?,YES,0.43,4.83,2026-10-29 10:46
+2026-10-29 12:52,touch,6364437,Government shutdown by December 31?,YES,0.43,17.7,2026-10-29 10:47
