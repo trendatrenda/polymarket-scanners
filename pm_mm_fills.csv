@@ -3367,3 +3367,20 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-29 12:52,touch,6364437,Government shutdown by December 31?,YES,0.43,5.0,2026-10-29 10:20
 2026-10-29 12:52,touch,6364437,Government shutdown by December 31?,YES,0.43,4.83,2026-10-29 10:46
 2026-10-29 12:52,touch,6364437,Government shutdown by December 31?,YES,0.43,17.7,2026-10-29 10:47
+2026-10-29 14:56,strict,4232145,Will Ra'am win exactly 7 seats in the 2026 Knesset elections?,YES,0.73,108.7,2026-10-29 10:48
+2026-10-29 14:56,touch,4232145,Will Ra'am win exactly 7 seats in the 2026 Knesset elections?,YES,0.73,108.7,2026-10-29 10:48
+2026-10-29 14:56,strict,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.21,13.0,2026-10-29 10:52
+2026-10-29 14:56,strict,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.21,73.13,2026-10-29 10:52
+2026-10-29 14:56,strict,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.21,8.0,2026-10-29 10:52
+2026-10-29 14:56,strict,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.21,13.4,2026-10-29 10:52
+2026-10-29 14:56,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.21,2.0,2026-10-29 10:51
+2026-10-29 14:56,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.21,13.0,2026-10-29 10:52
+2026-10-29 14:56,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.21,73.13,2026-10-29 10:52
+2026-10-29 14:56,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.21,8.0,2026-10-29 10:52
+2026-10-29 14:56,touch,4232140,Will Joint List win 12 or more seats in the 2026 Knesset elections?,YES,0.21,11.4,2026-10-29 10:52
+2026-10-29 14:56,strict,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,NO,0.53,50.0,2026-10-29 12:10
+2026-10-29 14:56,strict,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,NO,0.53,40.0,2026-10-29 12:10
+2026-10-29 14:56,strict,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,NO,0.53,10.0,2026-10-29 12:10
+2026-10-29 14:56,strict,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,NO,0.53,5.26,2026-10-29 12:10
+2026-10-29 14:56,touch,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,NO,0.53,50.0,2026-10-29 12:07
+2026-10-29 14:56,touch,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,NO,0.53,55.26,2026-10-29 12:07
