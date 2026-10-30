@@ -3594,3 +3594,17 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-30 02:48,strict,6327022,Will Amy Hunt win the 2026 BBC Sports Personality of the Year award?,YES,0.38,16.67,2026-10-29 23:36
 2026-10-30 02:48,strict,6327022,Will Amy Hunt win the 2026 BBC Sports Personality of the Year award?,YES,0.38,88.59,2026-10-29 23:37
 2026-10-30 02:48,touch,6327022,Will Amy Hunt win the 2026 BBC Sports Personality of the Year award?,YES,0.38,105.26,2026-10-29 23:36
+2026-10-30 04:47,touch,6322992,Will the Fed increase interest rates by 25 bps after the March 2027 meeting?,YES,0.44,106.38,2026-10-30 01:15
+2026-10-30 04:47,strict,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,NO,0.36,50.0,2026-10-30 01:28
+2026-10-30 04:47,strict,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,NO,0.36,58.7,2026-10-30 02:47
+2026-10-30 04:47,touch,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,NO,0.36,50.0,2026-10-30 01:28
+2026-10-30 04:47,touch,6071860,Will the 5-year Treasury yield dip below 4.65% before 2027?,NO,0.36,58.7,2026-10-30 02:47
+2026-10-30 04:47,strict,1393326,Predict.fun FDV above $2B one day after launch?,NO,0.85,35.74,2026-10-30 01:46
+2026-10-30 04:47,strict,1393326,Predict.fun FDV above $2B one day after launch?,NO,0.85,69.52,2026-10-30 02:43
+2026-10-30 04:47,touch,1393326,Predict.fun FDV above $2B one day after launch?,NO,0.85,35.74,2026-10-30 01:46
+2026-10-30 04:47,touch,1393326,Predict.fun FDV above $2B one day after launch?,NO,0.85,69.52,2026-10-30 02:43
+2026-10-30 04:47,strict,6367374,Israel x Iran ceasefire continues through November 4?,NO,0.15,50.76,2026-10-30 01:01
+2026-10-30 04:47,strict,6367374,Israel x Iran ceasefire continues through November 4?,NO,0.15,49.21,2026-10-30 01:01
+2026-10-30 04:47,strict,6367374,Israel x Iran ceasefire continues through November 4?,NO,0.15,5.3,2026-10-30 01:03
+2026-10-30 04:47,touch,6367374,Israel x Iran ceasefire continues through November 4?,NO,0.15,37.31,2026-10-30 00:52
+2026-10-30 04:47,touch,6367374,Israel x Iran ceasefire continues through November 4?,NO,0.15,67.95,2026-10-30 00:57
