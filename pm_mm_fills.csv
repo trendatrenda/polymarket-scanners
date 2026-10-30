@@ -3553,3 +3553,44 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-30 00:53,touch,4824668,Will Yisrael Beiteinu be in the next Israeli government?,NO,0.68,31.93,2026-10-29 21:56
 2026-10-30 00:53,touch,4824668,Will Yisrael Beiteinu be in the next Israeli government?,NO,0.68,8.06,2026-10-29 21:57
 2026-10-30 00:53,touch,4824668,Will Yisrael Beiteinu be in the next Israeli government?,NO,0.68,35.6,2026-10-29 22:11
+2026-10-30 02:48,strict,4824661,Will Likud be in the next Israeli government?,NO,0.62,74.0,2026-10-29 23:09
+2026-10-30 02:48,strict,4824661,Will Likud be in the next Israeli government?,NO,0.62,5.0,2026-10-29 23:09
+2026-10-30 02:48,strict,4824661,Will Likud be in the next Israeli government?,NO,0.62,3.55,2026-10-29 23:09
+2026-10-30 02:48,strict,4824661,Will Likud be in the next Israeli government?,NO,0.62,5.42,2026-10-29 23:09
+2026-10-30 02:48,strict,4824661,Will Likud be in the next Israeli government?,NO,0.62,6.0,2026-10-29 23:09
+2026-10-30 02:48,strict,4824661,Will Likud be in the next Israeli government?,NO,0.62,14.73,2026-10-29 23:09
+2026-10-30 02:48,touch,4824661,Will Likud be in the next Israeli government?,NO,0.62,74.0,2026-10-29 23:09
+2026-10-30 02:48,touch,4824661,Will Likud be in the next Israeli government?,NO,0.62,5.0,2026-10-29 23:09
+2026-10-30 02:48,touch,4824661,Will Likud be in the next Israeli government?,NO,0.62,3.55,2026-10-29 23:09
+2026-10-30 02:48,touch,4824661,Will Likud be in the next Israeli government?,NO,0.62,5.42,2026-10-29 23:09
+2026-10-30 02:48,touch,4824661,Will Likud be in the next Israeli government?,NO,0.62,6.0,2026-10-29 23:09
+2026-10-30 02:48,touch,4824661,Will Likud be in the next Israeli government?,NO,0.62,14.73,2026-10-29 23:09
+2026-10-30 02:48,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.32,33.61,2026-10-29 23:31
+2026-10-30 02:48,strict,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.32,75.09,2026-10-29 23:31
+2026-10-30 02:48,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.32,33.61,2026-10-29 23:31
+2026-10-30 02:48,touch,4824664,Will RZP-Zehut be in the next Israeli government?,YES,0.32,75.09,2026-10-29 23:31
+2026-10-30 02:48,strict,1393326,Predict.fun FDV above $2B one day after launch?,NO,0.85,105.26,2026-10-29 23:36
+2026-10-30 02:48,touch,1393326,Predict.fun FDV above $2B one day after launch?,NO,0.85,105.26,2026-10-29 23:36
+2026-10-30 02:48,strict,6367372,Israel x Iran ceasefire continues through November 22?,NO,0.46,50.0,2026-10-29 22:47
+2026-10-30 02:48,strict,6367372,Israel x Iran ceasefire continues through November 22?,NO,0.46,24.35,2026-10-29 22:53
+2026-10-30 02:48,strict,6367372,Israel x Iran ceasefire continues through November 22?,YES,0.49,1.61,2026-10-29 23:09
+2026-10-30 02:48,strict,6367372,Israel x Iran ceasefire continues through November 22?,YES,0.49,20.61,2026-10-29 23:15
+2026-10-30 02:48,strict,6367372,Israel x Iran ceasefire continues through November 22?,YES,0.49,20.0,2026-10-29 23:15
+2026-10-30 02:48,strict,6367372,Israel x Iran ceasefire continues through November 22?,YES,0.49,0.6,2026-10-29 23:15
+2026-10-30 02:48,strict,6367372,Israel x Iran ceasefire continues through November 22?,YES,0.49,9.4,2026-10-29 23:17
+2026-10-30 02:48,touch,6367372,Israel x Iran ceasefire continues through November 22?,NO,0.46,50.0,2026-10-29 22:47
+2026-10-30 02:48,touch,6367372,Israel x Iran ceasefire continues through November 22?,NO,0.46,24.35,2026-10-29 22:53
+2026-10-30 02:48,touch,6367372,Israel x Iran ceasefire continues through November 22?,YES,0.49,1.61,2026-10-29 23:09
+2026-10-30 02:48,touch,6367372,Israel x Iran ceasefire continues through November 22?,YES,0.49,20.61,2026-10-29 23:15
+2026-10-30 02:48,touch,6367372,Israel x Iran ceasefire continues through November 22?,YES,0.49,20.0,2026-10-29 23:15
+2026-10-30 02:48,touch,6367372,Israel x Iran ceasefire continues through November 22?,YES,0.49,0.6,2026-10-29 23:15
+2026-10-30 02:48,touch,6367372,Israel x Iran ceasefire continues through November 22?,YES,0.49,9.4,2026-10-29 23:17
+2026-10-30 02:48,strict,6367374,Israel x Iran ceasefire continues through November 4?,YES,0.81,105.26,2026-10-29 22:50
+2026-10-30 02:48,strict,6367374,Israel x Iran ceasefire continues through November 4?,NO,0.14,105.26,2026-10-29 23:07
+2026-10-30 02:48,touch,6367374,Israel x Iran ceasefire continues through November 4?,YES,0.81,105.26,2026-10-29 22:50
+2026-10-30 02:48,touch,6367374,Israel x Iran ceasefire continues through November 4?,NO,0.14,105.26,2026-10-29 23:07
+2026-10-30 02:48,strict,4824668,Will Yisrael Beiteinu be in the next Israeli government?,YES,0.3,107.53,2026-10-29 23:36
+2026-10-30 02:48,touch,4824668,Will Yisrael Beiteinu be in the next Israeli government?,YES,0.3,107.53,2026-10-29 23:36
+2026-10-30 02:48,strict,6327022,Will Amy Hunt win the 2026 BBC Sports Personality of the Year award?,YES,0.38,16.67,2026-10-29 23:36
+2026-10-30 02:48,strict,6327022,Will Amy Hunt win the 2026 BBC Sports Personality of the Year award?,YES,0.38,88.59,2026-10-29 23:37
+2026-10-30 02:48,touch,6327022,Will Amy Hunt win the 2026 BBC Sports Personality of the Year award?,YES,0.38,105.26,2026-10-29 23:36
