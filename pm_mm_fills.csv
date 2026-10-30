@@ -3751,3 +3751,22 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-30 20:40,strict,5987304,1win FDV above $45M one day after launch?,YES,0.63,11.93,2026-10-30 18:18
 2026-10-30 20:40,touch,5987304,1win FDV above $45M one day after launch?,YES,0.63,83.17,2026-10-30 17:06
 2026-10-30 20:40,touch,5987304,1win FDV above $45M one day after launch?,YES,0.63,23.21,2026-10-30 17:49
+2026-10-30 22:40,strict,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",YES,0.16,105.26,2026-10-30 20:39
+2026-10-30 22:40,touch,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",YES,0.16,105.26,2026-10-30 20:39
+2026-10-30 22:40,strict,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.47,50.0,2026-10-30 18:47
+2026-10-30 22:40,strict,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.47,30.0,2026-10-30 19:16
+2026-10-30 22:40,touch,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.47,106.38,2026-10-30 18:47
+2026-10-30 22:40,strict,6321717,"Will ""Call of Duty: Modern Warfare 4"" be the #1 Steam Weekly Top Seller for the week of Oc",NO,0.44,10.0,2026-10-30 19:57
+2026-10-30 22:40,strict,6321717,"Will ""Call of Duty: Modern Warfare 4"" be the #1 Steam Weekly Top Seller for the week of Oc",NO,0.44,26.36,2026-10-30 20:00
+2026-10-30 22:40,strict,6321717,"Will ""Call of Duty: Modern Warfare 4"" be the #1 Steam Weekly Top Seller for the week of Oc",NO,0.44,50.0,2026-10-30 20:17
+2026-10-30 22:40,strict,6321717,"Will ""Call of Duty: Modern Warfare 4"" be the #1 Steam Weekly Top Seller for the week of Oc",NO,0.44,18.9,2026-10-30 20:33
+2026-10-30 22:40,touch,6321717,"Will ""Call of Duty: Modern Warfare 4"" be the #1 Steam Weekly Top Seller for the week of Oc",NO,0.44,16.0,2026-10-30 19:19
+2026-10-30 22:40,touch,6321717,"Will ""Call of Duty: Modern Warfare 4"" be the #1 Steam Weekly Top Seller for the week of Oc",NO,0.44,20.0,2026-10-30 19:19
+2026-10-30 22:40,touch,6321717,"Will ""Call of Duty: Modern Warfare 4"" be the #1 Steam Weekly Top Seller for the week of Oc",NO,0.44,10.0,2026-10-30 19:57
+2026-10-30 22:40,touch,6321717,"Will ""Call of Duty: Modern Warfare 4"" be the #1 Steam Weekly Top Seller for the week of Oc",NO,0.44,26.36,2026-10-30 20:00
+2026-10-30 22:40,touch,6321717,"Will ""Call of Duty: Modern Warfare 4"" be the #1 Steam Weekly Top Seller for the week of Oc",NO,0.44,32.9,2026-10-30 20:17
+2026-10-30 22:40,strict,5007985,Will there be at least 6000 measles cases in the U.S. in 2026?,NO,0.15,15.38,2026-10-30 19:18
+2026-10-30 22:40,strict,5007985,Will there be at least 6000 measles cases in the U.S. in 2026?,NO,0.15,92.15,2026-10-30 20:39
+2026-10-30 22:40,touch,5007985,Will there be at least 6000 measles cases in the U.S. in 2026?,NO,0.15,15.38,2026-10-30 19:18
+2026-10-30 22:40,touch,5007985,Will there be at least 6000 measles cases in the U.S. in 2026?,NO,0.15,92.15,2026-10-30 20:39
+2026-10-30 22:40,touch,5154352,Will the Fed Pause-Hike-Pause in the next three decisions (Oct-Dec-Jan)?,YES,0.63,20.01,2026-10-30 19:40
