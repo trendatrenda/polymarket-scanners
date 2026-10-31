@@ -3890,3 +3890,12 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-31 14:37,touch,6440120,"Will Trump meet with Luiz Inácio Lula da Silva by November 30, 2026?",NO,0.69,20.0,2026-10-31 10:37
 2026-10-31 14:37,touch,6440120,"Will Trump meet with Luiz Inácio Lula da Silva by November 30, 2026?",NO,0.69,47.53,2026-10-31 10:39
 2026-10-31 14:37,touch,6403179,Will the Bank of Japan make no change to the uncollateralized overnight call rate at the J,YES,0.53,20.0,2026-10-31 12:26
+2026-10-31 16:37,touch,6299699,"Next Israeli government formed by December 31, 2026?",NO,0.75,1.72,2026-10-31 14:15
+2026-10-31 16:37,strict,6288512,"Will Donald Trump post 200+ Truth Social posts from October 30 to November 6, 2026?",YES,0.83,20.0,2026-10-31 13:42
+2026-10-31 16:37,strict,6288512,"Will Donald Trump post 200+ Truth Social posts from October 30 to November 6, 2026?",YES,0.83,50.0,2026-10-31 14:11
+2026-10-31 16:37,strict,6288512,"Will Donald Trump post 200+ Truth Social posts from October 30 to November 6, 2026?",YES,0.83,20.0,2026-10-31 14:11
+2026-10-31 16:37,touch,6288512,"Will Donald Trump post 200+ Truth Social posts from October 30 to November 6, 2026?",YES,0.83,26.12,2026-10-31 13:10
+2026-10-31 16:37,touch,6288512,"Will Donald Trump post 200+ Truth Social posts from October 30 to November 6, 2026?",YES,0.83,21.0,2026-10-31 13:11
+2026-10-31 16:37,touch,6288512,"Will Donald Trump post 200+ Truth Social posts from October 30 to November 6, 2026?",YES,0.83,20.0,2026-10-31 13:42
+2026-10-31 16:37,touch,6288512,"Will Donald Trump post 200+ Truth Social posts from October 30 to November 6, 2026?",YES,0.83,39.26,2026-10-31 13:42
+2026-10-31 16:37,touch,6364522,Will OpenRouter process between 195T and 205T tokens the week of November 2?,YES,0.39,20.0,2026-10-31 13:44
