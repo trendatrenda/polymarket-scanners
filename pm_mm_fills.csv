@@ -3844,3 +3844,15 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-31 06:50,strict,6257285,Will Andrey Gyurov win the most votes in the second round of the Bulgaria presidential ele,NO,0.07,26.53,2026-10-31 04:34
 2026-10-31 06:50,touch,6257285,Will Andrey Gyurov win the most votes in the second round of the Bulgaria presidential ele,NO,0.07,81.0,2026-10-31 04:34
 2026-10-31 06:50,touch,6257285,Will Andrey Gyurov win the most votes in the second round of the Bulgaria presidential ele,NO,0.07,26.53,2026-10-31 04:34
+2026-10-31 08:44,strict,4824661,Will Likud be in the next Israeli government?,YES,0.36,100.0,2026-10-31 06:12
+2026-10-31 08:44,strict,4824661,Will Likud be in the next Israeli government?,YES,0.36,5.26,2026-10-31 06:45
+2026-10-31 08:44,touch,4824661,Will Likud be in the next Israeli government?,YES,0.36,19.16,2026-10-31 06:11
+2026-10-31 08:44,touch,4824661,Will Likud be in the next Israeli government?,YES,0.36,86.1,2026-10-31 06:12
+2026-10-31 08:44,touch,4824662,Will Shas be in the next Israeli government?,NO,0.75,1.48,2026-10-31 06:07
+2026-10-31 08:44,touch,6367374,Israel x Iran ceasefire continues through November 4?,YES,0.87,105.26,2026-10-31 05:32
+2026-10-31 08:44,strict,2374258,Will Ukraine re-enter Uspenivka by December 31?,NO,0.63,10.0,2026-10-31 04:55
+2026-10-31 08:44,strict,2374258,Will Ukraine re-enter Uspenivka by December 31?,NO,0.63,10.0,2026-10-31 04:55
+2026-10-31 08:44,strict,2374258,Will Ukraine re-enter Uspenivka by December 31?,NO,0.63,46.25,2026-10-31 04:56
+2026-10-31 08:44,touch,2374258,Will Ukraine re-enter Uspenivka by December 31?,NO,0.63,10.0,2026-10-31 04:55
+2026-10-31 08:44,touch,2374258,Will Ukraine re-enter Uspenivka by December 31?,NO,0.63,10.0,2026-10-31 04:55
+2026-10-31 08:44,touch,2374258,Will Ukraine re-enter Uspenivka by December 31?,NO,0.63,46.25,2026-10-31 04:56
