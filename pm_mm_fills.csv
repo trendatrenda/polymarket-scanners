@@ -3976,3 +3976,26 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-31 20:34,touch,2698827,"Will Discord not IPO by December 31, 2027?",NO,0.17,5.0,2026-10-31 16:49
 2026-10-31 20:34,touch,2698827,"Will Discord not IPO by December 31, 2027?",NO,0.17,30.0,2026-10-31 16:52
 2026-10-31 20:34,touch,2698827,"Will Discord not IPO by December 31, 2027?",NO,0.17,0.02,2026-10-31 17:23
+2026-10-31 22:37,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.32,52.17,2026-10-31 19:00
+2026-10-31 22:37,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.32,0.46,2026-10-31 19:01
+2026-10-31 22:37,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.32,53.75,2026-10-31 19:01
+2026-10-31 22:37,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.32,52.17,2026-10-31 19:00
+2026-10-31 22:37,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.32,0.46,2026-10-31 19:01
+2026-10-31 22:37,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.32,53.75,2026-10-31 19:01
+2026-10-31 22:37,strict,6365364,"Will Gemini Carbon be released between November 9 and November 15, 2026?",YES,0.62,105.26,2026-10-31 18:59
+2026-10-31 22:37,touch,6365364,"Will Gemini Carbon be released between November 9 and November 15, 2026?",YES,0.62,105.26,2026-10-31 18:59
+2026-10-31 22:37,strict,6366826,"Will Gemini Carbon be released on November 11, 2026?",YES,0.24,106.38,2026-10-31 18:46
+2026-10-31 22:37,touch,6366826,"Will Gemini Carbon be released on November 11, 2026?",YES,0.24,106.38,2026-10-31 18:46
+2026-10-31 22:37,strict,6366414,"Gemini Carbon released by November 11, 2026?",NO,0.51,107.53,2026-10-31 20:34
+2026-10-31 22:37,touch,6366414,"Gemini Carbon released by November 11, 2026?",NO,0.51,57.96,2026-10-31 19:30
+2026-10-31 22:37,touch,6366414,"Gemini Carbon released by November 11, 2026?",NO,0.51,49.57,2026-10-31 20:34
+2026-10-31 22:37,strict,3236057,Will GEN be number 1 on the end of year Global Power Rankings?,NO,0.56,21.13,2026-10-31 20:11
+2026-10-31 22:37,strict,3236057,Will GEN be number 1 on the end of year Global Power Rankings?,NO,0.56,85.25,2026-10-31 20:11
+2026-10-31 22:37,touch,3236057,Will GEN be number 1 on the end of year Global Power Rankings?,NO,0.56,21.13,2026-10-31 20:11
+2026-10-31 22:37,touch,3236057,Will GEN be number 1 on the end of year Global Power Rankings?,NO,0.56,85.25,2026-10-31 20:11
+2026-10-31 22:37,strict,2683265,Will Republicans hold 47–49 Senate seats and 193–207 House seats after the 2026 midterms?,YES,0.25,80.0,2026-10-31 19:07
+2026-10-31 22:37,strict,2683265,Will Republicans hold 47–49 Senate seats and 193–207 House seats after the 2026 midterms?,YES,0.25,20.0,2026-10-31 19:07
+2026-10-31 22:37,strict,2683265,Will Republicans hold 47–49 Senate seats and 193–207 House seats after the 2026 midterms?,YES,0.25,6.38,2026-10-31 19:09
+2026-10-31 22:37,touch,2683265,Will Republicans hold 47–49 Senate seats and 193–207 House seats after the 2026 midterms?,YES,0.25,80.0,2026-10-31 19:07
+2026-10-31 22:37,touch,2683265,Will Republicans hold 47–49 Senate seats and 193–207 House seats after the 2026 midterms?,YES,0.25,20.0,2026-10-31 19:07
+2026-10-31 22:37,touch,2683265,Will Republicans hold 47–49 Senate seats and 193–207 House seats after the 2026 midterms?,YES,0.25,6.38,2026-10-31 19:09
