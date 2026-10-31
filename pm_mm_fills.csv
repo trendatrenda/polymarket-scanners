@@ -3770,3 +3770,26 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-30 22:40,touch,5007985,Will there be at least 6000 measles cases in the U.S. in 2026?,NO,0.15,15.38,2026-10-30 19:18
 2026-10-30 22:40,touch,5007985,Will there be at least 6000 measles cases in the U.S. in 2026?,NO,0.15,92.15,2026-10-30 20:39
 2026-10-30 22:40,touch,5154352,Will the Fed Pause-Hike-Pause in the next three decisions (Oct-Dec-Jan)?,YES,0.63,20.01,2026-10-30 19:40
+2026-10-31 00:57,strict,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",YES,0.11,105.26,2026-10-30 21:04
+2026-10-31 00:57,touch,6096385,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the Billboard 200 #1 ",YES,0.11,105.26,2026-10-30 21:04
+2026-10-31 00:57,strict,6254930,"Netanyahu out by June 30, 2027?",NO,0.67,35.0,2026-10-30 22:20
+2026-10-31 00:57,strict,6254930,"Netanyahu out by June 30, 2027?",NO,0.67,73.7,2026-10-30 22:21
+2026-10-31 00:57,touch,6254930,"Netanyahu out by June 30, 2027?",NO,0.67,35.0,2026-10-30 22:20
+2026-10-31 00:57,touch,6254930,"Netanyahu out by June 30, 2027?",NO,0.67,73.7,2026-10-30 22:21
+2026-10-31 00:57,strict,5699280,Will Core CPI YoY be 2.6% in October?,NO,0.23,20.0,2026-10-30 20:42
+2026-10-31 00:57,strict,5699280,Will Core CPI YoY be 2.6% in October?,NO,0.23,85.26,2026-10-30 22:39
+2026-10-31 00:57,touch,5699280,Will Core CPI YoY be 2.6% in October?,NO,0.23,15.05,2026-10-30 20:41
+2026-10-31 00:57,touch,5699280,Will Core CPI YoY be 2.6% in October?,NO,0.23,20.0,2026-10-30 20:42
+2026-10-31 00:57,touch,5699280,Will Core CPI YoY be 2.6% in October?,NO,0.23,70.21,2026-10-30 22:39
+2026-10-31 00:57,strict,4824666,Will Together be in the next Israeli government?,NO,0.62,30.87,2026-10-30 22:12
+2026-10-31 00:57,strict,4824666,Will Together be in the next Israeli government?,NO,0.62,5.0,2026-10-30 22:12
+2026-10-31 00:57,strict,4824666,Will Together be in the next Israeli government?,NO,0.62,20.0,2026-10-30 22:12
+2026-10-31 00:57,strict,4824666,Will Together be in the next Israeli government?,NO,0.62,20.0,2026-10-30 22:12
+2026-10-31 00:57,strict,4824666,Will Together be in the next Israeli government?,NO,0.62,2.21,2026-10-30 22:12
+2026-10-31 00:57,strict,4824666,Will Together be in the next Israeli government?,NO,0.62,29.45,2026-10-30 22:12
+2026-10-31 00:57,touch,4824666,Will Together be in the next Israeli government?,NO,0.62,30.87,2026-10-30 22:12
+2026-10-31 00:57,touch,4824666,Will Together be in the next Israeli government?,NO,0.62,5.0,2026-10-30 22:12
+2026-10-31 00:57,touch,4824666,Will Together be in the next Israeli government?,NO,0.62,20.0,2026-10-30 22:12
+2026-10-31 00:57,touch,4824666,Will Together be in the next Israeli government?,NO,0.62,20.0,2026-10-30 22:12
+2026-10-31 00:57,touch,4824666,Will Together be in the next Israeli government?,NO,0.62,2.21,2026-10-30 22:12
+2026-10-31 00:57,touch,4824666,Will Together be in the next Israeli government?,NO,0.62,29.45,2026-10-30 22:12
