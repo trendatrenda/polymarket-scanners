@@ -3793,3 +3793,36 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-31 00:57,touch,4824666,Will Together be in the next Israeli government?,NO,0.62,20.0,2026-10-30 22:12
 2026-10-31 00:57,touch,4824666,Will Together be in the next Israeli government?,NO,0.62,2.21,2026-10-30 22:12
 2026-10-31 00:57,touch,4824666,Will Together be in the next Israeli government?,NO,0.62,29.45,2026-10-30 22:12
+2026-10-31 02:47,strict,4178748,Will the 5-year Treasury yield hit 5.10% before 2027?,YES,0.35,107.53,2026-10-31 00:51
+2026-10-31 02:47,touch,4178748,Will the 5-year Treasury yield hit 5.10% before 2027?,YES,0.35,50.0,2026-10-31 00:45
+2026-10-31 02:47,touch,4178748,Will the 5-year Treasury yield hit 5.10% before 2027?,YES,0.35,22.84,2026-10-31 00:46
+2026-10-31 02:47,touch,4178748,Will the 5-year Treasury yield hit 5.10% before 2027?,YES,0.35,34.69,2026-10-31 00:49
+2026-10-31 02:47,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.69,105.26,2026-10-30 23:07
+2026-10-31 02:47,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,NO,0.69,105.26,2026-10-30 23:07
+2026-10-31 02:47,strict,6254930,"Netanyahu out by June 30, 2027?",YES,0.31,5.0,2026-10-30 23:24
+2026-10-31 02:47,strict,6254930,"Netanyahu out by June 30, 2027?",YES,0.31,5.0,2026-10-30 23:24
+2026-10-31 02:47,strict,6254930,"Netanyahu out by June 30, 2027?",YES,0.31,10.0,2026-10-30 23:25
+2026-10-31 02:47,touch,6254930,"Netanyahu out by June 30, 2027?",YES,0.31,5.0,2026-10-30 23:24
+2026-10-31 02:47,touch,6254930,"Netanyahu out by June 30, 2027?",YES,0.31,5.0,2026-10-30 23:24
+2026-10-31 02:47,touch,6254930,"Netanyahu out by June 30, 2027?",YES,0.31,10.0,2026-10-30 23:25
+2026-10-31 02:47,strict,4824661,Will Likud be in the next Israeli government?,NO,0.59,0.17,2026-10-30 23:53
+2026-10-31 02:47,touch,4824661,Will Likud be in the next Israeli government?,NO,0.59,16.18,2026-10-30 23:17
+2026-10-31 02:47,touch,4824661,Will Likud be in the next Israeli government?,NO,0.59,0.17,2026-10-30 23:53
+2026-10-31 02:47,strict,6257190,Will voter turnout in the second round of the 2026 Bulgaria presidential election be 24% o,YES,0.78,10.41,2026-10-31 00:03
+2026-10-31 02:47,strict,6257190,Will voter turnout in the second round of the 2026 Bulgaria presidential election be 24% o,YES,0.78,70.0,2026-10-31 00:03
+2026-10-31 02:47,strict,6257190,Will voter turnout in the second round of the 2026 Bulgaria presidential election be 24% o,YES,0.78,27.12,2026-10-31 00:03
+2026-10-31 02:47,touch,6257190,Will voter turnout in the second round of the 2026 Bulgaria presidential election be 24% o,YES,0.78,18.0,2026-10-30 22:58
+2026-10-31 02:47,touch,6257190,Will voter turnout in the second round of the 2026 Bulgaria presidential election be 24% o,YES,0.78,10.41,2026-10-31 00:03
+2026-10-31 02:47,touch,6257190,Will voter turnout in the second round of the 2026 Bulgaria presidential election be 24% o,YES,0.78,70.0,2026-10-31 00:03
+2026-10-31 02:47,touch,6257190,Will voter turnout in the second round of the 2026 Bulgaria presidential election be 24% o,YES,0.78,9.12,2026-10-31 00:03
+2026-10-31 02:47,strict,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.46,50.0,2026-10-30 22:57
+2026-10-31 02:47,strict,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.46,50.0,2026-10-30 22:57
+2026-10-31 02:47,strict,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.46,5.26,2026-10-30 22:57
+2026-10-31 02:47,touch,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.46,50.0,2026-10-30 22:57
+2026-10-31 02:47,touch,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.46,50.0,2026-10-30 22:57
+2026-10-31 02:47,touch,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,YES,0.46,5.26,2026-10-30 22:57
+2026-10-31 02:47,strict,5699280,Will Core CPI YoY be 2.6% in October?,YES,0.77,20.0,2026-10-30 23:41
+2026-10-31 02:47,strict,5699280,Will Core CPI YoY be 2.6% in October?,YES,0.77,80.0,2026-10-30 23:52
+2026-10-31 02:47,touch,5699280,Will Core CPI YoY be 2.6% in October?,YES,0.77,20.0,2026-10-30 23:41
+2026-10-31 02:47,touch,5699280,Will Core CPI YoY be 2.6% in October?,YES,0.77,80.0,2026-10-30 23:52
+2026-10-31 02:47,touch,6299699,"Next Israeli government formed by December 31, 2026?",NO,0.78,20.0,2026-10-31 00:02
