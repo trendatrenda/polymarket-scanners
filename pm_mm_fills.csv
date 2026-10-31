@@ -3826,3 +3826,12 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-31 02:47,touch,5699280,Will Core CPI YoY be 2.6% in October?,YES,0.77,20.0,2026-10-30 23:41
 2026-10-31 02:47,touch,5699280,Will Core CPI YoY be 2.6% in October?,YES,0.77,80.0,2026-10-30 23:52
 2026-10-31 02:47,touch,6299699,"Next Israeli government formed by December 31, 2026?",NO,0.78,20.0,2026-10-31 00:02
+2026-10-31 04:43,strict,4178757,Will the 5-year Treasury yield dip below 4.45% before 2027?,YES,0.4,107.53,2026-10-31 02:46
+2026-10-31 04:43,touch,4178757,Will the 5-year Treasury yield dip below 4.45% before 2027?,YES,0.4,107.53,2026-10-31 02:46
+2026-10-31 04:43,strict,6257285,Will Andrey Gyurov win the most votes in the second round of the Bulgaria presidential ele,NO,0.13,20.0,2026-10-31 02:10
+2026-10-31 04:43,strict,6257285,Will Andrey Gyurov win the most votes in the second round of the Bulgaria presidential ele,NO,0.13,87.53,2026-10-31 02:46
+2026-10-31 04:43,touch,6257285,Will Andrey Gyurov win the most votes in the second round of the Bulgaria presidential ele,NO,0.13,20.0,2026-10-31 02:10
+2026-10-31 04:43,touch,6257285,Will Andrey Gyurov win the most votes in the second round of the Bulgaria presidential ele,NO,0.13,87.53,2026-10-31 02:46
+2026-10-31 04:43,strict,6288512,"Will Donald Trump post 200+ Truth Social posts from October 30 to November 6, 2026?",NO,0.15,107.53,2026-10-31 02:46
+2026-10-31 04:43,touch,6288512,"Will Donald Trump post 200+ Truth Social posts from October 30 to November 6, 2026?",NO,0.15,103.76,2026-10-31 01:40
+2026-10-31 04:43,touch,6288512,"Will Donald Trump post 200+ Truth Social posts from October 30 to November 6, 2026?",NO,0.15,3.77,2026-10-31 01:40
