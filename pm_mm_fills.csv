@@ -3924,3 +3924,55 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-31 18:42,strict,6366826,"Will Gemini Carbon be released on November 11, 2026?",NO,0.82,106.38,2026-10-31 16:37
 2026-10-31 18:42,touch,6366826,"Will Gemini Carbon be released on November 11, 2026?",NO,0.82,106.38,2026-10-31 16:37
 2026-10-31 18:42,touch,6366414,"Gemini Carbon released by November 11, 2026?",YES,0.39,107.53,2026-10-31 15:10
+2026-10-31 20:34,strict,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.3,76.0,2026-10-31 16:46
+2026-10-31 20:34,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.3,25.0,2026-10-31 16:46
+2026-10-31 20:34,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.3,45.0,2026-10-31 16:46
+2026-10-31 20:34,touch,2412747,Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?,YES,0.3,35.26,2026-10-31 16:46
+2026-10-31 20:34,strict,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,NO,0.48,12.0,2026-10-31 18:04
+2026-10-31 20:34,strict,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,NO,0.48,94.38,2026-10-31 18:04
+2026-10-31 20:34,touch,3192168,Will exactly 2 Israeli legislative elections occur before a government is formed?,NO,0.48,106.38,2026-10-31 18:04
+2026-10-31 20:34,strict,6403179,Will the Bank of Japan make no change to the uncollateralized overnight call rate at the J,NO,0.42,51.1,2026-10-31 16:42
+2026-10-31 20:34,strict,6403179,Will the Bank of Japan make no change to the uncollateralized overnight call rate at the J,NO,0.42,50.0,2026-10-31 16:45
+2026-10-31 20:34,strict,6403179,Will the Bank of Japan make no change to the uncollateralized overnight call rate at the J,NO,0.42,4.16,2026-10-31 16:45
+2026-10-31 20:34,touch,6403179,Will the Bank of Japan make no change to the uncollateralized overnight call rate at the J,NO,0.42,51.1,2026-10-31 16:42
+2026-10-31 20:34,touch,6403179,Will the Bank of Japan make no change to the uncollateralized overnight call rate at the J,NO,0.42,50.0,2026-10-31 16:45
+2026-10-31 20:34,touch,6403179,Will the Bank of Japan make no change to the uncollateralized overnight call rate at the J,NO,0.42,4.16,2026-10-31 16:45
+2026-10-31 20:34,strict,6279781,Trump declassifies new UFO files by November 30?,NO,0.32,10.0,2026-10-31 18:07
+2026-10-31 20:34,strict,6279781,Trump declassifies new UFO files by November 30?,NO,0.32,10.0,2026-10-31 18:07
+2026-10-31 20:34,strict,6279781,Trump declassifies new UFO files by November 30?,NO,0.32,10.0,2026-10-31 18:08
+2026-10-31 20:34,strict,6279781,Trump declassifies new UFO files by November 30?,NO,0.32,9.0,2026-10-31 18:18
+2026-10-31 20:34,strict,6279781,Trump declassifies new UFO files by November 30?,NO,0.32,10.0,2026-10-31 18:18
+2026-10-31 20:34,strict,6279781,Trump declassifies new UFO files by November 30?,NO,0.32,10.0,2026-10-31 18:18
+2026-10-31 20:34,strict,6279781,Trump declassifies new UFO files by November 30?,NO,0.32,48.53,2026-10-31 18:41
+2026-10-31 20:34,touch,6279781,Trump declassifies new UFO files by November 30?,NO,0.32,10.0,2026-10-31 18:07
+2026-10-31 20:34,touch,6279781,Trump declassifies new UFO files by November 30?,NO,0.32,10.0,2026-10-31 18:07
+2026-10-31 20:34,touch,6279781,Trump declassifies new UFO files by November 30?,NO,0.32,10.0,2026-10-31 18:08
+2026-10-31 20:34,touch,6279781,Trump declassifies new UFO files by November 30?,NO,0.32,9.0,2026-10-31 18:18
+2026-10-31 20:34,touch,6279781,Trump declassifies new UFO files by November 30?,NO,0.32,10.0,2026-10-31 18:18
+2026-10-31 20:34,touch,6279781,Trump declassifies new UFO files by November 30?,NO,0.32,10.0,2026-10-31 18:18
+2026-10-31 20:34,touch,6279781,Trump declassifies new UFO files by November 30?,NO,0.32,48.53,2026-10-31 18:41
+2026-10-31 20:34,strict,6366826,"Will Gemini Carbon be released on November 11, 2026?",NO,0.77,106.38,2026-10-31 18:03
+2026-10-31 20:34,touch,6366826,"Will Gemini Carbon be released on November 11, 2026?",NO,0.77,106.38,2026-10-31 18:03
+2026-10-31 20:34,strict,6366414,"Gemini Carbon released by November 11, 2026?",NO,0.56,19.99,2026-10-31 18:03
+2026-10-31 20:34,strict,6366414,"Gemini Carbon released by November 11, 2026?",NO,0.56,87.53,2026-10-31 18:41
+2026-10-31 20:34,touch,6366414,"Gemini Carbon released by November 11, 2026?",NO,0.56,19.99,2026-10-31 18:03
+2026-10-31 20:34,touch,6366414,"Gemini Carbon released by November 11, 2026?",NO,0.56,20.0,2026-10-31 18:03
+2026-10-31 20:34,touch,6366414,"Gemini Carbon released by November 11, 2026?",NO,0.56,67.53,2026-10-31 18:41
+2026-10-31 20:34,strict,6366825,"Will Gemini Carbon be released on November 10, 2026?",YES,0.24,20.0,2026-10-31 18:03
+2026-10-31 20:34,strict,6366825,"Will Gemini Carbon be released on November 10, 2026?",YES,0.24,19.91,2026-10-31 18:03
+2026-10-31 20:34,strict,6366825,"Will Gemini Carbon be released on November 10, 2026?",YES,0.24,19.99,2026-10-31 18:03
+2026-10-31 20:34,strict,6366825,"Will Gemini Carbon be released on November 10, 2026?",YES,0.24,46.48,2026-10-31 18:41
+2026-10-31 20:34,touch,6366825,"Will Gemini Carbon be released on November 10, 2026?",YES,0.24,20.0,2026-10-31 18:03
+2026-10-31 20:34,touch,6366825,"Will Gemini Carbon be released on November 10, 2026?",YES,0.24,19.91,2026-10-31 18:03
+2026-10-31 20:34,touch,6366825,"Will Gemini Carbon be released on November 10, 2026?",YES,0.24,19.99,2026-10-31 18:03
+2026-10-31 20:34,touch,6366825,"Will Gemini Carbon be released on November 10, 2026?",YES,0.24,46.48,2026-10-31 18:41
+2026-10-31 20:34,strict,2698827,"Will Discord not IPO by December 31, 2027?",NO,0.17,40.0,2026-10-31 16:43
+2026-10-31 20:34,strict,2698827,"Will Discord not IPO by December 31, 2027?",NO,0.17,5.0,2026-10-31 16:47
+2026-10-31 20:34,strict,2698827,"Will Discord not IPO by December 31, 2027?",NO,0.17,5.0,2026-10-31 16:49
+2026-10-31 20:34,strict,2698827,"Will Discord not IPO by December 31, 2027?",NO,0.17,30.0,2026-10-31 16:52
+2026-10-31 20:34,strict,2698827,"Will Discord not IPO by December 31, 2027?",NO,0.17,0.02,2026-10-31 17:23
+2026-10-31 20:34,touch,2698827,"Will Discord not IPO by December 31, 2027?",NO,0.17,40.0,2026-10-31 16:43
+2026-10-31 20:34,touch,2698827,"Will Discord not IPO by December 31, 2027?",NO,0.17,5.0,2026-10-31 16:47
+2026-10-31 20:34,touch,2698827,"Will Discord not IPO by December 31, 2027?",NO,0.17,5.0,2026-10-31 16:49
+2026-10-31 20:34,touch,2698827,"Will Discord not IPO by December 31, 2027?",NO,0.17,30.0,2026-10-31 16:52
+2026-10-31 20:34,touch,2698827,"Will Discord not IPO by December 31, 2027?",NO,0.17,0.02,2026-10-31 17:23
