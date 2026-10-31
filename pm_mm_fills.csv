@@ -3860,3 +3860,12 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-31 10:38,strict,648383,Billionaire one-time wealth tax passes in California election 2026?,NO,0.74,105.26,2026-10-31 08:32
 2026-10-31 10:38,touch,648383,Billionaire one-time wealth tax passes in California election 2026?,NO,0.74,105.26,2026-10-31 08:32
 2026-10-31 10:38,touch,6440116,"Will Trump meet with Mohammed bin Salman by November 30, 2026?",NO,0.78,1.82,2026-10-31 07:52
+2026-10-31 12:46,strict,6367374,Israel x Iran ceasefire continues through November 4?,NO,0.09,105.26,2026-10-31 10:05
+2026-10-31 12:46,touch,6367374,Israel x Iran ceasefire continues through November 4?,NO,0.09,20.0,2026-10-31 09:26
+2026-10-31 12:46,touch,6367374,Israel x Iran ceasefire continues through November 4?,NO,0.09,20.0,2026-10-31 09:26
+2026-10-31 12:46,touch,6367374,Israel x Iran ceasefire continues through November 4?,NO,0.09,65.26,2026-10-31 10:05
+2026-10-31 12:46,strict,6440116,"Will Trump meet with Mohammed bin Salman by November 30, 2026?",YES,0.17,0.73,2026-10-31 08:56
+2026-10-31 12:46,strict,6440116,"Will Trump meet with Mohammed bin Salman by November 30, 2026?",YES,0.17,50.12,2026-10-31 09:11
+2026-10-31 12:46,touch,6440116,"Will Trump meet with Mohammed bin Salman by November 30, 2026?",YES,0.17,4.27,2026-10-31 08:56
+2026-10-31 12:46,touch,6440116,"Will Trump meet with Mohammed bin Salman by November 30, 2026?",YES,0.17,0.73,2026-10-31 08:56
+2026-10-31 12:46,touch,6440116,"Will Trump meet with Mohammed bin Salman by November 30, 2026?",YES,0.17,102.53,2026-10-31 09:11
