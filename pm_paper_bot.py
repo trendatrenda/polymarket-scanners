@@ -577,6 +577,9 @@ def main():
         pm_minutes.finish(key)
 
 
+RETIRED_35B = True        # 1 Nov 2026: taker -41%, maker 11 of 85 won -> failed, retired
+
+
 def _run(clock, key):
     LAST_RUN.write_text(str(time.time()))             # written FIRST: a run cut off by the
     rows = load_bets()                                 # time limit is not repeated at once
@@ -585,12 +588,17 @@ def _run(clock, key):
     settled_now = update_old(rows, seen, clock, save=lambda: (save_bets(rows), save_seen(seen)))
     save_bets(rows)                                    # each bet's counted fills are in its own
     save_seen(seen)                                    # row, so nothing can be counted twice
-    print("  Looking for today's #35b candidates...")
-    if time.time() - clock < PLACE_DEADLINE_S:
-        cands = candidates_35b()
-    else:
+    if RETIRED_35B:
+        print("  #35b RETIRED on 1 Nov 2026 (failed its paper test): no new bets;"
+              " open bets are still checked and settled so the final score is complete.")
         cands = []
-        STATS["unsure"] += 1                           # no time left to look for new bets
+    else:
+        print("  Looking for today's #35b candidates...")
+        if time.time() - clock < PLACE_DEADLINE_S:
+            cands = candidates_35b()
+        else:
+            cands = []
+            STATS["unsure"] += 1                       # no time left to look for new bets
     new = place(rows, cands or [], clock)
     save_bets(rows)
     report(rows, settled_now, new)

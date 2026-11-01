@@ -1,7 +1,6 @@
 """
-pm_hourly.py  --  what GitHub runs every 2 hours: the rewards scanner snapshot, then one
-paper market-maker cycle, reading Polymarket's market list and order books only ONCE
-(that halves the run time and the GitHub minutes).
+pm_hourly.py  --  what GitHub runs every 2 hours: the rewards scanner snapshot.
+(The paper market maker #34 that used to run here was retired on 1 Nov 2026.)
 
     python pm_hourly.py
 
@@ -14,7 +13,6 @@ import time
 import traceback
 
 import pm_minutes
-import pm_mm_paper as mm
 import pm_rewards_scanner as rs
 
 
@@ -48,20 +46,10 @@ def run(started):
         traceback.print_exc()
         rs.log("scanner crashed: " + traceback.format_exc()[-300:])
         bad.append("rewards scanner")
-    try:
-        # if the scanner's listing failed, don't read it all again (that's what failed):
-        # the market maker still checks old windows, with no new quotes
-        mm.cycle(pre if pre else ([], {}), started=started)
-    except SystemExit as e:
-        if e.code:
-            if isinstance(e.code, str):
-                print(e.code)
-                rs.log("market maker stopped: " + e.code)
-            bad.append("market maker")
-    except Exception:
-        traceback.print_exc()
-        rs.log("market maker crashed: " + traceback.format_exc()[-300:])
-        bad.append("market maker")
+    # The paper market maker (#34) was RETIRED on 1 Nov 2026 after 14 days (strict net
+    # -$1,451.80: rewards +$128.61, positions -$1,580.41). It no longer runs; its files
+    # (pm_mm_log.csv, pm_mm_fills.csv, pm_mm_state.json) stay as the final record.
+    print("  #34 paper market maker: RETIRED 1 Nov 2026 -- not run")
     if bad:
         print(f"  UNHEALTHY this run: {', '.join(bad)} (see pm_rewards_errors.txt)")
         sys.exit(1)
