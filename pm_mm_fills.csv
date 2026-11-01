@@ -3999,3 +3999,26 @@ time,book,market_id,question,side,price,shares,trade_time
 2026-10-31 22:37,touch,2683265,Will Republicans hold 47–49 Senate seats and 193–207 House seats after the 2026 midterms?,YES,0.25,80.0,2026-10-31 19:07
 2026-10-31 22:37,touch,2683265,Will Republicans hold 47–49 Senate seats and 193–207 House seats after the 2026 midterms?,YES,0.25,20.0,2026-10-31 19:07
 2026-10-31 22:37,touch,2683265,Will Republicans hold 47–49 Senate seats and 193–207 House seats after the 2026 midterms?,YES,0.25,6.38,2026-10-31 19:09
+2026-11-01 01:01,strict,4824662,Will Shas be in the next Israeli government?,YES,0.32,26.88,2026-10-31 20:35
+2026-11-01 01:01,strict,4824662,Will Shas be in the next Israeli government?,YES,0.32,78.39,2026-10-31 20:35
+2026-11-01 01:01,touch,4824662,Will Shas be in the next Israeli government?,YES,0.32,26.88,2026-10-31 20:35
+2026-11-01 01:01,touch,4824662,Will Shas be in the next Israeli government?,YES,0.32,78.39,2026-10-31 20:35
+2026-11-01 01:01,strict,3399468,Israel x Iran ceasefire continues through December 31?,YES,0.37,52.77,2026-10-31 22:16
+2026-11-01 01:01,strict,3399468,Israel x Iran ceasefire continues through December 31?,YES,0.37,53.62,2026-10-31 22:17
+2026-11-01 01:01,touch,3399468,Israel x Iran ceasefire continues through December 31?,YES,0.37,106.38,2026-10-31 22:16
+2026-11-01 01:01,strict,6403179,Will the Bank of Japan make no change to the uncollateralized overnight call rate at the J,YES,0.59,105.26,2026-10-31 22:04
+2026-11-01 01:01,touch,6403179,Will the Bank of Japan make no change to the uncollateralized overnight call rate at the J,YES,0.59,105.26,2026-10-31 22:04
+2026-11-01 01:01,strict,6440142,Will Trump speak to Ursula von der Leyen by November 30?,NO,0.62,17.0,2026-10-31 20:52
+2026-11-01 01:01,strict,6440142,Will Trump speak to Ursula von der Leyen by November 30?,NO,0.62,20.0,2026-10-31 20:52
+2026-11-01 01:01,strict,6440142,Will Trump speak to Ursula von der Leyen by November 30?,NO,0.62,70.53,2026-10-31 22:30
+2026-11-01 01:01,touch,6440142,Will Trump speak to Ursula von der Leyen by November 30?,NO,0.62,17.0,2026-10-31 20:52
+2026-11-01 01:01,touch,6440142,Will Trump speak to Ursula von der Leyen by November 30?,NO,0.62,20.0,2026-10-31 20:52
+2026-11-01 01:01,touch,6440142,Will Trump speak to Ursula von der Leyen by November 30?,NO,0.62,70.53,2026-10-31 22:30
+2026-11-01 01:01,strict,3236057,Will GEN be number 1 on the end of year Global Power Rankings?,NO,0.48,106.38,2026-10-31 20:38
+2026-11-01 01:01,touch,3236057,Will GEN be number 1 on the end of year Global Power Rankings?,NO,0.48,106.38,2026-10-31 20:38
+2026-11-01 01:01,touch,3236057,Will GEN be number 1 on the end of year Global Power Rankings?,YES,0.46,20.0,2026-10-31 20:42
+2026-11-01 01:01,strict,5336170,"Will Luiz Inácio Lula da Silva win Brazil, Benjamin Netanyahu become Israeli PM, and Democ",NO,0.72,33.48,2026-10-31 22:08
+2026-11-01 01:01,strict,5336170,"Will Luiz Inácio Lula da Silva win Brazil, Benjamin Netanyahu become Israeli PM, and Democ",NO,0.72,74.05,2026-10-31 22:36
+2026-11-01 01:01,touch,5336170,"Will Luiz Inácio Lula da Silva win Brazil, Benjamin Netanyahu become Israeli PM, and Democ",NO,0.72,33.48,2026-10-31 22:08
+2026-11-01 01:01,touch,5336170,"Will Luiz Inácio Lula da Silva win Brazil, Benjamin Netanyahu become Israeli PM, and Democ",NO,0.72,16.0,2026-10-31 22:18
+2026-11-01 01:01,touch,5336170,"Will Luiz Inácio Lula da Silva win Brazil, Benjamin Netanyahu become Israeli PM, and Democ",NO,0.72,58.05,2026-10-31 22:36
