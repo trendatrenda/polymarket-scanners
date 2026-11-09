@@ -1267,3 +1267,10 @@
 
 2026-11-09 05:02:56 HTTP 404 for https://clob.polymarket.com/book?token_id=60196446994407284411220151074305776552106529350683670683153063310267159873974: {"error":"No orderbook exists for the requested token id"}
 
+2026-11-09 07:24:47 HTTP 502 for https://clob.polymarket.com/books: error code: 502
+
+2026-11-09 07:24:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-09 07:24:55 HTTP 404 for https://clob.polymarket.com/book?token_id=85285465440536912573460709049070048986001030672740458820798519691202268957337: {"error":"No orderbook exists for the requested token id"}
+
+2026-11-09 07:24:55 HTTP 404 for https://clob.polymarket.com/book?token_id=60196446994407284411220151074305776552106529350683670683153063310267159873974: {"error":"No orderbook exists for the requested token id"}
+
