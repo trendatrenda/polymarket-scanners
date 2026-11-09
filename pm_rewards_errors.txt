@@ -1262,3 +1262,8 @@
 
 2026-11-09 02:52:49 HTTP 404 for https://clob.polymarket.com/book?token_id=60196446994407284411220151074305776552106529350683670683153063310267159873974: {"error":"No orderbook exists for the requested token id"}
 
+2026-11-09 05:02:24 ConnectionResetError for https://gamma-api.polymarket.com/markets?closed=false&active=true&limit=100&offset=1400&order=volume24hr&ascending=false: [Errno 104] Connection reset by peer
+2026-11-09 05:02:56 HTTP 404 for https://clob.polymarket.com/book?token_id=85285465440536912573460709049070048986001030672740458820798519691202268957337: {"error":"No orderbook exists for the requested token id"}
+
+2026-11-09 05:02:56 HTTP 404 for https://clob.polymarket.com/book?token_id=60196446994407284411220151074305776552106529350683670683153063310267159873974: {"error":"No orderbook exists for the requested token id"}
+
