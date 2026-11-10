@@ -69,6 +69,20 @@ EXTRA_SKIP = re.compile(r"\b(election|elections|senate|house seat|governor|mayor
                         r"midterm|ballot|referendum|parliament|seats?|poll|approval rating|"
                         r"tweets?|posts? from|truth social posts|how many|number of|"
                         r"wnba|ncaa|mvp|finals|championship|world cup|league|tournament|open winner)\b", re.I)
+SPORT = re.compile(r"\bTDs?\b|touchdown|yards|receptions|rushing|passing|interception|sacks?\b|strikeouts?|"
+                   r"home runs?|rebounds|assists|anytime|first (td|goal|basket|scorer)|\bwin on 20\d\d|"
+                   r"\bvs\.?\b|\b(nfl|nba|mlb|nhl|mls|ufc|atp|wta|ipl|fc|sc|cf)\b|cowboys|seahawks|"
+                   r"cricket|innings|wicket|\bruns\b|knockout|\bround \d|\bset \d|\bmap \d|esports?|"
+                   r"\d\+ (goals|points|kills|tds)|to score|clean sheet|draw\b", re.I)
+
+
+def is_sport(m):
+    """Polymarket marks sports markets itself (game time / sports market type); the words
+    are a second net."""
+    return bool(m.get("sportsMarketType") or m.get("gameStartTime") or m.get("gameId")
+                or SPORT.search(str(m.get("question") or "")))
+
+
 TOPICS = [("middle east", r"iran|israel|gaza|hamas|hezbollah|hormuz|lebanon|syria|yemen|houthi|saudi"),
           ("russia-ukraine", r"russia|ukrain|putin|zelensk|kremlin|crimea"),
           ("china-taiwan", r"china|chinese|taiwan|xi jinping|beijing"),
@@ -87,10 +101,12 @@ def topic_of(m):
 
 
 # ---------------------------------------------------------------------------- markets
-def candidates(done_ids, used_events):
+def candidates(done_ids, used_events, want):
     t = now()
     out, used = [], set(used_events)
-    for page in range(8):
+    for page in range(60):                                 # newest pages are mostly sports props:
+        if len(out) >= want:                               # keep looking until we have enough
+            break
         ms = rs.get_json(f"{GAMMA}/markets", {"active": "true", "closed": "false", "limit": 100,
                                               "offset": page * 100, "order": "startDate", "ascending": "false",
                                               "end_date_min": iso(t + timedelta(days=3)),
@@ -102,7 +118,7 @@ def candidates(done_ids, used_events):
             q = str(m.get("question") or "")
             outs = [str(o).lower() for o in rs.as_list(m.get("outcomes"))]
             if (str(m.get("id")) in done_ids or outs != ["yes", "no"] or len(rs.as_list(m.get("clobTokenIds"))) != 2
-                    or base.SKIP.search(q) or EXTRA_SKIP.search(q)
+                    or is_sport(m) or base.SKIP.search(q) or EXTRA_SKIP.search(q)
                     or not m.get("acceptingOrders", True) or m.get("closed")):
                 continue
             try:
@@ -119,7 +135,7 @@ def candidates(done_ids, used_events):
             m["_event"] = k
             m["_topic"] = topic_of(m)
             out.append(m)
-        time.sleep(0.15)
+        time.sleep(0.1)
     return out
 
 
@@ -131,8 +147,8 @@ def call(key, model, prompt, max_tokens, search=False):
     if search:
         body["tools"] = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 3,
                           "blocked_domains": BLOCKED}]
-    text, usd, searches = "", 0.0, 0
-    for _ in range(4):                                     # "pause_turn" = long search, continue
+    text, usd, searches, nudged = "", 0.0, 0, False
+    for _ in range(5):                                     # "pause_turn" = long search, continue
         req = urllib.request.Request(API, data=json.dumps(body).encode(), method="POST", headers={
             "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
         try:
@@ -153,10 +169,17 @@ def call(key, model, prompt, max_tokens, search=False):
         usd += n * SEARCH_USD
         searches += n
         text += "".join(c.get("text", "") for c in j.get("content", []) if c.get("type") == "text")
-        if j.get("stop_reason") != "pause_turn":
-            return text, usd, searches, ""
-        body["messages"] = msgs + [{"role": "assistant", "content": j.get("content", [])}]
-    return text, usd, searches, ""
+        why = j.get("stop_reason")
+        kinds = ",".join(sorted({str(c.get("type")) for c in j.get("content", [])})) or "nothing"
+        if why == "pause_turn":
+            body["messages"] = msgs + [{"role": "assistant", "content": j.get("content", [])}]
+            continue
+        if text.strip() or not search or nudged or not j.get("content"):
+            return text, usd, searches, "" if text.strip() else f"empty reply (stop: {why}; got: {kinds})"
+        nudged = True                                      # searched but wrote nothing: ask once
+        body["messages"] = msgs + [{"role": "assistant", "content": j.get("content", [])},
+                                   {"role": "user", "content": "Now write the fact sheet from what you found."}]
+    return text, usd, searches, "" if text.strip() else "empty reply (search kept pausing)"
 
 
 HEAD = ("Today is {today} (UTC). Your own training knowledge is OLDER than today: when it conflicts with "
@@ -240,9 +263,9 @@ def team(key, m, stop):
         out["searches"] += n
         return text, err
 
-    facts, err = ask(SMALL, P_RESEARCH, 900, search=True)
+    facts, err = ask(SMALL, P_RESEARCH, 1600, search=True)
     if err.startswith("API error 400") and not facts:       # small model can't search: use Sonnet
-        facts, err = ask(BIG, P_RESEARCH, 900, search=True)
+        facts, err = ask(BIG, P_RESEARCH, 1600, search=True)
         out["note"] = "researcher ran on the big model; "
     if err or not facts.strip():
         out["note"] += f"research failed ({err or 'empty'})"
@@ -319,7 +342,11 @@ def run():
         print("  nothing to do this run (daily limit reached or monthly cost cap)")
         summary(fc, bets)
         return
-    cands = candidates({r["market_id"] for r in fc}, {r["event"] for r in fc})[:room]
+    tried = {}
+    for r in read(COST):
+        tried[r["market_id"]] = tried.get(r["market_id"], 0) + 1
+    skip = {r["market_id"] for r in fc} | {k for k, v in tried.items() if v >= 2}   # failed twice: give up
+    cands = candidates(skip, {r["event"] for r in fc}, room)[:room]
     print(f"  new markets to research: {len(cands)}")
     stop = time.time() + RUN_SECONDS
     with ThreadPoolExecutor(max_workers=3) as pool:
@@ -395,6 +422,8 @@ def run():
 def summary(fc=None, bets=None):
     fc = read(FC) if fc is None else fc
     bets = read(BETS) if bets is None else bets
+    fc = [r for r in fc if not SPORT.search(r["question"])]      # a sports row from before the
+    bets = [b for b in bets if not SPORT.search(b["question"])]  # 11 Nov filter fix: not scored
     done = [b for b in bets if b["status"] in ("won", "lost")]
     pnl = sum(float(b["pnl"]) for b in done)
     print(f"\n  #38b RESEARCH TEAM: {len(fc)} forecasts, {len(bets)} paper bets ({len(done)} settled,"
