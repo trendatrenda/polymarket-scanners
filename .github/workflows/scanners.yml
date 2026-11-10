@@ -16,7 +16,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest      # already has Python 3 -- no setup step needed (saves time)
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -41,6 +41,12 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # hidden GitHub Secret, never printed
         run: |
           timeout 7m python3 -u pm_ai_forecaster.py || echo "ai forecaster" >> /tmp/failed.txt
+
+      - name: "AI research team (#38b) -- up to 8 markets per day, cost-capped"
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # hidden GitHub Secret, never printed
+        run: |
+          timeout 9m python3 -u pm_ai_research.py || echo "ai research team" >> /tmp/failed.txt
 
       - name: "Save results into the repository"
         id: save
@@ -68,6 +74,7 @@ jobs:
             pm_*.txt
             euro_*.csv
             ai_*.csv
+            air_*.csv
           retention-days: 14
 
       - name: "Turn the run RED if anything crashed or was unhealthy"
