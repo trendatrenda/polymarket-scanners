@@ -272,12 +272,21 @@ def settle(fc, bets):
     return fc, bets
 
 
+RETIRED = True            # 11 Nov 2026: failed early and clearly -- stopped to save API credit
+
+
 def run():
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     fc, bets = read(FC), read(BETS)
     fc, bets = settle(fc, bets)
     write(FC, F_FIELDS, fc)
     write(BETS, B_FIELDS, bets)
+    if RETIRED:
+        print("  #38 RETIRED on 11 Nov 2026 (0 of 19 settled bets won; AI accuracy 0.29 vs the"
+              " market's 0.16 on 80 markets): no new forecasts, no AI calls, no cost."
+              " Open bets are still settled so the final score is complete.")
+        summary(fc, bets)
+        return
     if not key:
         print("  ANTHROPIC_API_KEY is not set (GitHub Secret missing) -- no new forecasts this run")
         summary(fc, bets)
