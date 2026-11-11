@@ -38,3 +38,5 @@ time,ko,game,cid,team_a,q_a,ask_a,ask_b,mid_a,decision,a_won
 2026-11-06T16:51:15+00:00,1793994300,Partizan vs. Maccabi Tel Aviv,0xbb569b7ddc527c341fae9410b94172c553a0d00d70e25a49a34cc9b04118c1c6,Partizan,,,,,too few games played,
 2026-11-06T16:51:15+00:00,1793993400,Virtus Bologna vs. BC Dubai,0x0cb5ac1811338c8c9bb775392782a197a4bef4bbf3ff0c47c5ce7b0630631220,Virtus Bologna,,,,,too few games played,
 2026-11-06T16:51:15+00:00,1793992500,Olympiacos B.C. vs. KK Crvena Zvezda,0x54daea18444e2a9104834c1556e19a0155477ab63b3a731898f9799e0a799b90,Olympiacos B.C.,,,,,too few games played,
+2026-11-11T16:55:51+00:00,1794426300,Partizan vs. Kosner Baskonia,0x79cdf1daff0c67a25cdb042786759a72edec7596100ce1220a85731c4aab7080,Partizan,0.7802,0.77,0.24,0.765,no bet,
+2026-11-11T16:55:51+00:00,1794426300,Paris Basketball vs. Fenerbahce,0xf750b8e4e03384ead177adb25555819af5276af5c84c28fc6441748802326eb9,Paris Basketball,0.5107,0.3131,0.7,0.305,BET Paris Basketball at 0.324 (our chance 0.511),
