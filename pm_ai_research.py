@@ -92,6 +92,9 @@ TOPICS = [("middle east", r"iran|israel|gaza|hamas|hezbollah|hormuz|lebanon|syri
           ("entertainment", r"movie|box office|album|song|spotify|netflix|oscar|grammy|billboard")]
 
 
+WHY = {}                  # why markets were skipped in the last search (printed each run)
+
+
 def topic_of(m):
     q = str(m.get("question") or "").lower()
     for name, pat in TOPICS:
@@ -104,6 +107,8 @@ def topic_of(m):
 def candidates(done_ids, used_events, want):
     t = now()
     out, used = [], set(used_events)
+    why = WHY
+    why.clear()
     for page in range(60):                                 # newest pages are mostly sports props:
         if len(out) >= want:                               # keep looking until we have enough
             break
@@ -117,9 +122,15 @@ def candidates(done_ids, used_events, want):
         for m in ms:
             q = str(m.get("question") or "")
             outs = [str(o).lower() for o in rs.as_list(m.get("outcomes"))]
-            if (str(m.get("id")) in done_ids or outs != ["yes", "no"] or len(rs.as_list(m.get("clobTokenIds"))) != 2
-                    or is_sport(m) or base.SKIP.search(q) or EXTRA_SKIP.search(q)
-                    or not m.get("acceptingOrders", True) or m.get("closed")):
+            reason = ("already done" if str(m.get("id")) in done_ids else
+                      "not a Yes/No market" if outs != ["yes", "no"] or len(rs.as_list(m.get("clobTokenIds"))) != 2 else
+                      "sports" if is_sport(m) else
+                      "crypto/stock price" if base.SKIP.search(q) else
+                      "election/count" if EXTRA_SKIP.search(q) else
+                      "not open" if not m.get("acceptingOrders", True) or m.get("closed") else "")
+            why["looked at"] = why.get("looked at", 0) + 1
+            if reason:
+                why[reason] = why.get(reason, 0) + 1
                 continue
             try:
                 end = datetime.fromisoformat(str(m.get("endDate")).replace("Z", "+00:00"))
@@ -127,9 +138,11 @@ def candidates(done_ids, used_events, want):
             except (TypeError, ValueError):
                 continue
             if not (t + timedelta(days=3) <= end <= t + timedelta(days=30)) or vol > MAX_VOLUME:
+                why["too big / wrong dates"] = why.get("too big / wrong dates", 0) + 1
                 continue
             k = event_key(m)
             if k in used:
+                why["same event as another"] = why.get("same event as another", 0) + 1
                 continue
             used.add(k)
             m["_event"] = k
@@ -237,12 +250,14 @@ RULES_WARNING: one sentence, or none"""
 
 
 def prob(text):
-    f = re.findall(r"PROBABILITY:\s*([01](?:\.\d+)?)", text)
-    try:
-        q = float(f[-1])
-        return q if 0 <= q <= 1 else None
-    except (IndexError, ValueError):
+    """Reads 'PROBABILITY: 0.37' -- also '**PROBABILITY:** 37%' and similar spellings."""
+    f = re.findall(r"PROBABILITY\W{0,6}(\d{1,3}(?:\.\d+)?)\s*(%?)", str(text), re.I)
+    if not f:
         return None
+    q = float(f[-1][0])
+    if f[-1][1] or q > 1:
+        q /= 100
+    return q if 0 <= q <= 1 else None
 
 
 def one_line(s, n):
@@ -276,13 +291,13 @@ def team(key, m, stop):
     with ThreadPoolExecutor(max_workers=2) as pool:
         ys, ns = pool.map(lambda s: ask(SMALL, P_SIDE, 350, rules_read=rules_read, facts=facts, side=s),
                           ("YES", "NO"))
-    verdict, err = ask(BIG, P_JUDGE, 500, rules_read=rules_read, facts=facts, searches=out["searches"],
+    verdict, err = ask(BIG, P_JUDGE, 900, rules_read=rules_read, facts=facts, searches=out["searches"],
                        yes_case=ys[0] or "(unavailable)", no_case=ns[0] or "(unavailable)")
     if err or prob(verdict) is None:
-        out["note"] += f"judge failed ({err or 'no number'})"
+        out["note"] += f"judge failed ({err or 'no number; reply ended: ' + one_line(verdict[-120:], 120)})"
         return out
-    c = re.findall(r"CONFIDENCE:\s*(low|medium|high)", verdict, re.I)
-    w = re.findall(r"RULES_WARNING:\s*(.+)", verdict)
+    c = re.findall(r"CONFIDENCE\W{0,6}(low|medium|high)", verdict, re.I)
+    w = re.findall(r"RULES_WARNING\W{0,4}\s*(.+)", verdict)
     warn = one_line(w[-1], 250) if w else ""
     out.update(q=prob(verdict), confidence=c[-1].lower() if c else "unknown",
                warn="" if warn.lower().rstrip(".") in ("none", "n/a", "no") else warn,
@@ -347,7 +362,7 @@ def run():
         tried[r["market_id"]] = tried.get(r["market_id"], 0) + 1
     skip = {r["market_id"] for r in fc} | {k for k, v in tried.items() if v >= 2}   # failed twice: give up
     cands = candidates(skip, {r["event"] for r in fc}, room)[:room]
-    print(f"  new markets to research: {len(cands)}")
+    print(f"  new markets to research: {len(cands)}   (search: {dict(WHY)})")
     stop = time.time() + RUN_SECONDS
     with ThreadPoolExecutor(max_workers=3) as pool:
         results = list(pool.map(lambda m: (m, team(key, m, stop)), cands))
