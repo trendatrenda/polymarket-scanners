@@ -11,7 +11,9 @@ won. Its weak point was INFORMATION. #38b fixes that first.
 
 LOCKED RULES (set 11 Nov 2026, before any forecast was made)
   Markets    open Yes/No markets ending 3-30 days from now, NEWEST first, small (under
-             $250,000 traded in total), Yes price 5-95%. No sports, no crypto/stock prices,
+             $250,000 traded in total), Yes price 5-95%, and a REAL order book (buying Yes
+             + buying No costs at most $1.06 -- added 11 Nov after the first 8 forecasts
+             all landed on brand-new markets with empty books; those 8 are not scored). No sports, no crypto/stock prices,
              no elections, no "how many posts/tweets" counts. One market per event, ever.
              At most 8 new markets per 24 hours.
   The team   for each market, 5 steps (the market's price is NEVER shown to any of them):
@@ -92,6 +94,33 @@ TOPICS = [("middle east", r"iran|israel|gaza|hamas|hezbollah|hormuz|lebanon|syri
           ("entertainment", r"movie|box office|album|song|spotify|netflix|oscar|grammy|billboard")]
 
 
+MAX_GAP = 0.06            # a market counts as tradeable only if buying Yes + buying No costs
+                          # at most $1.06 together (a tight, real order book)
+
+
+def tight(ask_yes, ask_no):
+    try:
+        return float(ask_yes) + float(ask_no) <= 1 + MAX_GAP + 1e-9
+    except (TypeError, ValueError):
+        return False
+
+
+def tradeable(m):
+    """Brand-new markets often have an EMPTY book (asks of 90-99c on both sides): nothing can
+    be bought at a fair price and the 'market price' means nothing. Checked BEFORE any AI
+    money is spent: first Polymarket's own best bid/ask, then the real book for $20."""
+    try:
+        bid, ask = float(m.get("bestBid")), float(m.get("bestAsk"))
+    except (TypeError, ValueError):
+        return False
+    if not (0 < bid < ask < 1) or ask - bid > MAX_GAP or not 0.05 <= (bid + ask) / 2 <= 0.95:
+        return False
+    toks = [str(x) for x in rs.as_list(m.get("clobTokenIds"))]
+    ay = taker_cost(toks[0], 0.0)[0]
+    an = taker_cost(toks[1], 0.0)[0]
+    return tight(ay, an)
+
+
 WHY = {}                  # why markets were skipped in the last search (printed each run)
 
 
@@ -143,6 +172,9 @@ def candidates(done_ids, used_events, want):
             k = event_key(m)
             if k in used:
                 why["same event as another"] = why.get("same event as another", 0) + 1
+                continue
+            if not tradeable(m):
+                why["no real order book yet"] = why.get("no real order book yet", 0) + 1
                 continue
             used.add(k)
             m["_event"] = k
@@ -388,6 +420,8 @@ def run():
         dec, pick = "no bet", None
         if mid != "" and not 0.05 <= mid <= 0.95:
             dec = "price outside 5-95%: forecast kept, no bet"
+        elif not tight(ay, an):
+            dec = "order book emptied out: forecast kept, no bet"
         elif t["searches"] == 0:
             dec = "researcher made no search: forecast kept, no bet"
         elif t["confidence"] not in ("medium", "high"):
@@ -437,8 +471,12 @@ def run():
 def summary(fc=None, bets=None):
     fc = read(FC) if fc is None else fc
     bets = read(BETS) if bets is None else bets
-    fc = [r for r in fc if not SPORT.search(r["question"])]      # a sports row from before the
-    bets = [b for b in bets if not SPORT.search(b["question"])]  # 11 Nov filter fix: not scored
+    n_all = len(fc)
+    fc = [r for r in fc if not SPORT.search(r["question"]) and tight(r["ask_yes"], r["ask_no"])]
+    bets = [b for b in bets if not SPORT.search(b["question"])]
+    if n_all != len(fc):
+        print(f"  ({n_all - len(fc)} early forecasts are not scored: a sports market, or markets with an"
+              f" empty order book whose 'price' meant nothing -- fixed 11 Nov)")
     done = [b for b in bets if b["status"] in ("won", "lost")]
     pnl = sum(float(b["pnl"]) for b in done)
     print(f"\n  #38b RESEARCH TEAM: {len(fc)} forecasts, {len(bets)} paper bets ({len(done)} settled,"
