@@ -44,7 +44,6 @@ import sys
 import time
 import urllib.error
 import urllib.request
-from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 
 import pm_ai_forecaster as base
@@ -64,7 +63,8 @@ BLOCKED = ["polymarket.com", "kalshi.com", "manifold.markets", "metaculus.com", 
            "polyguana.com", "predictiongenius.io", "futuresearch.ai", "oddschecker.com"]
 F_FIELDS = ["time", "market_id", "event", "topic", "cid", "question", "end", "q", "confidence", "q_yes_side",
             "q_no_side", "mid_yes", "ask_yes", "ask_no", "decision", "searches", "facts", "rules_read",
-            "reason", "rules_warning", "result"]
+            "reason", "rules_warning", "result", "team", "team_errors"]
+TEAM = "v2"      # 12 Nov fix: agents retry when the API says "slow down". Only v2 rows count in the verdict.
 B_FIELDS = ["placed", "market_id", "event", "topic", "cid", "question", "end", "side", "token", "q", "avg_ask",
             "fee", "cost", "shares", "status", "settled", "payout", "pnl"]
 EXTRA_SKIP = re.compile(r"\b(election|elections|senate|house seat|governor|mayor|primary|runoff|nominee|"
@@ -192,14 +192,22 @@ def call(key, model, prompt, max_tokens, search=False):
     if search:
         body["tools"] = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 3,
                           "blocked_domains": BLOCKED}]
-    text, usd, searches, nudged = "", 0.0, 0, False
-    for _ in range(5):                                     # "pause_turn" = long search, continue
+    text, usd, searches, nudged, waited = "", 0.0, 0, False, False
+    for _ in range(6):                                     # "pause_turn" = long search, continue
         req = urllib.request.Request(API, data=json.dumps(body).encode(), method="POST", headers={
             "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
         try:
             with urllib.request.urlopen(req, timeout=150) as r:
                 j = json.loads(r.read().decode())
         except urllib.error.HTTPError as e:
+            if e.code in (429, 529) and not waited:        # "slow down" / "busy": wait, try once more
+                waited = True
+                try:
+                    pause = min(60, max(30, int(e.headers.get("retry-after") or 30)))
+                except (TypeError, ValueError):
+                    pause = 30
+                time.sleep(pause)
+                continue
             try:
                 msg = json.loads(e.read().decode()).get("error", {}).get("message", "")
             except Exception:
@@ -301,6 +309,9 @@ def team(key, m, stop):
     ctx = {"today": now().strftime("%Y-%m-%d %H:%M"), "question": m.get("question"), "end": m.get("endDate"),
            "rules": str(m.get("description") or "(no rules text)")[:3500]}
     out = {"usd": 0.0, "searches": 0, "q": None, "note": ""}
+    if time.time() > stop - 150:                           # not enough time for a full team: next run
+        out["note"] = "not started (run time used up), tries again next run"
+        return out
 
     def ask(model, tpl, max_tokens, search=False, **kw):
         if time.time() > stop:
@@ -317,12 +328,19 @@ def team(key, m, stop):
     if err or not facts.strip():
         out["note"] += f"research failed ({err or 'empty'})"
         return out
+    errs = []
     rules_read, err = ask(SMALL, P_RULES, 350)
-    if err:
+    if err or not rules_read.strip():
+        errs.append(f"rules: {err or 'empty'}")
         rules_read = "(rules reader unavailable)"
-    with ThreadPoolExecutor(max_workers=2) as pool:
-        ys, ns = pool.map(lambda s: ask(SMALL, P_SIDE, 350, rules_read=rules_read, facts=facts, side=s),
-                          ("YES", "NO"))
+    ys = ask(SMALL, P_SIDE, 350, rules_read=rules_read, facts=facts, side="YES")   # one after the other,
+    ns = ask(SMALL, P_SIDE, 350, rules_read=rules_read, facts=facts, side="NO")    # not at the same time
+    for name, (txt, e) in (("yes side", ys), ("no side", ns)):
+        if e or not txt.strip():
+            errs.append(f"{name}: {e or 'empty'}")
+        elif prob(txt) is None:
+            errs.append(f"{name}: no number")
+    out["errors"] = one_line("; ".join(errs), 300)
     verdict, err = ask(BIG, P_JUDGE, 900, rules_read=rules_read, facts=facts, searches=out["searches"],
                        yes_case=ys[0] or "(unavailable)", no_case=ns[0] or "(unavailable)")
     if err or prob(verdict) is None:
@@ -396,8 +414,8 @@ def run():
     cands = candidates(skip, {r["event"] for r in fc}, room)[:room]
     print(f"  new markets to research: {len(cands)}   (search: {dict(WHY)})")
     stop = time.time() + RUN_SECONDS
-    with ThreadPoolExecutor(max_workers=3) as pool:
-        results = list(pool.map(lambda m: (m, team(key, m, stop)), cands))
+    results = [(m, team(key, m, stop)) for m in cands]     # one market at a time (12 Nov: 3 at once hit
+                                                           # the API's per-minute limit)
     costs = read(COST)
     failed = 0
     for m, t in results:
@@ -407,7 +425,7 @@ def run():
         q = t["q"]
         name = str(m.get("question"))[:60]
         if q is None:
-            failed += 1
+            failed += 0 if t["note"].startswith("not started") else 1
             print(f"  {name}: no forecast -- {t['note'][:200]}")
             continue                                       # not recorded: it is tried again later
         toks = [str(x) for x in rs.as_list(m.get("clobTokenIds"))]
@@ -444,7 +462,8 @@ def run():
                "q_no_side": "" if t["q_no"] is None else t["q_no"],
                "mid_yes": "" if mid == "" else round(mid, 4), "ask_yes": "" if ay is None else round(ay, 4),
                "ask_no": "" if an is None else round(an, 4), "searches": t["searches"], "facts": t["facts"],
-               "rules_read": t["rules_read"], "reason": t["reason"], "rules_warning": t["warn"], "result": ""}
+               "rules_read": t["rules_read"], "reason": t["reason"], "rules_warning": t["warn"], "result": "",
+               "team": TEAM, "team_errors": t.get("errors", "")}
         if pick:
             side, tok, qq, av, fee, cost = pick
             bets.append({"placed": row["time"], "market_id": m.get("id"), "event": m["_event"], "topic": topic,
@@ -457,6 +476,8 @@ def run():
         fc.append(row)
         print(f"  {name}: judge {q:.2f} ({t['confidence']}, {t['searches']} searches) vs market"
               f" {row['mid_yes']} -> {dec}")
+        if t.get("errors"):
+            print(f"     team problems: {t['errors']}")
         if t["warn"]:
             print(f"      RULES WARNING: {t['warn']}")
     write(FC, F_FIELDS, fc)
@@ -472,11 +493,15 @@ def summary(fc=None, bets=None):
     fc = read(FC) if fc is None else fc
     bets = read(BETS) if bets is None else bets
     n_all = len(fc)
-    fc = [r for r in fc if not SPORT.search(r["question"]) and tight(r["ask_yes"], r["ask_no"])]
-    bets = [b for b in bets if not SPORT.search(b["question"])]
+    fc = [r for r in fc if r.get("team") == TEAM]
+    ok = {r["market_id"] for r in fc}
+    bets = [b for b in bets if b["market_id"] in ok]
     if n_all != len(fc):
-        print(f"  ({n_all - len(fc)} early forecasts are not scored: a sports market, or markets with an"
-              f" empty order book whose 'price' meant nothing -- fixed 11 Nov)")
+        print(f"  ({n_all - len(fc)} early forecasts and their bets are not scored: made before the 12 Nov"
+              f" fix, when the rules reader and the YES/NO agents often failed)")
+    bad = sum(r.get("team_errors", "") != "" for r in fc)
+    if bad:
+        print(f"  team problems on {bad} of {len(fc)} forecasts (see column team_errors)")
     done = [b for b in bets if b["status"] in ("won", "lost")]
     pnl = sum(float(b["pnl"]) for b in done)
     print(f"\n  #38b RESEARCH TEAM: {len(fc)} forecasts, {len(bets)} paper bets ({len(done)} settled,"
