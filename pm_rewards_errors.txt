@@ -1446,3 +1446,161 @@
 
 2026-11-12 09:00:09 HTTP 500 for https://gamma-api.polymarket.com/markets?active=true&closed=false&limit=100&offset=100&order=startDate&ascending=false&end_date_min=2026-11-15T09%3A00%3A05%2B00%3A00&end_date_max=2026-12-12T09%3A00%3A05%2B00%3A00: {"type":"internal error","error":"internal server error"}
 
+2026-11-12 11:00:46 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:46 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:46 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:46 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:46 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:46 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:46 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:46 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:46 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:46 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:46 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:46 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:46 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:46 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:46 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:46 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:46 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:46 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:46 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:46 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:46 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:46 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:46 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:46 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 100 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:00:47 HTTP 403 for https://clob.polymarket.com/books: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:00:47 books: 24 tokens missing from a batch -- not fetching one by one
+2026-11-12 11:01:29 HTTP 403 for https://clob.polymarket.com/book?token_id=111522971274378082953522451511607824800398189817179730360016447129916569997887: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:01:29 HTTP 403 for https://clob.polymarket.com/book?token_id=13600781805682057247209292179725286901677904803907053082974467297231261812091: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:01:49 HTTP 403 for https://clob.polymarket.com/book?token_id=26020232812786547138934329796124013608400804899716640414873900011362357590628: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:01:49 HTTP 403 for https://clob.polymarket.com/book?token_id=51629432395426891584149249183072240738946130832458075603286337740210354860150: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+2026-11-12 11:01:56 HTTP 422 for https://gamma-api.polymarket.com/markets?active=true&closed=false&limit=100&offset=2100&order=startDate&ascending=false&end_date_min=2026-11-15T11%3A01%3A24%2B00%3A00&end_date_max=2026-12-12T11%3A01%3A24%2B00%3A00: {"type":"validation error","error":"offset too large, use /markets/keyset for deeper pagination"}
+
