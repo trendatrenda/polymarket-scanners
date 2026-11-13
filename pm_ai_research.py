@@ -64,7 +64,9 @@ BLOCKED = ["polymarket.com", "kalshi.com", "manifold.markets", "metaculus.com", 
 F_FIELDS = ["time", "market_id", "event", "topic", "cid", "question", "end", "q", "confidence", "q_yes_side",
             "q_no_side", "mid_yes", "ask_yes", "ask_no", "decision", "searches", "facts", "rules_read",
             "reason", "rules_warning", "result", "team", "team_errors"]
-TEAM = "v2"      # 12 Nov fix: agents retry when the API says "slow down". Only v2 rows count in the verdict.
+TEAM = "v3"      # 13 Nov fix: the small agents "think" before answering and ran out of room at 350 words-ish
+                 # (stop: max_tokens). Now they get SMALL_TOKENS. Only v3 rows count in the verdict.
+SMALL_TOKENS = 2500                                    # room for thinking + a short answer (< $0.002 each)
 B_FIELDS = ["placed", "market_id", "event", "topic", "cid", "question", "end", "side", "token", "q", "avg_ask",
             "fee", "cost", "shares", "status", "settled", "payout", "pnl"]
 EXTRA_SKIP = re.compile(r"\b(election|elections|senate|house seat|governor|mayor|primary|runoff|nominee|"
@@ -329,12 +331,12 @@ def team(key, m, stop):
         out["note"] += f"research failed ({err or 'empty'})"
         return out
     errs = []
-    rules_read, err = ask(SMALL, P_RULES, 350)
+    rules_read, err = ask(SMALL, P_RULES, SMALL_TOKENS)
     if err or not rules_read.strip():
         errs.append(f"rules: {err or 'empty'}")
         rules_read = "(rules reader unavailable)"
-    ys = ask(SMALL, P_SIDE, 350, rules_read=rules_read, facts=facts, side="YES")   # one after the other,
-    ns = ask(SMALL, P_SIDE, 350, rules_read=rules_read, facts=facts, side="NO")    # not at the same time
+    ys = ask(SMALL, P_SIDE, SMALL_TOKENS, rules_read=rules_read, facts=facts, side="YES")   # one after the other,
+    ns = ask(SMALL, P_SIDE, SMALL_TOKENS, rules_read=rules_read, facts=facts, side="NO")    # not at the same time
     for name, (txt, e) in (("yes side", ys), ("no side", ns)):
         if e or not txt.strip():
             errs.append(f"{name}: {e or 'empty'}")
@@ -497,8 +499,8 @@ def summary(fc=None, bets=None):
     ok = {r["market_id"] for r in fc}
     bets = [b for b in bets if b["market_id"] in ok]
     if n_all != len(fc):
-        print(f"  ({n_all - len(fc)} early forecasts and their bets are not scored: made before the 12 Nov"
-              f" fix, when the rules reader and the YES/NO agents often failed)")
+        print(f"  ({n_all - len(fc)} early forecasts and their bets are not scored: made before the 13 Nov"
+              f" fix, when the rules reader and the YES/NO agents often ran out of room and answered nothing)")
     bad = sum(r.get("team_errors", "") != "" for r in fc)
     if bad:
         print(f"  team problems on {bad} of {len(fc)} forecasts (see column team_errors)")
