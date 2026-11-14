@@ -1,50 +1,50 @@
 time,ko,game,cid,team_a,q_a,ask_a,ask_b,mid_a,decision,a_won
-2026-10-21T14:36:13+00:00,1792598400,Hapoel Tel Aviv vs. Virtus Bologna,0x525ceac4142d3c98fcea3dea89100fa5e5a4ca00d73ebdb21abcfe1a1677381d,Hapoel Tel Aviv,,,,,too few games played,
-2026-10-22T14:37:20+00:00,1792690200,Anadolu Efes vs. Besiktas,0x1cbe6e2150831f1d900dbd6be9e91d611c2b0ab36f1329390f072d973185a49f,Anadolu Efes,,,,,too few games played,
-2026-10-22T16:36:47+00:00,1792694700,Partizan vs. KK Crvena Zvezda,0x3cb9cd32d207a842ef1e453ea8f5dba6bc983dc8e3e844b2d29ada3b244627c0,Partizan,,,,,too few games played,
-2026-10-22T16:36:47+00:00,1792692000,FC Bayern Munchen vs. BC Dubai,0x6a470b54d9651ad9cf4e44bd1740b62543b81aeaeee0e7394f41ecac8af137f3,FC Bayern Munchen,,,,,too few games played,
-2026-10-22T16:36:47+00:00,1792693800,Olimpia Milano vs. Barcelona,0x39d9b62384e4cf5e8ab0a148f9c466b9191b71215c41bbd8bbdc1f985c026ba3,Olimpia Milano,,,,,too few games played,
-2026-10-22T16:36:47+00:00,1792692900,Panathinaikos vs. Kosner Baskonia,0xc75f6ea852785d9758b1866a841ca0f8db547cef0566e246a9f8ed631dd224eb,Panathinaikos,,,,,too few games played,
-2026-10-22T16:36:47+00:00,1792692300,Maccabi Tel Aviv vs. Real Madrid,0xca762d13f9fb82272651a9ff2d8e434e183725dc19f0a266a5a2f49b7c37c87c,Maccabi Tel Aviv,,,,,too few games played,
-2026-10-23T14:39:42+00:00,1792774800,Zalgiris Kaunas vs. ASVEL Lyon-Villeurbanne,0xc44cdb9a4b1166fc171f7f43b32941ea6f31f0734f13c16c638efdb6cdbc688e,Zalgiris Kaunas,,,,,too few games played,
-2026-10-23T16:37:27+00:00,1792781100,Paris Basketball vs. Valencia,0x4d2593a4dc3c1481ee911b012728a83bc2a52a2e0af14e6a3e62c429ef98bf64,Paris Basketball,,,,,too few games played,
-2026-10-23T16:37:27+00:00,1792779300,Olympiacos B.C. vs. Fenerbahce,0xf583a2375911573b9279f0b8185031c4a426964c7628bf96d297284500ba0da8,Olympiacos B.C.,,,,,too few games played,
-2026-10-27T14:49:42+00:00,1793116800,BC Dubai vs. Paris Basketball,0x1777f2189b6614e43af0483d653503815cefc613f83c1d1ec9562c9076807381,BC Dubai,,,,,too few games played,
-2026-10-27T16:48:27+00:00,1793129400,Valencia vs. Fenerbahce,0x3f2b187e5e899f635c814a4a299241bb3af52ce4a5c954faf9b304defd8961cd,Valencia,,,,,too few games played,
-2026-10-27T16:48:27+00:00,1793127600,FC Bayern Munchen vs. Barcelona,0xf9f581c791e3e3ef765cce0dd94f0baf7c2943c0c9cf24c7a5f649c4580570cf,FC Bayern Munchen,,,,,too few games played,
-2026-10-27T16:48:27+00:00,1793127600,KK Crvena Zvezda vs. Maccabi Tel Aviv,0x6ae38b9612113fcf5d3d34128f56fc12ef294740816107f85849d52e1945f3ae,KK Crvena Zvezda,,,,,too few games played,
-2026-10-27T16:48:27+00:00,1793128500,Panathinaikos vs. Olimpia Milano,0xc792bc514bacf11874bdf94962cb57d8624b1d942e362003946b12c63f29c5d1,Panathinaikos,,,,,too few games played,
-2026-10-27T18:44:11+00:00,1793131200,Kosner Baskonia vs. Real Madrid,0x11faca18f4c3aec219f2d4886d97213a6ce911259305d9f33c4d7594b4bd9031,Kosner Baskonia,,,,,too few games played,
-2026-10-28T14:55:07+00:00,1793208600,Besiktas vs. Olympiacos B.C.,0x9a614bce2c5a2eb31718e2e97c2baddb62a6182d533b33b09df1be04496911d6,Besiktas,,,,,too few games played,
-2026-10-28T16:51:45+00:00,1793215800,Virtus Bologna vs. Zalgiris Kaunas,0xb24de8e22e871ba3bbedb6c6c8ee70b1ac54875efd9e61981075b0b4ba6f8293,Virtus Bologna,,,,,too few games played,
-2026-10-28T16:51:45+00:00,1793214000,ASVEL Lyon-Villeurbanne vs. Partizan,0x72bee1e573407d221b7fe3a8b5494fa159118cef5b4fc1155df8b62a1891e22f,ASVEL Lyon-Villeurbanne,,,,,too few games played,
-2026-10-28T16:51:45+00:00,1793210400,Hapoel Tel Aviv vs. Anadolu Efes,0xb573f7e476a5631a220f4797a338aaaca0ea83b04ca824636b6c336e9949edf8,Hapoel Tel Aviv,,,,,too few games played,
-2026-10-29T16:53:39+00:00,1793303100,Real Madrid vs. Fenerbahce,0xc5e6a82936066f56f81b87ff31187e74439e34d47edad709f0396c698ea6a094,Real Madrid,,,,,too few games played,
-2026-10-29T16:53:39+00:00,1793300700,Maccabi Tel Aviv vs. Paris Basketball,0xae7b21646b34008f5df403223fc21e87d3d8e8446d377fe56a2d6de2747b8148,Maccabi Tel Aviv,,,,,too few games played,
-2026-10-29T16:53:39+00:00,1793300400,KK Crvena Zvezda vs. FC Bayern Munchen,0x5611976edb86522541966bacf9cc999000d432ccdf8566407bbd38befa57f089,KK Crvena Zvezda,,,,,too few games played,
-2026-10-30T14:56:03+00:00,1793376000,BC Dubai vs. Hapoel Tel Aviv,0x46acab27db3a839b4617920f4a9f511a1b3b69921d779e935fbbefc1fe0065ee,BC Dubai,,,,,too few games played,
-2026-10-30T14:56:03+00:00,1793381400,Anadolu Efes vs. Panathinaikos,0xcf00a2b03a40b7b04b960663a13e648559380f94f8826a5a51263431cf758f6d,Anadolu Efes,,,,,too few games played,
-2026-10-30T16:47:26+00:00,1793388600,Virtus Bologna vs. Besiktas,0xb1c78a29f43248f06f73acf362503265480a876b7acd59a6e468913e4ba50e78,Virtus Bologna,,,,,too few games played,
-2026-10-30T16:47:26+00:00,1793388600,Barcelona vs. Valencia,0xee6407391e7832fc2098570e693a8b92cc67f1ef68cb490ff7397b619ba9c26a,Barcelona,,,,,too few games played,
-2026-10-30T16:47:26+00:00,1793387700,Olympiacos B.C. vs. Olimpia Milano,0x6168fb6d771d66bdbcd9ea7f6db2a0c9acb9a524e74ac4a9d267eab2a64d73ad,Olympiacos B.C.,,,,,too few games played,
-2026-10-30T16:47:26+00:00,1793386800,ASVEL Lyon-Villeurbanne vs. Kosner Baskonia,0xd81054722b9adac8ccfed30f222eabcc6654bf25272e1939cce5f09107c6339d,ASVEL Lyon-Villeurbanne,,,,,too few games played,
-2026-10-30T16:47:26+00:00,1793383200,Zalgiris Kaunas vs. Partizan,0xc6b35ff135a47fae76e56c31436489751fc7836bec82d49b39a4a6595fc0b970,Zalgiris Kaunas,,,,,too few games played,
-2026-11-04T16:55:40+00:00,1793821500,Real Madrid vs. Panathinaikos,0xc00cbbd94ca58251560e1479c7ff8eea9effae3488dfb7bc07378718bdcdb53c,Real Madrid,,,,,too few games played,
-2026-11-05T14:57:11+00:00,1793898900,Anadolu Efes vs. Paris Basketball,0x28ea694427bedb9198b21be4d11d142265747316cb52add972388c8eb6b401ad,Anadolu Efes,,,,,too few games played,
-2026-11-05T17:10:43+00:00,1793907000,Olimpia Milano vs. Valencia,0xf2a66f44a874f4161661fc7834e6ed3e472d5b532b7c24c6f9b5c026379ad495,Olimpia Milano,,,,,too few games played,
-2026-11-05T17:10:43+00:00,1793905200,ASVEL Lyon-Villeurbanne vs. FC Bayern Munchen,0x970085d5197eb360c92549fae98495659ea4d0afb59bd905afa7ea8bc3ebe9e2,ASVEL Lyon-Villeurbanne,,,,,too few games played,
-2026-11-05T17:10:43+00:00,1793904300,Hapoel Tel Aviv vs. Barcelona,0x49684d29f55c11a30165b95c1d74f13d4ef6f6ce67f3097cd3fd4e5e710b54ac,Hapoel Tel Aviv,,,,,too few games played,
-2026-11-06T14:54:42+00:00,1793984400,Besiktas vs. Zalgiris Kaunas,0xed611e019bbb651e5891727a3a29b04e4f14f9e977781c128412917fed70c2dd,Besiktas,,,,,too few games played,
-2026-11-06T16:51:15+00:00,1793994300,Partizan vs. Maccabi Tel Aviv,0xbb569b7ddc527c341fae9410b94172c553a0d00d70e25a49a34cc9b04118c1c6,Partizan,,,,,too few games played,
-2026-11-06T16:51:15+00:00,1793993400,Virtus Bologna vs. BC Dubai,0x0cb5ac1811338c8c9bb775392782a197a4bef4bbf3ff0c47c5ce7b0630631220,Virtus Bologna,,,,,too few games played,
-2026-11-06T16:51:15+00:00,1793992500,Olympiacos B.C. vs. KK Crvena Zvezda,0x54daea18444e2a9104834c1556e19a0155477ab63b3a731898f9799e0a799b90,Olympiacos B.C.,,,,,too few games played,
-2026-11-11T16:55:51+00:00,1794426300,Partizan vs. Kosner Baskonia,0x79cdf1daff0c67a25cdb042786759a72edec7596100ce1220a85731c4aab7080,Partizan,0.7802,0.77,0.24,0.765,no bet,
-2026-11-11T16:55:51+00:00,1794426300,Paris Basketball vs. Fenerbahce,0xf750b8e4e03384ead177adb25555819af5276af5c84c28fc6441748802326eb9,Paris Basketball,0.5107,0.3131,0.7,0.305,BET Paris Basketball at 0.324 (our chance 0.511),
-2026-11-12T17:00:59+00:00,1794513600,Real Madrid vs. KK Crvena Zvezda,0xc3634f52e7d4c78c1be627b625d26089c6cd2e4fd74abc571f6e62906d0b379f,Real Madrid,0.6096,0.68,0.33,0.675,no bet,
-2026-11-12T17:00:59+00:00,1794511800,Valencia vs. FC Bayern Munchen,0x6e80c46c9d1222052a53720dfb18666a8a2dc91c77440eac5202c741c2c899dc,Valencia,0.7977,0.76,0.25,0.755,no bet,
-2026-11-12T17:00:59+00:00,1794511800,Olimpia Milano vs. Zalgiris Kaunas,0xe174f0dc4c70fb1e53bad4fe77fe07711fe8253b022371c3252f1c8b0d438236,Olimpia Milano,0.4189,0.45,0.56,0.445,no bet,
-2026-11-12T17:00:59+00:00,1794510900,Olympiacos B.C. vs. BC Dubai,0x870e4ecf9fe5b28207af813c2df4a12cbf102b1473ee3085f42980273b014266,Olympiacos B.C.,0.6467,0.65,0.36,0.645,no bet,
-2026-11-12T17:00:59+00:00,1794510300,Maccabi Tel Aviv vs. Hapoel Tel Aviv,0x6c7229b2e248a31479b004c073163a3a8b0915e12a001ccad74aef3fed5e2da7,Maccabi Tel Aviv,0.4178,0.34,0.67,0.335,BET Maccabi Tel Aviv at 0.351 (our chance 0.418),
-2026-11-13T14:53:36+00:00,1794591000,Anadolu Efes vs. Virtus Bologna,0xbd56519ec1af8b591b1e302dd6792d89ae591f2be17b2b464356e09190b0af01,Anadolu Efes,0.7147,0.6742,0.34,0.665,no bet,
-2026-11-13T16:53:55+00:00,1794598200,ASVEL Lyon-Villeurbanne vs. Besiktas,0x892991284736bf671efe971e1b137fedd35423fd981422a5832c00249d07b7af,ASVEL Lyon-Villeurbanne,0.6519,0.57,0.44,0.565,BET ASVEL Lyon-Villeurbanne at 0.582 (our chance 0.652),
-2026-11-13T16:53:55+00:00,1794597300,Panathinaikos vs. Barcelona,0xabf9d58c8621df60ce723d719f1acc1407894a5b9011f93b55d2c9b43f5ee90c,Panathinaikos,0.7011,0.82,0.19,0.815,BET Barcelona at 0.198 (our chance 0.299),
+2026-10-21T14:36:13+00:00,1792598400,Hapoel Tel Aviv vs. Virtus Bologna,0x525ceac4142d3c98fcea3dea89100fa5e5a4ca00d73ebdb21abcfe1a1677381d,Hapoel Tel Aviv,,,,,too few games played,1
+2026-10-22T14:37:20+00:00,1792690200,Anadolu Efes vs. Besiktas,0x1cbe6e2150831f1d900dbd6be9e91d611c2b0ab36f1329390f072d973185a49f,Anadolu Efes,,,,,too few games played,1
+2026-10-22T16:36:47+00:00,1792694700,Partizan vs. KK Crvena Zvezda,0x3cb9cd32d207a842ef1e453ea8f5dba6bc983dc8e3e844b2d29ada3b244627c0,Partizan,,,,,too few games played,1
+2026-10-22T16:36:47+00:00,1792692000,FC Bayern Munchen vs. BC Dubai,0x6a470b54d9651ad9cf4e44bd1740b62543b81aeaeee0e7394f41ecac8af137f3,FC Bayern Munchen,,,,,too few games played,0
+2026-10-22T16:36:47+00:00,1792693800,Olimpia Milano vs. Barcelona,0x39d9b62384e4cf5e8ab0a148f9c466b9191b71215c41bbd8bbdc1f985c026ba3,Olimpia Milano,,,,,too few games played,0
+2026-10-22T16:36:47+00:00,1792692900,Panathinaikos vs. Kosner Baskonia,0xc75f6ea852785d9758b1866a841ca0f8db547cef0566e246a9f8ed631dd224eb,Panathinaikos,,,,,too few games played,1
+2026-10-22T16:36:47+00:00,1792692300,Maccabi Tel Aviv vs. Real Madrid,0xca762d13f9fb82272651a9ff2d8e434e183725dc19f0a266a5a2f49b7c37c87c,Maccabi Tel Aviv,,,,,too few games played,0
+2026-10-23T14:39:42+00:00,1792774800,Zalgiris Kaunas vs. ASVEL Lyon-Villeurbanne,0xc44cdb9a4b1166fc171f7f43b32941ea6f31f0734f13c16c638efdb6cdbc688e,Zalgiris Kaunas,,,,,too few games played,1
+2026-10-23T16:37:27+00:00,1792781100,Paris Basketball vs. Valencia,0x4d2593a4dc3c1481ee911b012728a83bc2a52a2e0af14e6a3e62c429ef98bf64,Paris Basketball,,,,,too few games played,0
+2026-10-23T16:37:27+00:00,1792779300,Olympiacos B.C. vs. Fenerbahce,0xf583a2375911573b9279f0b8185031c4a426964c7628bf96d297284500ba0da8,Olympiacos B.C.,,,,,too few games played,0
+2026-10-27T14:49:42+00:00,1793116800,BC Dubai vs. Paris Basketball,0x1777f2189b6614e43af0483d653503815cefc613f83c1d1ec9562c9076807381,BC Dubai,,,,,too few games played,0
+2026-10-27T16:48:27+00:00,1793129400,Valencia vs. Fenerbahce,0x3f2b187e5e899f635c814a4a299241bb3af52ce4a5c954faf9b304defd8961cd,Valencia,,,,,too few games played,1
+2026-10-27T16:48:27+00:00,1793127600,FC Bayern Munchen vs. Barcelona,0xf9f581c791e3e3ef765cce0dd94f0baf7c2943c0c9cf24c7a5f649c4580570cf,FC Bayern Munchen,,,,,too few games played,0
+2026-10-27T16:48:27+00:00,1793127600,KK Crvena Zvezda vs. Maccabi Tel Aviv,0x6ae38b9612113fcf5d3d34128f56fc12ef294740816107f85849d52e1945f3ae,KK Crvena Zvezda,,,,,too few games played,1
+2026-10-27T16:48:27+00:00,1793128500,Panathinaikos vs. Olimpia Milano,0xc792bc514bacf11874bdf94962cb57d8624b1d942e362003946b12c63f29c5d1,Panathinaikos,,,,,too few games played,1
+2026-10-27T18:44:11+00:00,1793131200,Kosner Baskonia vs. Real Madrid,0x11faca18f4c3aec219f2d4886d97213a6ce911259305d9f33c4d7594b4bd9031,Kosner Baskonia,,,,,too few games played,0
+2026-10-28T14:55:07+00:00,1793208600,Besiktas vs. Olympiacos B.C.,0x9a614bce2c5a2eb31718e2e97c2baddb62a6182d533b33b09df1be04496911d6,Besiktas,,,,,too few games played,0
+2026-10-28T16:51:45+00:00,1793215800,Virtus Bologna vs. Zalgiris Kaunas,0xb24de8e22e871ba3bbedb6c6c8ee70b1ac54875efd9e61981075b0b4ba6f8293,Virtus Bologna,,,,,too few games played,0
+2026-10-28T16:51:45+00:00,1793214000,ASVEL Lyon-Villeurbanne vs. Partizan,0x72bee1e573407d221b7fe3a8b5494fa159118cef5b4fc1155df8b62a1891e22f,ASVEL Lyon-Villeurbanne,,,,,too few games played,1
+2026-10-28T16:51:45+00:00,1793210400,Hapoel Tel Aviv vs. Anadolu Efes,0xb573f7e476a5631a220f4797a338aaaca0ea83b04ca824636b6c336e9949edf8,Hapoel Tel Aviv,,,,,too few games played,1
+2026-10-29T16:53:39+00:00,1793303100,Real Madrid vs. Fenerbahce,0xc5e6a82936066f56f81b87ff31187e74439e34d47edad709f0396c698ea6a094,Real Madrid,,,,,too few games played,1
+2026-10-29T16:53:39+00:00,1793300700,Maccabi Tel Aviv vs. Paris Basketball,0xae7b21646b34008f5df403223fc21e87d3d8e8446d377fe56a2d6de2747b8148,Maccabi Tel Aviv,,,,,too few games played,0
+2026-10-29T16:53:39+00:00,1793300400,KK Crvena Zvezda vs. FC Bayern Munchen,0x5611976edb86522541966bacf9cc999000d432ccdf8566407bbd38befa57f089,KK Crvena Zvezda,,,,,too few games played,1
+2026-10-30T14:56:03+00:00,1793376000,BC Dubai vs. Hapoel Tel Aviv,0x46acab27db3a839b4617920f4a9f511a1b3b69921d779e935fbbefc1fe0065ee,BC Dubai,,,,,too few games played,1
+2026-10-30T14:56:03+00:00,1793381400,Anadolu Efes vs. Panathinaikos,0xcf00a2b03a40b7b04b960663a13e648559380f94f8826a5a51263431cf758f6d,Anadolu Efes,,,,,too few games played,1
+2026-10-30T16:47:26+00:00,1793388600,Virtus Bologna vs. Besiktas,0xb1c78a29f43248f06f73acf362503265480a876b7acd59a6e468913e4ba50e78,Virtus Bologna,,,,,too few games played,0
+2026-10-30T16:47:26+00:00,1793388600,Barcelona vs. Valencia,0xee6407391e7832fc2098570e693a8b92cc67f1ef68cb490ff7397b619ba9c26a,Barcelona,,,,,too few games played,1
+2026-10-30T16:47:26+00:00,1793387700,Olympiacos B.C. vs. Olimpia Milano,0x6168fb6d771d66bdbcd9ea7f6db2a0c9acb9a524e74ac4a9d267eab2a64d73ad,Olympiacos B.C.,,,,,too few games played,1
+2026-10-30T16:47:26+00:00,1793386800,ASVEL Lyon-Villeurbanne vs. Kosner Baskonia,0xd81054722b9adac8ccfed30f222eabcc6654bf25272e1939cce5f09107c6339d,ASVEL Lyon-Villeurbanne,,,,,too few games played,1
+2026-10-30T16:47:26+00:00,1793383200,Zalgiris Kaunas vs. Partizan,0xc6b35ff135a47fae76e56c31436489751fc7836bec82d49b39a4a6595fc0b970,Zalgiris Kaunas,,,,,too few games played,1
+2026-11-04T16:55:40+00:00,1793821500,Real Madrid vs. Panathinaikos,0xc00cbbd94ca58251560e1479c7ff8eea9effae3488dfb7bc07378718bdcdb53c,Real Madrid,,,,,too few games played,0
+2026-11-05T14:57:11+00:00,1793898900,Anadolu Efes vs. Paris Basketball,0x28ea694427bedb9198b21be4d11d142265747316cb52add972388c8eb6b401ad,Anadolu Efes,,,,,too few games played,0
+2026-11-05T17:10:43+00:00,1793907000,Olimpia Milano vs. Valencia,0xf2a66f44a874f4161661fc7834e6ed3e472d5b532b7c24c6f9b5c026379ad495,Olimpia Milano,,,,,too few games played,0
+2026-11-05T17:10:43+00:00,1793905200,ASVEL Lyon-Villeurbanne vs. FC Bayern Munchen,0x970085d5197eb360c92549fae98495659ea4d0afb59bd905afa7ea8bc3ebe9e2,ASVEL Lyon-Villeurbanne,,,,,too few games played,0
+2026-11-05T17:10:43+00:00,1793904300,Hapoel Tel Aviv vs. Barcelona,0x49684d29f55c11a30165b95c1d74f13d4ef6f6ce67f3097cd3fd4e5e710b54ac,Hapoel Tel Aviv,,,,,too few games played,0
+2026-11-06T14:54:42+00:00,1793984400,Besiktas vs. Zalgiris Kaunas,0xed611e019bbb651e5891727a3a29b04e4f14f9e977781c128412917fed70c2dd,Besiktas,,,,,too few games played,0
+2026-11-06T16:51:15+00:00,1793994300,Partizan vs. Maccabi Tel Aviv,0xbb569b7ddc527c341fae9410b94172c553a0d00d70e25a49a34cc9b04118c1c6,Partizan,,,,,too few games played,1
+2026-11-06T16:51:15+00:00,1793993400,Virtus Bologna vs. BC Dubai,0x0cb5ac1811338c8c9bb775392782a197a4bef4bbf3ff0c47c5ce7b0630631220,Virtus Bologna,,,,,too few games played,0
+2026-11-06T16:51:15+00:00,1793992500,Olympiacos B.C. vs. KK Crvena Zvezda,0x54daea18444e2a9104834c1556e19a0155477ab63b3a731898f9799e0a799b90,Olympiacos B.C.,,,,,too few games played,0
+2026-11-11T16:55:51+00:00,1794426300,Partizan vs. Kosner Baskonia,0x79cdf1daff0c67a25cdb042786759a72edec7596100ce1220a85731c4aab7080,Partizan,0.7802,0.77,0.24,0.765,no bet,1
+2026-11-11T16:55:51+00:00,1794426300,Paris Basketball vs. Fenerbahce,0xf750b8e4e03384ead177adb25555819af5276af5c84c28fc6441748802326eb9,Paris Basketball,0.5107,0.3131,0.7,0.305,BET Paris Basketball at 0.324 (our chance 0.511),1
+2026-11-12T17:00:59+00:00,1794513600,Real Madrid vs. KK Crvena Zvezda,0xc3634f52e7d4c78c1be627b625d26089c6cd2e4fd74abc571f6e62906d0b379f,Real Madrid,0.6096,0.68,0.33,0.675,no bet,1
+2026-11-12T17:00:59+00:00,1794511800,Valencia vs. FC Bayern Munchen,0x6e80c46c9d1222052a53720dfb18666a8a2dc91c77440eac5202c741c2c899dc,Valencia,0.7977,0.76,0.25,0.755,no bet,1
+2026-11-12T17:00:59+00:00,1794511800,Olimpia Milano vs. Zalgiris Kaunas,0xe174f0dc4c70fb1e53bad4fe77fe07711fe8253b022371c3252f1c8b0d438236,Olimpia Milano,0.4189,0.45,0.56,0.445,no bet,0
+2026-11-12T17:00:59+00:00,1794510900,Olympiacos B.C. vs. BC Dubai,0x870e4ecf9fe5b28207af813c2df4a12cbf102b1473ee3085f42980273b014266,Olympiacos B.C.,0.6467,0.65,0.36,0.645,no bet,1
+2026-11-12T17:00:59+00:00,1794510300,Maccabi Tel Aviv vs. Hapoel Tel Aviv,0x6c7229b2e248a31479b004c073163a3a8b0915e12a001ccad74aef3fed5e2da7,Maccabi Tel Aviv,0.4178,0.34,0.67,0.335,BET Maccabi Tel Aviv at 0.351 (our chance 0.418),1
+2026-11-13T14:53:36+00:00,1794591000,Anadolu Efes vs. Virtus Bologna,0xbd56519ec1af8b591b1e302dd6792d89ae591f2be17b2b464356e09190b0af01,Anadolu Efes,0.7147,0.6742,0.34,0.665,no bet,1
+2026-11-13T16:53:55+00:00,1794598200,ASVEL Lyon-Villeurbanne vs. Besiktas,0x892991284736bf671efe971e1b137fedd35423fd981422a5832c00249d07b7af,ASVEL Lyon-Villeurbanne,0.6519,0.57,0.44,0.565,BET ASVEL Lyon-Villeurbanne at 0.582 (our chance 0.652),0
+2026-11-13T16:53:55+00:00,1794597300,Panathinaikos vs. Barcelona,0xabf9d58c8621df60ce723d719f1acc1407894a5b9011f93b55d2c9b43f5ee90c,Panathinaikos,0.7011,0.82,0.19,0.815,BET Barcelona at 0.198 (our chance 0.299),0
