@@ -380,13 +380,20 @@ def settle(bets, log):
     open_cids = {b["cid"] for b in bets if b["status"] == "open"} | {l["cid"] for l in log if l["a_won"] == ""}
     res = {}
     for cid in open_cids:
-        m = rs.get_json(f"{GAMMA}/markets", {"condition_ids": cid})
-        m = m[0] if isinstance(m, list) and m else None
-        if not m:
+        m = None
+        for extra in ({"closed": "true"}, {}):      # 14 Nov fix: Polymarket hides CLOSED markets unless
+            got = rs.get_json(f"{GAMMA}/markets", {"condition_ids": cid, **extra})   # asked for them
+            if isinstance(got, list) and got:
+                m = got[0]
+                break
+        if not m or not m.get("closed"):
             continue
-        px = [str(x) for x in rs.as_list(m.get("outcomePrices"))]
-        if m.get("closed") and px in (["1", "0"], ["0", "1"]):
-            res[cid] = (rs.as_list(m.get("clobTokenIds")), px)
+        try:
+            px = ["1" if float(x) == 1 else "0" if float(x) == 0 else "?" for x in rs.as_list(m.get("outcomePrices"))]
+        except (TypeError, ValueError):
+            continue
+        if px in (["1", "0"], ["0", "1"]):
+            res[cid] = ([str(t) for t in rs.as_list(m.get("clobTokenIds"))], px)
     for b in bets:
         if b["status"] == "open" and b["cid"] in res:
             toks, px = res[b["cid"]]
