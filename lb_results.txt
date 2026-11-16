@@ -1,36 +1,36 @@
-#39 LONGSHOT TEST   run 2026-11-16 11:17 UTC
-closed markets read: 27300   kept: 11679   (why not: {'ok': 11679, 'closed before the entry moment': 7440, 'sports': 7338, 'not yes/no': 835, 'not cleanly resolved': 8})
-markets with a traded price 7 days before the end: 8920   (no trades then: 80)
+#39 LONGSHOT TEST, RUN 2 (older year, 30-60c rule)   run 2026-11-16 12:36 UTC
+closed markets read: 26912   kept: 7189   (why not: {'sports': 6704, 'closed before the entry moment': 3028, 'ok': 7189, 'not yes/no': 6584, 'too short to enter 7 days before': 3397, 'not cleanly resolved': 10})
+markets with a traded price 7 days before the end: 7138   (no trades then: 51)
 
-=== MAIN TEST (locked): buy NO when YES is 10-30c, 7 days before the end, 2c gap + fees ===
-  all                                      792 bets  win 84.7%  avg  +0.6% per bet  ($      +94)  luck range -2.4% .. +3.5%
-  same bets with a 3c gap                  792 bets  win 84.7%  avg  -0.6% per bet  ($      -94)  luck range -3.6% .. +2.2%
-  older half of the year                   391 bets  win 85.9%  avg  +2.2% per bet  ($     +172)  luck range -2.0% .. +6.2%
-  newer half of the year                   401 bets  win 83.5%  avg  -1.0% per bet  ($      -77)  luck range -5.2% .. +2.9%
-  [ok ] at least 300 bets
+=== MAIN TEST (locked): buy NO when YES is 30-60c, 7 days before the end, 2c gap + fees ===
+  all                                      714 bets  win 63.2%  avg  +9.0% per bet  ($    +1282)  luck range +1.6% .. +16.0%
+  same bets with a 5c gap                  714 bets  win 63.2%  avg  +3.5% per bet  ($     +501)  luck range -3.5% .. +10.2%
+  older half of the year                   353 bets  win 62.6%  avg  +7.9% per bet  ($     +556)  luck range -3.1% .. +19.1%
+  newer half of the year                   361 bets  win 63.7%  avg +10.1% per bet  ($     +726)  luck range +0.3% .. +19.7%
+  [ok ] at least 150 bets
   [ok ] average profit > 0
-  [NO ] luck range above 0
-  [NO ] both halves profitable
-  [NO ] still profitable at 3c gap
-VERDICT: FAIL
+  [ok ] luck range above 0
+  [ok ] both halves profitable
+  [ok ] still profitable at 5c gap
+VERDICT: PASS -- worth a forward paper test
 
 === EXPLORATION ONLY (do not pick a winner from these: many slices = luck shows up) ===
-  buy NO, YES 3%-10%                      1142 bets  win 96.9%  avg  +0.1% per bet  ($      +32)  luck range -0.8% .. +1.1%
-  buy NO, YES 10%-20%                      491 bets  win 88.4%  avg  +0.4% per bet  ($      +42)  luck range -2.9% .. +3.5%
-  buy NO, YES 20%-30%                      294 bets  win 78.9%  avg  +0.9% per bet  ($      +55)  luck range -5.3% .. +6.9%
-  buy NO, YES 30%-45%                      355 bets  win 72.7%  avg +12.0% per bet  ($     +849)  luck range +2.5% .. +20.5%
-  buy NO, YES 45%-60%                      250 bets  win 60.4%  avg +16.5% per bet  ($     +823)  luck range +2.7% .. +30.2%
-  main rule but 3 days before the end      575 bets  win 83.3%  avg  -1.0% per bet  ($     -113)  luck range -4.5% .. +2.7%
-  main rule but 14 days before the end     876 bets  win 83.6%  avg  -0.3% per bet  ($      -57)  luck range -3.2% .. +2.5%
-  main rule, category politics             282 bets  win 83.7%  avg  -0.3% per bet  ($      -17)  luck range -5.7% .. +4.9%
-  main rule, category crypto                 2 bets  win 100.0%  avg +23.9% per bet  ($      +10)
-  main rule, category world                103 bets  win 82.5%  avg  -2.3% per bet  ($      -48)  luck range -10.4% .. +5.6%
-  main rule, category economy               56 bets  win 80.4%  avg  -6.6% per bet  ($      -73)  luck range -16.4% .. +2.2%
-  main rule, category other                349 bets  win 86.8%  avg  +3.2% per bet  ($     +222)  luck range -1.2% .. +7.3%
-  main rule, single-question events        228 bets  win 86.0%  avg  +1.7% per bet  ($      +77)  luck range -4.9% .. +7.8%
-  main rule, many-candidate events         564 bets  win 84.2%  avg  +0.1% per bet  ($      +17)  luck range -3.0% .. +3.4%
-  main rule, volume under $50k             507 bets  win 89.0%  avg  +5.1% per bet  ($     +517)  luck range +1.8% .. +8.3%
-  main rule, volume $50k+                  285 bets  win 77.2%  avg  -7.4% per bet  ($     -423)  luck range -13.5% .. -1.7%
-  the OPPOSITE: buy YES at 10-30c          792 bets  win 15.3%  avg -26.0% per bet  ($    -4118)  luck range -38.1% .. -13.2%
+  buy NO, YES 3%-10%                      1137 bets  win 96.0%  avg  -0.4% per bet  ($      -82)  luck range -1.6% .. +0.8%
+  buy NO, YES 10%-20%                      623 bets  win 88.4%  avg  +1.1% per bet  ($     +133)  luck range -1.8% .. +3.8%
+  buy NO, YES 20%-30%                      393 bets  win 78.6%  avg  +1.6% per bet  ($     +124)  luck range -4.0% .. +6.7%
+  buy NO, YES 30%-45%                      389 bets  win 64.3%  avg  -1.5% per bet  ($     -119)  luck range -9.1% .. +5.1%
+  buy NO, YES 45%-60%                      317 bets  win 61.8%  avg +20.9% per bet  ($    +1323)  luck range +7.1% .. +33.8%
+  main rule but 3 days before the end      516 bets  win 63.4%  avg  +8.7% per bet  ($     +899)  luck range +0.4% .. +17.2%
+  main rule but 14 days before the end     567 bets  win 70.7%  avg +19.6% per bet  ($    +2222)  luck range +12.0% .. +26.8%
+  main rule, category politics             165 bets  win 55.2%  avg  -6.2% per bet  ($     -205)  luck range -18.2% .. +5.1%
+  main rule, category crypto                60 bets  win 68.3%  avg +18.2% per bet  ($     +218)  luck range -9.8% .. +56.4%
+  main rule, category world                 67 bets  win 65.7%  avg +11.6% per bet  ($     +155)  luck range -8.6% .. +30.1%
+  main rule, category economy               70 bets  win 58.6%  avg  -1.8% per bet  ($      -25)  luck range -19.6% .. +16.4%
+  main rule, category other                352 bets  win 66.5%  avg +16.2% per bet  ($    +1139)  luck range +4.5% .. +27.7%
+  main rule, single-question events        340 bets  win 64.1%  avg +12.8% per bet  ($     +870)  luck range -0.4% .. +25.2%
+  main rule, many-candidate events         374 bets  win 62.3%  avg  +5.5% per bet  ($     +412)  luck range -2.4% .. +12.9%
+  main rule, volume under $50k             386 bets  win 68.7%  avg +18.9% per bet  ($    +1462)  luck range +8.4% .. +29.5%
+  main rule, volume $50k+                  328 bets  win 56.7%  avg  -2.7% per bet  ($     -180)  luck range -11.0% .. +5.5%
+  the OPPOSITE: buy YES at 30-60c          714 bets  win 36.8%  avg -16.6% per bet  ($    -2374)  luck range -25.2% .. -7.7%
 
-requests: {'calls': 14358, 'failed': 13}   time: 3289 s
+requests: {'calls': 13206, 'failed': 12}   time: 3079 s
