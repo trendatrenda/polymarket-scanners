@@ -4,3 +4,4 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-16T14:29:21Z,6279945,1262409,other,"Will ""I Play Rocky"" score at least 85 on the Rotten Tomatoes Tomatometer?",2026-11-23T15:00:00Z,2209,0.33,0.625,0.67,0.5524,0.0124,36.2043,open,,,
 2026-11-16T14:29:22Z,6942345,1358185,other,Will UKMTO publish 4-7 notices between November 16-November 22?,2026-11-23T04:59:00Z,1408,0.57,0.56,0.43,0.45,0.0,44.4444,open,,,
 2026-11-16T14:29:22Z,6942349,1358186,crypto,Will OpenRouter process less than 210T tokens the week of November 16?,2026-11-23T04:59:00Z,1948,0.36,0.385,0.64,0.6393,0.0093,31.283,open,,,
+2026-11-16T20:52:00Z,6907475,1064297,other,"Next Grok Model (4.8+) released by November 23, 2026?",2026-11-24T04:59:00Z,2191,0.31,0.215,0.69,0.8842,0.0042,22.6187,open,,,
