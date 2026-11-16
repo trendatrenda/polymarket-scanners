@@ -1,0 +1,406 @@
+id,event,cat,neg,vol,fee,end,y14,y7,y3,yes_won,q
+562793,32224,politics,True,17129861.088641003,0.04,1793768340.0,,0.665,,1,Will the Democratic Party control the Senate after the 2026 Midterm elections?
+562794,32224,politics,True,14333086.447598998,0.04,1793768340.0,0.355,0.335,0.285,0,Will the Republican Party control the Senate after the 2026 Midterm elections?
+562802,32225,politics,True,37373961.506353006,0.04,1793768340.0,,0.915,,1,Will the Democratic Party control the House after the 2026 Midterm elections?
+562803,32225,politics,True,25928654.211806003,0.04,1793768340.0,0.085,0.085,0.055,0,Will the Republican Party control the House after the 2026 Midterm elections?
+562828,32228,politics,True,20264994.643411,0.04,1793768340.0,,0.655,,1,"2026 Balance of Power: D Senate, D House"
+562829,32228,politics,True,11877556.492492,0.04,1793768340.0,,0.01,,0,"2026 Balance of Power: D Senate, R House"
+562830,32228,politics,True,10578469.224926999,0.04,1793768340.0,0.275,0.265,0.235,0,"2026 Balance of Power: R Senate, D House"
+562831,32228,politics,True,26226833.333175,0.04,1793768340.0,0.085,0.075,0.045,0,"2026 Balance of Power: R Senate, R House"
+562832,32228,other,True,6796942.024128999,0.04,1793768340.0,,0.0005,,0,2026 Balance of Power: Other
+628936,57096,politics,True,1801523.5657100005,0.04,1793768340.0,,0.0005,,0,Will Rick Caruso win the California Governor Election in 2026?
+628937,57096,politics,True,1997777.3664450003,0.04,1793768340.0,,0.0005,,0,Will Alex Padilla win the California Governor Election in 2026?
+628938,57096,politics,True,1773298.4728619999,0.04,1793768340.0,,0.0005,,0,Will Katie Porter win the California Governor Election in 2026?
+628939,57096,politics,True,1620074.1496640001,0.04,1793768340.0,,0.0005,,0,Will Antonio Villaraigosa win the California Governor Election in 2026?
+628940,57096,politics,True,4943258.473774002,0.04,1793768340.0,0.0325,0.0335,0.0185,0,Will Steve Hilton win the California Governor Election in 2026?
+628941,57096,politics,True,3504385.1494760006,0.04,1793768340.0,,0.966,,1,Will Xavier Becerra win the California Governor Election in 2026?
+628942,57096,politics,True,1573704.373345,0.04,1793768340.0,,0.0005,,0,Will Stephen Cloobeck win the California Governor Election in 2026?
+628943,57096,politics,True,1314420.2376369997,0.04,1793768340.0,,0.0005,,0,Will Butch Ware win the California Governor Election in 2026?
+628944,57096,politics,True,1754039.8087819999,0.04,1793768340.0,,0.0005,,0,Will Betty Yee win the California Governor Election in 2026?
+628945,57096,politics,True,1562600.502943,0.04,1793768340.0,,0.0005,,0,Will Toni Atkins win the California Governor Election in 2026?
+628946,57096,politics,True,1833771.5444079998,0.04,1793768340.0,,0.0005,,0,Will Kyle Langford win the California Governor Election in 2026?
+628947,57096,politics,True,1957292.0849089997,0.04,1793768340.0,,0.0005,,0,Will Chad Bianco win the California Governor Election in 2026?
+628948,57096,politics,True,1431200.748478,0.04,1793768340.0,,0.0005,,0,Will Eleni Kounalakis win the California Governor Election in 2026?
+628949,57096,politics,True,1396565.647934,0.04,1793768340.0,,0.0005,,0,Will Daniel Mercuri win the California Governor Election in 2026?
+628950,57096,politics,True,1425742.520037,0.04,1793768340.0,,0.0005,,0,Will Tony Thurmond win the California Governor Election in 2026?
+628951,57096,politics,True,1546583.8269960003,0.04,1793768340.0,,0.0005,,0,Will Michael Younger win the California Governor Election in 2026?
+628952,57096,politics,True,1094831.237383,0.04,1793768340.0,,0.0005,,0,Will Leo Zacky win the California Governor Election in 2026?
+593983,43352,politics,False,161238.76269200002,0.04,1793750400.0,0.021,0.174,0.0335,0,Will Trump endorse John Cornyn for TX-Sen by Nov 2 2026 ET?
+593972,43347,other,False,91978.198129,0.04,1793664000.0,0.175,0.099,0.052,0,Will Bernie endorse James Talarico for TX-Sen by Nov 2 2026 ET?
+593973,43347,other,False,20540.442745,0.04,1793664000.0,,0.005,,0,Will Bernie endorse Kshama Sawant for WA-09 by Nov 2 2026 ET?
+593974,43347,other,False,39140.46756700001,0.04,1793664000.0,0.077,0.0635,0.044,0,Will Bernie endorse Dan Osborn for NE-Sen by Nov 2 2026 ET?
+593975,43347,other,False,26332.634842,0.04,1793664000.0,,0.0225,,0,Will Bernie endorse Antonio Delgado for NY-Gov by Nov 2 2026 ET?
+608540,48361,other,True,13083063.232492,0.03,1793073540.0,0.0285,0.062,0.068,0,Will Kylian Mbappé win the 2026 Ballon d'Or?
+608541,48361,other,True,4750465.680167002,0.03,1793073540.0,,0.0015,,0,Will Erling Haaland win the 2026 Ballon d'Or?
+608542,48361,other,True,1892361.4067260001,0.03,1793073540.0,,0.0005,,0,Will Jude Bellingham win the 2026 Ballon d'Or?
+608543,48361,other,True,8860651.577827001,0.03,1793073540.0,,0.0015,,0,Will Ousmane Dembélé win the 2026 Ballon d'Or?
+608545,48361,other,True,11373200.339223001,0.03,1793073540.0,0.295,0.1855,0.153,0,Will Lamine Yamal win the 2026 Ballon d'Or?
+608546,48361,other,True,1128295.2113250003,0.03,1793073540.0,,0.0005,,0,Will Vinícius Júnior win the 2026 Ballon d'Or?
+608547,48361,other,True,15236288.001559995,0.03,1793073540.0,,0.7315,,1,Will Harry Kane win the 2026 Ballon d'Or?
+608551,48361,other,True,4657634.266428,0.03,1793073540.0,,0.0015,,0,Will Michael Olise win the 2026 Ballon d'Or?
+608552,48361,other,True,991736.9085830002,0.03,1793073540.0,,0.0005,,0,Will Declan Rice win the 2026 Ballon d'Or?
+608553,48361,other,True,7975389.327097001,0.03,1793073540.0,,0.0025,,0,Will Khvicha Kvaratskhelia win the 2026 Ballon d'Or?
+608554,48361,other,True,1013391.6128220002,0.03,1793073540.0,,0.0005,,0,Will Vitinha win the 2026 Ballon d'Or?
+608559,48361,other,True,780075.6856429998,0.03,1793073540.0,,0.0005,,0,Will Achraf Hakimi win the 2026 Ballon d'Or?
+608560,48361,other,True,748293.62289,0.03,1793073540.0,,0.0005,,0,Will Bruno Fernandes win the 2026 Ballon d'Or?
+608561,48361,other,True,469043.37199999986,0.03,1793073540.0,,0.0005,,0,Will Luis Diaz win the 2026 Ballon d'Or?
+608562,48361,other,True,522245.19246199995,0.03,1793073540.0,,0.0005,,0,Will Lautaro Martinez win the 2026 Ballon d'Or?
+608565,48361,other,True,10829931.039864998,0.03,1793073540.0,,0.022,,0,Will Lionel Messi win the 2026 Ballon d'Or?
+608566,48361,other,True,6791367.716875,0.03,1793073540.0,,0.0035,,0,Will Rodri win the 2026 Ballon d'Or?
+608567,48361,other,True,1333382.070578,0.03,1793073540.0,,0.0005,,0,Will Pau Cubarsi win the 2026 Ballon d'Or?
+608568,48361,other,True,5184044.097516,0.03,1793073540.0,,0.0015,,0,Will Fabian Ruiz win the 2026 Ballon d'Or?
+601819,45915,politics,True,48514562.175727,0.0,1792987140.0,0.125,0.215,0.235,1,Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?
+601826,45915,politics,True,62159932.427386016,0.0,1792987140.0,,0.7865,,0,Will Flávio Bolsonaro win the 2026 Brazilian presidential election?
+637022,60182,other,True,280941.45885500003,0.05,1791590400.0,0.147,0.153,0.1535,0,Will Sudan's Emergency Response Rooms win the Nobel Peace Prize in 2026?
+637023,60182,other,True,15826.004157,0.05,1791590400.0,,0.008,,0,Will Sviatlana Tsikhanouskaya win the Nobel Peace Prize in 2026?
+637024,60182,other,True,42630.673233,0.05,1791590400.0,,0.0165,,0,Will Chow Hang-tung win the Nobel Peace Prize in 2026?
+637025,60182,other,True,110091.83167899997,0.05,1791590400.0,0.043,0.0375,0.0495,0,Will Committee to Protect Journalists win the Nobel Peace Prize in 2026?
+637026,60182,other,True,18175.412611,0.05,1791590400.0,,0.0245,,0,Will Reporters Without Borders win the Nobel Peace Prize in 2026?
+637027,60182,other,True,14809.649112000003,0.05,1791590400.0,,0.008,,0,Will UNHCR win the Nobel Peace Prize in 2026?
+637028,60182,other,True,13632.147766999999,0.05,1791590400.0,,0.014,,0,Will ICRC win the Nobel Peace Prize in 2026?
+637029,60182,other,True,103150.02983800002,0.05,1791590400.0,,0.0195,,0,Will Hussam Abu Safiya win the Nobel Peace Prize in 2026?
+637030,60182,other,True,27686.610937999998,0.05,1791590400.0,,0.011,,0,Will World Central Kitchen win the Nobel Peace Prize in 2026?
+637031,60182,other,True,96996.48155299996,0.05,1791590400.0,0.061,0.0635,0.0775,0,Will Save the Children win the Nobel Peace Prize in 2026?
+637032,60182,other,True,296444.30566500005,0.05,1791590400.0,0.0095,0.036,0.0145,0,Will Sara Al-Saqqa win the Nobel Peace Prize in 2026?
+637033,60182,other,True,74997.71359400002,0.05,1791590400.0,,0.0155,,0,Will Mark Carney win the Nobel Peace Prize in 2026?
+789406,95203,politics,True,182812.97657299993,0.04,1791259140.0,,0.0075,,0,Will Coalition Avenir Québec win the most seats in the 2026 Quebec general election?
+789407,95203,politics,True,277402.904771,0.04,1791259140.0,,0.915,,1,Will Parti Québécois win the most seats in the 2026 Quebec general election?
+789408,95203,politics,True,190921.05291699996,0.04,1791259140.0,0.0235,0.03,0.018,0,Will Parti libéral du Québec win the most seats in the 2026 Quebec general election?
+789409,95203,politics,True,106523.39893000001,0.04,1791259140.0,,0.0005,,0,Will Québec solidaire win the most seats in the 2026 Quebec general election?
+789410,95203,politics,True,295884.8571570001,0.04,1791259140.0,,0.005,,0,Will Parti conservateur du Québec win the most seats in the 2026 Quebec general election?
+789411,95203,politics,True,157521.79314899998,0.04,1791259140.0,,0.0005,,0,Will Parti vert du Québec win the most seats in the 2026 Quebec general election?
+601920,45924,politics,False,1452788.8026790004,0.04,1791172740.0,0.0745,0.067,0.0335,0,Will any presidential candidate win outright in the first round of the Brazil election?
+601921,45925,politics,False,98603.57535200003,0.04,1791172740.0,,0.0045,,0,Will Tarcisio de Frietas qualify for Brazil's presidential runoff?
+601922,45925,politics,False,897632.2123990003,0.04,1791172740.0,,0.964,,1,Will Luiz Inácio Lula da Silva qualify for Brazil's presidential runoff?
+601923,45925,politics,False,20897.356158000002,0.04,1791172740.0,,0.0035,,0,Will Jair Bolsonaro qualify for Brazil's presidential runoff?
+601924,45925,politics,False,69031.72819000001,0.04,1791172740.0,,0.0015,,0,Will Fernando Haddad qualify for Brazil's presidential runoff?
+601925,45925,politics,False,43839.75502799999,0.04,1791172740.0,,0.004,,0,Will Michelle Bolsonaro qualify for Brazil's presidential runoff?
+898654,45925,politics,False,269404.27676999994,0.04,1791172740.0,,0.9855,,1,Will Flavio Bolsonaro qualify for Brazil's presidential runoff?
+950428,106954,politics,True,13913.661615999996,0.04,1791086340.0,,0.0005,,0,Will Jaunā Vienotība (JV) win the most seats in the 2026 Latvian parliamentary election?
+950429,106954,politics,True,56944.94912299999,0.04,1791086340.0,,0.0015,,0,Will Zaļo un Zemnieku Savienība (ZZS) win the most seats in the 2026 Latvian parliamentary election?
+950430,106954,politics,True,114239.15042999995,0.04,1791086340.0,,0.9425,,1,Will Apvienotais Saraksts (AS) win the most seats in the 2026 Latvian parliamentary election?
+950431,106954,politics,True,12177.509999000002,0.04,1791086340.0,,0.0025,,0,Will Nacionālā Apvienība (NA) win the most seats in the 2026 Latvian parliamentary election?
+950432,106954,politics,True,5947.139586999999,0.04,1791086340.0,,0.0015,,0,Will Stabilitātei! (ST!) win the most seats in the 2026 Latvian parliamentary election?
+950433,106954,politics,True,30252.88446,0.04,1791086340.0,,0.017,,0,Will Latvija Pirmajā Vietā (LPV) win the most seats in the 2026 Latvian parliamentary election?
+950434,106954,politics,True,38987.80830200002,0.04,1791086340.0,,0.007,,0,Will Progresīvie (PRO) win the most seats in the 2026 Latvian parliamentary election?
+950435,106954,politics,True,30199.595028000007,0.04,1791086340.0,,0.026,,0,Will Suverēnā Vara (SV) win the most seats in the 2026 Latvian parliamentary election?
+950436,106954,politics,True,7491.424958,0.04,1791086340.0,,0.0005,,0,Will Sociāldemokrātiskā Partija “Saskaņa” (S) win the most seats in the 2026 Latvian parliamentary election?
+664884,69171,other,False,200061.971104,0.04,1790827200.0,,0.0005,,0,Will Consensys IPO by September 30 2026?
+664895,46724,crypto,False,1050516.7507759999,0.07,1790827140.0,,0.0015,,0,"Will MetaMask launch a token by September 30, 2026?"
+690614,84920,crypto,False,112505.519445,0.07,1790827140.0,,0.006,,0,Will Extended launch a token by September 30 2026?
+690674,84939,crypto,False,221425.52751199997,0.07,1790827140.0,,0.0035,,0,Will Arc launch a token by September 30 2026?
+690691,84945,crypto,False,61408.89381500002,0.07,1790827140.0,,0.002,,0,Will Pacifica launch a token by September 30 2026?
+700020,89062,crypto,False,14754.815534000003,0.07,1790827140.0,,0.0055,,0,Will Ventuals launch a token by September 30 2026?
+704137,90366,crypto,False,305032.68626900006,0.07,1790827140.0,,0.0035,,0,"Will Tempo launch a token by September 30, 2026?"
+706861,91280,crypto,False,36376.43821799999,0.07,1790827140.0,,0.0105,,0,Will Theo launch a token by September 30 2026?
+743437,92975,crypto,False,93867.42412,0.07,1790827140.0,,0.0005,,0,Will Fomo launch a token by September 30 2026?
+943524,106176,crypto,False,61776.543070999964,0.07,1790827140.0,,0.0105,,0,"Will Daylight launch a token by September 30, 2026?"
+948957,106811,crypto,False,1727832.3200460006,0.07,1790827140.0,,0.005,,0,"Bitcoin all time high by September 30, 2026?"
+951180,107009,crypto,False,459732.0300319998,0.07,1790827140.0,,0.0015,,0,"Ethereum all time high by September 30, 2026?"
+951217,107011,crypto,False,31048.502504000004,0.07,1790827140.0,,0.006,,0,"Solana all time high by September 30, 2026?"
+955802,107662,crypto,False,68391.67306900001,0.07,1790827140.0,,0.0035,,0,"XRP all time high by September 30, 2026?"
+1038567,127082,crypto,False,119474.37843500006,0.07,1790827140.0,,0.006,,0,"Will Nansen launch a token by September 30, 2026?"
+1038642,127100,crypto,False,74327.465859,0.07,1790827140.0,,0.012,,0,"Will Loopscale launch a token by September 30, 2026?"
+1038646,127101,crypto,False,26162.301259999997,0.07,1790827140.0,,0.0275,,0,"Will Titan launch a token by September 30, 2026?"
+1038717,127102,crypto,False,13591.311590000003,0.07,1790827140.0,,0.0255,,0,"Will Oro launch a token by September 30, 2026?"
+1038817,127107,crypto,False,32429.91903299999,0.07,1790827140.0,,0.0075,,0,"Will Perena launch a token by September 30, 2026?"
+1038877,127108,crypto,False,39598.03399899999,0.07,1790827140.0,,0.014,,0,"Will Exponent launch a token by September 30, 2026?"
+1068683,133755,crypto,False,6370.835238,0.07,1790827140.0,,0.005,,0,"Will Rabby launch a token by September 30, 2026?"
+1068691,133760,crypto,False,18288.550108000003,0.07,1790827140.0,,0.0095,,0,"Will Phantom launch a token by September 30, 2026?"
+693869,86426,other,True,48094.68229700001,0.05,1790812800.0,,0.0085,,0,Will the minimum Arctic sea ice extent this summer be less than 4m square kilometers?
+693870,86426,other,True,10029.663609000001,0.05,1790812800.0,,0.0035,,0,Will the minimum Arctic sea ice extent this summer be between 4.0m & 4.2m square kilometers?
+693871,86426,other,True,5200.81436,0.05,1790812800.0,,0.0055,,0,Will the minimum Arctic sea ice extent this summer be between 4.2m & 4.4m square kilometers?
+693872,86426,other,True,6790.901939,0.05,1790812800.0,,0.9835,,1,Will the minimum Arctic sea ice extent this summer be between 4.4m & 4.6m square kilometers?
+693873,86426,other,True,12236.056809999998,0.05,1790812800.0,,0.0085,,0,Will the minimum Arctic sea ice extent this summer be between 4.6m & 4.8m square kilometers?
+693874,86426,other,True,5967.981096999998,0.05,1790812800.0,,0.0015,,0,Will the minimum Arctic sea ice extent this summer be between 4.8m & 5m square kilometers?
+693875,86426,other,True,16646.338627,0.05,1790812800.0,,0.0015,,0,Will the minimum Arctic sea ice extent this summer be at least 5m square kilometers?
+1130013,149589,politics,True,3868431.7881489983,0.0,1789948740.0,,0.0115,,0,Will the Communist Party of the Russian Federation (KPRF) gain the most seats in the next Russian parliamentary election
+1130014,149589,politics,True,4026532.005938001,0.0,1789948740.0,,0.0015,,0,Will A Just Russia – For Truth (SRZP) gain the most seats in the next Russian parliamentary election?
+789952,95248,politics,True,458799.5289239999,0.04,1789862400.0,0.445,0.215,0.265,0,Will CDU win the most seats in the 2026 Berlin state elections?
+789953,95248,politics,True,2611971.229775,0.04,1789862400.0,0.1105,0.077,0.053,0,Will AfD win the most seats in the 2026 Berlin state elections?
+789954,95248,politics,True,248556.374021,0.04,1789862400.0,,0.0265,,0,Will Grüne win the most seats in the 2026 Berlin state elections?
+789955,95248,politics,True,447231.79374299996,0.04,1789862400.0,,0.009,,0,Will SPD win the most seats in the 2026 Berlin state elections?
+789956,95248,politics,True,20952.969300000015,0.04,1789862400.0,,0.0005,,0,Will FDP win the most seats in the 2026 Berlin state elections?
+789957,95248,politics,True,642359.5884660004,0.04,1789862400.0,,0.685,,1,Will Linke win the most seats in the 2026 Berlin state elections?
+789958,95248,politics,True,15171.953499000005,0.04,1789862400.0,,0.0005,,0,Will FW win the most seats in the 2026 Berlin state elections?
+789959,95248,politics,True,48501.656938000015,0.04,1789862400.0,,0.0005,,0,Will BSW win the most seats in the 2026 Berlin state elections?
+1125100,147974,politics,True,710489.5937809997,0.0,1789862400.0,,0.0235,,0,Will United Russia win fewer than 280 seats in the next Russian State Duma election?
+1125101,147974,politics,True,266530.446982,0.0,1789862400.0,,0.014,,0,Will United Russia win between 280 and 294 seats in the next Russian State Duma election?
+1125102,147974,politics,True,198810.87903600003,0.0,1789862400.0,0.045,0.0385,0.0505,0,Will United Russia win between 295 and 309 seats in the next Russian State Duma election?
+1125103,147974,politics,True,219986.87384200006,0.0,1789862400.0,0.267,0.146,0.1795,0,Will United Russia win between 310 and 324 seats in the next Russian State Duma election?
+1125104,147974,politics,True,334831.0343919998,0.0,1789862400.0,0.365,0.455,0.425,0,Will United Russia win between 325 and 339 seats in the next Russian State Duma election?
+1125105,147974,politics,True,426763.0810160001,0.0,1789862400.0,0.205,0.245,0.24,1,Will United Russia win between 340 and 354 seats in the next Russian State Duma election?
+1125106,147974,politics,True,402114.23275599995,0.0,1789862400.0,0.055,0.09,0.0595,0,Will United Russia win 355 or more seats in the next Russian State Duma election?
+918248,102978,politics,True,13953.7981,0.04,1789430400.0,,0.989,,1,Will Chris Coons be the Democratic nominee for Senate in Delaware?
+918249,102978,politics,True,7254.312012,0.04,1789430400.0,,0.004,,0,Will Christopher Beardsley be the Democratic nominee for Senate in Delaware?
+811719,96640,politics,True,468372.7761100001,0.04,1789257600.0,,0.984,,1,Will the Swedish Social Democratic Party (S) win the most seats in the 2026 Swedish parliamentary election?
+811720,96640,politics,True,723630.0079300004,0.04,1789257600.0,,0.0155,,0,Will the Sweden Democrats (SD) win the most seats in the 2026 Swedish parliamentary election?
+811721,96640,politics,True,495908.98123899987,0.04,1789257600.0,,0.0015,,0,Will the Moderate Party (M) win the most seats in the 2026 Swedish parliamentary election?
+811722,96640,politics,True,43212.243862000025,0.04,1789257600.0,,0.0005,,0,Will the Centre Party (C) win the most seats in the 2026 Swedish parliamentary election?
+811723,96640,politics,True,39067.896605999995,0.04,1789257600.0,,0.0005,,0,Will the Left Party (V) win the most seats in the 2026 Swedish parliamentary election?
+811724,96640,politics,True,37250.335688,0.04,1789257600.0,,0.0005,,0,Will the Christian Democrats (KD) win the most seats in the 2026 Swedish parliamentary election?
+811725,96640,politics,True,154852.201581,0.04,1789257600.0,,0.0005,,0,Will the Green Party (MP) win the most seats in the 2026 Swedish parliamentary election?
+811726,96640,politics,True,37804.456999,0.04,1789257600.0,,0.0005,,0,Will the Liberals (L) win the most seats in the 2026 Swedish parliamentary election?
+811727,96640,politics,True,36235.049562,0.04,1789257600.0,,0.0005,,0,Will the Citizens' Coalition (MED) win the most seats in the 2026 Swedish parliamentary election?
+904739,101256,other,False,172844.38156100002,0.03,1788998400.0,,0.007,,0,Will Aaron Rodgers retire before next season?
+949810,106917,other,True,886.123,0.03,1788998400.0,,0.0025,,0,Will Gardner Minshew start Week 1 for the Chiefs in 2026?
+949811,106917,other,True,1320.5924280000002,0.03,1788998400.0,,0.967,,1,Will Patrick Mahomes start Week 1 for the Chiefs in 2026?
+949814,106917,other,True,12449.460779999998,0.03,1788998400.0,,0.007,,0,Will Chris Oladokun start Week 1 for the Chiefs in 2026?
+949816,106917,other,True,971.89088,0.03,1788998400.0,,0.0025,,0,Will Joe Flacco start Week 1 for the Chiefs in 2026?
+949822,106917,other,True,21788.096500000007,0.03,1788998400.0,0.425,0.0305,0.011,0,Will Justin Fields start Week 1 for the Chiefs in 2026?
+704169,90375,politics,True,159596.0390409999,0.04,1788825600.0,,0.645,,0,Will Maura Sullivan be the Democratic nominee for NH-01?
+704170,90375,politics,True,118778.80040700003,0.04,1788825600.0,0.54,0.31,0.17,1,Will Stefany Shaheen be the Democratic nominee for NH-01?
+704171,90375,politics,True,53839.84664500001,0.04,1788825600.0,0.014,0.0385,0.032,0,Will Carleigh Beriont be the Democratic nominee for NH-01?
+704172,90375,politics,True,4154.027864000001,0.04,1788825600.0,,0.0015,,0,Will Heath Howard be the Democratic nominee for NH-01?
+706183,91232,politics,True,128808.53090900002,0.04,1788825600.0,0.045,0.062,0.0405,0,Will Karishma Manzur be the Democratic nominee for Senate in New Hampshire?
+706184,91232,politics,True,105492.24657299994,0.04,1788825600.0,,0.9385,,1,Will Chris Pappas be the Democratic nominee for Senate in New Hampshire?
+788408,95101,politics,True,10884.852596,0.04,1788825600.0,,0.9785,,1,Will Jack Reed be the Democratic nominee for Senate in Rhode Island?
+788409,95101,politics,True,5897.175372999999,0.04,1788825600.0,,0.0085,,0,Will Connor Burbridge be the Democratic nominee for Senate in Rhode Island?
+799453,95914,politics,True,12886.428675000001,0.04,1788825600.0,,0.971,,1,Will John E. Sununu be the Republican nominee for Senate in New Hampshire?
+799454,95914,politics,True,3896.8651939999995,0.04,1788825600.0,,0.0225,,0,Will Scott Brown be the Republican nominee for Senate in New Hampshire?
+799455,95914,politics,True,1940.677303,0.04,1788825600.0,,0.0005,,0,Will Chris Sununu be the Republican nominee for Senate in New Hampshire?
+799456,95914,politics,True,992.94584,0.04,1788825600.0,,0.0005,,0,Will Dan Innis be the Republican nominee for Senate in New Hampshire?
+801910,96048,politics,True,16509.412745,0.04,1788825600.0,,0.014,,0,Will Allen Waters be the Republican nominee for Senate in Rhode Island?
+801911,96048,politics,True,7770.104242,0.04,1788825600.0,,0.987,,1,Will Raymond McKay be the Republican nominee for Senate in Rhode Island?
+824198,97443,politics,True,11354.075511,0.04,1788825600.0,,0.9805,,1,Will Kelly Ayotte win the 2026 New Hampshire Governor Republican primary election?
+824199,97443,politics,True,6031.096601,0.04,1788825600.0,,0.0285,,0,Will Corey Lewandowski win the 2026 New Hampshire Governor Republican primary election?
+824220,97448,politics,True,3318.7376820000004,0.04,1788825600.0,,0.0025,,0,Will John Kiper win the 2026 New Hampshire Governor Democratic primary election?
+824221,97448,politics,True,2556.652376,0.04,1788825600.0,,0.0065,,0,Will Tom Sherman win the 2026 New Hampshire Governor Democratic primary election?
+824222,97448,politics,True,9544.329306000001,0.04,1788825600.0,,0.004,,0,Will Deaglan McEachern win the 2026 New Hampshire Governor Democratic primary election?
+824223,97448,politics,True,1937.0947740000001,0.04,1788825600.0,,0.005,,0,Will Donovan Fenton win the 2026 New Hampshire Governor Democratic primary election?
+824224,97448,politics,True,19483.888973999998,0.04,1788825600.0,,0.986,,1,Will Cinde Warmington win the 2026 New Hampshire Governor Democratic primary election?
+906867,101757,politics,True,42498.931076,0.04,1788825600.0,,0.9935,,1,Will Helena Foulkes win the 2026 Rhode Island Governor Democratic primary election?
+906868,101757,politics,True,25688.020862,0.04,1788825600.0,,0.0065,,0,Will Dan McKee win the 2026 Rhode Island Governor Democratic primary election?
+906869,101757,politics,True,1801.299366,0.04,1788825600.0,,0.0005,,0,Will Gregory Stevens win the 2026 Rhode Island Governor Democratic primary election?
+906870,101757,politics,True,3744.258446,0.04,1788825600.0,,0.0005,,0,Will Joe Shekarchi win the 2026 Rhode Island Governor Democratic primary election?
+906891,101762,politics,True,63773.90368299999,0.04,1788825600.0,0.0975,0.107,0.0625,1,Will Aaron Guckian win the 2026 Rhode Island Governor Republican primary election?
+906892,101762,politics,True,69560.792384,0.04,1788825600.0,,0.9,,0,Will Elaine Pelino win the 2026 Rhode Island Governor Republican primary election?
+906893,101762,politics,True,5473.581458000002,0.04,1788825600.0,,0.0005,,0,Will Robert Raimondo win the 2026 Rhode Island Governor Republican primary election?
+906894,101762,politics,True,2282.920358,0.04,1788825600.0,,0.0005,,0,Will Jessica de la Cruz win the 2026 Rhode Island Governor Republican primary election?
+906895,101762,politics,True,3816.641708,0.04,1788825600.0,,0.0005,,0,Will Ashley Kalus win the 2026 Rhode Island Governor Republican primary election?
+960184,108989,politics,True,4014.2963120000004,0.04,1788825600.0,,0.0165,,0,Will Melissa Bailey be the Republican Nominee for NH-01?
+960185,108989,politics,True,6167.3675349999985,0.04,1788825600.0,,0.011,,0,Will Brian Cole be the Republican Nominee for NH-01?
+960186,108989,politics,True,75015.65452499999,0.04,1788825600.0,,0.745,,1,Will Anthony DiLorenzo be the Republican Nominee for NH-01?
+960187,108989,politics,True,19881.918818,0.04,1788825600.0,,0.0125,,0,Will Elizabeth Girard be the Republican Nominee for NH-01?
+960188,108989,politics,True,63272.622771,0.04,1788825600.0,0.075,0.245,0.245,0,Will Hollie Noveletsky be the Republican Nominee for NH-01?
+799646,95915,politics,True,3561.242484,0.04,1788220800.0,,0.0005,,0,Will Ayanna Pressley be the Democratic nominee for Senate in Massachusetts?
+799651,95915,politics,True,92725.08041100002,0.04,1788220800.0,,0.945,,1,Will Ed Markey be the Democratic nominee for Senate in Massachusetts?
+799654,95915,politics,True,114750.87328999996,0.04,1788220800.0,0.05,0.065,0.031,0,Will Seth Moulton be the Democratic nominee for Senate in Massachusetts?
+799656,95915,politics,True,3246.8997170000007,0.04,1788220800.0,,0.0005,,0,Will Alexander Rikleen be the Democratic nominee for Senate in Massachusetts?
+907436,101820,politics,True,13508.039466999999,0.04,1788220800.0,,0.0065,,0,Will Mike Kennealy win the 2026 Massachusetts Governor Republican primary election?
+907437,101820,politics,True,24658.421634,0.04,1788220800.0,,0.9715,,1,Will Michael Minogue win the 2026 Massachusetts Governor Republican primary election?
+907438,101820,politics,True,9727.824128999999,0.04,1788220800.0,,0.0215,,0,Will Brian Shortsleeve win the 2026 Massachusetts Governor Republican primary election?
+909055,101977,politics,True,12578.375933999998,0.04,1788134400.0,,0.013,,0,Will the number of Republican House members who retire in 2026 be fewer than 24?
+909056,101977,politics,True,27211.210023,0.04,1788134400.0,,0.012,,0,Will the number of Republican House members who retire in 2026 be between 24 and 27 inclusive?
+909057,101977,politics,True,23781.431266999996,0.04,1788134400.0,,0.003,,0,Will the number of Republican House members who retire in 2026 be between 28 and 31 inclusive?
+909058,101977,politics,True,9826.374755,0.04,1788134400.0,,0.019,,0,Will the number of Republican House members who retire in 2026 be between 32 and 35 inclusive?
+909059,101977,politics,True,11774.147878999998,0.04,1788134400.0,,0.9,,1,Will the number of Republican House members who retire in 2026 be between 36 and 39 inclusive?
+909060,101977,politics,True,11892.08895,0.04,1788134400.0,0.0615,0.0535,0.0365,0,Will the number of Republican House members who retire in 2026 be between 40 and 43 inclusive?
+909061,101977,politics,True,10804.57125,0.04,1788134400.0,,0.015,,0,Will the number of Republican House members who retire in 2026 be 44 or more?
+909070,101979,politics,True,20458.531661,0.04,1788134400.0,0.0805,0.058,0.0235,0,Will the number of Democratic House members who retire in 2026 be fewer than 20?
+909071,101979,politics,True,14206.075131000001,0.04,1788134400.0,,0.7655,,1,Will the number of Democratic House members who retire in 2026 be between 20 and 23 inclusive?
+909072,101979,politics,True,11354.867440000002,0.04,1788134400.0,0.365,0.155,0.17,0,Will the number of Democratic House members who retire in 2026 be between 24 and 27 inclusive?
+909073,101979,politics,True,2591.0678719999996,0.04,1788134400.0,,0.008,,0,Will the number of Democratic House members who retire in 2026 be between 28 and 31 inclusive?
+909074,101979,politics,True,7306.930255000001,0.04,1788134400.0,,0.006,,0,Will the number of Democratic House members who retire in 2026 be between 32 and 35 inclusive?
+909075,101979,politics,True,4626.2056,0.04,1788134400.0,,0.0025,,0,Will the number of Democratic House members who retire in 2026 be between 36 and 39 inclusive?
+909076,101979,politics,True,4239.021993,0.04,1788134400.0,,0.0255,,0,Will the number of Democratic House members who retire in 2026 be 40 or more?
+909077,101980,politics,True,27438.267513,0.04,1788134400.0,0.0135,0.0315,0.019,0,Will the number of Republican Senate members who retire in 2026 be less than 5?
+909078,101980,politics,True,39434.609537,0.04,1788134400.0,,0.0105,,0,Will the number of Republican Senate members who retire in 2026 be exactly 6?
+909079,101980,politics,True,21184.500349,0.04,1788134400.0,,0.87,,1,Will the number of Republican Senate members who retire in 2026 be exactly 7?
+909080,101980,politics,True,8873.976407000002,0.04,1788134400.0,,0.0125,,0,Will the number of Republican Senate members who retire in 2026 be exactly 8?
+909081,101980,politics,True,5548.9922799999995,0.04,1788134400.0,0.051,0.035,0.024,0,Will the number of Republican Senate members who retire in 2026 be exactly 9?
+909082,101980,politics,True,2337.568969,0.04,1788134400.0,,0.0205,,0,Will the number of Republican Senate members who retire in 2026 be exactly 10?
+909083,101980,politics,True,8746.818263,0.04,1788134400.0,,0.023,,0,Will the number of Republican Senate members who retire in 2026 be 12 or more?
+921693,101980,politics,True,6585.516666000001,0.04,1788134400.0,,0.0015,,0,Will the number of Republican Senate members who retire in 2026 be exactly 11?
+923035,101980,politics,True,24747.674065,0.04,1788134400.0,,0.0245,,0,Will the number of Republican Senate members who retire in 2026 be exactly 5?
+943395,106160,politics,True,9671.778246,0.04,1787616000.0,,0.0005,,0,Will Troy Green be the Democratic nominee for Senate in Oklahoma?
+943396,106160,politics,True,88648.84135800002,0.04,1787616000.0,,0.953,,1,Will N’Kiyla “Jasmine” Thomas be the Democratic nominee for Senate in Oklahoma?
+943398,106160,politics,True,29839.833137000005,0.04,1787616000.0,0.024,0.0405,0.0565,0,Will Jim Priest be the Democratic nominee for Senate in Oklahoma?
+943399,106160,politics,True,6649.047691000002,0.04,1787616000.0,,0.003,,0,Will Rebekah LaVann be the Democratic nominee for Senate in Oklahoma?
+563650,32565,other,False,960210.4635689999,0.0,1785556740.0,,0.012,,0,"SCOTUS accepts sports event contract case by July 31, 2026?     "
+558934,30615,other,True,152168021.58979887,0.03,1784505600.0,0.1265,0.2055,0.5835,1,Will Spain win the 2026 FIFA World Cup?
+558935,30615,other,True,110162254.18757918,0.03,1784505600.0,0.0815,0.2145,,0,Will England win the 2026 FIFA World Cup?
+558936,30615,other,True,132448346.86106883,0.03,1784505600.0,0.3455,0.3885,,0,Will France win the 2026 FIFA World Cup?
+558938,30615,other,True,174315688.25573426,0.03,1784505600.0,0.1735,0.1825,0.4155,0,Will Argentina win the 2026 FIFA World Cup?
+556108,29005,other,False,1630392.446886997,0.07,1782878400.0,,0.0055,,0,Will MegaETH perform an airdrop by June 30? 
+572110,35747,other,True,192539.5675869999,0.05,1782777600.0,,0.011,,0,Aaron Taylor-Johnson announced as next James Bond?
+572111,35747,other,True,202751.6760890001,0.05,1782777600.0,,0.0015,,0,James Norton announced as next James Bond?
+572112,35747,other,True,281096.1699330002,0.05,1782777600.0,,0.0005,,0,Paul Mescal announced as next James Bond?
+572114,35747,other,True,303854.6953919999,0.05,1782777600.0,,0.0025,,0,Jacob Elordi announced as next James Bond?
+572115,35747,other,True,239712.72611199992,0.05,1782777600.0,,0.0035,,0,Harris Dickinson announced as next James Bond?
+572116,35747,other,True,149153.67180700004,0.05,1782777600.0,,0.0015,,0,Tom Hardy announced as next James Bond?
+572117,35747,other,True,254723.19904199976,0.05,1782777600.0,,0.0015,,0,Pierce Brosnan announced as next James Bond?
+572118,35747,other,True,271535.6374529998,0.05,1782777600.0,,0.0015,,0,Tom Holland announced as next James Bond?
+569356,34584,politics,True,3024888.5356869996,0.04,1782050400.0,,0.0005,,0,Will Vicky Dávila win the 2026 Colombian presidential election?
+569357,34584,politics,True,1931059.8008420153,0.04,1782050400.0,,0.0005,,0,Will Luis Gilberto Murillo win the 2026 Colombian presidential election?
+569358,34584,politics,True,1207057.0262990056,0.04,1782050400.0,,0.0005,,0,Will Claudia López win the 2026 Colombian presidential election?
+569359,34584,politics,True,1860921.864651001,0.04,1782050400.0,,0.0005,,0,Will David Luna Sánchez win the 2026 Colombian presidential election?
+569360,34584,politics,True,1535907.4933820108,0.04,1782050400.0,,0.0005,,0,Will Juan Daniel Oviedo win the 2026 Colombian presidential election?
+569362,34584,politics,True,5796853.804643,0.04,1782050400.0,,0.0005,,0,Will Gustavo Bolívar win the 2026 Colombian presidential election?
+569363,34584,politics,True,2394251.6639960203,0.04,1782050400.0,,0.0005,,0,Will Sergio Fajardo win the 2026 Colombian presidential election?
+569364,34584,politics,True,769362.9269090014,0.04,1782050400.0,,0.0005,,0,Will Juan Manuel Galán win the 2026 Colombian presidential election?
+569366,34584,politics,True,6883971.476312924,0.04,1782050400.0,,0.855,,1,Will Abelardo de la Espriella  win the 2026 Colombian presidential election?
+569367,34584,politics,True,2526661.7690050183,0.04,1782050400.0,,0.0005,,0,Will Mauricio Cardenas win the 2026 Colombian presidential election?
+569368,34584,politics,True,7331927.18613499,0.04,1782050400.0,0.165,0.135,0.105,0,Will Ivan Cepeda Castro win the 2026 Colombian presidential election?
+569369,34584,politics,True,706368.0127600001,0.04,1782050400.0,,0.0005,,0,Will Daniel Quintero win the 2026 Colombian presidential election?
+569370,34584,politics,True,1231962.0574800058,0.04,1782050400.0,,0.0005,,0,Will Roy Barreras win the 2026 Colombian presidential election?
+569371,34584,politics,True,1313337.607176,0.04,1782050400.0,,0.0005,,0,Will Enrique Peñalosa win the 2026 Colombian presidential election?
+569372,34584,politics,True,478119.7807569996,0.04,1782050400.0,,0.0005,,0,Will Juan Carlos Pinzón win the 2026 Colombian presidential election?
+569373,34584,politics,True,2870441.325665989,0.04,1782050400.0,,0.0005,,0,Will Paloma Valencia win the 2026 Colombian presidential election?
+569374,34584,politics,True,709146.7734190045,0.04,1782050400.0,,0.0005,,0,Will Carlos Felipe Córdoba win the 2026 Colombian presidential election?
+540881,23792,other,False,15249931.011636002,0.05,1780228800.0,,0.0015,,0,GTA VI released before June 2026?
+562186,31889,politics,True,5465464.356768076,0.04,1779753600.0,,0.625,,1,Will Ken Paxton win the 2026 Texas Republican Primary?
+562187,31889,politics,True,4111349.9236582406,0.04,1779753600.0,0.405,0.365,0.045,0,Will John Cornyn win the 2026 Texas Republican Primary?
+562188,31889,politics,True,971281.8704319986,0.04,1779753600.0,,0.0005,,0,Will Dawn Buckingham win the 2026 Texas Republican Primary?
+562189,31889,politics,True,5597580.546129007,0.04,1779753600.0,,0.0005,,0,Will Beth Van Duyne win the 2026 Texas Republican Primary?
+562190,31889,politics,True,1861808.7975410023,0.04,1779753600.0,,0.0005,,0,Will Wesley Hunt win the 2026 Texas Republican Primary?
+669660,75478,economy,True,66025383.9220003,0.05,1777420800.0,,0.0015,,0,Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?
+669661,75478,economy,True,65311948.7161929,0.05,1777420800.0,,0.0025,,0,Will the Fed decrease interest rates by 25 bps after the April 2026 meeting?
+669662,75478,economy,True,76909226.49304736,0.05,1777420800.0,,0.9935,,1,Will there be no change in Fed interest rates after the April 2026 meeting?
+669663,75478,economy,True,75978206.16104123,0.05,1777420800.0,,0.0025,,0,Will the Fed increase interest rates by 25+ bps after the April 2026 meeting?
+567560,34038,politics,True,25456113.707224935,0.04,1775952000.0,0.355,0.345,0.315,0,Will the next Prime Minister of Hungary be Viktor Orbán?
+567561,34038,politics,True,24555476.477281053,0.04,1775952000.0,,0.655,,1,Will the next Prime Minister of Hungary be Péter Magyar?
+567562,34038,politics,True,6196534.541471966,0.04,1775952000.0,,0.0005,,0,Will the next Prime Minister of Hungary be Klára Dobrev?
+567563,34038,politics,True,13863122.728459079,0.04,1775952000.0,,0.0005,,0,Will the next Prime Minister of Hungary be László Toroczkai?
+567564,34038,politics,True,21744519.72813603,0.04,1775952000.0,,0.0025,,0,Will the next Prime Minister of Hungary be István Kapitány?
+567565,34038,politics,True,9297942.55577898,0.04,1775952000.0,,0.001,,0,Will the next Prime Minister of Hungary be János Lázár?
+546612,25009,world,False,184752.00852400006,0.04,1775015940.0,,0.012,,0,"Will OpenAI launch a new consumer hardware product by March 31, 2026?"
+531202,21662,other,False,836621.5937519977,0.0,1774958400.0,0.199,0.0565,0.0785,0,BitBoy convicted?
+613835,50251,world,True,0.0,0.0,1773532800.0,,0.735,,1,Will One Battle After Another win Best Picture at the 98th Academy Awards?
+613836,50251,world,True,0.0,0.0,1773532800.0,,0.0145,,0,Will Hamnet win Best Picture at the 98th Academy Awards?
+613837,50251,world,True,2868468.7951879823,0.0,1773532800.0,0.138,0.2055,0.201,0,Will Sinners win Best Picture at the 98th Academy Awards?
+613838,50251,world,True,0.0,0.0,1773532800.0,,0.004,,0,Will Sentimental Value win Best Picture at the 98th Academy Awards?
+613839,50251,world,True,0.0,0.0,1773532800.0,,0.0105,,0,Will Marty Supreme win Best Picture at the 98th Academy Awards?
+613841,50251,world,True,3612705.217733989,0.0,1773532800.0,,0.0025,,0,Will Bugonia win Best Picture at the 98th Academy Awards?
+613849,50251,world,True,0.0,0.0,1773532800.0,,0.004,,0,Will Frankenstein win Best Picture at the 98th Academy Awards?
+613852,50251,world,True,0.0,0.0,1773532800.0,,0.0025,,0,Will The Secret Agent win Best Picture at the 98th Academy Awards?
+613853,50251,world,True,0.0,0.0,1773532800.0,,0.0025,,0,Will Train Dreams win Best Picture at the 98th Academy Awards?
+614007,50282,world,True,0.0,0.0,1773532800.0,0.125,0.055,0.0465,0,Will Leonardo DiCaprio win Best Actor at the 98th Academy Awards?
+614008,50282,world,True,0.0,0.0,1773532800.0,0.7,0.415,0.345,0,Will Timothée Chalamet win Best Actor at the 98th Academy Awards?
+614012,50282,world,True,3149785.4254659982,0.0,1773532800.0,0.092,0.473,0.543,1,Will Michael B. Jordan win Best Actor at the 98th Academy Awards?
+614013,50282,world,True,0.0,0.0,1773532800.0,0.039,0.0355,0.054,0,Will Wagner Moura win Best Actor at the 98th Academy Awards?
+614018,50282,world,True,0.0,0.0,1773532800.0,,0.0165,,0,Will Ethan Hawke win Best Actor at the 98th Academy Awards?
+614252,50294,world,True,0.0,0.0,1773532800.0,,0.705,,1,Will Sean Penn win Best Supporting Actor at the 98th Academy Awards?
+614253,50294,world,True,0.0,0.0,1773532800.0,0.275,0.195,0.185,0,Will Stellan Skarsgård win Best Supporting Actor at the 98th Academy Awards?
+614257,50294,world,True,0.0,0.0,1773532800.0,0.0685,0.0765,0.076,0,Will Delroy Lindo win Best Supporting Actor at the 98th Academy Awards?
+569311,34581,politics,True,0.0,0.0,1773000000.0,,0.85,,1,Will PH win the most seats in the 2026 Colombian Chamber of Representatives election?
+569312,34581,politics,True,0.0,0.0,1773000000.0,,0.0095,,0,Will Conservative win the most seats in the 2026 Colombian Chamber of Representatives election?
+569313,34581,politics,True,0.0,0.0,1773000000.0,0.22,0.12,0.13,0,Will PLC win the most seats in the 2026 Colombian Chamber of Representatives election?
+569314,34581,politics,True,0.0,0.0,1773000000.0,,0.002,,0,Will Green Alliance win the most seats in the 2026 Colombian Chamber of Representatives election?
+569315,34581,politics,True,0.0,0.0,1773000000.0,,0.021,,0,Will CD win the most seats in the 2026 Colombian Chamber of Representatives election?
+569316,34581,politics,True,0.0,0.0,1773000000.0,,0.002,,0,Will CR win the most seats in the 2026 Colombian Chamber of Representatives election?
+569317,34581,politics,True,0.0,0.0,1773000000.0,,0.0015,,0,Will La U win the most seats in the 2026 Colombian Chamber of Representatives election?
+569318,34581,politics,True,0.0,0.0,1773000000.0,,0.0015,,0,Will MIRA‑CJL win the most seats in the 2026 Colombian Chamber of Representatives election?
+569255,34578,politics,True,0.0,0.0,1772949600.0,,0.94,,1,Will PH win the most seats in the 2026 Colombian Senate election?
+569256,34578,politics,True,0.0,0.0,1772949600.0,,0.016,,0,Will PCC win the most seats in the 2026 Colombian Senate election?
+569257,34578,politics,True,0.0,0.0,1772949600.0,,0.0065,,0,Will PLC win the most seats in the 2026 Colombian Senate election?
+569258,34578,politics,True,0.0,0.0,1772949600.0,,0.0015,,0,Will AV (Green Alliance) win the most seats in the 2026 Colombian Senate election?
+569259,34578,politics,True,0.0,0.0,1772949600.0,0.085,0.044,0.0675,0,Will CD win the most seats in the 2026 Colombian Senate election?
+569260,34578,politics,True,0.0,0.0,1772949600.0,,0.0015,,0,Will CR win the most seats in the 2026 Colombian Senate election?
+569261,34578,politics,True,0.0,0.0,1772949600.0,,0.0015,,0,Will U win the most seats in the 2026 Colombian Senate election?
+569262,34578,politics,True,0.0,0.0,1772949600.0,,0.0015,,0,Will COM win the most seats in the 2026 Colombian Senate election?
+569263,34578,politics,True,0.0,0.0,1772949600.0,,0.001,,0,Will CJL/MIRA win the most seats in the 2026 Colombian Senate election?
+569264,34578,politics,True,0.0,0.0,1772949600.0,,0.0005,,0,Will MAIS win the most seats in the 2026 Colombian Senate election?
+569265,34578,politics,True,0.0,0.0,1772949600.0,,0.0015,,0,Will AICO win the most seats in the 2026 Colombian Senate election?
+569266,34578,politics,True,0.0,0.0,1772949600.0,,0.0005,,0,Will LIGA win the most seats in the 2026 Colombian Senate election?
+569267,34578,politics,True,0.0,0.0,1772949600.0,,0.0015,,0,Will Salvación Nacional win the most seats in the 2026 Colombian Senate election?
+527079,20461,other,False,8069448.520812,0.0,1772280000.0,,0.0045,,0,Will GTA 6 cost $100+?
+528788,21206,other,False,68135.358416,0.0,1772280000.0,,0.016,,0,Rojas guilty in Texas illegal abortion case?
+537484,22862,other,True,2306901.687602,0.0,1772280000.0,,0.9425,,1,Will the U.S. collect less than $100b in revenue in 2025?
+537485,22862,other,True,1736956.771538,0.0,1772280000.0,,0.023,,0,Will the U.S. collect between $100b and $200b in revenue in 2025?
+537486,22862,other,True,1116195.450108,0.0,1772280000.0,,0.024,,0,Will the U.S. collect between $200b and $500b in revenue in 2025?
+537487,22862,other,True,2670720.815553,0.0,1772280000.0,,0.001,,0,Will the U.S. collect between $500b and $1t in revenue in 2025?
+537488,22862,other,True,812350.320071,0.0,1772280000.0,,0.001,,0,Will the U.S. collect between $1t and $2t in revenue in 2025?
+537489,22862,other,True,700737.431569,0.0,1772280000.0,,0.0015,,0,Will the U.S. collect more than $2t in revenue in 2025?
+537490,22863,economy,False,1412916.482597,0.0,1772280000.0,,0.0105,,0,Will tariffs generate >$250b in 2025?
+540245,23657,other,True,934765.862157,0.0,1769428800.0,0.34,0.415,0.435,0,Will the Rams win the NFC Championship?
+540251,23657,other,True,562041.618371,0.0,1769428800.0,0.421,0.5865,0.569,1,Will the Seahawks win the 2026 NFC Championship?
+540256,23658,other,True,482981.827842,0.0,1769428800.0,,0.7055,,1,Will the Patriots win the AFC Championship?
+540266,23658,other,True,543650.663182,0.0,1769428800.0,0.26,0.295,0.315,0,Will the Broncos win the AFC Championship?
+516711,16093,economy,False,1632096.395146,0.0,1767182400.0,,0.003,,0,Fed emergency rate cut in 2025?
+516712,16098,other,False,606790.963484,0.0,1767182400.0,,0.003,,0,Tether insolvent in 2025?
+516713,16099,other,False,1814446.632743,0.0,1767182400.0,,0.002,,0,USDT depeg in 2025?
+516714,16103,other,False,4025193.659205,0.0,1767182400.0,,0.0065,,0,Weed rescheduled in 2025?
+516715,16104,world,False,245327.51675,0.0,1767182400.0,,0.0015,,0,Ukraine joins NATO in 2025?
+516716,16105,world,False,10993955.915443,0.0,1767182400.0,,0.009,,0,Khamenei out as Supreme Leader of Iran in 2025?
+516717,16106,other,False,2903759.525579,0.0,1767182400.0,,0.004,,0,Nuclear weapon detonation in 2025?
+516720,16109,politics,False,2658917.538404,0.0,1767182400.0,,0.003,,0,Putin out as President of Russia in 2025?
+516721,16110,other,False,977657.131873,0.0,1767182400.0,,0.0025,,0,Netanyahu out by 2025?
+516809,16102,other,True,88573.709305,0.0,1767182400.0,,0.9925,,1,Will SpaceX have between 160-179 launches in 2025?
+516810,16102,other,True,103112.698731,0.0,1767182400.0,,0.0035,,0,Will SpaceX have between 180-199 launches in 2025?
+516811,16102,other,True,180869.658604,0.0,1767182400.0,,0.002,,0,Will SpaceX have 200 or more launches in 2025?
+516818,16087,other,True,9158406.645494,0.0,1767182400.0,,0.9905,,1,Will NVIDIA be the largest company in the world by market cap on December 31?
+516820,16087,other,True,3197278.328588,0.0,1767182400.0,,0.0005,,0,Will Microsoft be the largest company in the world by market cap on December 31?
+516821,16087,other,True,3715854.050242,0.0,1767182400.0,,0.0065,,0,Will Apple be the largest company in the world by market cap on December 31?
+516822,16087,other,True,3872294.510792,0.0,1767182400.0,,0.0025,,0,Will Alphabet be the largest company in the world by market cap on December 31?
+516824,16087,other,True,12050070.052878,0.0,1767182400.0,,0.0005,,0,Will Tesla be the largest company in the world by market cap on December 31?
+516837,16086,other,False,62630.836084,0.0,1767182400.0,,0.0055,,0,Sundar Pichai out as Google CEO in 2025?
+516838,16086,other,False,190812.525412,0.0,1767182400.0,,0.0205,,0,Tim Cook out as Apple CEO in 2025?
+516840,16086,other,False,210839.024181,0.0,1767182400.0,,0.0035,,0,Dan Clancy out as Twitch CEO in 2025?
+516841,16086,other,False,21278.546845,0.0,1767182400.0,,0.0035,,0,Andy Jassy out as Amazon CEO in 2025?
+516842,16086,other,False,238857.984059,0.0,1767182400.0,,0.0035,,0,Brian Armstrong out as Coinbase CEO in 2025?
+516845,16087,other,True,5104724.292195,0.0,1767182400.0,,0.0005,,0,Will Amazon be the largest company in the world by market cap on December 31?
+516846,16087,other,True,25240782.288934,0.0,1767182400.0,,0.0005,,0,Will Saudi Aramco be the largest company in the world by market cap on December 31?
+516847,16086,other,False,134134.265225,0.0,1767182400.0,,0.0045,,0,Sam Altman out as OpenAI CEO in 2025?
+516861,16096,crypto,False,31394607.518008,0.0,1767182400.0,,0.0025,,0,"Will Bitcoin reach $1,000,000 by December 31, 2025?"
+516862,16096,crypto,False,15857522.578687,0.0,1767182400.0,,0.0025,,0,"Will Bitcoin reach $250,000 by December 31, 2025?"
+516863,16096,crypto,False,19275707.736605,0.0,1767182400.0,,0.0025,,0,"Will Bitcoin reach $200,000 by December 31, 2025?"
+516864,16096,crypto,False,16414060.383217,0.0,1767182400.0,,0.0065,,0,"Will Bitcoin reach $150,000 by December 31, 2025?"
+516865,16096,crypto,False,13211425.234841,0.0,1767182400.0,,0.0025,,0,"Will Bitcoin reach $130,000 by December 31, 2025?"
+516871,16096,crypto,False,8605610.758506,0.0,1767182400.0,,0.0145,,0,"Will Bitcoin dip to $70,000 by December 31, 2025?"
+516872,16096,crypto,False,4969076.583099,0.0,1767182400.0,,0.0025,,0,"Will Bitcoin dip to $50,000 by December 31, 2025?"
+516873,16096,crypto,False,4003570.185958,0.0,1767182400.0,,0.0015,,0,"Will Bitcoin dip to $20,000 by December 31, 2025?"
+516874,16097,crypto,False,9488801.522718,0.0,1767182400.0,,0.0015,,0,"Will Ethereum hit $10,000 by December 31?"
+516875,16097,crypto,False,5745770.448967,0.0,1767182400.0,,0.0015,,0,"Will Ethereum hit $8,000 by December 31?"
+516876,16097,crypto,False,7570762.533718,0.0,1767182400.0,,0.0015,,0,"Will Ethereum hit $7,000 by December 31?"
+516877,16097,crypto,False,9995564.195892,0.0,1767182400.0,,0.0025,,0,"Will Ethereum hit $6,000 by December 31?"
+516878,16097,crypto,False,18467737.400303,0.0,1767182400.0,,0.0025,,0,"Will Ethereum hit $5,000 by December 31?"
+516884,16097,crypto,False,3105396.354215,0.0,1767182400.0,,0.0015,,0,"Will Ethereum dip to $1,000 by December 31?"
+516886,16137,other,False,22289.130481,0.0,1767182400.0,,0.0015,,0,One Direction reunion in 2025?
+516887,16138,other,False,8648.197856,0.0,1767182400.0,0.0505,0.0355,0.044,0,Britney Spears tour in 2025?
+516888,16139,other,False,6004.462672,0.0,1767182400.0,,0.015,,0,Nara & Lucky divorce in 2025?
+516905,16146,other,False,22499.427519,0.0,1767182400.0,,0.0025,,0,Lana Del Rey divorce in 2025?
+516907,16148,other,False,6884.475724,0.0,1767182400.0,,0.0045,,0,Hailey Bieber pregnant in 2025?
+516910,16151,other,False,294742.161191,0.0,1767182400.0,,0.0035,,0,New pandemic in 2025?
+516925,16166,other,False,8394057.087119,0.0,1767182400.0,,0.004,,0,Will the US confirm that aliens exist in 2025?
+516926,16167,crypto,False,17976157.529867,0.04,1767182400.0,,0.0065,,0,MicroStrategy sells any Bitcoin in 2025?
+516927,16168,other,True,915143.256798,0.0,1767182400.0,,0.0005,,0,"Will Gold close under $2,500 at the end of 2025?"
+516928,16168,other,True,960140.584896,0.0,1767182400.0,,0.0005,,0,"Will Gold close at $2,500-2,600 at the end of 2025?"
+516929,16168,other,True,624126.270691,0.0,1767182400.0,,0.0005,,0,"Will Gold close at $2,600-2,700 at the end of 2025?"
+516930,16168,other,True,1651648.539379,0.0,1767182400.0,,0.0005,,0,"Will Gold close at $2,700-2,800 at the end of 2025?"
+516931,16168,other,True,697011.811217,0.0,1767182400.0,,0.0005,,0,"Will Gold close at $2,800-2,900 at the end of 2025?"
+516932,16168,other,True,1079643.14037,0.0,1767182400.0,,0.0005,,0,"Will Gold close at $2,900-3,000 at the end of 2025?"
+516933,16168,other,True,1308153.142525,0.0,1767182400.0,,0.0005,,0,"Will Gold close at $3,000-3,100 at the end of 2025?"
+516934,16168,other,True,1451475.031623,0.0,1767182400.0,,0.0015,,0,"Will Gold close at $3,100-3,200 at the end of 2025?"
+516935,16168,other,True,1750289.741183,0.0,1767182400.0,,0.9995,,1,"Will Gold close at $3,200 or more at the end of 2025?"
+516937,16170,crypto,False,5526758.797978,0.0,1767182400.0,,0.0045,,0,US national Bitcoin reserve in 2025?
+516939,16172,other,False,820801.99837,0.0,1767182400.0,,0.003,,0,Will Kim Jong Un visit US in 2025?
+516940,16173,other,False,164773.074497,0.0,1767182400.0,,0.0045,,0,Harry & Meghan divorce in 2025?
+516941,16174,politics,False,124296.733639,0.0,1767182400.0,,0.0015,,0,Trump divorce in 2025?
+516942,16175,other,False,262155.057911,0.0,1767182400.0,,0.006,,0,Bird flu vaccine in 2025?
+516943,16176,other,False,63394.592113,0.0,1767182400.0,,0.0035,,0,Jay-Z & Beyoncé divorce in 2025?
+516947,16180,other,False,34641400.627049,0.0,1767182400.0,,0.0235,,0,Maduro out in 2025?
+516950,16183,other,False,494516.53254,0.04,1767182400.0,,0.0035,,0,Kraken IPO in 2025?
+516958,16186,other,False,79349.228976,0.0,1767182400.0,,0.0055,,0,Supreme Court vacancy in 2025?
+516706,16084,economy,False,1181258.367286,0.0,1765368000.0,,0.0045,,0,Fed rate hike in 2025?
+516725,16085,economy,True,3706364.415322,0.0,1765368000.0,0.145,0.065,0.075,0,Will 2 Fed rate cuts happen in 2025?
+516726,16085,economy,True,3568731.458998,0.0,1765368000.0,,0.93,,1,Will 3 Fed rate cuts happen in 2025?
+516727,16085,economy,True,3089647.671223,0.0,1765368000.0,,0.0065,,0,Will 4 Fed rate cuts happen in 2025?
+516728,16085,economy,True,2273086.225375,0.0,1765368000.0,,0.0015,,0,Will 5 Fed rate cuts happen in 2025?
+516729,16085,economy,True,3970078.575117,0.0,1765368000.0,,0.0005,,0,Will 8+ Fed rate cuts happen in 2025?
+516730,16085,economy,True,6045992.73764,0.0,1765368000.0,,0.0005,,0,Will 7 Fed rate cuts happen in 2025?
+516731,16085,economy,True,2623047.127032,0.0,1765368000.0,,0.0005,,0,Will 6 Fed rate cuts happen in 2025?
+525358,19696,other,True,11422382.278709,0.0,1765108800.0,0.213,0.0535,0.222,0,Will Max Verstappen be the 2025 Drivers Champion?
+525364,19696,other,True,7095379.332337,0.0,1765108800.0,,0.815,,1,Will Lando Norris be the 2025 Drivers Champion?
+525365,19696,other,True,7895976.526057,0.0,1765108800.0,0.029,0.1195,0.0585,0,Will Oscar Piastri be the 2025 Drivers Champion?
+539016,23267,other,True,198879.557333,0.0,1765108800.0,,0.023,,0,Will Red Bull Racing finish second in the 2025 Constructors' Championship?
+539017,23267,other,True,155137.104668,0.0,1765108800.0,,0.9595,,1,Will Mercedes finish second in the 2025 Constructors' Championship?
+539018,23267,other,True,227837.85728,0.0,1765108800.0,,0.0175,,0,Will Ferrari finish second in the 2025 Constructors' Championship?
+539029,23270,other,True,591658.158817,0.0,1765108800.0,0.185,0.59,0.255,0,Will Oscar Piastri finish second in the 2025 Drivers Championship?
+539030,23270,other,True,444221.750215,0.0,1765108800.0,0.0955,0.098,0.1715,0,Will Lando Norris finish second in the 2025 Drivers Championship?
+539031,23270,other,True,366317.559363,0.0,1765108800.0,0.6955,0.305,0.555,1,Will Max Verstappen finish second in the 2025 Drivers Championship?
+539049,23270,other,True,167076.428074,0.0,1765108800.0,,0.0005,,0,Will another driver finish second in the 2025 Drivers Championship?
+534992,22443,other,True,651272.642756,0.0,1764590400.0,,0.992,,1,Will between 12 and 15 named storms occur in the 2025 Atlantic hurricane season?
+534993,22443,other,True,215466.573945,0.0,1764590400.0,,0.0015,,0,Will between 16 and 19 named storms occur in the 2025 Atlantic hurricane season?
+534994,22443,other,True,71832.774228,0.0,1764590400.0,,0.0015,,0,Will between 20 and 23 named storms occur in the 2025 Atlantic hurricane season?
+534995,22443,other,True,59879.836018,0.0,1764590400.0,,0.0005,,0,Will more than 23 named storms occur in the 2025 Atlantic hurricane season?
