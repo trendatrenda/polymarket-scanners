@@ -36,9 +36,12 @@ import pm_rewards_scanner as rs
 
 GAMMA = "https://gamma-api.polymarket.com"
 CLOB = "https://clob.polymarket.com"
-DAYS_BACK = 365
-ENTRY_DAYS, LO, HI, GAP, GAP2, STAKE = 7, 0.10, 0.30, 0.02, 0.03, 20.0
-MIN_BETS = 300
+# RUN 2 (16 Nov, locked BEFORE running): the 30-60c slice that looked good in run 1's
+# exploration, tested on the YEAR BEFORE (markets run 1 never saw). Extra check: it must
+# survive a 5c gap, because thin markets' "last traded price" can be far from a real ask.
+DAYS_FROM, DAYS_BACK = 365, 730
+ENTRY_DAYS, LO, HI, GAP, GAP2, STAKE = 7, 0.30, 0.60, 0.02, 0.05, 20.0
+MIN_BETS = 150
 MAX_MARKETS = 9000                   # price-history calls are the slow part (~0.2 s each)
 RUN_SECONDS = 100 * 60
 OUT_TXT, OUT_CSV = "lb_results.txt", "lb_bets.csv"
@@ -46,7 +49,8 @@ OUT_TXT, OUT_CSV = "lb_results.txt", "lb_bets.csv"
 SPORT = re.compile(r"\bvs\.?\b|\bwin (the|on)\b.*(game|match)|\b(nba|nfl|nhl|mlb|mls|ufc|epl|wnba|ncaa|"
                    r"premier league|champions league|la liga|serie a|bundesliga|ligue 1|grand prix|f1|tennis|"
                    r"golf|cricket|o/u|spread|touchdown|exact score|both teams|halftime|first half|corners|"
-                   r"goalscorer|to score|map \d|game \d|set \d|round \d|esports?|super bowl|world series|"
+                   r"goalscorer|to score|map \d|game \d|set \d|round \d|esports?|super bowl|world series|world cup|fifa|"
+                   r"transfer window|sign with|play for|win group|"
                    r"stanley cup|playoffs?|mvp|tournament|grand slam|open winner)\b", re.I)
 CATS = [("crypto", r"bitcoin|btc|ethereum|\beth\b|solana|xrp|doge|crypto|token|coin\b"),
         ("politics", r"elect|president|senate|congress|governor|mayor|minister|parliament|vote|"
@@ -97,7 +101,7 @@ def closed_markets(stop):
     """Closed binary non-sports markets, one month at a time (keeps paging short)."""
     now = datetime.now(timezone.utc)
     out, seen, why = [], set(), {}
-    for k in range(DAYS_BACK // 30 + 1):
+    for k in range(DAYS_FROM // 30, DAYS_BACK // 30 + 1):
         hi, lo = now - timedelta(days=30 * k), now - timedelta(days=30 * (k + 1))
         for page in range(300):
             if time.time() > stop:
@@ -195,7 +199,7 @@ def main():
     stop = t0 + RUN_SECONDS
     rs.HARD_DEADLINE[0] = stop + 60
     mk, why = closed_markets(t0 + 25 * 60)
-    say(f"#39 LONGSHOT TEST   run {datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC")
+    say(f"#39 LONGSHOT TEST, RUN 2 (older year, 30-60c rule)   run {datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC")
     say(f"closed markets read: {sum(why.values())}   kept: {len(mk)}   (why not: {why})")
     mk.sort(key=lambda m: -m["end"])
     mk = mk[:MAX_MARKETS]
@@ -225,21 +229,21 @@ def main():
     main_rows = [dict(r, pnl=bet(r["y7"], r["yes_won"], r["fee"], GAP), pnl3=bet(r["y7"], r["yes_won"], r["fee"], GAP2))
                  for r in rows if LO <= r["y7"] <= HI]
     say("")
-    say("=== MAIN TEST (locked): buy NO when YES is 10-30c, 7 days before the end, 2c gap + fees ===")
+    say("=== MAIN TEST (locked): buy NO when YES is 30-60c, 7 days before the end, 2c gap + fees ===")
     line("all", main_rows)
-    line("same bets with a 3c gap", main_rows, "pnl3")
+    line("same bets with a 5c gap", main_rows, "pnl3")
     mid = sorted(r["end"] for r in main_rows)[len(main_rows) // 2] if main_rows else 0
     first, second = [r for r in main_rows if r["end"] < mid], [r for r in main_rows if r["end"] >= mid]
     line("older half of the year", first)
     line("newer half of the year", second)
     v = [r["pnl"] for r in main_rows]
     lo, _ = boot(main_rows) if main_rows else (None, None)
-    checks = [("at least 300 bets", len(v) >= MIN_BETS),
+    checks = [(f"at least {MIN_BETS} bets", len(v) >= MIN_BETS),
               ("average profit > 0", bool(v) and sum(v) > 0),
               ("luck range above 0", lo is not None and lo > 0),
               ("both halves profitable", bool(first) and bool(second) and sum(r["pnl"] for r in first) > 0
                and sum(r["pnl"] for r in second) > 0),
-              ("still profitable at 3c gap", bool(v) and sum(r["pnl3"] for r in main_rows) > 0)]
+              ("still profitable at 5c gap", bool(v) and sum(r["pnl3"] for r in main_rows) > 0)]
     for name, ok in checks:
         say(f"  [{'ok ' if ok else 'NO '}] {name}")
     say(f"VERDICT: {'PASS -- worth a forward paper test' if all(ok for _, ok in checks) else 'FAIL'}")
@@ -261,7 +265,7 @@ def main():
     line("main rule, volume under $50k", [r for r in main_rows if r["vol"] < 50_000])
     line("main rule, volume $50k+", [r for r in main_rows if r["vol"] >= 50_000])
     yes_rows = [dict(r, pnl=bet(r["y7"], r["yes_won"], r["fee"], GAP, "yes")) for r in rows if LO <= r["y7"] <= HI]
-    line("the OPPOSITE: buy YES at 10-30c", yes_rows)
+    line("the OPPOSITE: buy YES at 30-60c", yes_rows)
     say(f"\nrequests: {rs.STATS}   time: {int(time.time() - t0)} s")
     open(OUT_TXT, "w").write("\n".join(LINES) + "\n")
 
