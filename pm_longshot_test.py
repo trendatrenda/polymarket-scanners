@@ -99,18 +99,20 @@ def closed_markets(stop):
     out, seen, why = [], set(), {}
     for k in range(DAYS_BACK // 30 + 1):
         hi, lo = now - timedelta(days=30 * k), now - timedelta(days=30 * (k + 1))
-        for page in range(40):
+        for page in range(300):
             if time.time() > stop:
                 break
-            got = rs.get_json(f"{GAMMA}/markets", {"closed": "true", "limit": 500, "offset": page * 500,
+            got = rs.get_json(f"{GAMMA}/markets", {"closed": "true", "limit": 100, "offset": page * 100,
                                                    "end_date_min": lo.strftime("%Y-%m-%dT%H:%M:%SZ"),
                                                    "end_date_max": hi.strftime("%Y-%m-%dT%H:%M:%SZ")})
             if not isinstance(got, list) or not got:
                 break
+            new = 0
             for m in got:
                 mid = m.get("id")
                 if mid in seen:
                     continue
+                new += 1
                 seen.add(mid)
                 outs = [str(x).lower() for x in rs.as_list(m.get("outcomes"))]
                 px = [str(x) for x in rs.as_list(m.get("outcomePrices"))]
@@ -135,8 +137,8 @@ def closed_markets(stop):
                                 "fee": fee_rate(m), "neg": bool(m.get("negRisk")),
                                 "vol": float(m.get("volumeNum") or 0), "cat": cat_of(str(m.get("question")))})
                 why[r] = why.get(r, 0) + 1
-            if len(got) < 500:
-                break
+            if new == 0:                           # 16 Nov fix: Polymarket gives max 100 per page, so
+                break                              # keep paging until a page brings nothing new
     return out, why
 
 
