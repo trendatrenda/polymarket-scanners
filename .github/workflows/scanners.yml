@@ -48,6 +48,10 @@ jobs:
         run: |
           timeout 9m python3 -u pm_ai_research.py || echo "ai research team" >> /tmp/failed.txt
 
+      - name: "Longshot paper test (#39b) -- 30-60c rule, real order books, no AI"
+        run: |
+          timeout 4m python3 -u pm_longshot_paper.py || echo "longshot paper test" >> /tmp/failed.txt
+
       - name: "Save results into the repository"
         id: save
         run: |
@@ -75,6 +79,7 @@ jobs:
             euro_*.csv
             ai_*.csv
             air_*.csv
+            lsp_*.csv
           retention-days: 14
 
       - name: "Turn the run RED if anything crashed or was unhealthy"
