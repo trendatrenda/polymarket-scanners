@@ -2,8 +2,8 @@ name: scanners
 
 on:
   schedule:
-    - cron: "7 */2 * * *"       # every 2 hours (UTC). The paper bot decides by itself
-                                # whether it is due (at most once per 11 hours)
+    - cron: "7 * * * *"         # every hour (UTC; 17 Nov: was every 2 h -- EuroLeague games could
+                                # slip between two runs). Each bot still keeps its own limits.
   workflow_dispatch:            # "Run workflow" by hand: runs everything now
 
 permissions:
@@ -58,33 +58,4 @@ jobs:
           git config user.name  "scanner-bot"
           git config user.email "scanner-bot@users.noreply.github.com"
           git add -A
-          if git diff --cached --quiet; then echo "nothing new to save"; exit 0; fi
-          git commit -m "results $(date -u '+%Y-%m-%d %H:%M') UTC"
-          for i in 1 2 3; do
-            if git pull --rebase --autostash && git push; then exit 0; fi
-            git rebase --abort 2>/dev/null || true
-            sleep 15
-          done
-          echo "COULD NOT SAVE the results after 3 tries"; exit 1
-
-      - name: "Keep a copy of the results if saving failed"
-        if: failure() && steps.save.outcome == 'failure'
-        uses: actions/upload-artifact@v4
-        with:
-          name: unsaved-results
-          path: |
-            pm_*.csv
-            pm_*.json
-            pm_*.txt
-            euro_*.csv
-            ai_*.csv
-            air_*.csv
-            lsp_*.csv
-          retention-days: 14
-
-      - name: "Turn the run RED if anything crashed or was unhealthy"
-        if: always()
-        run: |
-          if [ -f /tmp/failed.txt ]; then
-            echo "These were unhealthy or crashed this run:"; cat /tmp/failed.txt; exit 1
-          fi
+          if git diff --cached --quiet; then
