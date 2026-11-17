@@ -48,7 +48,7 @@ time,ko,game,cid,team_a,q_a,ask_a,ask_b,mid_a,decision,a_won
 2026-11-13T14:53:36+00:00,1794591000,Anadolu Efes vs. Virtus Bologna,0xbd56519ec1af8b591b1e302dd6792d89ae591f2be17b2b464356e09190b0af01,Anadolu Efes,0.7147,0.6742,0.34,0.665,no bet,1
 2026-11-13T16:53:55+00:00,1794598200,ASVEL Lyon-Villeurbanne vs. Besiktas,0x892991284736bf671efe971e1b137fedd35423fd981422a5832c00249d07b7af,ASVEL Lyon-Villeurbanne,0.6519,0.57,0.44,0.565,BET ASVEL Lyon-Villeurbanne at 0.582 (our chance 0.652),0
 2026-11-13T16:53:55+00:00,1794597300,Panathinaikos vs. Barcelona,0xabf9d58c8621df60ce723d719f1acc1407894a5b9011f93b55d2c9b43f5ee90c,Panathinaikos,0.7011,0.82,0.19,0.815,BET Barcelona at 0.198 (our chance 0.299),0
-2026-11-17T13:07:32+00:00,1794931200,BC Dubai vs. Anadolu Efes,0x7be1549ee94fbb4d1c133267016a8e073ea83e0f5bc7f9f862b9d598db46c66d,BC Dubai,0.6758,0.77,0.24,0.765,BET Anadolu Efes at 0.249 (our chance 0.324),
+2026-11-17T13:07:32+00:00,1794931200,BC Dubai vs. Anadolu Efes,0x7be1549ee94fbb4d1c133267016a8e073ea83e0f5bc7f9f862b9d598db46c66d,BC Dubai,0.6758,0.77,0.24,0.765,BET Anadolu Efes at 0.249 (our chance 0.324),1
 2026-11-17T17:38:27+00:00,1794945600,Virtus Bologna vs. Panathinaikos,0x1502e468ef8252a5bf50270fd567f9dd64b2720bfab0fb19cc289e230c60551f,Virtus Bologna,0.4715,0.28,0.73,0.275,BET Virtus Bologna at 0.290 (our chance 0.471),
 2026-11-17T17:38:27+00:00,1794944700,Partizan vs. Valencia,0x51e7a10d1c3af8a8498b87ecc9112454ac5f6a7645c0d6d53e4071b09acad6bc,Partizan,0.5802,0.54,0.4759,0.535,no bet,
 2026-11-17T17:38:27+00:00,1794943800,Olimpia Milano vs. KK Crvena Zvezda,0x929d492c06de9b9c2017af64d5ae2c78f083c5d6e4026ed903289bf48bb2fc99,Olimpia Milano,0.4334,0.5,0.51,0.495,no bet,
