@@ -1,0 +1,36 @@
+#41 MENTION MARKETS TEST   run 2026-11-18 22:53 UTC
+mention markets found: 1273   kept: 746   (why not: {'closed before the entry moment': 420, 'ok': 746, 'sports': 107})
+with a traded price 24 h before the end: 564   events: 49
+
+=== MAIN TEST (locked): buy NO when YES is 10-60c, 24 h before the end, 2c gap + fees ===
+  all                                      292 bets  win 71.2%  avg  +7.5% per bet  ($     +436)  luck range -4.6% .. +18.9%
+  same bets with a 4c gap                  292 bets  win 71.2%  avg  +4.2% per bet  ($     +244)  luck range -7.4% .. +15.3%
+  older year                               200 bets  win 69.5%  avg  +4.3% per bet  ($     +172)  luck range -9.2% .. +16.4%
+  newer year                                92 bets  win 75.0%  avg +14.4% per bet  ($     +264)  luck range -10.4% .. +45.8%
+  [NO ] at least 300 bets
+  [ok ] profit > 0
+  [NO ] luck range above 0
+  [ok ] both years profitable
+  [ok ] still profitable at 4c gap
+VERDICT: FAIL
+
+=== EXPLORATION ONLY (many slices = some look good by luck) ===
+  buy NO, YES 3%-10%                        47 bets  win 100.0%  avg  +4.0% per bet  ($      +38)  luck range +3.4% .. +4.8%
+  buy NO, YES 10%-25%                       76 bets  win 92.1%  avg  +9.5% per bet  ($     +145)  luck range +1.4% .. +15.9%
+  buy NO, YES 25%-40%                      103 bets  win 69.9%  avg  +0.3% per bet  ($       +6)  luck range -15.1% .. +13.4%
+  buy NO, YES 40%-60%                      111 bets  win 58.6%  avg +12.5% per bet  ($     +277)  luck range -10.7% .. +36.9%
+  buy NO, YES 60%-80%                       92 bets  win 31.5%  avg  -6.9% per bet  ($     -128)  luck range -33.3% .. +19.8%
+  buy NO, YES 80%-97%                       96 bets  win 10.4%  avg -17.1% per bet  ($     -328)  luck range -62.9% .. +32.6%
+  main rule but 6 h before the end         269 bets  win 69.1%  avg  +3.0% per bet  ($     +160)  luck range -10.1% .. +16.4%
+  main rule but 72 h before the end        251 bets  win 68.1%  avg  +2.9% per bet  ($     +143)  luck range -10.9% .. +17.4%
+  main rule, speaker Trump                 169 bets  win 74.0%  avg  +9.4% per bet  ($     +316)  luck range -6.0% .. +22.8%
+  main rule, speaker Vance                  13 bets  win 38.5%  avg -42.6% per bet  ($     -111)
+  main rule, speaker Powell / Fed           68 bets  win 69.1%  avg  +2.0% per bet  ($      +28)  luck range -20.8% .. +22.3%
+  main rule, speaker Press secretary       0 bets
+  main rule, speaker Musk                  0 bets
+  main rule, speaker other                  42 bets  win 73.8%  avg +24.1% per bet  ($     +203)  luck range -9.1% .. +65.5%
+  main rule, volume under $20k             197 bets  win 74.1%  avg +10.5% per bet  ($     +413)  luck range -3.1% .. +23.8%
+  main rule, volume $20k+                   95 bets  win 65.3%  avg  +1.2% per bet  ($      +23)  luck range -19.8% .. +20.1%
+  the OPPOSITE: buy YES at 10-60c          292 bets  win 28.8%  avg -24.7% per bet  ($    -1441)  luck range -44.4% .. -3.1%
+
+requests: {'calls': 2113, 'failed': 24}   time: 461 s
