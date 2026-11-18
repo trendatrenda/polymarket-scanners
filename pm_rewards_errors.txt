@@ -2050,3 +2050,10 @@
 
 2026-11-18 22:53:03 HTTP 422 for https://gamma-api.polymarket.com/markets?closed=true&limit=100&offset=2100&end_date_min=2024-10-29T22%3A50%3A19Z&end_date_max=2024-11-28T22%3A50%3A19Z: {"type":"validation error","error":"offset too large, use /markets/keyset for deeper pagination"}
 
+2026-11-18 23:01:39 HTTP 404 for https://clob.polymarket.com/book?token_id=85285465440536912573460709049070048986001030672740458820798519691202268957337: {"error":"No orderbook exists for the requested token id"}
+
+2026-11-18 23:01:40 HTTP 404 for https://clob.polymarket.com/book?token_id=60196446994407284411220151074305776552106529350683670683153063310267159873974: {"error":"No orderbook exists for the requested token id"}
+
+2026-11-18 23:02:02 HTTP 422 for https://gamma-api.polymarket.com/markets?closed=false&active=true&limit=100&offset=2100&end_date_min=2026-11-25T11%3A01%3A57Z&end_date_max=2026-11-26T11%3A01%3A57Z: {"type":"validation error","error":"offset too large, use /markets/keyset for deeper pagination"}
+
+2026-11-18 23:02:02 HTTP 406 for https://gamma-api.polymarket.com/events?closed=false&active=true&limit=100&offset=0: {"error":"gzip_required","hint":"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only."}
