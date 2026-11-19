@@ -33,7 +33,7 @@ LOG = "cp_log.csv"
 FIELDS = ["time", "kind", "event_id", "event", "legs", "top_cost", "real_cost", "pays",
           "profit_per_set", "profit_pct", "detail"]
 MONTH = re.compile(r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\b|\b20\d\d\b", re.I)
-NUM = re.compile(r"(-?\d+(?:[.,]\d+)?)\s*(k|m|b|%)?", re.I)
+NUM = re.compile(r"(-?\d+(?:[.,]\d+)?)\s*(k|m|b|t|%)?", re.I)
 
 
 def now():
@@ -76,7 +76,7 @@ def number_of(title):
     if not m:
         return None
     v = float(m.group(1))
-    return v * {"k": 1e3, "m": 1e6, "b": 1e9}.get((m.group(2) or "").lower(), 1)
+    return v * {"k": 1e3, "m": 1e6, "b": 1e9, "t": 1e12}.get((m.group(2) or "").lower(), 1)
 
 
 # ------------------------------------------------------------------- the three checks
