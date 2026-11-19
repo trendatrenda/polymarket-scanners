@@ -43,3 +43,10 @@ time,kind,event_id,event,legs,top_cost,real_cost,pays,profit_per_set,profit_pct,
 2026-11-19T21:30:46Z,number ladder,133684,Base FDV above ___ one day after launch?,2,0.99,1.0083,1.0,-0.0083,-0.83,YES '$8B' + NO '$10B'
 2026-11-19T21:30:46Z,all-YES,141230,Maduro Prison Time?,5,0.968,0.969,1.0,0.031,3.2,
 2026-11-19T21:30:46Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.988,1.088,1.0,-0.088,-8.09,YES '$500M' + NO '$800M'
+2026-11-19T22:02:57Z,number ladder,73236,Metamask FDV above ___ one day after launch?,2,0.995,0.9962,1.0,0.0038,0.38,YES '$3B' + NO '$4B'
+2026-11-19T22:02:57Z,number ladder,78999,StandX FDV above ___ one day after launch?,2,0.987,0.9882,1.0,0.0118,1.2,YES '$2B' + NO '$3B'
+2026-11-19T22:02:57Z,number ladder,84914,Hyperbeat FDV above ___ one day after launch?,2,0.994,0.9966,1.0,0.0034,0.34,YES '$300M' + NO '$400M'
+2026-11-19T22:02:57Z,number ladder,133684,Base FDV above ___ one day after launch?,2,0.99,1.0083,1.0,-0.0083,-0.83,YES '$8B' + NO '$10B'
+2026-11-19T22:02:57Z,all-YES,141230,Maduro Prison Time?,5,0.968,0.9686,1.0,0.0314,3.24,
+2026-11-19T22:02:57Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.988,1.088,1.0,-0.088,-8.09,YES '$500M' + NO '$800M'
+2026-11-19T22:02:57Z,all-YES,507875,What will OpenAI's IPO valuation be?,8,0.984,1.0161,1.0,-0.0161,-1.58,
