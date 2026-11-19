@@ -2235,3 +2235,17 @@
 
 2026-11-19 16:03:26 HTTP 422 for https://gamma-api.polymarket.com/events?closed=false&active=true&limit=50&offset=2050: {"type":"validation error","error":"offset too large, use /events/keyset for deeper pagination"}
 
+2026-11-19 17:01:54 HTTP 404 for https://clob.polymarket.com/book?token_id=3631579265029698601368756920748784434145039359461094150642844334638312464491: {"error":"No orderbook exists for the requested token id"}
+
+2026-11-19 17:01:54 HTTP 404 for https://clob.polymarket.com/book?token_id=1418561357456949653349445277880579354581447646426964363618581349329647149941: {"error":"No orderbook exists for the requested token id"}
+
+2026-11-19 17:02:04 HTTP 404 for https://clob.polymarket.com/book?token_id=85285465440536912573460709049070048986001030672740458820798519691202268957337: {"error":"No orderbook exists for the requested token id"}
+
+2026-11-19 17:02:04 HTTP 404 for https://clob.polymarket.com/book?token_id=60196446994407284411220151074305776552106529350683670683153063310267159873974: {"error":"No orderbook exists for the requested token id"}
+
+2026-11-19 17:02:54 HTTP 422 for https://gamma-api.polymarket.com/markets?active=true&closed=false&limit=100&offset=2100&order=startDate&ascending=false&end_date_min=2026-11-22T17%3A02%3A34%2B00%3A00&end_date_max=2026-12-19T17%3A02%3A34%2B00%3A00: {"type":"validation error","error":"offset too large, use /markets/keyset for deeper pagination"}
+
+2026-11-19 17:03:39 HTTP 422 for https://gamma-api.polymarket.com/markets?closed=false&active=true&limit=100&offset=2100&end_date_min=2026-11-26T05%3A03%3A27Z&end_date_max=2026-11-27T05%3A03%3A27Z: {"type":"validation error","error":"offset too large, use /markets/keyset for deeper pagination"}
+
+2026-11-19 17:04:07 HTTP 422 for https://gamma-api.polymarket.com/events?closed=false&active=true&limit=50&offset=2050: {"type":"validation error","error":"offset too large, use /events/keyset for deeper pagination"}
+
