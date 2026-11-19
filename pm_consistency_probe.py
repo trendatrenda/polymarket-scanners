@@ -122,16 +122,17 @@ def ladder(ms, key, increasing_is_more_likely):
 
 
 def events():
-    seen = 0
-    for page in range(120):
-        got = rs.get_json(f"{GAMMA}/events", {"closed": "false", "active": "true", "limit": 100,
-                                              "offset": page * 100})
-        if not isinstance(got, list) or not got:
+    for page in range(240):                    # 19 Nov fix: /events pages above 50 need gzip -> use 50
+        got = rs.get_json(f"{GAMMA}/events", {"closed": "false", "active": "true", "limit": 50,
+                                              "offset": page * 50})
+        if not isinstance(got, list):
+            if page == 0:
+                raise SystemExit("PROBLEM: Polymarket's event list did not load (see rewards_logs)")
             return
-        for ev in got:
-            seen += 1
-            yield ev
-        if len(got) < 100:
+        if not got:
+            return
+        yield from got
+        if len(got) < 50:
             return
 
 
