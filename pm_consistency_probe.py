@@ -105,7 +105,7 @@ def one_winner(ev, ms):
 def ladder(ms, key, increasing_is_more_likely):
     """Adjacent pairs where the 'must be more likely' market is priced BELOW the other one."""
     out = []
-    rows = sorted((k, m) for m in ms if (k := key(m)) is not None)
+    rows = sorted(((k, m) for m in ms if (k := key(m)) is not None), key=lambda r: r[0])   # 19 Nov fix: ties
     for (k1, a), (k2, b) in zip(rows, rows[1:]):
         if k1 == k2:
             continue
@@ -136,6 +136,31 @@ def events():
             return
 
 
+def check_event(ev, stats, found):
+    ms_all = [m for m in (ev.get("markets") or []) if [str(x).lower() for x in rs.as_list(m.get("outcomes"))] == ["yes", "no"]]
+    if len(ms_all) < 2 or any(is_sport(m) for m in ms_all):
+        return
+    ms = [m for m in ms_all if live(m)]
+    title = str(ev.get("title"))[:90]
+    if ev.get("negRisk") and ev.get("negRiskAugmented"):
+        return                                       # answers can still be ADDED -> no sure thing
+    if ev.get("negRisk") and len(ms) == len(ms_all):
+        stats["one-winner"] += 1
+        for kind, n, top, real, pays, note in one_winner(ev, ms):
+            found.append([kind, ev.get("id"), title, n, top, real, pays, note])
+    elif not ev.get("negRisk") and len(ms) >= 2:
+        qs = [str(m.get("question", "")).lower() for m in ms]
+        if (all(" by " in q for q in qs) and all(MONTH.search(str(m.get("groupItemTitle", ""))) for m in ms)
+                and len({m.get("endDate") for m in ms}) == len(ms)):
+            stats["date ladders"] += 1
+            for legs, top, real, pays, note in ladder(ms, lambda m: m.get("endDate"), True):
+                found.append(["date ladder", ev.get("id"), title, legs, top, real, pays, note])
+        elif all(re.search(r"\b(above|over|more than|at least|or more|greater than|exceed)", q) for q in qs):
+            stats["number ladders"] += 1
+            for legs, top, real, pays, note in ladder(ms, lambda m: number_of(m.get("groupItemTitle")), False):
+                found.append(["number ladder", ev.get("id"), title, legs, top, real, pays, note])
+
+
 def main():
     rs.HARD_DEADLINE[0] = time.time() + 210
     t0, found, stats = time.time(), [], {"events": 0, "one-winner": 0, "date ladders": 0, "number ladders": 0}
@@ -144,28 +169,11 @@ def main():
             print("  (time budget used -- rest next hour)")
             break
         stats["events"] += 1
-        ms_all = [m for m in (ev.get("markets") or []) if [str(x).lower() for x in rs.as_list(m.get("outcomes"))] == ["yes", "no"]]
-        if len(ms_all) < 2 or any(is_sport(m) for m in ms_all):
-            continue
-        ms = [m for m in ms_all if live(m)]
-        title = str(ev.get("title"))[:90]
-        if ev.get("negRisk") and ev.get("negRiskAugmented"):
-            continue                                       # answers can still be ADDED -> no sure thing
-        if ev.get("negRisk") and len(ms) == len(ms_all):
-            stats["one-winner"] += 1
-            for kind, n, top, real, pays, note in one_winner(ev, ms):
-                found.append([kind, ev.get("id"), title, n, top, real, pays, note])
-        elif not ev.get("negRisk") and len(ms) >= 2:
-            qs = [str(m.get("question", "")).lower() for m in ms]
-            if (all(" by " in q for q in qs) and all(MONTH.search(str(m.get("groupItemTitle", ""))) for m in ms)
-                    and len({m.get("endDate") for m in ms}) == len(ms)):
-                stats["date ladders"] += 1
-                for legs, top, real, pays, note in ladder(ms, lambda m: m.get("endDate"), True):
-                    found.append(["date ladder", ev.get("id"), title, legs, top, real, pays, note])
-            elif all(re.search(r"\b(above|over|more than|at least|or more|greater than|exceed)", q) for q in qs):
-                stats["number ladders"] += 1
-                for legs, top, real, pays, note in ladder(ms, lambda m: number_of(m.get("groupItemTitle")), False):
-                    found.append(["number ladder", ev.get("id"), title, legs, top, real, pays, note])
+        try:
+            check_event(ev, stats, found)
+        except Exception as e:                            # one odd event must never stop the scan
+            stats["skipped (error)"] = stats.get("skipped (error)", 0) + 1
+            print(f"  skipped event {ev.get('id')}: {type(e).__name__}: {e}")
 
     t = now()
     rows = []
