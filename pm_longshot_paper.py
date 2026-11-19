@@ -10,6 +10,10 @@ THE RULE (locked 16 Nov, before any paper bet):
   * YES last traded price between 30c and 60c   (same measure the backtest used)
   * buy NO for $20 at the REAL asks, level by level, + the market's fee. Too thin -> no bet.
   * one bet per event; at most 80 open bets; hold to the end
+v2 FIX (19 Nov, after 10 bets): v1 picked markets by the LAST TRADE (could be days old) and paid
+  any price. v2 decides on TODAY's price (middle of the live order book, like the backtest's
+  "traded in the last 12 h") and SKIPS a bet if NO costs more than 5c above the fair price
+  (the backtest assumed 2c and was stress-tested at 5c). Only v2 bets count in the verdict.
 VERDICT at 150 settled bets:
   PASS only if profit > 0 AND the luck range (resampled by event) stays above 0.
 EARLY STOP at 50 bets: if NO really cost us 8c+ more than the backtest assumed on average,
@@ -27,9 +31,10 @@ from pm_longshot_test import is_sport, cat_of, boot
 
 GAMMA = "https://gamma-api.polymarket.com"
 STAKE, LO, HI, MAX_OPEN, VERDICT_N, EARLY_N = 20.0, 0.30, 0.60, 80, 150, 50
+MAX_EXTRA, VERSION = 0.05, "v2"
 BETS = "lsp_bets.csv"
 FIELDS = ["placed", "market_id", "event", "cat", "question", "end", "vol", "yes_last", "yes_mid",
-          "no_backtest", "no_paid", "fee", "shares", "status", "payout", "pnl", "settled"]
+          "no_backtest", "no_paid", "fee", "shares", "status", "payout", "pnl", "settled", "v"]
 
 
 def now():
@@ -95,19 +100,24 @@ def candidates():
                 last = float(m.get("lastTradePrice"))
             except (TypeError, ValueError):
                 last = None
+            try:
+                bid, ask = float(m.get("bestBid")), float(m.get("bestAsk"))
+                mid = (bid + ask) / 2 if 0 < bid < ask < 1 else None
+            except (TypeError, ValueError):
+                mid = None
             if outs != ["yes", "no"] or len(toks) != 2:
                 r = "not yes/no"
             elif is_sport(m):
                 r = "sports"
             elif not m.get("enableOrderBook", True) or not m.get("acceptingOrders", True):
                 r = "not trading"
-            elif last is None or last <= 0:
-                r = "never traded"
-            elif not LO <= last <= HI:
-                r = "YES not 30-60c"
+            elif mid is None:
+                r = "no live order book"
+            elif not LO <= mid <= HI:
+                r = "YES not 30-60c today"
             else:
                 r = "ok"
-                out.append((m, toks, last))
+                out.append((m, toks, last, mid))
             why[r] = why.get(r, 0) + 1
         if len(got) < 100:
             break
@@ -115,17 +125,19 @@ def candidates():
 
 
 def report(bets):
+    old = [b for b in bets if b.get("v") != VERSION]
+    if old:
+        print(f"  ({len(old)} v1 bets from before the 19 Nov fix settle normally but are NOT scored)")
+    bets = [b for b in bets if b.get("v") == VERSION]
     done = [b for b in bets if b["status"] in ("won", "lost")]
     for b in done:
         b["pnl"] = float(b["pnl"])
-    print(f"\n#39b LONGSHOT PAPER   open {sum(b['status'] == 'open' for b in bets)}   settled {len(done)}")
+    print(f"\n#39b LONGSHOT PAPER (v2)   open {sum(b['status'] == 'open' for b in bets)}   settled {len(done)}")
     if bets:
         extra = [float(b["no_paid"]) - float(b["no_backtest"]) for b in bets]
         avg_extra = sum(extra) / len(extra)
-        print(f"  real NO price vs backtest price: {avg_extra * 100:+.1f}c on average "
-              f"(backtest assumed +2c; must stay under +8c)")
-        if len(bets) >= EARLY_N and avg_extra >= 0.08:
-            print("  EARLY VERDICT: FAIL -- real prices are too far from the backtest's")
+        print(f"  real NO price vs today's fair price: {avg_extra * 100:+.1f}c on average "
+              f"(backtest assumed +2c; bets above +5c are skipped)")
     if done:
         tot = sum(b["pnl"] for b in done)
         lo, hi = boot(done) if len(done) >= 10 else (None, None)
@@ -147,7 +159,8 @@ def main():
     cands, why = candidates()
     print(f"#39b markets ending in ~7 days: {sum(why.values())}   (why: {why})")
     new = 0
-    for m, toks, last in cands:
+    skipped = 0
+    for m, toks, last, ymid in cands:
         ev = str((m.get("events") or [{}])[0].get("id") or f"m{m.get('id')}")
         if ev in open_ev:
             continue
@@ -157,23 +170,28 @@ def main():
         fee = fee_rate_of(m)
         avg, f, cost = taker_cost(toks[1], fee)
         q = str(m.get("question"))[:110]
+        fair = 1 - ymid
         if cost is None or cost >= 0.99:
             print(f"  no bet (order book too thin): {q}")
+            skipped += 1
             continue
-        mid = mid_price(toks[0])
+        if cost > fair + MAX_EXTRA:
+            print(f"  no bet (NO costs {cost * 100:.0f}c, fair {fair * 100:.0f}c -- more than 5c worse): {q}")
+            skipped += 1
+            continue
         bets.append({"placed": iso(now()), "market_id": str(m.get("id")), "event": ev,
                      "cat": cat_of(q), "question": q, "end": m.get("endDate"),
                      "vol": round(float(m.get("volumeNum") or 0)), "yes_last": last,
-                     "yes_mid": round(mid, 4) if mid != "" else "", "no_backtest": round(1 - last, 4),
+                     "yes_mid": round(ymid, 4), "no_backtest": round(fair, 4),
                      "no_paid": round(cost, 4), "fee": round(f, 4), "shares": round(STAKE / cost, 4),
-                     "status": "open", "payout": "", "pnl": "", "settled": ""})
+                     "status": "open", "payout": "", "pnl": "", "settled": "", "v": VERSION})
         open_ev.add(ev)
         n_open += 1
         new += 1
-        print(f"  BET NO ${STAKE:.0f} at {cost * 100:.1f}c  (YES last {last * 100:.0f}c): {q}")
+        print(f"  BET NO ${STAKE:.0f} at {cost * 100:.1f}c  (fair {fair * 100:.0f}c, YES today {ymid * 100:.0f}c): {q}")
         time.sleep(0.1)
     write(bets)
-    print(f"  new bets this run: {new}")
+    print(f"  new bets this run: {new}   skipped as too thin / too expensive: {skipped}")
     report(read())
 
 
