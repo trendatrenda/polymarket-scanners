@@ -166,3 +166,11 @@ time,kind,event_id,event,legs,top_cost,real_cost,pays,profit_per_set,profit_pct,
 2026-11-20T11:33:39Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.992,1.0011,1.0,-0.0011,-0.11,YES '$100M' + NO '$150M'
 2026-11-20T11:33:39Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.988,1.0649,1.0,-0.0649,-6.09,YES '$500M' + NO '$800M'
 2026-11-20T11:33:39Z,number ladder,432279,Apyx FDV above ___ one day after launch?,2,0.99,1.0246,1.0,-0.0246,-2.4,YES '$80M' + NO '$100M'
+2026-11-20T12:02:36Z,number ladder,73236,Metamask FDV above ___ one day after launch?,2,0.995,0.9963,1.0,0.0037,0.37,YES '$3B' + NO '$4B'
+2026-11-20T12:02:36Z,number ladder,78999,StandX FDV above ___ one day after launch?,2,0.988,0.9898,1.0,0.0102,1.03,YES '$2B' + NO '$3B'
+2026-11-20T12:02:36Z,number ladder,84914,Hyperbeat FDV above ___ one day after launch?,2,0.994,0.9966,1.0,0.0034,0.34,YES '$300M' + NO '$400M'
+2026-11-20T12:02:36Z,all-NO,106981,Bitcoin vs. Gold vs. S&P 500 in 2026,3,1.995,2.0038,2.0,-0.0038,-0.19,
+2026-11-20T12:02:36Z,number ladder,133684,Base FDV above ___ one day after launch?,2,0.99,1.0074,1.0,-0.0074,-0.73,YES '$8B' + NO '$10B'
+2026-11-20T12:02:36Z,all-YES,141230,Maduro Prison Time?,5,0.973,0.9737,1.0,0.0263,2.7,
+2026-11-20T12:02:36Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.992,1.0011,1.0,-0.0011,-0.11,YES '$100M' + NO '$150M'
+2026-11-20T12:02:36Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.988,1.0649,1.0,-0.0649,-6.09,YES '$500M' + NO '$800M'
