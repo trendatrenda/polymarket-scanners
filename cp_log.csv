@@ -189,3 +189,10 @@ time,kind,event_id,event,legs,top_cost,real_cost,pays,profit_per_set,profit_pct,
 2026-11-20T14:02:10Z,number ladder,310521,Noble FDV above ___ one day after launch?,2,0.99,1.0614,1.0,-0.0614,-5.79,YES '$200M' + NO '$300M'
 2026-11-20T14:02:10Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.992,1.0011,1.0,-0.0011,-0.11,YES '$100M' + NO '$150M'
 2026-11-20T14:02:10Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.988,1.0649,1.0,-0.0649,-6.09,YES '$500M' + NO '$800M'
+2026-11-20T15:03:07Z,number ladder,73236,Metamask FDV above ___ one day after launch?,2,0.995,0.9963,1.0,0.0037,0.37,YES '$3B' + NO '$4B'
+2026-11-20T15:03:07Z,number ladder,78999,StandX FDV above ___ one day after launch?,2,0.99,0.9914,1.0,0.0086,0.86,YES '$2B' + NO '$3B'
+2026-11-20T15:03:07Z,number ladder,133684,Base FDV above ___ one day after launch?,2,0.99,1.0074,1.0,-0.0074,-0.73,YES '$8B' + NO '$10B'
+2026-11-20T15:03:07Z,all-YES,141230,Maduro Prison Time?,5,0.972,0.9737,1.0,0.0263,2.7,
+2026-11-20T15:03:07Z,number ladder,310521,Noble FDV above ___ one day after launch?,2,0.99,1.0361,1.0,-0.0361,-3.48,YES '$200M' + NO '$300M'
+2026-11-20T15:03:07Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.994,1.0078,1.0,-0.0078,-0.77,YES '$100M' + NO '$150M'
+2026-11-20T15:03:07Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.988,1.0879,1.0,-0.0879,-8.08,YES '$500M' + NO '$800M'
