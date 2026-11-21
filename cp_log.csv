@@ -324,3 +324,9 @@ time,kind,event_id,event,legs,top_cost,real_cost,pays,profit_per_set,profit_pct,
 2026-11-21T09:42:20Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.988,1.0776,1.0,-0.0776,-7.2,YES '$500M' + NO '$800M'
 2026-11-21T09:42:20Z,number ladder,478623,City Protocol FDV above ___ one day after launch?,2,0.99,0.9934,1.0,0.0066,0.67,YES '$200M' + NO '$350M'
 2026-11-21T09:42:20Z,all-YES,688065,GPU rental prices (B200) end of 2026?,10,0.99,1.0099,1.0,-0.0099,-0.98,
+2026-11-21T10:02:55Z,number ladder,78999,StandX FDV above ___ one day after launch?,2,0.991,0.9911,1.0,0.0089,0.9,YES '$2B' + NO '$3B'
+2026-11-21T10:02:55Z,number ladder,133684,Base FDV above ___ one day after launch?,2,0.99,0.9925,1.0,0.0075,0.76,YES '$8B' + NO '$10B'
+2026-11-21T10:02:55Z,all-YES,150178,China Annual Inflation 2026,9,0.95,0.956,1.0,0.044,4.6,
+2026-11-21T10:02:55Z,number ladder,310521,Noble FDV above ___ one day after launch?,2,0.99,1.0226,1.0,-0.0226,-2.21,YES '$200M' + NO '$300M'
+2026-11-21T10:02:55Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.988,1.0776,1.0,-0.0776,-7.2,YES '$500M' + NO '$800M'
+2026-11-21T10:02:55Z,number ladder,478623,City Protocol FDV above ___ one day after launch?,2,0.99,0.9934,1.0,0.0066,0.67,YES '$200M' + NO '$350M'
