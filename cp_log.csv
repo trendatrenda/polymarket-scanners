@@ -281,3 +281,8 @@ time,kind,event_id,event,legs,top_cost,real_cost,pays,profit_per_set,profit_pct,
 2026-11-21T02:02:59Z,all-YES,141230,Maduro Prison Time?,5,0.976,0.9789,1.0,0.0211,2.15,
 2026-11-21T02:02:59Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.988,1.0776,1.0,-0.0776,-7.2,YES '$500M' + NO '$800M'
 2026-11-21T02:02:59Z,number ladder,478623,City Protocol FDV above ___ one day after launch?,2,0.99,0.9934,1.0,0.0066,0.67,YES '$200M' + NO '$350M'
+2026-11-21T03:02:03Z,number ladder,78999,StandX FDV above ___ one day after launch?,2,0.991,0.9911,1.0,0.0089,0.9,YES '$2B' + NO '$3B'
+2026-11-21T03:02:03Z,number ladder,133684,Base FDV above ___ one day after launch?,2,0.99,0.9925,1.0,0.0075,0.76,YES '$8B' + NO '$10B'
+2026-11-21T03:02:03Z,all-YES,141230,Maduro Prison Time?,5,0.975,0.9779,1.0,0.0221,2.26,
+2026-11-21T03:02:03Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.988,1.0776,1.0,-0.0776,-7.2,YES '$500M' + NO '$800M'
+2026-11-21T03:02:03Z,number ladder,478623,City Protocol FDV above ___ one day after launch?,2,0.99,0.9934,1.0,0.0066,0.67,YES '$200M' + NO '$350M'
