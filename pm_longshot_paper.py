@@ -14,6 +14,10 @@ v2 FIX (19 Nov, after 10 bets): v1 picked markets by the LAST TRADE (could be da
   any price. v2 decides on TODAY's price (middle of the live order book, like the backtest's
   "traded in the last 12 h") and SKIPS a bet if NO costs more than 5c above the fair price
   (the backtest assumed 2c and was stress-tested at 5c). Only v2 bets count in the verdict.
+v3 FIX (22 Nov, before any v2 result): 34 of v2's 45 bets were on TWO elections (Spain, Taiwan),
+  listed as separate markets, so "one per event" did not stop it. v3 allows at most 3 bets that
+  END ON THE SAME DAY, and the luck test treats bets ending the same day as ONE group.
+  v2 KEEPS betting side by side as a comparison (separate record); only v3 counts in the verdict.
 VERDICT at 150 settled bets:
   PASS only if profit > 0 AND the luck range (resampled by event) stays above 0.
 EARLY STOP at 50 bets: if NO really cost us 8c+ more than the backtest assumed on average,
@@ -31,7 +35,8 @@ from pm_longshot_test import is_sport, cat_of, boot
 
 GAMMA = "https://gamma-api.polymarket.com"
 STAKE, LO, HI, MAX_OPEN, VERDICT_N, EARLY_N = 20.0, 0.30, 0.60, 80, 150, 50
-MAX_EXTRA, VERSION = 0.05, "v2"
+MAX_EXTRA = 0.05
+VERSIONS = [("v2", None), ("v3", 3)]   # v2 = no daily cap (comparison), v3 = max 3 per end day (official)
 BETS = "lsp_bets.csv"
 FIELDS = ["placed", "market_id", "event", "cat", "question", "end", "vol", "yes_last", "yes_mid",
           "no_backtest", "no_paid", "fee", "shares", "status", "payout", "pnl", "settled", "v"]
@@ -124,20 +129,16 @@ def candidates():
     return out, why
 
 
-def report(bets):
-    old = [b for b in bets if b.get("v") != VERSION]
-    if old:
-        print(f"  ({len(old)} v1 bets from before the 19 Nov fix settle normally but are NOT scored)")
-    bets = [b for b in bets if b.get("v") == VERSION]
-    done = [b for b in bets if b["status"] in ("won", "lost")]
+def score(rows, title, by_day):
+    """Prints one version's record. by_day: luck test groups bets ending the same day."""
+    rows = [dict(b, event=str(b["end"])[:10]) if by_day else dict(b) for b in rows]
+    done = [b for b in rows if b["status"] in ("won", "lost")]
     for b in done:
         b["pnl"] = float(b["pnl"])
-    print(f"\n#39b LONGSHOT PAPER (v2)   open {sum(b['status'] == 'open' for b in bets)}   settled {len(done)}")
-    if bets:
-        extra = [float(b["no_paid"]) - float(b["no_backtest"]) for b in bets]
-        avg_extra = sum(extra) / len(extra)
-        print(f"  real NO price vs today's fair price: {avg_extra * 100:+.1f}c on average "
-              f"(backtest assumed +2c; bets above +5c are skipped)")
+    print(f"\n{title}   open {sum(b['status'] == 'open' for b in rows)}   settled {len(done)}")
+    if rows:
+        extra = sum(float(b["no_paid"]) - float(b["no_backtest"]) for b in rows) / len(rows)
+        print(f"  real NO price vs today's fair price: {extra * 100:+.1f}c on average (bets above +5c are skipped)")
     if done:
         tot = sum(b["pnl"] for b in done)
         lo, hi = boot(done) if len(done) >= 10 else (None, None)
@@ -149,49 +150,63 @@ def report(bets):
             print(f"  VERDICT ({VERDICT_N}+ settled): {'PASS' if ok else 'FAIL'}")
         else:
             print(f"  verdict at {VERDICT_N} settled bets")
+    return rows
+
+
+def report(bets):
+    old = [b for b in bets if not b.get("v")]
+    if old:
+        done = [b for b in old if b["status"] in ("won", "lost")]
+        print(f"  ({len(old)} v1 bets from before the 19 Nov price fix: {len(done)} settled, "
+              f"${sum(float(b['pnl']) for b in done):+.2f} -- NOT scored)")
+    score([b for b in bets if b.get("v") == "v3"], "#39b v3 (OFFICIAL: max 3 bets ending the same day)", True)
+    score([b for b in bets if b.get("v") == "v2"], "#39b v2 (comparison only: no daily cap, so one election "
+          "can fill it -- less trustworthy)", False)
 
 
 def main():
     rs.HARD_DEADLINE[0] = time.time() + 200
     bets = settle(read())
-    open_ev = {b["event"] for b in bets if b["status"] == "open"} | {b["event"] for b in bets}
-    n_open = sum(b["status"] == "open" for b in bets)
     cands, why = candidates()
     print(f"#39b markets ending in ~7 days: {sum(why.values())}   (why: {why})")
-    new = 0
-    skipped = 0
-    for m, toks, last, ymid in cands:
-        ev = str((m.get("events") or [{}])[0].get("id") or f"m{m.get('id')}")
-        if ev in open_ev:
-            continue
-        if n_open >= MAX_OPEN:
-            print("  max open bets reached")
-            break
-        fee = fee_rate_of(m)
-        avg, f, cost = taker_cost(toks[1], fee)
-        q = str(m.get("question"))[:110]
-        fair = 1 - ymid
-        if cost is None or cost >= 0.99:
-            print(f"  no bet (order book too thin): {q}")
-            skipped += 1
-            continue
-        if cost > fair + MAX_EXTRA:
-            print(f"  no bet (NO costs {cost * 100:.0f}c, fair {fair * 100:.0f}c -- more than 5c worse): {q}")
-            skipped += 1
-            continue
-        bets.append({"placed": iso(now()), "market_id": str(m.get("id")), "event": ev,
-                     "cat": cat_of(q), "question": q, "end": m.get("endDate"),
-                     "vol": round(float(m.get("volumeNum") or 0)), "yes_last": last,
-                     "yes_mid": round(ymid, 4), "no_backtest": round(fair, 4),
-                     "no_paid": round(cost, 4), "fee": round(f, 4), "shares": round(STAKE / cost, 4),
-                     "status": "open", "payout": "", "pnl": "", "settled": "", "v": VERSION})
-        open_ev.add(ev)
-        n_open += 1
-        new += 1
-        print(f"  BET NO ${STAKE:.0f} at {cost * 100:.1f}c  (fair {fair * 100:.0f}c, YES today {ymid * 100:.0f}c): {q}")
-        time.sleep(0.1)
+    prices = {}                                            # one order-book read per market, shared by v2 and v3
+    for version, cap in VERSIONS:
+        mine = [b for b in bets if b.get("v") == version]
+        events = {b["event"] for b in mine}
+        n_open = sum(b["status"] == "open" for b in mine)
+        per_day = {}
+        for b in mine:
+            per_day[str(b["end"])[:10]] = per_day.get(str(b["end"])[:10], 0) + 1
+        new = skipped = 0
+        for m, toks, last, ymid in cands:
+            day = str(m.get("endDate"))[:10]
+            ev = str((m.get("events") or [{}])[0].get("id") or f"m{m.get('id')}")
+            if ev in events or (cap and per_day.get(day, 0) >= cap):
+                continue
+            if n_open >= MAX_OPEN:
+                print(f"  {version}: max open bets reached")
+                break
+            if m.get("id") not in prices:
+                prices[m.get("id")] = taker_cost(toks[1], fee_rate_of(m))
+            avg, f, cost = prices[m.get("id")]
+            q = str(m.get("question"))[:110]
+            fair = 1 - ymid
+            if cost is None or cost >= 0.99 or cost > fair + MAX_EXTRA:
+                skipped += 1
+                continue
+            bets.append({"placed": iso(now()), "market_id": str(m.get("id")), "event": ev,
+                         "cat": cat_of(q), "question": q, "end": m.get("endDate"),
+                         "vol": round(float(m.get("volumeNum") or 0)), "yes_last": last,
+                         "yes_mid": round(ymid, 4), "no_backtest": round(fair, 4),
+                         "no_paid": round(cost, 4), "fee": round(f, 4), "shares": round(STAKE / cost, 4),
+                         "status": "open", "payout": "", "pnl": "", "settled": "", "v": version})
+            events.add(ev)
+            per_day[day] = per_day.get(day, 0) + 1
+            n_open += 1
+            new += 1
+            print(f"  {version} BET NO ${STAKE:.0f} at {cost * 100:.1f}c  (fair {fair * 100:.0f}c): {q}")
+        print(f"  {version}: new bets {new}   skipped as too thin / too expensive: {skipped}")
     write(bets)
-    print(f"  new bets this run: {new}   skipped as too thin / too expensive: {skipped}")
     report(read())
 
 
