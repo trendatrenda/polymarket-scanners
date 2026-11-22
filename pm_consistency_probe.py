@@ -161,7 +161,15 @@ def check_event(ev, stats, found):
                 found.append(["number ladder", ev.get("id"), title, legs, top, real, pays, note])
 
 
+RETIRED = True   # 22 Nov: verdict after 65 hourly runs -- only 4 real gaps, all 1-5%, left untouched
+                 # for 10-35 h (money locked for weeks/months + resolution risk). Not worth it.
+
+
 def main():
+    if RETIRED:
+        print("#40 consistency probe: RETIRED 22 Nov (Polymarket is basically consistent; gaps of 1-5% "
+              "that pros leave alone). Results stay in cp_log.csv.")
+        return
     rs.HARD_DEADLINE[0] = time.time() + 210
     t0, found, stats = time.time(), [], {"events": 0, "one-winner": 0, "date ladders": 0, "number ladders": 0}
     for ev in events():
