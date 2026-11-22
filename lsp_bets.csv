@@ -43,3 +43,4 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-22T17:03:19Z,6067014,1237577,politics,Will Vox win the Ceuta seat in the 2026 Spanish general election?,2026-11-30T04:59:00Z,7128,0.32,0.315,0.685,0.7007,0.0107,28.5431,open,,,,v2
 2026-11-22T17:03:20Z,6655632,1310069,politics,Will PSOE win the second-most seats in Guadalajara in the 2026 Spanish general election?,2026-11-30T04:59:00Z,4756,0.62,0.59,0.41,0.4535,0.0123,44.1009,open,,,,v2
 2026-11-22T17:03:20Z,6655656,1310070,politics,Will Vox win the second-most seats in Toledo in the 2026 Spanish general election?,2026-11-30T04:59:00Z,7117,0.45,0.37,0.63,0.6648,0.0113,30.0848,open,,,,v2
+2026-11-22T18:02:45Z,6027363,1231998,politics,Will PSOE receive 30% or more of the vote in the 2026 Spanish general election?,2026-11-30T04:59:00Z,8556,0.34,0.33,0.67,0.6909,0.0109,28.9486,open,,,,v2
