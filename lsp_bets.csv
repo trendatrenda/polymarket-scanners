@@ -18,3 +18,4 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-21T17:02:03Z,3740666,879909,politics,Will Greens win the third-most seats in the next Victorian state election?,2026-11-29T04:59:00Z,10191,0.326,0.3105,0.6895,0.7155,0.0104,27.9519,open,,,,v2
 2026-11-21T17:02:03Z,6617893,1305076,other,Will the KMT win Taipei and the DPP win New Taipei?,2026-11-29T04:59:00Z,7325,0.32,0.345,0.655,0.6874,0.0109,29.0946,open,,,,v2
 2026-11-21T17:02:03Z,6648502,1309368,politics,Will the DPP win the New Taipei and Kaohsiung mayoral elections?,2026-11-29T04:59:00Z,8000,0.55,0.515,0.485,0.5252,0.0125,38.0773,open,,,,v2
+2026-11-22T00:03:16Z,6651508,1309406,other,Will Ann Kao win Hsinchu City and Cheng Chao-fang win Hsinchu County?,2026-11-29T04:59:00Z,2759,0.59,0.6,0.4,0.4436,0.0123,45.0819,open,,,,v2
