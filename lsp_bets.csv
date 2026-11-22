@@ -44,3 +44,7 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-22T17:03:20Z,6655632,1310069,politics,Will PSOE win the second-most seats in Guadalajara in the 2026 Spanish general election?,2026-11-30T04:59:00Z,4756,0.62,0.59,0.41,0.4535,0.0123,44.1009,open,,,,v2
 2026-11-22T17:03:20Z,6655656,1310070,politics,Will Vox win the second-most seats in Toledo in the 2026 Spanish general election?,2026-11-30T04:59:00Z,7117,0.45,0.37,0.63,0.6648,0.0113,30.0848,open,,,,v2
 2026-11-22T18:02:45Z,6027363,1231998,politics,Will PSOE receive 30% or more of the vote in the 2026 Spanish general election?,2026-11-30T04:59:00Z,8556,0.34,0.33,0.67,0.6909,0.0109,28.9486,open,,,,v2
+2026-11-22T20:02:53Z,6329508,1269646,politics,Will Pabel Muñoz win the next Quito mayoral election?,2026-11-30T04:59:00Z,4075,0.5,0.52,0.48,0.5125,0.0125,39.0244,open,,,,v2
+2026-11-22T20:02:56Z,5622719,1178460,politics,Will voter turnout be 70% or higher in the 2026 Spanish general election?,2026-11-30T04:59:00Z,49591,0.44,0.43,0.57,0.5922,0.0122,33.7735,open,,,,v3
+2026-11-22T20:02:57Z,5684938,1188098,politics,Spain General Election: PP + Vox get 50%+ of Vote?,2026-11-30T04:59:00Z,42344,0.41,0.42,0.58,0.6021,0.0121,33.2173,open,,,,v3
+2026-11-22T20:02:57Z,6027264,1231977,politics,Will PSOE win 120 or more seats in the 2026 Spanish general election?,2026-11-30T04:59:00Z,8820,0.35,0.37,0.63,0.6614,0.0114,30.24,open,,,,v3
