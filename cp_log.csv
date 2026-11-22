@@ -516,3 +516,9 @@ time,kind,event_id,event,legs,top_cost,real_cost,pays,profit_per_set,profit_pct,
 2026-11-22T08:02:41Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.988,1.0774,1.0,-0.0774,-7.18,YES '$500M' + NO '$800M'
 2026-11-22T08:02:41Z,number ladder,478623,City Protocol FDV above ___ one day after launch?,2,0.99,0.9934,1.0,0.0066,0.67,YES '$200M' + NO '$350M'
 2026-11-22T08:02:41Z,all-YES,507875,What will OpenAI's IPO valuation be?,8,0.964,0.993,1.0,0.007,0.7,
+2026-11-22T09:03:26Z,date ladder,40285,Will Abstract launch a token by ___?,2,0.992,0.9929,1.0,0.0071,0.71,"YES 'September 30, 2027' + NO 'June 30, 2027'"
+2026-11-22T09:03:26Z,number ladder,78999,StandX FDV above ___ one day after launch?,2,0.994,0.9951,1.0,0.0049,0.49,YES '$2B' + NO '$3B'
+2026-11-22T09:03:26Z,number ladder,133684,Base FDV above ___ one day after launch?,2,0.99,0.9925,1.0,0.0075,0.76,YES '$8B' + NO '$10B'
+2026-11-22T09:03:26Z,number ladder,421975,Printr FDV above ___ one day after launch?,2,0.988,1.0554,1.0,-0.0554,-5.25,YES '$500M' + NO '$800M'
+2026-11-22T09:03:26Z,number ladder,478623,City Protocol FDV above ___ one day after launch?,2,0.99,0.9934,1.0,0.0066,0.67,YES '$200M' + NO '$350M'
+2026-11-22T09:03:26Z,all-YES,507875,What will OpenAI's IPO valuation be?,8,0.955,0.9936,1.0,0.0064,0.65,
