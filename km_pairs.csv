@@ -1,0 +1,162 @@
+score,poly_id,poly_text,poly_mid,kalshi_ticker,kalshi_text,kalshi_mid,gap
+0.833,2184335,Will JUUL relaunch Fruit Medley flavor by 2027? Fruit Medley,0.07,KXJUULFLAVOR-27-FRU,What flavors will JUUL relaunch? Fruit Medley,0.04,0.03
+0.8,1472548,Will Reza Pahlavi lead Iran in 2026?,0.015,KXPAHLAVIHEAD-27JAN-RPAH,Will Reza Pahlavi lead Iran in 2026? Reza Pahlavi,0.015,0.0
+0.8,2105977,Will another country leave OPEC in 2026?,0.0185,KXLEAVEOPEC-27,Will another country leave OPEC in 2026? Yes,0.035,-0.0165
+0.75,665258,Will China unban Bitcoin by 2027?,0.0135,KXCHINAUNBANBTC-26JUL08-27JAN01,Will China unban Bitcoin? Before 2027,0.015,-0.0015
+0.75,665327,Will Italy recognize Palestine before 2027? Italy,0.05,KXRECOGPALESTINE-27-ITA,Who will recognize Palestine before 2027? Italy,0.0485,0.0015
+0.75,665328,Will The Netherlands recognize Palestine before 2027? The Netherlands,0.0485,KXRECOGPALESTINE-27-DUT,Who will recognize Palestine before 2027? The Netherlands,0.043,0.0055
+0.75,665329,Will Japan recognize Palestine before 2027? Japan,0.0145,KXRECOGPALESTINE-27-JAP,Who will recognize Palestine before 2027? Japan,0.0055,0.009
+0.75,665330,Will Germany recognize Palestine before 2027? Germany,0.038,KXRECOGPALESTINE-27-GER,Who will recognize Palestine before 2027? Germany,0.0495,-0.0115
+0.75,665332,Will Finland recognize Palestine before 2027? Finland,0.0295,KXRECOGPALESTINE-27-FIN,Who will recognize Palestine before 2027? Finland,0.024,0.0055
+0.75,665333,Will Austria recognize Palestine before 2027? Austria,0.0275,KXRECOGPALESTINE-27-AUS,Who will recognize Palestine before 2027? Austria,0.04,-0.0125
+0.75,665334,Will Greece recognize Palestine before 2027? Greece,0.0235,KXRECOGPALESTINE-27-GRE,Who will recognize Palestine before 2027? Greece,0.0365,-0.013
+0.75,1068346,Will Bitcoin outperform Gold in 2026?,0.12,KXBTCVSGOLD-26,Will Bitcoin outperform gold in 2026? In 2026,0.105,0.015
+0.75,2116868,Will José Luis Rodríguez Zapatero be arrested before 2027? José Luis Rodríguez Zapatero,0.014,KXARREST-27JAN-JZAP,Who will be arrested in 2026? José Luis Rodríguez Zapatero,0.013,0.001
+0.714,665218,Israel and Saudi Arabia normalize relations before 2027?,0.0185,KXABRAHAMSA-27-JAN01,Which countries will normalize relations with Israel before 2027? Saudi Arabia,0.0195,-0.001
+0.714,829310,Katy Perry and Justin Trudeau engaged by end of 2026?,0.065,KXENGAGEMENTTRUDEAUPERRY-26,Katy Perry and Justin Trudeau: Engaged in 2026? Before 2027,0.08,-0.015
+0.714,1214584,Kylie Jenner and Timothée Chalamet engaged in 2026?,0.085,KXENGAGEMENTTIMOTHEEKYLIE-26,Timothée Chalamet and Kylie Jenner: Engaged in 2026? Before 2027,0.115,-0.03
+0.714,2363840,Will Mohammad-Bagher Ghalibaf be TIME Person of the Year 2026? Mohammad-Bagher Ghalibaf,0.0155,KXTIME-26-MOH,Time's Person of the Year for 2026 Mohammad-Bagher Ghalibaf,0.025,-0.0095
+0.714,2363843,Will Pope Leo XIV be TIME Person of the Year 2026? Pope Leo XIV,0.055,KXTIME-26-POP,Time's Person of the Year for 2026 Pope Leo XIV,0.075,-0.02
+0.714,5262639,Will Alexandria Ocasio-Cortez be TIME Person of the Year 2026? Alexandria Ocasio-Cortez,0.0295,KXTIME-26-ALE,Time's Person of the Year for 2026 Alexandria Ocasio-Cortez,0.025,0.0045
+0.714,6723714,Will Abdul El-Sayed be TIME Person of the Year 2026? Abdul El-Sayed,0.175,KXTIME-26-ABD,Time's Person of the Year for 2026 Abdul El-Sayed,0.175,0.0
+0.714,3047994,Kim Kardashian and Lewis Hamilton engaged in 2026?,0.0245,KXENGAGEMENTKIMLEWIS-26,Kim Kardashian and Lewis Hamilton: Engaged in 2026? Before 2027,0.045,-0.0205
+0.7,1426261,Will Data center utility cost protection become law this year? Data center utility cost protection,0.285,KXBILLS-DATA,Which bills will become law in 2026? Data center utility cost protection,0.29,-0.005
+0.667,665363,Lee Jae-myung arrested before 2027?,0.02,KXARREST-27JAN-LJAE,Who will be arrested in 2026? Lee Jae Myung,0.03,-0.01
+0.667,665414,Israel and Lebanon normalize relations before 2027?,0.031,KXABRAHAMSA-27-JAN01-LEB,Which countries will normalize relations with Israel before 2027? Lebanon,0.0275,0.0035
+0.667,667026,Will Mamdani raise the minimum wage to $30 before 2027?,0.0445,KXNYCMINWAGE-27JAN01,Will Mamdani raise the minimum wage to $30 before 2027? Yes,0.027,0.0175
+0.667,676802,Musk out as Tesla CEO before 2027?,0.0325,TESLACEOCHANGE-26,Elon Musk out as Tesla CEO before 2027? Before 2027,0.035,-0.0025
+0.667,1426256,Will the Smithsonian Women’s History Museum become law this year? Smithsonian Women’s History Museum,0.0175,KXBILLS-SMITH,Which bills will become law in 2026? Smithsonian Women’s History Museum,0.018,-0.0005
+0.667,1426257,Will Film/TV production expensing become law this year? Film/TV production expensing,0.053,KXBILLS-TV,Which bills will become law in 2026? Film/TV production expensing,0.0505,0.0025
+0.667,1426259,Will Export-control chip security become law this year? Export-control chip security,0.54,KXBILLS-CHIP,Which bills will become law in 2026? Export-control chip security,0.53,0.01
+0.667,1426260,Will AI-chip export licensing become law this year? AI-chip export licensing,0.435,KXBILLS-AIO,Which bills will become law in 2026? AI-chip export licensing,0.44,-0.005
+0.667,2116885,Will Lee Jun-seok be arrested before 2027? Lee Jun-seok,0.025,KXARREST-27JAN-LJUN,Who will be arrested in 2026? Lee Jun-seok,0.043,-0.018
+0.667,2155243,Will Delcy Rodríguez be the de facto leader of Venezuela at the end of 2026? Delcy Rodríguez,0.9745,KXVENEZDEFACTO-27JAN01-DROD,Who will de facto lead Venezuela at the end of 2026? Delcy Rodríguez,0.975,-0.0005
+0.667,2155244,Will María Corina Machado be the de facto leader of Venezuela at the end of 2026? María Corina Machado,0.012,KXVENEZDEFACTO-27JAN01-MMAC,Who will de facto lead Venezuela at the end of 2026? María Corina Machado,0.025,-0.013
+0.667,2724247,"Will José Luis Rodríguez Zapatero be arrested by December 31, 2026? December 31, 2026",0.028,KXARREST-27JAN-JZAP,Who will be arrested in 2026? José Luis Rodríguez Zapatero,0.013,0.015
+0.667,2363831,Will Jerome Powell be TIME Person of the Year 2026? Jerome Powell,0.019,KXTIME-26-JP,Time's Person of the Year for 2026 Jerome Powell,0.015,0.004
+0.667,2363832,Will Dario Amodei be TIME Person of the Year 2026? Dario Amodei,0.054,KXTIME-26-DAR,Time's Person of the Year for 2026 Dario Amodei,0.065,-0.011
+0.667,2363833,Will Reid Wiseman be TIME Person of the Year 2026? Reid Wiseman,0.02,KXTIME-26-REI,Time's Person of the Year for 2026 Reid Wiseman,0.025,-0.005
+0.667,2363834,Will Shehbaz Sharif be TIME Person of the Year 2026? Shehbaz Sharif,0.0175,KXTIME-26-SHE,Time's Person of the Year for 2026 Shehbaz Sharif,0.025,-0.0075
+0.667,2363836,Will Sam Altman be TIME Person of the Year 2026? Sam Altman,0.02,KXTIME-26-SA,Time's Person of the Year for 2026 Sam Altman,0.02,0.0
+0.667,2363838,Will Marco Rubio be TIME Person of the Year 2026? Marco Rubio,0.0425,KXTIME-26-MAR,Time's Person of the Year for 2026 Marco Rubio,0.035,0.0075
+0.667,2363839,Will Victor Glover be TIME Person of the Year 2026? Victor Glover,0.02,KXTIME-26-VIC,Time's Person of the Year for 2026 Victor Glover,0.025,-0.005
+0.667,2363844,Will Zohran Mamdani be TIME Person of the Year 2026? Zohran Mamdani,0.21,KXTIME-26-ZOH,Time's Person of the Year for 2026 Zohran Mamdani,0.225,-0.015
+0.667,2363845,Will James Talarico be TIME Person of the Year 2026? James Talarico,0.2375,KXTIME-26-JAM,Time's Person of the Year for 2026 James Talarico,0.245,-0.0075
+0.667,2363846,Will Christina Koch be TIME Person of the Year 2026? Christina Koch,0.025,KXTIME-26-CHR,Time's Person of the Year for 2026 Christina Koch,0.025,0.0
+0.667,4798151,Will Mark Carney be TIME Person of the Year 2026? Mark Carney,0.095,KXTIME-26-MARK,Time's Person of the Year for 2026 Mark Carney,0.075,0.02
+0.667,4798150,Will Mojtaba Khamenei be TIME Person of the Year 2026? Mojtaba Khamenei,0.017,KXTIME-26-MOJ,Time's Person of the Year for 2026 Mojtaba Khamenei,0.035,-0.018
+0.667,5262635,Will Bernie Sanders be TIME Person of the Year 2026? Bernie Sanders,0.02,KXTIME-26-BER,Time's Person of the Year for 2026 Bernie Sanders,0.025,-0.005
+0.667,7106626,Will Jensen Huang be TIME Person of the Year 2026? Jensen Huang,0.043,KXTIME-26-JEN,Time's Person of the Year for 2026 Jensen Huang,0.035,0.008
+0.667,7151108,Will Jon Ossoff be TIME Person of the Year 2026? Jon Ossoff,0.1,KXTIME-26-JON,Time's Person of the Year for 2026 Jon Ossoff,0.075,0.025
+0.667,7151109,Will Pete Hegseth be TIME Person of the Year 2026? Pete Hegseth,0.041,KXTIME-26-PHEG,Time's Person of the Year for 2026 Pete Hegseth,0.025,0.016
+0.636,4663537,"Will Moonshot AI be added to the Chinese Military Companies list by June 30, 2027? Moonshot AI",0.125,KXCHINALIST-26JUL-MOON,Which companies will be added to the Pentagon’s Chinese military companies list? Moonshot AI,0.18,-0.055
+0.625,1426254,Will the Critical-minerals stockpile become law this year? Critical-minerals stockpile,0.08,KXBILLS-MIN,Which bills will become law in 2026? Critical-minerals stockpile,0.0725,0.0075
+0.625,1426255,Will the SELF DRIVE Act become law this year? SELF DRIVE Act,0.042,KXBILLS-DRIVE,Which bills will become law in 2026? SELF DRIVE Act,0.0345,0.0075
+0.625,2916124,US government bans an open source AI model in 2026?,0.049,KXOPENSOURCEAIBAN-27JAN01,Will the U.S. ban any open-source AI model in 2026? Yes,0.085,-0.036
+0.625,2965188,Will Lindsay Clancy be the #1 searched person on Google this year? Lindsay Clancy,0.33,KXRANKLISTGOOGLESEARCH-26-LIN,#1 searched person on Google in 2026 Lindsay Clancy,0.345,-0.015
+0.625,2965189,Will Jensen Huang be the #1 searched person on Google this year? Jensen Huang,0.115,KXRANKLISTGOOGLESEARCH-26DEC-JEN,#1 searched person on Google in 2026 Jensen Huang,0.105,0.01
+0.6,566760,Will Trump pardon Ghislaine Maxwell by end of 2026?,0.0175,KXTRUMPPARDON-27JAN01-GMAX,Who will Trump pardon in 2026? Ghislaine Maxwell,0.02,-0.0025
+0.6,665335,Will New Zealand recognize Palestine before 2027? New Zealand,0.04,KXRECOGPALESTINE-27-NZ,Who will recognize Palestine before 2027? New Zealand,0.0425,-0.0025
+0.6,1144471,Will Satoshi move any Bitcoin in 2026?,0.0225,KXSATOSHIBTCYEAR-27,Will Satoshi move any Bitcoin before 2027? Before 2027,0.035,-0.0125
+0.6,1426252,Will FISA Section 702 reauthorization become law this year? FISA Section 702 reauthorization,0.11,KXBILLS-FISA,Which bills will become law in 2026? FISA Section 702 reauthorization (2 years),0.0975,0.0125
+0.6,2060103,Will Amber Glenn win Dancing With the Stars: Season 35? Amber Glenn,0.225,KXDWTSTOP3-26DEC31-AGLE,Dancing with the Stars Season 35 · Top 3 Finishers Amber Glenn,0.74,-0.515
+0.6,2060106,Will Ezra Frech win Dancing With the Stars: Season 35? Ezra Frech,0.495,KXDWTSTOP3-26DEC31-EFRE,Dancing with the Stars Season 35 · Top 3 Finishers Ezra Frech,0.885,-0.39
+0.6,2060107,Will Connor Wood win Dancing With the Stars: Season 35? Connor Wood,0.209,KXDWTSTOP3-26DEC31-CWOO,Dancing with the Stars Season 35 · Top 3 Finishers Connor Wood,0.795,-0.586
+0.6,2060119,Will Tatyana Ali win Dancing With the Stars: Season 35? Tatyana Ali,0.0435,KXDWTSTOP3-26DEC31-TAT,Dancing with the Stars Season 35 · Top 3 Finishers Tatyana Ali,0.34,-0.2965
+0.6,2116864,Will Anthony Fauci be arrested before 2027? Anthony Fauci,0.024,KXARREST-27JAN-AFAU,Who will be arrested in 2026? Anthony Fauci,0.023,0.001
+0.6,2116865,Will John Brennan be arrested before 2027? John Brennan,0.085,KXARREST-27JAN-JBRE,Who will be arrested in 2026? John Brennan,0.084,0.001
+0.6,2116866,Will Mahmoud Khalil be arrested before 2027? Mahmoud Khalil,0.08,KXARREST-27JAN-MKHA,Who will be arrested in 2026? Mahmoud Khalil,0.0605,0.0195
+0.6,2116867,Will James Clapper be arrested before 2027? James Clapper,0.047,KXARREST-27JAN-JCLA,Who will be arrested in 2026? James Clapper,0.053,-0.006
+0.6,2116869,Will Adam Schiff be arrested before 2027? Adam Schiff,0.0145,KXARREST-27JAN-ASCH,Who will be arrested in 2026? Adam Schiff,0.018,-0.0035
+0.6,2116870,Will Letitia James be arrested before 2027? Letitia James,0.0185,KXARREST-27JAN-LJAM,Who will be arrested in 2026? Letitia James,0.0255,-0.007
+0.6,2116871,Will Hillary Clinton be arrested before 2027? Hillary Clinton,0.0125,KXARREST-27JAN-HCLIN,Who will be arrested in 2026? Hillary Clinton,0.017,-0.0045
+0.6,2116872,Will Bill Clinton be arrested before 2027? Bill Clinton,0.0125,KXARREST-27JAN-BCLIN,Who will be arrested in 2026? Bill Clinton,0.0145,-0.002
+0.6,2116873,Will Loretta Lynch be arrested before 2027? Loretta Lynch,0.0175,KXARREST-27JAN-LLYN,Who will be arrested in 2026? Loretta Lynch,0.0245,-0.007
+0.6,2116874,Will Susan Rice be arrested before 2027? Susan Rice,0.0405,KXARREST-27JAN-SRIC,Who will be arrested in 2026? Susan Rice,0.0255,0.015
+0.6,2116875,Will Candace Owens be arrested before 2027? Candace Owens,0.0245,KXARREST-27JAN-COWE,Who will be arrested in 2026? Candace Owens,0.0165,0.008
+0.6,2116876,Will Gavin Newsom be arrested before 2027? Gavin Newsom,0.0125,KXARREST-27JAN-GNEW,Who will be arrested in 2026? Gavin Newsom,0.015,-0.0025
+0.6,2116877,Will Benjamin Netanyahu be arrested before 2027? Benjamin Netanyahu,0.015,KXARREST-27JAN-BNET,Who will be arrested in 2026? Benjamin Netanyahu,0.0145,0.0005
+0.6,2116878,Will John Kerry be arrested before 2027? John Kerry,0.0125,KXARREST-27JAN-JKER,Who will be arrested in 2026? John Kerry,0.015,-0.0025
+0.6,2116879,Will Barack Obama be arrested before 2027? Barack Obama,0.013,KXARREST-27JAN-BOM,Who will be arrested in 2026? Barack Obama,0.016,-0.003
+0.6,2116880,Will Pam Bondi be arrested before 2027? Pam Bondi,0.019,KXARREST-27JAN-PBON,Who will be arrested in 2026? Pam Bondi,0.012,0.007
+0.6,2116881,Will Tom Homan be arrested before 2027? Tom Homan,0.034,KXARREST-27JAN-THOM,Who will be arrested in 2026? Tom Homan,0.015,0.019
+0.6,2116882,Will Kash Patel be arrested before 2027? Kash Patel,0.021,KXARREST-27JAN-KPAT,Who will be arrested in 2026? Kash Patel,0.0095,0.0115
+0.6,2116883,Will Brandon Johnson be arrested before 2027? Brandon Johnson,0.0235,KXARREST-27JAN-BJOH,Who will be arrested in 2026? Brandon Johnson,0.0245,-0.001
+0.6,2116884,Will Lisa Cook be arrested before 2027? Lisa Cook,0.018,KXARREST-27JAN-LCOO,Who will be arrested in 2026? Lisa Cook,0.0325,-0.0145
+0.6,2116886,Will Joe Biden be arrested before 2027? Joe Biden,0.011,KXARREST-27JAN-JBID,Who will be arrested in 2026? Joe Biden,0.0075,0.0035
+0.6,2363835,Will ChatGPT be TIME Person of the Year 2026? ChatGPT,0.0155,KXTIME-26-GPT,Time's Person of the Year for 2026 ChatGPT,0.015,0.0005
+0.6,2915296,"Will DeepSeek be added to the Chinese Military Companies list by June 30, 2027? DeepSeek",0.24,KXCHINALIST-26JUL-DEEP,Which companies will be added to the Pentagon’s Chinese military companies list? DeepSeek,0.275,-0.035
+0.6,2915297,"Will ByteDance be added to the Chinese Military Companies list by June 30, 2027? ByteDance",0.12,KXCHINALIST-26JUL-BYTE,Which companies will be added to the Pentagon’s Chinese military companies list? ByteDance,0.11,0.01
+0.6,2915298,"Will Xiaomi be added to the Chinese Military Companies list by June 30, 2027? Xiaomi",0.115,KXCHINALIST-26JUL-XIAO,Which companies will be added to the Pentagon’s Chinese military companies list? Xiaomi,0.145,-0.03
+0.571,666593,Will Trump meet with Kim Jong Un in 2026? Kim Jong Un,0.025,KXTRUMPMEETING-27JAN01-NKJU,Who will Donald Trump meet in 2026? Kim Jong Un,0.035,-0.01
+0.571,666596,Will Trump meet with Mohammed bin Salman in 2026? Mohammed bin Salman,0.947,KXTRUMPMEETING-27JAN01-NMBS,Who will Donald Trump meet in 2026? Mohammed bin Salman,0.941,0.006
+0.571,666599,Will Trump meet with Lai Ching-te in 2026? Lai Ching-te,0.01,KXTRUMPMEETING-27JAN01-LCHI,Who will Donald Trump meet in 2026? Lai Ching-te,0.045,-0.035
+0.571,666610,Will Trump meet with Pope Leo XIV in 2026? Pope Leo XIV,0.0245,KXTRUMPMEETING-27JAN01-NPXIV,Who will Donald Trump meet in 2026? Pope Leo XIV,0.031,-0.0065
+0.571,687670,Will Trump pardon Sam Bankman-Fried before 2027? Sam Bankman-Fried,0.0325,KXTRUMPPARDON-27JAN01-SBF,Who will Trump pardon in 2026? Sam Bankman-Fried,0.0215,0.011
+0.571,1013246,Will Lana Del Rey release an album in 2026? Lana Del Rey,0.115,KXALBUMRELEASE-26-LAN,Who will release a new album in 2026? Lana Del Rey,0.125,-0.01
+0.571,1422084,Will a US court rule that the 2020 election was fraudulent?,0.057,KXFRAUD2020-27,Will any court rule that the 2020 election was fraudulent? Before 2027,0.0355,0.0215
+0.571,4663527,Will the NO FAKES Act become law this year? NO FAKES Act,0.0135,KXBILLS-FAKES,Which bills will become law in 2026? NO FAKES Act,0.015,-0.0015
+0.571,1426250,Will $2.50 Coin become law this year? $2.50 Coin,0.039,KXBILLS-250C,Which bills will become law in 2026? $2.50 Coin,0.026,0.013
+0.571,1426251,Will the DEFIANCE Act become law this year? DEFIANCE Act,0.11,KXBILLS-DEFY,Which bills will become law in 2026? DEFIANCE Act,0.0905,0.0195
+0.571,1426262,Will the SHOWER Act become law this year? SHOWER Act,0.043,KXBILLS-SHOW,Which bills will become law in 2026? SHOWER Act,0.0325,0.0105
+0.571,1643703,Will Trump be impeached before his term ends?,0.73,KXTRUMPREMOVE,Will Trump be impeached and removed from office? Before his term ends,0.2,0.53
+0.571,2371521,Will Debí Tirar Más Fotos be the top Spotify album for 2026? Debí Tirar Más Fotos,0.9345,KXTOPALBUMSPOTIFYUSA-26-BAD,Top Album on Spotify U.S in 2026? DeBÍ TiRAR MáS FOToS,0.035,0.8995
+0.571,3009176,Will Dune: Part Three be delayed?,0.017,KXMOVIEDELAYDUNEPT3-26DEC18,"Will Dune: Part Three be delayed? Before Dec 18, 2026",0.02,-0.003
+0.556,2303265,José Luis Rodríguez Zapatero sentenced to prison?,0.023,KXARREST-27JAN-JZAP,Who will be arrested in 2026? José Luis Rodríguez Zapatero,0.013,0.01
+0.556,6639371,Will Lula da Silva be TIME Person of the Year 2026? Lula da Silva,0.0365,KXTIME-26-LUI,Time's Person of the Year for 2026 Luiz Inácio Lula da Silva,0.025,0.0115
+0.556,2507003,"Will two SpaceX Starships dock together by December 31, 2027? December 31, 2027",0.72,KXSTARSHIPDOCK-28,Will two SpaceX Starships dock together before 2028? Before 2028,0.75,-0.03
+0.545,2965190,Will Lula da Silva be the #1 searched person on Google this year? Lula da Silva,0.0305,KXRANKLISTGOOGLESEARCH-26-LUIZ,#1 searched person on Google in 2026 Luiz Inacio Lula da Silva,0.035,-0.0045
+0.538,2371520,"Will ""You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo"" be the top album for 2026? You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo",0.0015,KXTOPALBUMSPOTIFYUSA-26-YOU,Top Album on Spotify U.S in 2026? you seem pretty sad for a girl so in love,0.1,-0.0985
+0.5,665409,Will Trump cut corporate taxes before 2027?,0.05,KXCORPTAXCUT-27JAN01-21,Will Trump cut corporate taxes this year? Yes,0.022,0.028
+0.5,666613,Will Trump meet with Nicolás Maduro in 2026? Nicolás Maduro,0.015,KXTRUMPMEETING-27JAN01-NNMAD,Who will Donald Trump meet in 2026? Nicolás Maduro,0.024,-0.009
+0.5,666657,Will Robert F. Kennedy Jr. leave the Trump administration before 2027? Robert F. Kennedy Jr.,0.0335,KXTRUMPADMINLEAVE-26DEC31-RFK,Who will leave their role in the Trump administration in 2026? Robert F. Kennedy Jr.,0.053,-0.0195
+0.5,677147,Fed emergency rate cut before 2027?,0.016,KXRATECUT-26DEC31,Fed rate cut before 2027? Cuts,0.014,0.002
+0.5,687671,Will Trump pardon Eric Adams before 2027? Eric Adams,0.0395,KXTRUMPPARDON-27JAN01-EADA,Who will Trump pardon in 2026? Eric Adams,0.042,-0.0025
+0.5,687672,Will Trump pardon Steve Bannon before 2027? Steve Bannon,0.0495,KXTRUMPPARDON-27JAN01-SBAN,Who will Trump pardon in 2026? Steve Bannon,0.038,0.0115
+0.5,687673,Will Trump pardon Roger Ver before 2027? Roger Ver,0.0295,KXTRUMPPARDON-27JAN01-RVER,Who will Trump pardon in 2026? Roger Ver,0.0355,-0.006
+0.5,687674,Will Trump pardon Julian Assange before 2027? Julian Assange,0.032,KXTRUMPPARDON-27JAN01-JASS,Who will Trump pardon in 2026? Julian Assange,0.0325,-0.0005
+0.5,687677,Will Trump pardon Elon Musk before 2027? Elon Musk,0.0675,KXTRUMPPARDON-27JAN01-EMUS,Who will Trump pardon in 2026? Elon Musk,0.055,0.0125
+0.5,687680,Will Trump pardon Edward Snowden before 2027? Edward Snowden,0.0215,KXTRUMPPARDON-27JAN01-ESNO,Who will Trump pardon in 2026? Edward Snowden,0.031,-0.0095
+0.5,687684,Will Trump pardon Bob Menendez before 2027? Bob Menendez,0.0495,KXTRUMPPARDON-27JAN01-BMEN,Who will Trump pardon in 2026? Bob Menendez,0.0495,0.0
+0.5,687686,Will Trump pardon Derek Chauvin before 2027? Derek Chauvin,0.012,KXTRUMPPARDON-27JAN01-DCHAU,Who will Trump pardon in 2026? Derek Chauvin,0.0145,-0.0025
+0.5,687688,Will Trump pardon Elizabeth Holmes before 2027? Elizabeth Holmes,0.0205,KXTRUMPPARDON-27JAN01-EHOL,Who will Trump pardon in 2026? Elizabeth Holmes,0.029,-0.0085
+0.5,687689,Will Trump pardon Ghislaine Maxwell before 2027? Ghislaine Maxwell,0.0205,KXTRUMPPARDON-27JAN01-GMAX,Who will Trump pardon in 2026? Ghislaine Maxwell,0.02,0.0005
+0.5,951551,Will Trump pardon Keonne Rodriguez before 2027? Keonne Rodriguez,0.065,KXTRUMPPARDON-27JAN01-KROD,Who will Trump pardon in 2026? Keonne Rodriguez,0.0795,-0.0145
+0.5,1090816,Will Trump pardon Martin Shkreli before 2027? Martin Shkreli,0.017,KXTRUMPPARDON-27JAN01-MSH,Who will Trump pardon in 2026? Martin Shkreli,0.045,-0.028
+0.5,6992277,Will Trump pardon Jensen Huang before 2027? Jensen Huang,0.0385,KXTRUMPPARDON-27JAN01-JHUA,Who will Trump pardon in 2026? Jensen Huang,0.05,-0.0115
+0.5,2244932,Will Brown-Forman be acquired before 2027? Brown-Forman,0.0255,KXACQANNOUNCEANNUAL-27JAN01-ANYBFB,Which companies will be acquired this year? Brown-Forman,0.03,-0.0045
+0.5,2414701,Will MGM Resorts be acquired before 2027? MGM Resorts,0.04,KXACQANNOUNCEANNUAL-27JAN01-ANYMGM,Which companies will be acquired this year? MGM Resorts,0.035,0.005
+0.5,694938,Will Viking Therapeutics be acquired before 2027? Viking Therapeutics,0.06,KXACQANNOUNCEANNUAL-27JAN01-ANYVIKI,Which companies will be acquired this year? Viking Therapeutics,0.065,-0.005
+0.5,700396,Will Perplexity AI be acquired before 2027? Perplexity AI,0.055,KXACQANNOUNCEANNUAL-27JAN01-ANYPERP,Which companies will be acquired this year? Perplexity AI,0.025,0.03
+0.5,1013240,Will Playboi Carti release an album in 2026? Playboi Carti,0.04,KXALBUMRELEASE-26-PLA,Who will release a new album in 2026? Playboi Carti,0.04,0.0
+0.5,1013242,Will Justin Bieber release an album in 2026? Justin Bieber,0.08,KXALBUMRELEASE-26-JUS,Who will release a new album in 2026? Justin Bieber,0.09,-0.01
+0.5,1013244,Will Frank Ocean release an album in 2026? Frank Ocean,0.125,KXALBUMRELEASE-26-FRA,Who will release a new album in 2026? Frank Ocean,0.14,-0.015
+0.5,1013248,Will Kendrick Lamar release an album in 2026? Kendrick Lamar,0.033,KXALBUMRELEASE-26-KEN,Who will release a new album in 2026? Kendrick Lamar,0.04,-0.007
+0.5,1686657,Will Travis Scott release an album in 2026? Travis Scott,0.11,KXALBUMRELEASE-26-TRA,Who will release a new album in 2026? Travis Scott,0.115,-0.005
+0.5,1686672,Will Bad Bunny release an album in 2026? Bad Bunny,0.1,KXALBUMRELEASE-26-BAD,Who will release a new album in 2026? Bad Bunny,0.105,-0.005
+0.5,1686674,Will Sabrina Carpenter release an album in 2026? Sabrina Carpenter,0.0495,KXALBUMRELEASE-26-SAB,Who will release a new album in 2026? Sabrina Carpenter,0.045,0.0045
+0.5,1074058,Will any Category 5 hurricane make landfall in the US in before 2027?,0.0155,KXHURCITYTPA-01JAN27-C5-YES,Will a Category 5 hurricane make landfall in Tampa before 2027? Yes,0.03,-0.0145
+0.5,1105741,Will María Corina Machado be the leader of Venezuela end of 2026? María Corina Machado,0.0015,KXVENEZUELALEADER-26DEC31-MCM,Who will officially lead Venezuela at the end of 2026? María Corina Machado,0.015,-0.0135
+0.5,1105742,Will Delcy Rodríguez be the leader of Venezuela end of 2026? Delcy Rodríguez,0.085,KXVENEZUELALEADER-26DEC31-DROD,Who will officially lead Venezuela at the end of 2026? Delcy Rodríguez,0.078,0.007
+0.5,1115288,US recognizes Reza Pahlavi as leader of Iran in 2026?,0.0165,KXRECOGPERSONIRAN-26,Will the United States recognize Reza Pahlavi as the leader of Iran in 2026? Before 2027,0.02,-0.0035
+0.5,1272721,US grants license for new nuclear reactor in 2026?,0.0325,KXREACTOR-26DEC31,US grants license for new nuclear reactor before 2027? Grants license,0.04,-0.0075
+0.5,1295977,Will OpenAI announce a clip-on device for clothing in 2026? Clip-on device for clothing,0.08,KXOAIHARDWARE-27-CLIPON,What kind of device will Jony Ive and OpenAI announce? Clip-on device for clothing,0.075,0.005
+0.5,1477848,Will the US reopen its embassy in Iran in 2026?,0.007,KXIRANEMBASSY-27,Will the US reopen its embassy in Iran? Before 2027,0.015,-0.008
+0.5,1544795,Alexandre de Moraes out as Brazil Supreme Court Justice?,0.0485,KXDEMORAESOUT-26SEP-27JAN01,"Will Alexandre de Moraes leave Brazil's Supreme Court? Before Jan 1, 2027",0.065,-0.0165
+0.5,1643323,Elder Scrolls VI released by December 31?,0.0335,KXESVI-27,When will Elder Scrolls VI be released? Before 2027,0.025,0.0085
+0.5,6999655,Howard Lutnick out as Secretary of Commerce by November 30? November 30,0.065,KXLUTNICKOUT-26SEP-26DEC01,"Howard Lutnick out as Commerce Secretary? Before Dec 1, 2026",0.07,-0.005
+0.5,7179306,"Howard Lutnick out as Secretary of Commerce by March 31, 2027? March 31, 2027",0.37,KXLUTNICKOUT-26SEP-27APR01,"Howard Lutnick out as Commerce Secretary? Before Apr 1, 2027",0.455,-0.085
+0.5,1796706,Howard Lutnick out as Secretary of Commerce by December 31? December 31,0.245,KXLUTNICKOUT-26SEP-27JAN01,"Howard Lutnick out as Commerce Secretary? Before Jan 1, 2027",0.22,0.025
+0.5,1811265,Pete Hegseth out as Secretary of Defense by December 31?,0.115,KXHEGSETHOUT-26APR-27JAN01,"Pete Hegseth out as Secretary of Defense? Before Jan 1, 2027",0.115,0.0
+0.5,2155246,Will Jorge Rodríguez be the de facto leader of Venezuela at the end of 2026? Jorge Rodríguez,0.0015,KXVENEZDEFACTO-27JAN01-DROD,Who will de facto lead Venezuela at the end of 2026? Delcy Rodríguez,0.975,-0.9735
+0.5,2326375,Will the Republic of the Congo have an Ebola case in 2026? Republic of the Congo,0.1,KXEBOLACOUNTRY-27-DOC,Which countries will report an Ebola case in 2026? Republic of the Congo,0.095,0.005
+0.5,2363842,Will Donald Trump be TIME Person of the Year 2026? Donald Trump,0.049,KXTIME-26-DT,Time's Person of the Year for 2026 Donald Trump,0.055,-0.006
+0.5,2937428,Will Daylight Savings Time become permanent in the US in 2026?,0.026,KXDST-27JAN01,"Will Daylight Saving Time become permanent? Before Jan 1, 2027",0.015,0.011
+0.5,2965152,Will Vladimir Putin be the #1 searched person on Google this year? Vladimir Putin,0.0015,KXRANKLISTGOOGLESEARCH2-26DEC-VLA,#2 Most Searched Person on Google in 2026? Vladimir Putin,0.015,-0.0135
+0.5,3005858,Will Benjamin Netanyahu be arrested by December 31? December 31,0.031,KXARREST-27JAN-BNET,Who will be arrested in 2026? Benjamin Netanyahu,0.0145,0.0165
+0.5,3009158,Will Avengers: Doomsday be delayed?,0.011,KXMOVIEDELAYAVENGERS-26DEC18,"Will Avengers: Doomsday be delayed? Before Dec 18, 2026",0.025,-0.014
+0.5,3072293,Will the highest score achieved on Humanity’s Last Exam in 2026 be 70% or higher? 70%+,0.285,KXLASTEXAM-26DEC31-T70,"Highest score on Humanity's Last Exam before Dec 31, 2026? At least 70%",0.33,-0.045
+0.5,3072294,Will the highest score achieved on Humanity’s Last Exam in 2026 be 75% or higher? 75%+,0.1125,KXLASTEXAM-26DEC31-T75,"Highest score on Humanity's Last Exam before Dec 31, 2026? At least 75%",0.125,-0.0125
+0.5,3072295,Will the highest score achieved on Humanity’s Last Exam in 2026 be 80% or higher? 80%+,0.073,KXLASTEXAM-26DEC31-T80,"Highest score on Humanity's Last Exam before Dec 31, 2026? At least 80%",0.055,0.018
+0.462,2571638,"Will a UK social media ban take effect by December 31, 2026? December 31, 2026",0.0255,KXUKSOCIALBAN-27-27JAN01,"When will the UK's social media ban take effect? Before Jan 1, 2027",0.065,-0.0395
+0.462,2929277,Will hate that i made you love me – Ariana Grande be the top song in the US for 2026? hate that i made you love me – Ariana Grande,0.0055,KXTOPSONGTHIRD-26-HAT,#3 song on Spotify in 2026? hate that i made you love me,0.02,-0.0145

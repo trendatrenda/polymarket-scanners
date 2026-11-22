@@ -2927,3 +2927,5 @@
 
 2026-11-22 11:02:35 HTTP 422 for https://gamma-api.polymarket.com/events?closed=false&active=true&limit=50&offset=2050: {"type":"validation error","error":"offset too large, use /events/keyset for deeper pagination"}
 
+2026-11-22 11:26:16 HTTP 422 for https://gamma-api.polymarket.com/events?closed=false&active=true&limit=50&offset=2050: {"type":"validation error","error":"offset too large, use /events/keyset for deeper pagination"}
+

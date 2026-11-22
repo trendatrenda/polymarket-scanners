@@ -1,0 +1,189 @@
+#42 KALSHI <-> POLYMARKET MATCHING   2026-11-22 11:26 UTC
+Kalshi markets usable: 40157   ({'ok': 40157, 'no tight price': 44882, 'sports / combo': 105442})
+Polymarket markets usable: 3883   ({'no tight price': 5998, 'ok': 3883, 'sports': 11730})
+pairs found (score >= 0.45): 161
+price gap between the two sites: median 1.0c   over 5c: 10   over 10c: 7
+
+TOP PAIRS (check by eye: is it really the same question?)
+  score 0.83  P   7.0c  K   4.0c  gap  3.0c
+      P: Will JUUL relaunch Fruit Medley flavor by 2027? Fruit Medley
+      K: What flavors will JUUL relaunch? Fruit Medley
+  score 0.80  P   1.5c  K   1.5c  gap  0.0c
+      P: Will Reza Pahlavi lead Iran in 2026?
+      K: Will Reza Pahlavi lead Iran in 2026? Reza Pahlavi
+  score 0.80  P   1.9c  K   3.5c  gap  1.7c
+      P: Will another country leave OPEC in 2026?
+      K: Will another country leave OPEC in 2026? Yes
+  score 0.75  P   1.4c  K   1.5c  gap  0.1c
+      P: Will China unban Bitcoin by 2027?
+      K: Will China unban Bitcoin? Before 2027
+  score 0.75  P   5.0c  K   4.9c  gap  0.2c
+      P: Will Italy recognize Palestine before 2027? Italy
+      K: Who will recognize Palestine before 2027? Italy
+  score 0.75  P   4.8c  K   4.3c  gap  0.5c
+      P: Will The Netherlands recognize Palestine before 2027? The Netherlands
+      K: Who will recognize Palestine before 2027? The Netherlands
+  score 0.75  P   1.4c  K   0.5c  gap  0.9c
+      P: Will Japan recognize Palestine before 2027? Japan
+      K: Who will recognize Palestine before 2027? Japan
+  score 0.75  P   3.8c  K   5.0c  gap  1.2c
+      P: Will Germany recognize Palestine before 2027? Germany
+      K: Who will recognize Palestine before 2027? Germany
+  score 0.75  P   2.9c  K   2.4c  gap  0.5c
+      P: Will Finland recognize Palestine before 2027? Finland
+      K: Who will recognize Palestine before 2027? Finland
+  score 0.75  P   2.8c  K   4.0c  gap  1.2c
+      P: Will Austria recognize Palestine before 2027? Austria
+      K: Who will recognize Palestine before 2027? Austria
+  score 0.75  P   2.4c  K   3.6c  gap  1.3c
+      P: Will Greece recognize Palestine before 2027? Greece
+      K: Who will recognize Palestine before 2027? Greece
+  score 0.75  P  12.0c  K  10.5c  gap  1.5c
+      P: Will Bitcoin outperform Gold in 2026?
+      K: Will Bitcoin outperform gold in 2026? In 2026
+  score 0.75  P   1.4c  K   1.3c  gap  0.1c
+      P: Will José Luis Rodríguez Zapatero be arrested before 2027? José Luis Rodríguez Zapatero
+      K: Who will be arrested in 2026? José Luis Rodríguez Zapatero
+  score 0.71  P   1.9c  K   1.9c  gap  0.1c
+      P: Israel and Saudi Arabia normalize relations before 2027?
+      K: Which countries will normalize relations with Israel before 2027? Saudi Arabia
+  score 0.71  P   6.5c  K   8.0c  gap  1.5c
+      P: Katy Perry and Justin Trudeau engaged by end of 2026?
+      K: Katy Perry and Justin Trudeau: Engaged in 2026? Before 2027
+  score 0.71  P   8.5c  K  11.5c  gap  3.0c
+      P: Kylie Jenner and Timothée Chalamet engaged in 2026?
+      K: Timothée Chalamet and Kylie Jenner: Engaged in 2026? Before 2027
+  score 0.71  P   1.6c  K   2.5c  gap  1.0c
+      P: Will Mohammad-Bagher Ghalibaf be TIME Person of the Year 2026? Mohammad-Bagher Ghalibaf
+      K: Time's Person of the Year for 2026 Mohammad-Bagher Ghalibaf
+  score 0.71  P   5.5c  K   7.5c  gap  2.0c
+      P: Will Pope Leo XIV be TIME Person of the Year 2026? Pope Leo XIV
+      K: Time's Person of the Year for 2026 Pope Leo XIV
+  score 0.71  P   2.9c  K   2.5c  gap  0.4c
+      P: Will Alexandria Ocasio-Cortez be TIME Person of the Year 2026? Alexandria Ocasio-Cortez
+      K: Time's Person of the Year for 2026 Alexandria Ocasio-Cortez
+  score 0.71  P  17.5c  K  17.5c  gap  0.0c
+      P: Will Abdul El-Sayed be TIME Person of the Year 2026? Abdul El-Sayed
+      K: Time's Person of the Year for 2026 Abdul El-Sayed
+  score 0.71  P   2.5c  K   4.5c  gap  2.0c
+      P: Kim Kardashian and Lewis Hamilton engaged in 2026?
+      K: Kim Kardashian and Lewis Hamilton: Engaged in 2026? Before 2027
+  score 0.70  P  28.5c  K  29.0c  gap  0.5c
+      P: Will Data center utility cost protection become law this year? Data center utility cost protection
+      K: Which bills will become law in 2026? Data center utility cost protection
+  score 0.67  P   2.0c  K   3.0c  gap  1.0c
+      P: Lee Jae-myung arrested before 2027?
+      K: Who will be arrested in 2026? Lee Jae Myung
+  score 0.67  P   3.1c  K   2.8c  gap  0.3c
+      P: Israel and Lebanon normalize relations before 2027?
+      K: Which countries will normalize relations with Israel before 2027? Lebanon
+  score 0.67  P   4.5c  K   2.7c  gap  1.8c
+      P: Will Mamdani raise the minimum wage to $30 before 2027?
+      K: Will Mamdani raise the minimum wage to $30 before 2027? Yes
+  score 0.67  P   3.2c  K   3.5c  gap  0.3c
+      P: Musk out as Tesla CEO before 2027?
+      K: Elon Musk out as Tesla CEO before 2027? Before 2027
+  score 0.67  P   1.8c  K   1.8c  gap  0.1c
+      P: Will the Smithsonian Women’s History Museum become law this year? Smithsonian Women’s History Museum
+      K: Which bills will become law in 2026? Smithsonian Women’s History Museum
+  score 0.67  P   5.3c  K   5.1c  gap  0.2c
+      P: Will Film/TV production expensing become law this year? Film/TV production expensing
+      K: Which bills will become law in 2026? Film/TV production expensing
+  score 0.67  P  54.0c  K  53.0c  gap  1.0c
+      P: Will Export-control chip security become law this year? Export-control chip security
+      K: Which bills will become law in 2026? Export-control chip security
+  score 0.67  P  43.5c  K  44.0c  gap  0.5c
+      P: Will AI-chip export licensing become law this year? AI-chip export licensing
+      K: Which bills will become law in 2026? AI-chip export licensing
+  score 0.67  P   2.5c  K   4.3c  gap  1.8c
+      P: Will Lee Jun-seok be arrested before 2027? Lee Jun-seok
+      K: Who will be arrested in 2026? Lee Jun-seok
+  score 0.67  P  97.4c  K  97.5c  gap  0.1c
+      P: Will Delcy Rodríguez be the de facto leader of Venezuela at the end of 2026? Delcy Rodríguez
+      K: Who will de facto lead Venezuela at the end of 2026? Delcy Rodríguez
+  score 0.67  P   1.2c  K   2.5c  gap  1.3c
+      P: Will María Corina Machado be the de facto leader of Venezuela at the end of 2026? María Corina Machado
+      K: Who will de facto lead Venezuela at the end of 2026? María Corina Machado
+  score 0.67  P   2.8c  K   1.3c  gap  1.5c
+      P: Will José Luis Rodríguez Zapatero be arrested by December 31, 2026? December 31, 2026
+      K: Who will be arrested in 2026? José Luis Rodríguez Zapatero
+  score 0.67  P   1.9c  K   1.5c  gap  0.4c
+      P: Will Jerome Powell be TIME Person of the Year 2026? Jerome Powell
+      K: Time's Person of the Year for 2026 Jerome Powell
+  score 0.67  P   5.4c  K   6.5c  gap  1.1c
+      P: Will Dario Amodei be TIME Person of the Year 2026? Dario Amodei
+      K: Time's Person of the Year for 2026 Dario Amodei
+  score 0.67  P   2.0c  K   2.5c  gap  0.5c
+      P: Will Reid Wiseman be TIME Person of the Year 2026? Reid Wiseman
+      K: Time's Person of the Year for 2026 Reid Wiseman
+  score 0.67  P   1.7c  K   2.5c  gap  0.8c
+      P: Will Shehbaz Sharif be TIME Person of the Year 2026? Shehbaz Sharif
+      K: Time's Person of the Year for 2026 Shehbaz Sharif
+  score 0.67  P   2.0c  K   2.0c  gap  0.0c
+      P: Will Sam Altman be TIME Person of the Year 2026? Sam Altman
+      K: Time's Person of the Year for 2026 Sam Altman
+  score 0.67  P   4.2c  K   3.5c  gap  0.7c
+      P: Will Marco Rubio be TIME Person of the Year 2026? Marco Rubio
+      K: Time's Person of the Year for 2026 Marco Rubio
+  score 0.67  P   2.0c  K   2.5c  gap  0.5c
+      P: Will Victor Glover be TIME Person of the Year 2026? Victor Glover
+      K: Time's Person of the Year for 2026 Victor Glover
+  score 0.67  P  21.0c  K  22.5c  gap  1.5c
+      P: Will Zohran Mamdani be TIME Person of the Year 2026? Zohran Mamdani
+      K: Time's Person of the Year for 2026 Zohran Mamdani
+  score 0.67  P  23.8c  K  24.5c  gap  0.8c
+      P: Will James Talarico be TIME Person of the Year 2026? James Talarico
+      K: Time's Person of the Year for 2026 James Talarico
+  score 0.67  P   2.5c  K   2.5c  gap  0.0c
+      P: Will Christina Koch be TIME Person of the Year 2026? Christina Koch
+      K: Time's Person of the Year for 2026 Christina Koch
+  score 0.67  P   9.5c  K   7.5c  gap  2.0c
+      P: Will Mark Carney be TIME Person of the Year 2026? Mark Carney
+      K: Time's Person of the Year for 2026 Mark Carney
+  score 0.67  P   1.7c  K   3.5c  gap  1.8c
+      P: Will Mojtaba Khamenei be TIME Person of the Year 2026? Mojtaba Khamenei
+      K: Time's Person of the Year for 2026 Mojtaba Khamenei
+  score 0.67  P   2.0c  K   2.5c  gap  0.5c
+      P: Will Bernie Sanders be TIME Person of the Year 2026? Bernie Sanders
+      K: Time's Person of the Year for 2026 Bernie Sanders
+  score 0.67  P   4.3c  K   3.5c  gap  0.8c
+      P: Will Jensen Huang be TIME Person of the Year 2026? Jensen Huang
+      K: Time's Person of the Year for 2026 Jensen Huang
+  score 0.67  P  10.0c  K   7.5c  gap  2.5c
+      P: Will Jon Ossoff be TIME Person of the Year 2026? Jon Ossoff
+      K: Time's Person of the Year for 2026 Jon Ossoff
+  score 0.67  P   4.1c  K   2.5c  gap  1.6c
+      P: Will Pete Hegseth be TIME Person of the Year 2026? Pete Hegseth
+      K: Time's Person of the Year for 2026 Pete Hegseth
+  score 0.64  P  12.5c  K  18.0c  gap  5.5c
+      P: Will Moonshot AI be added to the Chinese Military Companies list by June 30, 2027? Moonshot AI
+      K: Which companies will be added to the Pentagon’s Chinese military companies list? Moonshot AI
+  score 0.62  P   8.0c  K   7.3c  gap  0.7c
+      P: Will the Critical-minerals stockpile become law this year? Critical-minerals stockpile
+      K: Which bills will become law in 2026? Critical-minerals stockpile
+  score 0.62  P   4.2c  K   3.5c  gap  0.7c
+      P: Will the SELF DRIVE Act become law this year? SELF DRIVE Act
+      K: Which bills will become law in 2026? SELF DRIVE Act
+  score 0.62  P   4.9c  K   8.5c  gap  3.6c
+      P: US government bans an open source AI model in 2026?
+      K: Will the U.S. ban any open-source AI model in 2026? Yes
+  score 0.62  P  33.0c  K  34.5c  gap  1.5c
+      P: Will Lindsay Clancy be the #1 searched person on Google this year? Lindsay Clancy
+      K: #1 searched person on Google in 2026 Lindsay Clancy
+  score 0.62  P  11.5c  K  10.5c  gap  1.0c
+      P: Will Jensen Huang be the #1 searched person on Google this year? Jensen Huang
+      K: #1 searched person on Google in 2026 Jensen Huang
+  score 0.60  P   1.7c  K   2.0c  gap  0.2c
+      P: Will Trump pardon Ghislaine Maxwell by end of 2026?
+      K: Who will Trump pardon in 2026? Ghislaine Maxwell
+  score 0.60  P   4.0c  K   4.2c  gap  0.2c
+      P: Will New Zealand recognize Palestine before 2027? New Zealand
+      K: Who will recognize Palestine before 2027? New Zealand
+  score 0.60  P   2.2c  K   3.5c  gap  1.3c
+      P: Will Satoshi move any Bitcoin in 2026?
+      K: Will Satoshi move any Bitcoin before 2027? Before 2027
+  score 0.60  P  11.0c  K   9.8c  gap  1.2c
+      P: Will FISA Section 702 reauthorization become law this year? FISA Section 702 reauthorization
+      K: Which bills will become law in 2026? FISA Section 702 reauthorization (2 years)
+
+requests: {'calls': 144, 'failed': 1}
