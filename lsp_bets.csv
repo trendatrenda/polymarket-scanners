@@ -54,3 +54,4 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-23T05:02:33Z,5154714,1108632,other,Will Alphabet’s market capitalization be between $3.00T and $3.50T at the end of November 2026?,2026-11-30T17:00:00Z,7213,0.619,0.5695,0.4305,0.4754,0.0124,42.067,open,,,,v2
 2026-11-23T06:03:02Z,7121662,1410670,other,Will UKMTO publish 8-11 notices between November 23-November 29?,2026-11-30T04:59:00Z,557,0.34,0.375,0.625,0.66,0.0,30.303,open,,,,v2
 2026-11-23T06:03:03Z,7128506,1412584,other,"Will ""Hexed"" score at least 65 on the Rotten Tomatoes Tomatometer?",2026-11-30T15:00:00Z,1133,0.41,0.335,0.665,0.6822,0.0022,29.3179,open,,,,v2
+2026-11-23T07:02:36Z,7120777,1288801,other,Will US gas hit $3.50 (Low) in November?,2026-11-30T15:00:00Z,1367,0.57,0.445,0.555,0.5723,0.0123,34.9455,open,,,,v2
