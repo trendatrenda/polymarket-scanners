@@ -57,3 +57,13 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-23T07:02:36Z,7120777,1288801,other,Will US gas hit $3.50 (Low) in November?,2026-11-30T15:00:00Z,1367,0.57,0.445,0.555,0.5723,0.0123,34.9455,open,,,,v2
 2026-11-23T09:03:20Z,6436395,1285425,other,Will Tesla (TSLA) close above $360 end of November?,2026-11-30T21:00:00Z,664,0.83,0.56,0.44,0.4713,0.0124,42.4387,open,,,,v2
 2026-11-23T09:03:27Z,6831496,1337182,world,US x Iran Effective Ceasefire by November 30?,2026-11-30T20:29:00Z,419256,0.59,0.59,0.41,0.42,0.0,47.619,open,,,,v2
+2026-11-23T10:02:32Z,6436157,1285399,other,Will Apple (AAPL) close above $350 end of November?,2026-11-30T21:00:00Z,75,0.72,0.445,0.555,0.6021,0.0121,33.2173,open,,,,v2
+2026-11-23T10:02:32Z,6436256,1285410,other,Will Amazon (AMZN) close above $230 end of November?,2026-11-30T21:00:00Z,840,0.89,0.515,0.485,0.1885,0.0074,106.1051,open,,,,v2
+2026-11-23T10:02:40Z,7121666,1410672,crypto,Will OpenRouter process less than 230T tokens the week of November 23?,2026-11-30T04:59:00Z,2946,0.52,0.551,0.449,0.4915,0.0125,40.6936,open,,,,v2
+2026-11-23T10:02:41Z,7194779,1430707,other,Will 6+ ships transit the Strait of Hormuz on any day week of November 23?,2026-11-30T04:59:00Z,183,0.49,0.5,0.5,0.5225,0.0025,38.2778,open,,,,v2
+2026-11-23T10:02:42Z,7194794,1430710,other,Will 310+ ships transit the Suez Canal week of November 23?,2026-11-30T04:59:00Z,359,0.44,0.375,0.625,0.6523,0.0023,30.6619,open,,,,v2
+2026-11-23T10:02:42Z,7194798,1430709,other,Will 195+ ships transit the Panama Canal week of November 23?,2026-11-30T04:59:00Z,85,0.51,0.57,0.43,0.4525,0.0025,44.2013,open,,,,v2
+2026-11-23T10:02:42Z,7194804,1430711,other,Will 185+ ships transit the Bab el-Mandeb Strait week of November 23?,2026-11-30T04:59:00Z,576,0.49,0.48,0.52,0.5361,0.0025,37.3075,open,,,,v2
+2026-11-23T10:02:42Z,7194806,1430712,other,Will 22+ ships transit the Strait of Hormuz week of November 23?,2026-11-30T04:59:00Z,411,0.43,0.425,0.575,0.5924,0.0024,33.7599,open,,,,v2
+2026-11-23T10:02:42Z,7231272,1437545,other,Will there be 1 earthquake of 6.5 or above magnitude worldwide?,2026-11-29T23:59:00Z,1703,0.37,0.355,0.645,0.6815,0.0022,29.3471,open,,,,v2
+2026-11-23T10:02:42Z,7231272,1437545,other,Will there be 1 earthquake of 6.5 or above magnitude worldwide?,2026-11-29T23:59:00Z,1703,0.37,0.355,0.645,0.6815,0.0022,29.3471,open,,,,v3
