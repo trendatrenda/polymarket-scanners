@@ -67,3 +67,6 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-23T10:02:42Z,7194806,1430712,other,Will 22+ ships transit the Strait of Hormuz week of November 23?,2026-11-30T04:59:00Z,411,0.43,0.425,0.575,0.5924,0.0024,33.7599,open,,,,v2
 2026-11-23T10:02:42Z,7231272,1437545,other,Will there be 1 earthquake of 6.5 or above magnitude worldwide?,2026-11-29T23:59:00Z,1703,0.37,0.355,0.645,0.6815,0.0022,29.3471,open,,,,v2
 2026-11-23T10:02:42Z,7231272,1437545,other,Will there be 1 earthquake of 6.5 or above magnitude worldwide?,2026-11-29T23:59:00Z,1703,0.37,0.355,0.645,0.6815,0.0022,29.3471,open,,,,v3
+2026-11-23T11:03:27Z,6436198,1285403,other,Will Microsoft (MSFT) close above $495 end of November?,2026-11-30T21:00:00Z,15,0.85,0.6,0.4,0.4423,0.0123,45.2228,open,,,,v2
+2026-11-23T11:03:27Z,6436306,1285415,other,Will Google (GOOGL) close above $270 end of November?,2026-11-30T21:00:00Z,120,0.6,0.535,0.465,0.5113,0.0125,39.1196,open,,,,v2
+2026-11-23T11:03:38Z,7194783,1430708,other,Will 1550+ ships transit the Malacca Strait week of November 23?,2026-11-30T04:59:00Z,232,0.88,0.505,0.495,0.5125,0.0025,39.0245,open,,,,v2
