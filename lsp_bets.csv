@@ -76,3 +76,24 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-23T12:02:47Z,7215804,1434920,other,Will Okta (OKTA) Q3 cRPO growth be 13.5% to under 14.5%?,2026-12-01T00:00:00Z,385,0.32,0.375,0.625,0.6417,0.0117,31.1694,open,,,,v2
 2026-11-23T12:02:47Z,7215804,1434920,other,Will Okta (OKTA) Q3 cRPO growth be 13.5% to under 14.5%?,2026-12-01T00:00:00Z,385,0.32,0.375,0.625,0.6417,0.0117,31.1694,open,,,,v3
 2026-11-23T14:02:48Z,6436446,1285429,other,Will NVIDIA (NVDA) close above $160 end of November?,2026-11-30T21:00:00Z,17434,0.48,0.34,0.66,0.5025,0.0125,39.8014,open,,,,v2
+2026-11-23T17:02:42Z,4664495,1040602,other,Will Alibaba have the best Chinese AI model at the end of November 2026?,2026-12-01T04:59:00Z,48439,0.33,0.305,0.695,0.7301,0.0101,27.3943,open,,,,v2
+2026-11-23T17:02:43Z,5166839,1111185,other,"Will the Ornn H100 Index be between $2.75 and $3.00 on November 30, 2026?",2026-12-01T04:59:00Z,7910,0.3,0.325,0.675,0.6911,0.0109,28.9374,open,,,,v2
+2026-11-23T17:02:43Z,5166851,1111187,other,"Will the Ornn RTX 5090 Index be between $0.65 and $0.70 on November 30, 2026?",2026-12-01T04:59:00Z,16610,0.42,0.44,0.56,0.5823,0.0123,34.3492,open,,,,v2
+2026-11-23T17:02:43Z,5166857,1111188,other,"Will the Ornn A100 Index be between $1.00 and $1.25 on November 30, 2026?",2026-12-01T04:59:00Z,11315,0.36,0.335,0.665,0.7007,0.0107,28.5431,open,,,,v2
+2026-11-23T17:02:45Z,5959788,1222025,other,Will Google have the best Image-to-Video AI at the end of November 2026?,2026-12-01T04:59:00Z,9332,0.54,0.571,0.429,0.4483,0.0123,44.6135,open,,,,v2
+2026-11-23T17:02:45Z,6171203,1250156,other,Will Microsoft Corporation (MSFT) hit (LOW) $480 in November?,2026-12-01T04:59:59.999Z,5145,0.38,0.445,0.555,0.5922,0.0122,33.7735,open,,,,v2
+2026-11-23T17:02:47Z,6403112,1280263,other,Will there be exactly 3 North Korea tests in November 2026?,2026-12-01T04:59:00Z,3358,0.42,0.405,0.595,0.6,0.0,33.3333,open,,,,v2
+2026-11-23T17:02:49Z,6436701,1285449,other,Will SpaceX (SPCX) close above $140 end of November?,2026-11-30T21:00:00Z,0,,0.405,0.595,0.6401,0.0117,31.2449,open,,,,v2
+2026-11-23T17:02:49Z,6440135,1285996,politics,Will Trump speak to Volodymyr Zelenskyy by November 30?,2026-12-01T04:59:00Z,115480,0.43,0.42,0.58,0.6,0.0,33.3333,open,,,,v2
+2026-11-23T17:02:51Z,6593772,1302815,world,Will USD be between 2.7M and 2.8M Iranian rials on November 30?,2026-12-01T04:59:00Z,3467,0.42,0.43,0.57,0.6132,0.0024,32.6134,open,,,,v2
+2026-11-23T17:02:51Z,6595332,1302903,other,Will Elon Musk’s net worth be between $800B and $900B on November 30?,2026-12-01T04:59:00Z,8874,0.43,0.415,0.585,0.6021,0.0121,33.2173,open,,,,v2
+2026-11-23T17:02:55Z,6645232,1250217,other,"Will Tesla, Inc. (TSLA) hit (HIGH) $405 in November?",2026-12-01T04:59:59.999Z,4032,0.51,0.57,0.43,0.4624,0.0124,43.2549,open,,,,v2
+2026-11-23T17:02:55Z,6685283,1250151,other,Will Apple (AAPL) hit (LOW) $336 in November?,2026-12-01T04:59:59.999Z,602,0.43,0.35,0.65,0.6909,0.0109,28.9486,open,,,,v2
+2026-11-23T17:02:55Z,6753946,1250282,other,Will SpaceX (SPCX) hit (LOW) $125 in November?,2026-12-01T04:59:59.999Z,857,0.51,0.32,0.68,0.7203,0.0103,27.7664,open,,,,v2
+2026-11-23T17:02:56Z,6910575,1250231,other,Will NVIDIA (NVDA) hit (HIGH) $184 in November?,2026-12-01T04:59:59.999Z,13533,0.327,0.3125,0.6875,0.7234,0.0102,27.6454,open,,,,v2
+2026-11-23T17:02:58Z,7029389,1383736,other,Will the 7-day average ship traffic through the Suez Canal be 44+ on November 30?,2026-12-01T04:59:00Z,883,0.5,0.53,0.47,0.5125,0.0025,39.0245,open,,,,v2
+2026-11-23T17:02:58Z,7029396,1383737,other,Will the 7-day average ship traffic through the Panama Canal be 28+ on November 30?,2026-12-01T04:59:00Z,617,0.55,0.505,0.495,0.5025,0.0025,39.801,open,,,,v2
+2026-11-23T17:02:58Z,7043509,1292830,crypto,"Will Ethereum reach $1,900 in November?",2026-12-01T05:00:00Z,58182,0.36,0.385,0.615,0.6323,0.0023,31.629,open,,,,v2
+2026-11-23T17:02:58Z,7043510,1292831,crypto,Will Solana reach $80 in November?,2026-12-01T05:00:00Z,5244,0.73,0.47,0.53,0.5625,0.0025,35.5578,open,,,,v2
+2026-11-23T17:02:58Z,4664495,1040602,other,Will Alibaba have the best Chinese AI model at the end of November 2026?,2026-12-01T04:59:00Z,48439,0.33,0.305,0.695,0.7301,0.0101,27.3943,open,,,,v3
+2026-11-23T17:02:58Z,5166839,1111185,other,"Will the Ornn H100 Index be between $2.75 and $3.00 on November 30, 2026?",2026-12-01T04:59:00Z,7910,0.3,0.325,0.675,0.6911,0.0109,28.9374,open,,,,v3
