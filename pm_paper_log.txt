@@ -690,3 +690,5 @@
 2026-11-07 00:56:44 trades 0x346a4769e9d5ecbcf023bb3bf0105f065764ceca45137c0d0e68c82c58585ad4: empty first page -- unsure
 2026-11-07 00:56:44 HTTP 410 for https://data-api.polymarket.com/trades?market=0x346a4769e9d5ecbcf023bb3bf0105f065764ceca45137c0d0e68c82c58585ad4&limit=5: {"error":"Data API v1 has been retired","migration":"https://data-api.polymarket.com/v2/","docs":"https://docs.polymarket.com/api-reference/data-api/overview"}
 2026-11-07 00:56:46 unhealthy run: 9 bet check(s) unsure (they wait)
+2026-11-24 16:02:08 HTTP 503 for https://data-api.polymarket.com/v2/trades?condition=0xf17ad24eb4ad57926495b114149c765b9b95bc286eadc91cbbfa901ceb10d0b8&limit=5&taker_only=false: {"error":"request timed out","code":"request_timeout","retryable":true,"trace_id":"d564e79ddf20426db1cf2a21966f8953"}
+2026-11-24 16:02:08 unhealthy run: 25% of requests failed

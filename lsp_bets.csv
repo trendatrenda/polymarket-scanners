@@ -89,7 +89,7 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-23T17:02:51Z,6595332,1302903,other,Will Elon Musk’s net worth be between $800B and $900B on November 30?,2026-12-01T04:59:00Z,8874,0.43,0.415,0.585,0.6021,0.0121,33.2173,open,,,,v2
 2026-11-23T17:02:55Z,6645232,1250217,other,"Will Tesla, Inc. (TSLA) hit (HIGH) $405 in November?",2026-12-01T04:59:59.999Z,4032,0.51,0.57,0.43,0.4624,0.0124,43.2549,open,,,,v2
 2026-11-23T17:02:55Z,6685283,1250151,other,Will Apple (AAPL) hit (LOW) $336 in November?,2026-12-01T04:59:59.999Z,602,0.43,0.35,0.65,0.6909,0.0109,28.9486,open,,,,v2
-2026-11-23T17:02:55Z,6753946,1250282,other,Will SpaceX (SPCX) hit (LOW) $125 in November?,2026-12-01T04:59:59.999Z,857,0.51,0.32,0.68,0.7203,0.0103,27.7664,open,,,,v2
+2026-11-23T17:02:55Z,6753946,1250282,other,Will SpaceX (SPCX) hit (LOW) $125 in November?,2026-12-01T04:59:59.999Z,857,0.51,0.32,0.68,0.7203,0.0103,27.7664,lost,0.0,-20.0,2026-11-24T16:02:55Z,v2
 2026-11-23T17:02:56Z,6910575,1250231,other,Will NVIDIA (NVDA) hit (HIGH) $184 in November?,2026-12-01T04:59:59.999Z,13533,0.327,0.3125,0.6875,0.7234,0.0102,27.6454,open,,,,v2
 2026-11-23T17:02:58Z,7029389,1383736,other,Will the 7-day average ship traffic through the Suez Canal be 44+ on November 30?,2026-12-01T04:59:00Z,883,0.5,0.53,0.47,0.5125,0.0025,39.0245,open,,,,v2
 2026-11-23T17:02:58Z,7029396,1383737,other,Will the 7-day average ship traffic through the Panama Canal be 28+ on November 30?,2026-12-01T04:59:00Z,617,0.55,0.505,0.495,0.5025,0.0025,39.801,open,,,,v2
@@ -98,3 +98,4 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-23T17:02:58Z,4664495,1040602,other,Will Alibaba have the best Chinese AI model at the end of November 2026?,2026-12-01T04:59:00Z,48439,0.33,0.305,0.695,0.7301,0.0101,27.3943,open,,,,v3
 2026-11-23T17:02:58Z,5166839,1111185,other,"Will the Ornn H100 Index be between $2.75 and $3.00 on November 30, 2026?",2026-12-01T04:59:00Z,7910,0.3,0.325,0.675,0.6911,0.0109,28.9374,open,,,,v3
 2026-11-24T12:02:25Z,4391801,991270,economy,Will Brazil's Q3 2026 GDP growth rate (QoQ) be less than -0.3%?,2026-12-02T00:00:00Z,11587,0.337,0.3465,0.6535,0.6662,0.0022,30.0196,open,,,,v3
+2026-11-24T16:03:07Z,4391801,991270,economy,Will Brazil's Q3 2026 GDP growth rate (QoQ) be less than -0.3%?,2026-12-02T00:00:00Z,11587,0.337,0.361,0.639,0.6523,0.0023,30.6619,open,,,,v2
