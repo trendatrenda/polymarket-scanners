@@ -557,7 +557,8 @@ def report(rows, settled_now, new):
 def main():
     clock = time.time()
     CLOCK[0] = clock
-    force = "--force" in sys.argv
+    force = "--force" in sys.argv and not RETIRED_35B   # 24 Nov: the hourly "alarm clock" presses Run
+                                                        # workflow, which used to force this every hour
     if LAST_RUN.exists() and not force:
         try:
             last = float(LAST_RUN.read_text().strip())
@@ -615,6 +616,9 @@ def _run(clock, key):
     if problems:
         print("  UNHEALTHY: " + "; ".join(problems))
         log("unhealthy run: " + "; ".join(problems))
+        if RETIRED_35B:                                # 24 Nov: a retired test only tidies up old bets --
+            print("  (retired test: not marking the run red; Polymarket hiccups here change nothing)")
+            return
         sys.exit(1)                                    # shows RED on GitHub (results saved)
 
 

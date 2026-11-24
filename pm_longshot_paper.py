@@ -90,15 +90,28 @@ def settle(bets):
 
 def candidates():
     t = now()
-    out, why = [], {}
-    for page in range(30):
-        got = rs.get_json(f"{GAMMA}/markets", {"closed": "false", "active": "true", "limit": 100,
-                                               "offset": page * 100,
-                                               "end_date_min": iso(t + timedelta(days=6.5)),
-                                               "end_date_max": iso(t + timedelta(days=7.5))})
-        if not isinstance(got, list) or not got:
-            break
+    out, why, seen = [], {}, set()
+    # 24 Nov fix: Polymarket stops listing after ~2,100 results ("offset too large"), so the
+    # 24-hour window is read in 4-hour slices -- each slice stays far below that limit.
+    pages = []
+    for k in range(6):
+        lo, hi = t + timedelta(days=6.5, hours=4 * k), t + timedelta(days=6.5, hours=4 * (k + 1))
+        for page in range(21):
+            got = rs.get_json(f"{GAMMA}/markets", {"closed": "false", "active": "true", "limit": 100,
+                                                   "offset": page * 100, "end_date_min": iso(lo),
+                                                   "end_date_max": iso(hi)})
+            if not isinstance(got, list) or not got:
+                break
+            pages.append(got)
+            if len(got) < 100:
+                break
+        else:
+            why["slice too big (some missed)"] = why.get("slice too big (some missed)", 0) + 1
+    for got in pages:
         for m in got:
+            if m.get("id") in seen:
+                continue
+            seen.add(m.get("id"))
             outs = [str(x).lower() for x in rs.as_list(m.get("outcomes"))]
             toks = [str(x) for x in rs.as_list(m.get("clobTokenIds"))]
             try:
@@ -124,8 +137,6 @@ def candidates():
                 r = "ok"
                 out.append((m, toks, last, mid))
             why[r] = why.get(r, 0) + 1
-        if len(got) < 100:
-            break
     return out, why
 
 
