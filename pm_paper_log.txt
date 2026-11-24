@@ -692,3 +692,5 @@
 2026-11-07 00:56:46 unhealthy run: 9 bet check(s) unsure (they wait)
 2026-11-24 16:02:08 HTTP 503 for https://data-api.polymarket.com/v2/trades?condition=0xf17ad24eb4ad57926495b114149c765b9b95bc286eadc91cbbfa901ceb10d0b8&limit=5&taker_only=false: {"error":"request timed out","code":"request_timeout","retryable":true,"trace_id":"d564e79ddf20426db1cf2a21966f8953"}
 2026-11-24 16:02:08 unhealthy run: 25% of requests failed
+2026-11-24 17:01:58 HTTP 503 for https://data-api.polymarket.com/v2/trades?condition=0x74ffa67463041114d94d56cbc2c06c78696327dd4c873e71229b2717d964f853&limit=5&taker_only=false: {"error":"request timed out","code":"request_timeout","retryable":true,"trace_id":"b57067ce442c44778d3bdb3c92f4ae6e"}
+2026-11-24 17:03:12 unhealthy run: 25% of requests failed
