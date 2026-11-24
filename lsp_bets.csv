@@ -97,3 +97,4 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-23T17:02:58Z,7043510,1292831,crypto,Will Solana reach $80 in November?,2026-12-01T05:00:00Z,5244,0.73,0.47,0.53,0.5625,0.0025,35.5578,open,,,,v2
 2026-11-23T17:02:58Z,4664495,1040602,other,Will Alibaba have the best Chinese AI model at the end of November 2026?,2026-12-01T04:59:00Z,48439,0.33,0.305,0.695,0.7301,0.0101,27.3943,open,,,,v3
 2026-11-23T17:02:58Z,5166839,1111185,other,"Will the Ornn H100 Index be between $2.75 and $3.00 on November 30, 2026?",2026-12-01T04:59:00Z,7910,0.3,0.325,0.675,0.6911,0.0109,28.9374,open,,,,v3
+2026-11-24T12:02:25Z,4391801,991270,economy,Will Brazil's Q3 2026 GDP growth rate (QoQ) be less than -0.3%?,2026-12-02T00:00:00Z,11587,0.337,0.3465,0.6535,0.6662,0.0022,30.0196,open,,,,v3
