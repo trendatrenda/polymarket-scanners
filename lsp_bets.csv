@@ -81,7 +81,7 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-23T17:02:43Z,5166851,1111187,other,"Will the Ornn RTX 5090 Index be between $0.65 and $0.70 on November 30, 2026?",2026-12-01T04:59:00Z,16610,0.42,0.44,0.56,0.5823,0.0123,34.3492,open,,,,v2
 2026-11-23T17:02:43Z,5166857,1111188,other,"Will the Ornn A100 Index be between $1.00 and $1.25 on November 30, 2026?",2026-12-01T04:59:00Z,11315,0.36,0.335,0.665,0.7007,0.0107,28.5431,open,,,,v2
 2026-11-23T17:02:45Z,5959788,1222025,other,Will Google have the best Image-to-Video AI at the end of November 2026?,2026-12-01T04:59:00Z,9332,0.54,0.571,0.429,0.4483,0.0123,44.6135,open,,,,v2
-2026-11-23T17:02:45Z,6171203,1250156,other,Will Microsoft Corporation (MSFT) hit (LOW) $480 in November?,2026-12-01T04:59:59.999Z,5145,0.38,0.445,0.555,0.5922,0.0122,33.7735,open,,,,v2
+2026-11-23T17:02:45Z,6171203,1250156,other,Will Microsoft Corporation (MSFT) hit (LOW) $480 in November?,2026-12-01T04:59:59.999Z,5145,0.38,0.445,0.555,0.5922,0.0122,33.7735,lost,0.0,-20.0,2026-11-25T15:33:36Z,v2
 2026-11-23T17:02:47Z,6403112,1280263,other,Will there be exactly 3 North Korea tests in November 2026?,2026-12-01T04:59:00Z,3358,0.42,0.405,0.595,0.6,0.0,33.3333,open,,,,v2
 2026-11-23T17:02:49Z,6436701,1285449,other,Will SpaceX (SPCX) close above $140 end of November?,2026-11-30T21:00:00Z,0,,0.405,0.595,0.6401,0.0117,31.2449,open,,,,v2
 2026-11-23T17:02:49Z,6440135,1285996,politics,Will Trump speak to Volodymyr Zelenskyy by November 30?,2026-12-01T04:59:00Z,115480,0.43,0.42,0.58,0.6,0.0,33.3333,open,,,,v2
@@ -101,3 +101,4 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-24T16:03:07Z,4391801,991270,economy,Will Brazil's Q3 2026 GDP growth rate (QoQ) be less than -0.3%?,2026-12-02T00:00:00Z,11587,0.337,0.361,0.639,0.6523,0.0023,30.6619,open,,,,v2
 2026-11-25T06:02:56Z,7330881,1455849,other,"Will ""The Mosquito Bowl"" be the top US Netflix movie this week?",2026-12-02T04:59:00Z,40,0.51,0.445,0.555,0.6024,0.0024,33.2005,open,,,,v3
 2026-11-25T11:03:10Z,7330945,1455856,other,"Will ""Guarding Stars"" be the #2 US Netflix movie this week?",2026-12-02T04:59:00Z,50,0.49,0.475,0.525,0.5425,0.0025,36.8674,open,,,,v3
+2026-11-25T15:33:51Z,7330907,1455853,other,"Will ""Guarding Stars"" be the top global Netflix movie this week?",2026-12-02T04:59:00Z,131,0.39,0.315,0.685,0.7121,0.0021,28.0876,open,,,,v2
