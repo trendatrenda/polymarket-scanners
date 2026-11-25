@@ -137,7 +137,7 @@ def ask(key, prompt):
                 msg = ""
             return text, usd, f"API error {e.code}: {msg[:150]}"
         except Exception as e:
-            return text, usd, f"API error {type(e).__name__}"
+            return text, usd, f"API error {type(e).__name__}: {str(e)[:80]}"
         u = j.get("usage") or {}
         usd += (int(u.get("input_tokens") or 0) * PRICE_IN + int(u.get("output_tokens") or 0) * PRICE_OUT) / 1e6
         usd += int((u.get("server_tool_use") or {}).get("web_search_requests") or 0) * SEARCH_USD
@@ -220,7 +220,7 @@ def main():
             and int(f(b["ko"])) > time.time()]
     players = read(PLAYERS)
     names = sorted({r["team"] for r in players})
-    key = os.environ.get("ANTHROPIC_API_KEY", "")
+    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()   # 25 Nov fix: the secret ends with a line break
     for b in todo:
         home, away = [s.strip() for s in b["game"].split(" vs. ")] if " vs. " in b["game"] else (b["team"], "")
         opp_poly = away if same_team(b["team"], home) >= same_team(b["team"], away) else home
