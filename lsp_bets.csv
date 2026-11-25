@@ -99,3 +99,4 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-23T17:02:58Z,5166839,1111185,other,"Will the Ornn H100 Index be between $2.75 and $3.00 on November 30, 2026?",2026-12-01T04:59:00Z,7910,0.3,0.325,0.675,0.6911,0.0109,28.9374,open,,,,v3
 2026-11-24T12:02:25Z,4391801,991270,economy,Will Brazil's Q3 2026 GDP growth rate (QoQ) be less than -0.3%?,2026-12-02T00:00:00Z,11587,0.337,0.3465,0.6535,0.6662,0.0022,30.0196,open,,,,v3
 2026-11-24T16:03:07Z,4391801,991270,economy,Will Brazil's Q3 2026 GDP growth rate (QoQ) be less than -0.3%?,2026-12-02T00:00:00Z,11587,0.337,0.361,0.639,0.6523,0.0023,30.6619,open,,,,v2
+2026-11-25T06:02:56Z,7330881,1455849,other,"Will ""The Mosquito Bowl"" be the top US Netflix movie this week?",2026-12-02T04:59:00Z,40,0.51,0.445,0.555,0.6024,0.0024,33.2005,open,,,,v3
