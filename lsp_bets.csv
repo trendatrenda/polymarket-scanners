@@ -109,3 +109,4 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-27T00:02:27Z,7372227,1464375,crypto,"Will the price of Ethereum be above $1,700 on December 3?",2026-12-03T17:00:00Z,6,,0.47,0.53,0.5625,0.0025,35.5578,open,,,,v3
 2026-11-27T02:03:08Z,6937481,1357780,economy,Will the November 2026 unemployment rate be 4.1%?,2026-12-04T13:30:00Z,9985,0.42,0.385,0.615,0.6227,0.0024,32.1179,open,,,,v3
 2026-11-27T18:03:25Z,7389618,1467586,politics,"Will Trump's approval rating be between 37.0 and 37.4 on December 4, 2026?",2026-12-05T04:59:00Z,212,0.41,0.42,0.58,0.6024,0.0024,33.2005,open,,,,v3
+2026-11-27T21:13:57Z,7399051,1071679,other,"Next Claude Opus (5.6+) released by December 4, 2026?",2026-12-05T04:59:00Z,20,0.53,0.51,0.49,0.5264,0.0125,37.9906,open,,,,v3
