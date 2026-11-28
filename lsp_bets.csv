@@ -12,7 +12,7 @@ placed,market_id,event,cat,question,end,vol,yes_last,yes_mid,no_backtest,no_paid
 2026-11-20T08:02:36Z,7130419,1413267,other,Will Kai Cenat finish his GTA VI marathon by November 26?,2026-11-27T04:59:00Z,53681,0.57,0.595,0.405,0.4221,0.0121,47.3827,lost,0.0,-20.0,2026-11-21T14:02:33Z,v2
 2026-11-21T12:02:06Z,2915402,700891,world,Will the Amendment of 19 December 2025 to the Federal Act on War Material (LFMG) be approved in Switzerland’s ,2026-11-29T00:00:00Z,4502,0.52,0.5,0.5,0.5497,0.0124,36.3806,open,,,,v2
 2026-11-21T17:02:02Z,3580933,848341,politics,Will Puma Shen win the next Taipei Mayor election?,2026-11-29T04:59:00Z,3835564,0.357,0.3565,0.6435,0.6555,0.0115,30.5128,won,30.5128,10.5128,2026-11-28T17:02:45Z,v2
-2026-11-21T17:02:02Z,3580994,848347,politics,Will Lee Shu-chuan win the next New Taipei Mayor election?,2026-11-29T04:59:00Z,306661,0.43,0.425,0.575,0.5922,0.0122,33.7735,open,,,,v2
+2026-11-21T17:02:02Z,3580994,848347,politics,Will Lee Shu-chuan win the next New Taipei Mayor election?,2026-11-29T04:59:00Z,306661,0.43,0.425,0.575,0.5922,0.0122,33.7735,lost,0.0,-20.0,2026-11-28T18:03:04Z,v2
 2026-11-21T17:02:02Z,3581482,848410,politics,Will Hsieh Kuo-liang win the next Keelung Mayor election?,2026-11-29T04:59:00Z,16971,0.56,0.595,0.405,0.431,0.0122,46.3994,lost,0.0,-20.0,2026-11-28T17:02:45Z,v2
 2026-11-21T17:02:02Z,3581572,848418,politics,Will Hsu Hsin-ying win the next Hsinchu County Magistrate election?,2026-11-29T04:59:00Z,30271,0.3,0.34,0.66,0.6811,0.0111,29.3662,open,,,,v2
 2026-11-21T17:02:03Z,3740666,879909,politics,Will Greens win the third-most seats in the next Victorian state election?,2026-11-29T04:59:00Z,10191,0.326,0.3105,0.6895,0.7155,0.0104,27.9519,open,,,,v2
